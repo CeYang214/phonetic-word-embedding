@@ -21,13 +21,13 @@ Our paper: [Phonetic Word Embeddings](https://arxiv.org/abs/2109.14796)
 
 Download [The CMU Pronouncing Dictionary](http://www.speech.cs.cmu.edu/cgi-bin/cmudict) in the data directory.
 
-```
+```bash
 wget -P data http://svn.code.sf.net/p/cmusphinx/code/trunk/cmudict/cmudict-0.7b
 ```
 
 Download SOTA model vocab from [NLP for Hindi git repo](https://github.com/goru001/nlp-for-hindi).
 
-```
+```bash
 wget -O data/hindi_lm_large.vocab https://drive.google.com/uc?export=download&id=1P6r8UBcegvVmr1kBDjqcYppmt_WgnbNt
 ```
 
@@ -35,19 +35,19 @@ wget -O data/hindi_lm_large.vocab https://drive.google.com/uc?export=download&id
 
 Add missing words to cmu dictionary
 
-```
+```bash
 cat data/cmudict-0.7b res/cmudict_missing_words >> data/cmudict-0.7b-with-vitz-nonce
 ```
 
 Install all the dependencies.
 
-```
+```bash
 pip install -r src/requirements.txt
 ```
 
 Generate hindi dictionary from LM vocab
 
-```
+```bash
 python src/preprocess/vocab2dict.py res/hindi_phones.csv data/hindi_lm_large.vocab data/dict_hindi
 ```
 
@@ -71,8 +71,8 @@ Comparision between [Vitz and Winkler (1973)](https://www.researchgate.net/publi
 
 The similarity vectors used by us for calculating PSSVec can be downloaded using
 
-```
-wget -O data/cmudict-0.7b-simvecs https://drive.google.com/uc?export=download&id=1gCvwI8ldxGM52vCoN70wUKmJfFMdapNl
+```bash
+cp ./vector_embeddings/cmudict-0.7b-simvecs ./data/
 ```
 
 ---
@@ -84,9 +84,9 @@ wget -O data/cmudict-0.7b-simvecs https://drive.google.com/uc?export=download&id
 
 Embedding scores can be re-generated using [src/embedding.py](src/embedding.py) by providing the learned embedding file and the output file.
 
-```
+```bash
 python src/embedding.py data/cmudict-0.7b-simvecs res/PSSVec_results.csv
-python src/embedding.py embedding_english/simvecs res/embedding_score.csv
+python src/embedding.py vector_embeddings/simvecs res/embedding_score.csv
 ```
 
 ^ These files are used to generate scores in the result section using [results_method.ipynb](../src/results_method.ipynb).
@@ -117,13 +117,13 @@ Docker supported for development and training.
 
 ### Building docker image
 
-```
+```bash
 make build
 ```
 
 ### Running an interactive docker container.
 
-```
+```bash
 make develop
 ```
 
@@ -132,19 +132,19 @@ The container will be destroyed on exit but all the files and changes done in th
 
 You can also start it with GPU support:
 
-```
+```bash
 make develop_gpu
 ```
 
 ### Removing the image.
 
-```
+```bash
 make clean
 ```
 
 Remember this will not delete the base image. To clean the base image run:
 
-```
+```bash
 make clean_base
 ```
 

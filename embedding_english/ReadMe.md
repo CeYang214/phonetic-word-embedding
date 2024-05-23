@@ -2,7 +2,7 @@
 
 ## Preparing environment
 
-```
+```bash
 cd embedding_english
 pip install -r requirements.txt
 ```
@@ -11,32 +11,32 @@ pip install -r requirements.txt
 
 Create it using the make.
 
-```
+```bash
 make build
 ```
 
 We can test whether it's build sucessfully or not.
 
-```
+```bash
 make test
 ```
 
 ## Training Embedding
 
-```
+```bash
 make train
 ```
 
 This will generate the `simvecs` file. For running it manually see options by running
 
-```
+```bash
 python train.py -h
 ```
 
-You can also download the pre-trained vector embedding.
+You can also use the pre-trained vector embedding.
 
-```
-wget -O simvecs https://drive.google.com/uc?export=download&id=16W-2b4vhd4HEWbr4IV2n190BeXKxSval
+```bash
+cp ../vector_embeddings/simvecs ./
 ```
 
 ## Results

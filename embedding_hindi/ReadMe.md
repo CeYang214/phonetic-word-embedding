@@ -2,7 +2,7 @@
 
 ## Preparing environment
 
-```
+```bash
 cd embedding_hindi
 pip install -r requirements.txt
 ```
@@ -11,38 +11,37 @@ pip install -r requirements.txt
 
 Create it using the make.
 
-```
+```bash
 make build
 ```
 
 We can test whether it's build sucessfully or not.
 
-```
+```bash
 make test
 ```
 
 ## Training Embedding
 
-```
+```bash
 make train
 ```
 
 This will generate the `simvecs_hindi` file. For running it manually see options by running
 
-```
+```bash
 python train.py -h
 ```
 
-You can also download the pre-trained vector embedding.
+You can also use the pre-trained vector embedding.
 
-```
-wget -O simvecs_hindi https://drive.google.com/uc?export=download&id=1nrcRiGpEW1KPIDkLF5c5LuHidhPNMu6b
+```bash
+cp ../vector_embeddings/simvecs_hindi ./
 ```
 
 ## Results
 
 To see the embedding results check [result.ipynb](result.ipynb)
-
 
 ## TSNE Plot
 
