@@ -1,0 +1,33 @@
+{
+  "model": "RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16",
+  "condition": "stepwise",
+  "source": "existing baseline: final155_llama4-scout-instruct-w4a16_prompt_v3.jsonl",
+  "scope": "all155",
+  "run_id": "run1",
+  "seed": null,
+  "seed_status": "not_recorded_for_existing_run",
+  "generation_settings": {
+    "local_thinking": "default",
+    "max_output_tokens": 1024,
+    "local_json_mode": true
+  },
+  "generation_settings_inferred_from_defaults": false,
+  "prompt_versions": [
+    "2026-10-08-v3"
+  ],
+  "sampling_settings": {
+    "temperature": null,
+    "temperature_source": "server/model default; not recorded in existing result"
+  },
+  "correct_count": 1,
+  "denominator": 155,
+  "accuracy": 0.0064516129032258064,
+  "actual_trials": 155,
+  "expected_trials": 155,
+  "missing_trials": 0,
+  "missing_task_keys": [],
+  "request_errors": 0,
+  "malformed_outputs": 0,
+  "missing_answer_fields": 0,
+  "complete": true
+}

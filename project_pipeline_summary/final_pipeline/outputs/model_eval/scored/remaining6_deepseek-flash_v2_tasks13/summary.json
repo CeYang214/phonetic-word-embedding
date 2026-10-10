@@ -1,0 +1,27 @@
+{
+  "manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/new_llm_pipeline/outputs/model_eval/remaining6_manifest.jsonl",
+  "results": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/new_llm_pipeline/outputs/model_eval/remaining6_deepseek-flash_v2.jsonl",
+  "scored_tasks": 54,
+  "concept_scoring": "exact_alias",
+  "word_scoring": "exact_alias",
+  "groups": {
+    "1": {
+      "n": 18,
+      "parse_or_request_errors": 0,
+      "top1": 0.5,
+      "top5": 0.6111111111111112
+    },
+    "3:1-cue": {
+      "n": 18,
+      "parse_or_request_errors": 0,
+      "word_correct": 0.6111111111111112,
+      "concept_correct": 0.0
+    },
+    "3:2-cue": {
+      "n": 18,
+      "parse_or_request_errors": 0,
+      "word_correct": 0.7222222222222222,
+      "concept_correct": 0.0
+    }
+  }
+}

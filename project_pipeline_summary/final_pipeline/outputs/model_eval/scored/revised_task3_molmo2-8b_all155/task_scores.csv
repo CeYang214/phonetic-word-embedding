@@ -1,0 +1,931 @@
+concept_correct,cue_count,experiment,gold_concept,gold_word,predicted_concept,predicted_word,puzzle_id,status,target_slot,task_key,variant,word_correct
+False,1,3,jewelry,ring,,ring,IR001,ok,0,3:IR001:0:1,,True
+False,2,3,jewelry,ring,,bucking,IR001,ok,0,3:IR001:0:2,,False
+False,1,3,jewelry,choker,sports equipment,nets,IR001,ok,1,3:IR001:1:1,,False
+False,2,3,jewelry,choker,sports equipment,net,IR001,ok,1,3:IR001:1:2,,False
+False,1,3,jewelry,charm,boxing ring corner,corner,IR001,ok,2,3:IR001:2:1,,False
+False,2,3,jewelry,charm,something worn around the neck,horseshoe,IR001,ok,2,3:IR001:2:2,,False
+False,1,3,bag,clutch,vehicle parts,pusher,IR003,ok,0,3:IR003:0:1,,False
+False,2,3,bag,clutch,vehicle controls,stick,IR003,ok,0,3:IR003:0:2,,False
+False,1,3,bag,hobo,type of Commerce,pushcart,IR003,ok,1,3:IR003:1:1,,False
+False,2,3,bag,hobo,push,stroller,IR003,ok,1,3:IR003:1:2,,False
+False,1,3,bag,messenger,vehicle controls,brake,IR003,ok,2,3:IR003:2:1,,False
+False,2,3,bag,messenger,stirring device,masher,IR003,ok,2,3:IR003:2:2,,False
+False,1,3,beverage,punch,strike,punch,IR004,ok,0,3:IR004:0:1,,True
+False,2,3,beverage,punch,sound,thump,IR004,ok,0,3:IR004:0:2,,False
+False,1,3,beverage,shake,elements of handshakes,shake,IR004,ok,1,3:IR004:1:1,,True
+False,2,3,beverage,shake,sun,crash,IR004,ok,1,3:IR004:1:2,,False
+False,1,3,beverage,float,legal term,ACCEPT,IR004,ok,2,3:IR004:2:1,,False
+False,2,3,beverage,float,sound,clap,IR004,ok,2,3:IR004:2:2,,False
+False,1,3,plant,stem,vessel,wine,IR005,ok,0,3:IR005:0:1,,False
+False,2,3,plant,stem,plant part,stem,IR005,ok,0,3:IR005:0:2,,True
+False,1,3,plant,bark,root,getCell,IR005,ok,1,3:IR005:1:1,,False
+False,2,3,plant,bark,biology,cell,IR005,ok,1,3:IR005:1:2,,False
+False,1,3,plant,root,microscopic,thread,IR005,ok,2,3:IR005:2:1,,False
+False,2,3,plant,root,fungal_growth,mold,IR005,ok,2,3:IR005:2:2,,False
+False,1,3,board game,risk,cut,cliff,IR006,ok,0,3:IR006:0:1,,False
+False,2,3,board game,risk,fall,cliff,IR006,ok,0,3:IR006:0:2,,False
+False,1,3,board game,operation,investigation,board,IR006,ok,1,3:IR006:1:1,,False
+False,2,3,board game,operation,technology,phones,IR006,ok,1,3:IR006:1:2,,False
+False,1,3,board game,clue,border,cliff,IR006,ok,2,3:IR006:2:1,,False
+False,2,3,board game,clue,侦探小说的情节,investigation,IR006,ok,2,3:IR006:2:2,,False
+False,1,3,ship,bark,wood,lumber,P007,ok,0,3:P007:0:1,,False
+False,2,3,ship,bark,tree part,rind,P007,ok,0,3:P007:0:2,,False
+False,1,3,ship,cutter,tools,cookie-cutter,P007,ok,1,3:P007:1:1,,False
+False,2,3,ship,cutter,template,star,P007,ok,1,3:P007:1:2,,False
+False,1,3,ship,steamer,bank,payer,P007,ok,2,3:P007:2:1,,False
+False,2,3,ship,steamer,utensil,pot,P007,ok,2,3:P007:2:2,,False
+False,1,3,river,bed,furniture,bed,IR007,ok,0,3:IR007:0:1,,True
+False,2,3,river,bed,part,top,IR007,ok,0,3:IR007:0:2,,False
+False,1,3,river,bank,nighttime,economy,IR007,ok,1,3:IR007:1:1,,False
+False,2,3,river,bank,pieceoffurniture,nightstand,IR007,ok,1,3:IR007:1:2,,False
+False,1,3,river,mouth,legal,situation,IR007,ok,2,3:IR007:2:1,,False
+False,2,3,river,mouth,body parts,lips,IR007,ok,2,3:IR007:2:2,,False
+False,1,3,skeleton,spine,man-made structures,bridge,IR008,ok,0,3:IR008:0:1,,False
+False,2,3,skeleton,spine,parts of a book,spine,IR008,ok,0,3:IR008:0:2,,True
+False,1,3,skeleton,arch,bridge,arch,IR008,ok,1,3:IR008:1:1,,True
+False,2,3,skeleton,arch,bridge,arch,IR008,ok,1,3:IR008:1:2,,True
+False,1,3,skeleton,cage,categories,cage,IR008,ok,2,3:IR008:2:1,,True
+False,2,3,skeleton,cage,container,birdcage,IR008,ok,2,3:IR008:2:2,,False
+False,1,3,bread,roll,paper products,unfold,IR009,ok,0,3:IR009:0:1,,False
+False,2,3,bread,roll,edible,roll,IR009,ok,0,3:IR009:0:2,,True
+False,1,3,bread,twist, light-colored dairy product,cream,IR009,ok,1,3:IR009:1:1,,False
+False,2,3,bread,twist,fruit,peel,IR009,ok,1,3:IR009:1:2,,False
+False,1,3,bread,loaf,fabric,towel,IR009,ok,2,3:IR009:2:1,,False
+False,2,3,bread,loaf,,cat,IR009,ok,2,3:IR009:2:2,,False
+False,1,3,garment,slip, , dispenser ,IR010,ok,0,3:IR010:0:1,,False
+False,2,3,garment,slip,verage,tape,IR010,ok,0,3:IR010:0:2,,False
+False,1,3,garment,jumper,playing card,hearts,IR010,ok,1,3:IR010:1:1,,False
+False,2,3,garment,jumper,end,cord,IR010,ok,1,3:IR010:1:2,,False
+False,1,3,garment,tank,war,tank,IR010,ok,2,3:IR010:2:1,,True
+False,2,3,garment,tank,scale,model,IR010,ok,2,3:IR010:2:2,,False
+False,1,3,shoe,mule,animal,mule,IR011,ok,0,3:IR011:0:1,,True
+False,2,3,shoe,mule,to haul or pull,mule,IR011,ok,0,3:IR011:0:2,,True
+False,1,3,shoe,pump,water source,well,IR011,ok,1,3:IR011:1:1,,False
+False,2,3,shoe,pump,outil, pump ,IR011,ok,1,3:IR011:1:2,,True
+False,1,3,shoe,wedge,yellow,cheese,IR011,ok,2,3:IR011:2:1,,False
+False,2,3,shoe,wedge,dairy product,cheese,IR011,ok,2,3:IR011:2:2,,False
+False,1,3,shoe,tongue,fish,flounder,IR012,ok,0,3:IR012:0:1,,False
+False,2,3,shoe,tongue,outward protrusion,loll,IR012,ok,0,3:IR012:0:2,,False
+False,1,3,shoe,sole,fish parts,fin,IR012,ok,1,3:IR012:1:1,,False
+False,2,3,shoe,sole,fish,flounder,IR012,ok,1,3:IR012:1:2,,False
+False,1,3,shoe,collar,cold,collar,IR012,ok,2,3:IR012:2:1,,True
+False,2,3,shoe,collar,fish body part,flap,IR012,ok,2,3:IR012:2:2,,False
+False,1,3,cocktail,grasshopper,plant,roach,IR013,ok,0,3:IR013:0:1,,False
+False,2,3,cocktail,grasshopper,Green,Greenman,IR013,ok,0,3:IR013:0:2,,False
+False,1,3,cocktail,sidecar,car_parts,sidecar,IR013,ok,1,3:IR013:1:1,,True
+False,2,3,cocktail,sidecar,vehicle attachment,sidecar,IR013,ok,1,3:IR013:1:2,,True
+False,1,3,cocktail,screwdriver,tool,screwdriver,IR013,ok,2,3:IR013:2:1,,True
+False,2,3,cocktail,screwdriver,tool,screwdriver,IR013,ok,2,3:IR013:2:2,,True
+False,1,3,glass,foot,plant part,twig,IR014,ok,0,3:IR014:0:1,,False
+False,2,3,glass,foot,part,foot,IR014,ok,0,3:IR014:0:2,,True
+False,1,3,glass,stem,botanical,stamen,IR014,ok,1,3:IR014:1:1,,False
+False,2,3,glass,stem,botanical_part,stem,IR014,ok,1,3:IR014:1:2,,True
+False,1,3,glass,rim,Vehicle component,rim,IR014,ok,2,3:IR014:2:1,,True
+False,2,3,glass,rim,car parts,hubcap,IR014,ok,2,3:IR014:2:2,,False
+False,1,3,data type,string,loose ends,thread,IR015,ok,0,3:IR015:0:1,,False
+False,2,3,data type,string,fiber,twine,IR015,ok,0,3:IR015:0:2,,False
+False,1,3,data type,float,parade,float,IR015,ok,1,3:IR015:1:1,,True
+False,2,3,data type,float, theatrical performance element, figure,IR015,ok,1,3:IR015:1:2,,False
+False,1,3,data type,character,䋀,thread,IR015,ok,2,3:IR015:2:1,,False
+False,2,3,data type,character, theatrical character,doll,IR015,ok,2,3:IR015:2:2,,False
+False,1,3,computer,mouse,rodent,mouse,IR016,ok,0,3:IR016:0:1,,True
+False,2,3,computer,mouse,rodent,mouse,IR016,ok,0,3:IR016:0:2,,True
+False,1,3,computer,bus,school vehicle,bus,IR016,ok,1,3:IR016:1:1,,True
+False,2,3,computer,bus,school transport,bus,IR016,ok,1,3:IR016:1:2,,True
+False,1,3,computer,fan,Handheld fan,fan,IR016,ok,2,3:IR016:2:1,,True
+False,2,3,computer,fan,fan,fan,IR016,ok,2,3:IR016:2:2,,True
+False,1,3,console,saturn,ringed,planet,IR017,ok,0,3:IR017:0:1,,False
+False,2,3,console,saturn,celestial_body,planet,IR017,ok,0,3:IR017:0:2,,False
+False,1,3,console,switch,electrical,switch,IR017,ok,1,3:IR017:1:1,,True
+False,2,3,console,switch, ,switch,IR017,ok,1,3:IR017:1:2,,True
+False,1,3,console,cube,letter,cube,IR017,ok,2,3:IR017:2:1,,True
+False,2,3,console,cube,linear arrangement,queue,IR017,ok,2,3:IR017:2:2,,False
+False,1,3,cleaning,iron,natural phenomenon,lava,IR018,ok,0,3:IR018:0:1,,False
+False,2,3,cleaning,iron,plant,lichen,IR018,ok,0,3:IR018:0:2,,False
+False,1,3,cleaning,brush,plant,bush,IR018,ok,1,3:IR018:1:1,,False
+False,2,3,cleaning,brush,plant,bush,IR018,ok,1,3:IR018:1:2,,False
+False,1,3,cleaning,sponge,underwater,sponge,IR018,ok,2,3:IR018:2:1,,True
+False,2,3,cleaning,sponge,geological_feature,sponge,IR018,ok,2,3:IR018:2:2,,True
+False,1,3,dance,twist,lining,mixer,IR019,ok,0,3:IR019:0:1,,False
+False,2,3,dance,twist, food garnish, zest ,IR019,ok,0,3:IR019:0:2,,False
+False,1,3,dance,tap,draught,ale,IR019,ok,1,3:IR019:1:1,,False
+False,2,3,dance,tap,beer taps,handle,IR019,ok,1,3:IR019:1:2,,False
+False,1,3,dance,jig,fish,hooks,IR019,ok,2,3:IR019:2:1,,False
+False,2,3,dance,jig,fishing,bait,IR019,ok,2,3:IR019:2:2,,False
+False,1,3,book,leaf,artery,leaf,IR020,ok,0,3:IR020:0:1,,True
+False,2,3,book,leaf,skeleton,leaf,IR020,ok,0,3:IR020:0:2,,True
+False,1,3,book,plate,receptionist's call light,plate,IR020,ok,1,3:IR020:1:1,,True
+False,2,3,book,plate,body part,bowl,IR020,ok,1,3:IR020:1:2,,False
+False,1,3,book,spine,spine,vertebra,IR020,ok,2,3:IR020:2:1,,False
+False,2,3,book,spine,spine,vertebra,IR020,ok,2,3:IR020:2:2,,False
+False,1,3,stage,wing,bird,owl,IR021,ok,0,3:IR021:0:1,,False
+False,2,3,stage,wing,animal,owl,IR021,ok,0,3:IR021:0:2,,False
+False,1,3,stage,apron,,snare,IR021,ok,1,3:IR021:1:1,,False
+False,2,3,stage,apron,,apron,IR021,ok,1,3:IR021:1:2,,True
+False,1,3,stage,trap,bird,claw,IR021,ok,2,3:IR021:2:1,,False
+False,2,3,stage,trap,captor,trap,IR021,ok,2,3:IR021:2:2,,True
+False,1,3,fabric,drill,tools,drill,IR022,ok,0,3:IR022:0:1,,True
+False,2,3,fabric,drill,tool,drill,IR022,ok,0,3:IR022:0:2,,True
+False,1,3,fabric,duck,outdoor place,meadow,IR022,ok,1,3:IR022:1:1,,False
+False,2,3,fabric,duck,birds,ducks,IR022,ok,1,3:IR022:1:2,,False
+False,1,3,fabric,lawn,holes,drill,IR022,ok,2,3:IR022:2:1,,False
+False,2,3,fabric,lawn,shadow,bend,IR022,ok,2,3:IR022:2:2,,False
+False,1,3,fastener,bolt,natural phenomenon,bolt,IR023,ok,0,3:IR023:0:1,,True
+False,2,3,fastener,bolt,energy,lightning,IR023,ok,0,3:IR023:0:2,,False
+False,1,3,fastener,staple,Ancient Roman units of measurement,switch,IR023,ok,1,3:IR023:1:1,,False
+False,2,3,fastener,staple,,Ingredients,IR023,ok,1,3:IR023:1:2,,False
+False,1,3,fastener,toggle,button,slider,IR023,ok,2,3:IR023:2:1,,False
+False,2,3,fastener,toggle,tools,switch,IR023,ok,2,3:IR023:2:2,,False
+False,1,3,camera equipment,crane,long-legged bird,stork,IR024,ok,0,3:IR024:0:1,,False
+False,2,3,camera equipment,crane,bird,stork,IR024,ok,0,3:IR024:0:2,,False
+False,1,3,camera equipment,slider,living things with two legs,dollhouse,IR024,ok,1,3:IR024:1:1,,False
+False,2,3,camera equipment,slider, fast food,burger,IR024,ok,1,3:IR024:1:2,,False
+False,1,3,camera equipment,dolly,toy,doll,IR024,ok,2,3:IR024:2:1,,False
+False,2,3,camera equipment,dolly, heroine,doll,IR024,ok,2,3:IR024:2:2,,False
+False,1,3,money,buck,animal,mule,P027,ok,0,3:P027:0:1,,False
+False,2,3,money,buck,beak,toucan,P027,ok,0,3:P027:0:2,,False
+False,1,3,money,nickel,currency,coins,P027,ok,1,3:P027:1:1,,False
+False,2,3,money,nickel,currency,coins,P027,ok,1,3:P027:1:2,,False
+False,1,3,money,bills,birds,parrot,P027,ok,2,3:P027:2:1,,False
+False,2,3,money,bills,currency,coin,P027,ok,2,3:P027:2:2,,False
+False,1,3,cheese,string,"object used for storing or dispensing thread, wire, or cable",spool,IR026,ok,0,3:IR026:0:1,,False
+False,2,3,cheese,string,tools,string,IR026,ok,0,3:IR026:0:2,,True
+False,1,3,cheese,brick,building material,bricks,IR026,ok,1,3:IR026:1:1,,False
+False,2,3,cheese,brick,building material,brick,IR026,ok,1,3:IR026:1:2,,True
+False,1,3,cheese,jack,car part,jack,IR026,ok,2,3:IR026:2:1,,True
+False,2,3,cheese,jack,tool,jack,IR026,ok,2,3:IR026:2:2,,True
+False,1,3,fruit,current,natural phenomenon,wave,IR027,ok,0,3:IR027:0:1,,False
+False,2,3,fruit,current,natural phenomenon,tide,IR027,ok,0,3:IR027:0:2,,False
+False,1,3,fruit,orange,color,sunrise,IR027,ok,1,3:IR027:1:1,,False
+False,2,3,fruit,orange,solar,light,IR027,ok,1,3:IR027:1:2,,False
+False,1,3,fruit,date,water flow,tide,IR027,ok,2,3:IR027:2:1,,False
+False,2,3,fruit,date,nouns,urgent,IR027,ok,2,3:IR027:2:2,,False
+False,1,3,chess piece,bishop,chess pieces,bishop,IR028,ok,0,3:IR028:0:1,,True
+False,2,3,chess piece,bishop,chess pieces,pope,IR028,ok,0,3:IR028:0:2,,False
+False,1,3,chess piece,rook,bird,raven,IR028,ok,1,3:IR028:1:1,,False
+False,2,3,chess piece,rook,bird,crow,IR028,ok,1,3:IR028:1:2,,False
+False,1,3,chess piece,knight,title,knight,IR028,ok,2,3:IR028:2:1,,True
+True,2,3,chess piece,knight,chess piece,knight,IR028,ok,2,3:IR028:2:2,,True
+False,1,3,cereal,ear,beard,goatee,IR029,ok,0,3:IR029:0:1,,False
+False,2,3,cereal,ear,parts of corn,kernel,IR029,ok,0,3:IR029:0:2,,False
+False,1,3,cereal,beard,fleshed,corncob,IR029,ok,1,3:IR029:1:1,,False
+False,2,3,cereal,beard,hair,whiskers,IR029,ok,1,3:IR029:1:2,,False
+False,1,3,cereal,husk, type of seed, KERNEL ,IR029,ok,2,3:IR029:2:1,,False
+False,2,3,cereal,husk,kernels,cob,IR029,ok,2,3:IR029:2:2,,False
+False,1,3,weapon,club,playing card rank,ace,IR030,ok,0,3:IR030:0:1,,False
+False,2,3,weapon,club,card,ace,IR030,ok,0,3:IR030:0:2,,False
+False,1,3,weapon,mace,fruit,tamarind,IR030,ok,1,3:IR030:1:1,,False
+False,2,3,weapon,mace,play on words,nut,IR030,ok,1,3:IR030:1:2,,False
+False,1,3,weapon,pike,aquatic,whip,IR030,ok,2,3:IR030:2:1,,False
+False,2,3,weapon,pike,fish,piranha,IR030,ok,2,3:IR030:2:2,,False
+False,1,3,guitar,neck,body parts,neck,IR031,ok,0,3:IR031:0:1,,True
+False,2,3,guitar,neck,결함, 결점,IR031,ok,0,3:IR031:0:2,,False
+False,1,3,guitar,bridge,structure,bridge,IR031,ok,1,3:IR031:1:1,,True
+False,2,3,guitar,bridge,engineering,bridge,IR031,ok,1,3:IR031:1:2,,True
+False,1,3,guitar,saddle,animal,hrd,IR031,ok,2,3:IR031:2:1,,False
+False,2,3,guitar,saddle,"Terminus (cover, edge)",bridge,IR031,ok,2,3:IR031:2:2,,False
+False,1,3,clock,face,body part,fist,IR033,ok,0,3:IR033:0:1,,False
+False,2,3,clock,face,royalty,queen,IR033,ok,0,3:IR033:0:2,,False
+False,1,3,clock,hand,royalty,crown,IR033,ok,1,3:IR033:1:1,,False
+False,2,3,clock,hand,royalty,crown,IR033,ok,1,3:IR033:1:2,,False
+False,1,3,clock,crown,royalty,crown,IR033,ok,2,3:IR033:2:1,,True
+False,2,3,clock,crown,royalty,crown,IR033,ok,2,3:IR033:2:2,,True
+False,1,3,bed,spring,water body,creek,IR034,ok,0,3:IR034:0:1,,False
+False,2,3,bed,spring,natural water body,lagoon,IR034,ok,0,3:IR034:0:2,,False
+False,1,3,bed,post,barrier,fence,IR034,ok,1,3:IR034:1:1,,False
+False,2,3,bed,post,Moving Earth,feld,IR034,ok,1,3:IR034:1:2,,False
+False,1,3,bed,skirt,water,pool,IR034,ok,2,3:IR034:2:1,,False
+False,2,3,bed,skirt,categories,fence,IR034,ok,2,3:IR034:2:2,,False
+False,1,3,malware,worm,cure,dirt,IR035,ok,0,3:IR035:0:1,,False
+False,2,3,malware,worm,computer_terminology,worm,IR035,ok,0,3:IR035:0:2,,True
+False,1,3,malware,virus,pathogen,virus,IR035,ok,1,3:IR035:1:1,,True
+False,2,3,malware,virus,ancient deception,virus,IR035,ok,1,3:IR035:1:2,,True
+False,1,3,malware,trojan,mythological beings,Trojan,IR035,ok,2,3:IR035:2:1,,True
+False,2,3,malware,trojan,rechargeable,battery,IR035,ok,2,3:IR035:2:2,,False
+False,1,3,clasp,lobster,on/off mechanism,switch,IR036,ok,0,3:IR036:0:1,,False
+False,2,3,clasp,lobster,crustacean,shrimp,IR036,ok,0,3:IR036:0:2,,False
+False,1,3,clasp,toggle,toggle,switch,IR036,ok,1,3:IR036:1:1,,False
+False,2,3,clasp,toggle,container,switch,IR036,ok,1,3:IR036:1:2,,False
+False,1,3,clasp,barrel,barrel,barrel,IR036,ok,2,3:IR036:2:1,,True
+False,2,3,clasp,barrel,container,barrel,IR036,ok,2,3:IR036:2:2,,True
+False,1,3,blender,pitcher,pitch,thrower,IR037,ok,0,3:IR037:0:1,,False
+False,2,3,blender,pitcher,plant part,leaf,IR037,ok,0,3:IR037:0:2,,False
+False,1,3,blender,collar,geological formation,leaf,IR037,ok,1,3:IR037:1:1,,False
+False,2,3,blender,collar,canine,dog,IR037,ok,1,3:IR037:1:2,,False
+False,1,3,blender,blade,liquid,drop,IR037,ok,2,3:IR037:2:1,,False
+False,2,3,blender,blade,fall,drop,IR037,ok,2,3:IR037:2:2,,False
+False,1,3,knot,hitch,to draw back,truck,IR038,ok,0,3:IR038:0:1,,False
+False,2,3,knot,hitch,bend,hook,IR038,ok,0,3:IR038:0:2,,False
+False,1,3,knot,bow,Archery terms,stretch,IR038,ok,1,3:IR038:1:1,,False
+False,2,3,knot,bow,bends,sight,IR038,ok,1,3:IR038:1:2,,False
+False,1,3,knot,bend,road,hazard,IR038,ok,2,3:IR038:2:1,,False
+False,2,3,knot,bend,Curved,SNAKE,IR038,ok,2,3:IR038:2:2,,False
+False,1,3,landform,sound,spit,speaker,IR039,ok,0,3:IR039:0:1,,False
+False,2,3,landform,sound, musical instruments,horn,IR039,ok,0,3:IR039:0:2,,False
+False,1,3,landform,spit,meat-cooking equipment,rotisserie,IR039,ok,1,3:IR039:1:1,,False
+False,2,3,landform,spit,meat,rotisserie,IR039,ok,1,3:IR039:1:2,,False
+False,1,3,landform,basin,bowl,sink,IR039,ok,2,3:IR039:2:1,,False
+False,2,3,landform,basin,,sink,IR039,ok,2,3:IR039:2:2,,False
+False,1,3,mountain,saddle,saddle area,back,IR040,ok,0,3:IR040:0:1,,False
+False,2,3,mountain,saddle,anterior-posterior body parts,back,IR040,ok,0,3:IR040:0:2,,False
+False,1,3,mountain,shoulder,human body part,arm,IR040,ok,1,3:IR040:1:1,,False
+False,2,3,mountain,shoulder,left,back,IR040,ok,1,3:IR040:1:2,,False
+False,1,3,mountain,foot,body part,horseshoe,IR040,ok,2,3:IR040:2:1,,False
+False,2,3,mountain,foot,sprain,ankle,IR040,ok,2,3:IR040:2:2,,False
+False,1,3,courtroom,box,boxes,storage,IR041,ok,0,3:IR041:0:1,,False
+False,2,3,courtroom,box,container,boxes,IR041,ok,0,3:IR041:0:2,,False
+False,1,3,courtroom,bar,bar,bar,IR041,ok,1,3:IR041:1:1,,True
+False,2,3,courtroom,bar,beverage, האי,IR041,ok,1,3:IR041:1:2,,False
+False,1,3,courtroom,dock,wood,deck,IR041,ok,2,3:IR041:2:1,,False
+False,2,3,courtroom,dock,body of water,dock,IR041,ok,2,3:IR041:2:2,,True
+False,1,3,mammal,seal,tools,trowel,IR042,ok,0,3:IR042:0:1,,False
+False,2,3,mammal,seal,mark,stamp,IR042,ok,0,3:IR042:0:2,,False
+False,1,3,mammal,ram,electronics,chip,IR042,ok,1,3:IR042:1:1,,False
+False,2,3,mammal,ram,computing component,chip,IR042,ok,1,3:IR042:1:2,,False
+False,1,3,mammal,bat,club,bat,IR042,ok,2,3:IR042:2:1,,True
+False,2,3,mammal,bat,tool,bat,IR042,ok,2,3:IR042:2:2,,True
+False,1,3,fish,mullet,cutting tools,scissors,IR043,ok,0,3:IR043:0:1,,False
+False,2,3,fish,mullet,haircut tools,scissors,IR043,ok,0,3:IR043:0:2,,False
+False,1,3,fish,jack,liftoff,jack,IR043,ok,1,3:IR043:1:1,,True
+False,2,3,fish,jack,lifting,jacking,IR043,ok,1,3:IR043:1:2,,False
+False,1,3,fish,skate,ice,blade,IR043,ok,2,3:IR043:2:1,,False
+False,2,3,fish,skate,things,skates,IR043,ok,2,3:IR043:2:2,,False
+False,1,3,strike,hook,hardware,hook,IR044,ok,0,3:IR044:0:1,,True
+False,2,3,strike,hook,jewelry,hook,IR044,ok,0,3:IR044:0:2,,True
+False,1,3,strike,cross,cross,sign,IR044,ok,1,3:IR044:1:1,,False
+False,2,3,strike,cross,religion,cross,IR044,ok,1,3:IR044:1:2,,True
+False,1,3,strike,jab,pen,injector,IR044,ok,2,3:IR044:2:1,,False
+False,2,3,strike,jab,stiletto,needle,IR044,ok,2,3:IR044:2:2,,False
+False,1,3,length unit,foot,surface,foot,IR045,ok,0,3:IR045:0:1,,True
+False,2,3,length unit,foot,constraint,chain,IR045,ok,0,3:IR045:0:2,,False
+False,1,3,length unit,yard,metal,chain,IR045,ok,1,3:IR045:1:1,,False
+False,2,3,length unit,yard,outdoor,rope,IR045,ok,1,3:IR045:1:2,,False
+False,1,3,length unit,link,chain,link,IR045,ok,2,3:IR045:2:1,,True
+False,2,3,length unit,link,inanimate objects,chain,IR045,ok,2,3:IR045:2:2,,False
+False,1,3,metal,lead,front,paw,IR046,ok,0,3:IR046:0:1,,False
+False,2,3,metal,lead,, Sussex,IR046,ok,0,3:IR046:0:2,,False
+True,1,3,metal,iron,metal,iron,IR046,ok,1,3:IR046:1:1,,True
+False,2,3,metal,iron,pressure,press,IR046,ok,1,3:IR046:1:2,,False
+False,1,3,metal,tin,food,tuna,IR046,ok,2,3:IR046:2:1,,False
+False,2,3,metal,tin,container,tin,IR046,ok,2,3:IR046:2:2,,True
+False,1,3,metalworking,stake,bull,sack,IR047,ok,0,3:IR047:0:1,,False
+False,2,3,metalworking,stake,tying,knot,IR047,ok,0,3:IR047:0:2,,False
+False,1,3,metalworking,punch,boxing,ward,IR047,ok,1,3:IR047:1:1,,False
+False,2,3,metalworking,punch,round object,spool,IR047,ok,1,3:IR047:1:2,,False
+False,1,3,metalworking,drift,obstacle,ramp,IR047,ok,2,3:IR047:2:1,,False
+False,2,3,metalworking,drift,dents,track,IR047,ok,2,3:IR047:2:2,,False
+False,1,3,film,trailer,wood,trailer,IR048,ok,0,3:IR048:0:1,,True
+False,2,3,film,trailer,mobile home,Desert,IR048,ok,0,3:IR048:0:2,,False
+False,1,3,film,frame,picture frame,frame,IR048,ok,1,3:IR048:1:1,,True
+False,2,3,film,frame,TEXTILE,blanket,IR048,ok,1,3:IR048:1:2,,False
+False,1,3,film,credits,payment,card,IR048,ok,2,3:IR048:2:1,,False
+False,2,3,film,credits,four-legged animals,sheep,IR048,ok,2,3:IR048:2:2,,False
+False,1,3,music genre,pop,currency,popcorn,IR049,ok,0,3:IR049:0:1,,False
+False,2,3,music genre,pop,geometry,pop,IR049,ok,0,3:IR049:0:2,,True
+False,1,3,music genre,rock,geology,rock,IR049,ok,1,3:IR049:1:1,,True
+False,2,3,music genre,rock,beach,sand,IR049,ok,1,3:IR049:1:2,,False
+False,1,3,music genre,metal, popsicle,popsicle,IR049,ok,2,3:IR049:2:1,,False
+False,2,3,music genre,metal,metal,peg,IR049,ok,2,3:IR049:2:2,,False
+False,1,3,mythical creature,brownie,geometry,square,P054,ok,0,3:P054:0:1,,False
+False,2,3,mythical creature,brownie,square,brownie,P054,ok,0,3:P054:0:2,,True
+False,1,3,mythical creature,siren,weather phenomenon,blizzard,P054,ok,1,3:P054:1:1,,False
+False,2,3,mythical creature,siren,sounds,siren,P054,ok,1,3:P054:1:2,,True
+False,1,3,mythical creature,troll,house,dollhouse,P054,ok,2,3:P054:2:1,,False
+True,2,3,mythical creature,troll,mythical creature,troll,P054,ok,2,3:P054:2:2,,True
+False,1,3,deity,pan,container,pan,IR050,ok,0,3:IR050:0:1,,True
+False,2,3,deity,pan,container,pot,IR050,ok,0,3:IR050:0:2,,False
+False,1,3,deity,mercury,liquid,bubbles,IR050,ok,1,3:IR050:1:1,,False
+False,2,3,deity,mercury,terminals,globe,IR050,ok,1,3:IR050:1:2,,False
+False,1,3,deity,flora,water body,pond,IR050,ok,2,3:IR050:2:1,,False
+False,2,3,deity,flora,underground,cave,IR050,ok,2,3:IR050:2:2,,False
+False,1,3,pen,spring,natural wonders,geyser,IR051,ok,0,3:IR051:0:1,,False
+False,2,3,pen,spring,natural_feature,geyser,IR051,ok,0,3:IR051:0:2,,False
+False,1,3,pen,barrel,barrels,keg,IR051,ok,1,3:IR051:1:1,,False
+False,2,3,pen,barrel,container,cask,IR051,ok,1,3:IR051:1:2,,False
+False,1,3,pen,ball,moisture,damp,IR051,ok,2,3:IR051:2:1,,False
+False,2,3,pen,ball,fruit,ball,IR051,ok,2,3:IR051:2:2,,True
+False,1,3,operating system,driver,tree part,palm,IR052,ok,0,3:IR052:0:1,,False
+False,2,3,operating system,driver,golf,grip,IR052,ok,0,3:IR052:0:2,,False
+False,1,3,operating system,shell,non-living,sand,IR052,ok,1,3:IR052:1:1,,False
+False,2,3,operating system,shell,musical instrument,shell,IR052,ok,1,3:IR052:1:2,,True
+False,1,3,operating system,pipe,part,fit,IR052,ok,2,3:IR052:2:1,,False
+False,2,3,operating system,pipe,bend,elbow,IR052,ok,2,3:IR052:2:2,,False
+False,1,3,data structure,tree,natural,crown,IR053,ok,0,3:IR053:0:1,,False
+False,2,3,data structure,tree,natural formation,tree,IR053,ok,0,3:IR053:0:2,,True
+False,1,3,data structure,stack,balanced arrangement,stack,IR053,ok,1,3:IR053:1:1,,True
+False,2,3,data structure,stack,collection,stack,IR053,ok,1,3:IR053:1:2,,True
+False,1,3,data structure,queue,tree,oak,IR053,ok,2,3:IR053:2:1,,False
+False,2,3,data structure,queue,stage,queue,IR053,ok,2,3:IR053:2:2,,True
+False,1,3,pasta,shell,musical instruments,conch,IR054,ok,0,3:IR054:0:1,,False
+False,2,3,pasta,shell,invertebrate,shell,IR054,ok,0,3:IR054:0:2,,True
+False,1,3,pasta,elbow,mechanical connection,hitch,IR054,ok,1,3:IR054:1:1,,False
+False,2,3,pasta,elbow,body part,arm,IR054,ok,1,3:IR054:1:2,,False
+False,1,3,pasta,wheel,parts of a wheel,spoke,IR054,ok,2,3:IR054:2:1,,False
+False,2,3,pasta,wheel,spokes,wagon,IR054,ok,2,3:IR054:2:2,,False
+False,1,3,airport,gate,wood,fence,IR055,ok,0,3:IR055:0:1,,False
+False,2,3,airport,gate,opening,gate,IR055,ok,0,3:IR055:0:2,,True
+False,1,3,airport,apron,panda,apron,IR055,ok,1,3:IR055:1:1,,True
+False,2,3,airport,apron,clothing,aprons,IR055,ok,1,3:IR055:1:2,,False
+False,1,3,airport,carousel,mount,carousel,IR055,ok,2,3:IR055:2:1,,True
+False,2,3,airport,carousel,senses,listening,IR055,ok,2,3:IR055:2:2,,False
+False,1,3,tree,box,container,box,IR056,ok,0,3:IR056:0:1,,True
+False,2,3,tree,box,container,box,IR056,ok,0,3:IR056:0:2,,True
+False,1,3,tree,ash,remnants,ashes,IR056,ok,1,3:IR056:1:1,,False
+False,2,3,tree,ash,destruction,ash,IR056,ok,1,3:IR056:1:2,,True
+False,1,3,tree,plane,mean of transportation,airplane,IR056,ok,2,3:IR056:2:1,,False
+False,2,3,tree,plane,clear,sky,IR056,ok,2,3:IR056:2:2,,False
+False,1,3,flower,lip,body parts,lipstick,IR057,ok,0,3:IR057:0:1,,False
+False,2,3,flower,lip,part,lips,IR057,ok,0,3:IR057:0:2,,False
+False,1,3,flower,blade,tools,knifes,IR057,ok,1,3:IR057:1:1,,False
+False,2,3,flower,blade,lexical dissonance,knife,IR057,ok,1,3:IR057:1:2,,False
+False,1,3,flower,throat,part,jaw,IR057,ok,2,3:IR057:2:1,,False
+False,2,3,flower,throat,bone,collarbone,IR057,ok,2,3:IR057:2:2,,False
+False,1,3,political party,rose,,bouquet,IR058,ok,0,3:IR058:0:1,,False
+False,2,3,political party,rose,flower,rose,IR058,ok,0,3:IR058:0:2,,True
+False,1,3,political party,donkey,name of an animal,moose,IR058,ok,1,3:IR058:1:1,,False
+False,2,3,political party,donkey,wonders,donkey,IR058,ok,1,3:IR058:1:2,,True
+False,1,3,political party,elephant,flower,elephant,IR058,ok,2,3:IR058:2:1,,True
+False,2,3,political party,elephant,animal,elephant,IR058,ok,2,3:IR058:2:2,,True
+False,1,3,programming construct,branch,limb,branch,IR059,ok,0,3:IR059:0:1,,True
+False,2,3,programming construct,branch,tree,branch,IR059,ok,0,3:IR059:0:2,,True
+False,1,3,programming construct,switch,on-off,switch,IR059,ok,1,3:IR059:1:1,,True
+False,2,3,programming construct,switch,turn,switch,IR059,ok,1,3:IR059:1:2,,True
+False,1,3,programming construct,loop,clothing,hanger,IR059,ok,2,3:IR059:2:1,,False
+False,2,3,programming construct,loop,tool,rope,IR059,ok,2,3:IR059:2:2,,False
+False,1,3,punctuation mark,colon,field,registration,IR060,ok,0,3:IR060:0:1,,False
+False,2,3,punctuation mark,colon,mathematical,symbol,IR060,ok,0,3:IR060:0:2,,False
+False,1,3,punctuation mark,dash,running competition,track,IR060,ok,1,3:IR060:1:1,,False
+False,2,3,punctuation mark,dash,acanthocephalus,parasite,IR060,ok,1,3:IR060:1:2,,False
+False,1,3,punctuation mark,bracket,dental terms,plate,IR060,ok,2,3:IR060:2:1,,False
+False,2,3,punctuation mark,bracket,track event,run,IR060,ok,2,3:IR060:2:2,,False
+False,1,3,restaurant,joint,type of food service,drive-through,IR061,ok,0,3:IR061:0:1,,False
+False,2,3,restaurant,joint,anatomical connection,joint,IR061,ok,0,3:IR061:0:2,,True
+False,1,3,restaurant,drive-in,place,drive-in,IR061,ok,1,3:IR061:1:1,,True
+False,2,3,restaurant,drive-in,television,screen,IR061,ok,1,3:IR061:1:2,,False
+False,1,3,restaurant,diner,body part,bone,IR061,ok,2,3:IR061:2:1,,False
+False,2,3,restaurant,diner,refrigerator component,bun,IR061,ok,2,3:IR061:2:2,,False
+False,1,3,shape,diamond,airborne,kites,IR062,ok,0,3:IR062:0:1,,False
+False,2,3,shape,diamond,gemstone,diamond,IR062,ok,0,3:IR062:0:2,,True
+False,1,3,shape,kite,body,kite,IR062,ok,1,3:IR062:1:1,,True
+False,2,3,shape,kite,,pike,IR062,ok,1,3:IR062:1:2,,False
+False,1,3,shape,heart,part,heart,IR062,ok,2,3:IR062:2:1,,True
+False,2,3,shape,heart,aerodynamic shapes,heart,IR062,ok,2,3:IR062:2:2,,True
+False,1,3,snack,chip,board,circuit,IR063,ok,0,3:IR063:0:1,,False
+False,2,3,snack,chip,food item,chip,IR063,ok,0,3:IR063:0:2,,True
+False,1,3,snack,cracker,breakable object,cracker,IR063,ok,1,3:IR063:1:1,,True
+False,2,3,snack,cracker,food,cracker,IR063,ok,1,3:IR063:1:2,,True
+False,1,3,snack,pretzel,computer components,circuit,IR063,ok,2,3:IR063:2:1,,False
+False,2,3,snack,pretzel, ,parker,IR063,ok,2,3:IR063:2:2,,False
+False,1,3,feature,story,home,house,IR064,ok,0,3:IR064:0:1,,False
+False,2,3,feature,story,outer layer,siding,IR064,ok,0,3:IR064:0:2,,False
+False,1,3,feature,thread,thick,yarn,IR064,ok,1,3:IR064:1:1,,False
+False,2,3,feature,thread,yarn,spindle,IR064,ok,1,3:IR064:1:2,,False
+False,1,3,feature,reel,reel,spool,IR064,ok,2,3:IR064:2:1,,False
+False,2,3,feature,reel, spare part,spool,IR064,ok,2,3:IR064:2:2,,False
+False,1,3,golf club,driver,tool,screwdriver,IR065,ok,0,3:IR065:0:1,,False
+False,2,3,golf club,driver,tool,screwdriver,IR065,ok,0,3:IR065:0:2,,False
+False,1,3,golf club,iron,domestic appliance,iron,IR065,ok,1,3:IR065:1:1,,True
+False,2,3,golf club,iron,office supply,staple,IR065,ok,1,3:IR065:1:2,,False
+False,1,3,golf club,wedge,screwdriver,phillips,IR065,ok,2,3:IR065:2:1,,False
+False,2,3,golf club,wedge,sibling,kin,IR065,ok,2,3:IR065:2:2,,False
+False,1,3,stitch,feather,natural patterns,feather,IR066,ok,0,3:IR066:0:1,,True
+False,2,3,stitch,feather,feather,peacock,IR066,ok,0,3:IR066:0:2,,False
+False,1,3,stitch,chain,material,chain,IR066,ok,1,3:IR066:1:1,,True
+False,2,3,stitch,chain,vertical,chain,IR066,ok,1,3:IR066:1:2,,True
+False,1,3,stitch,ladder,climb,ladder,IR066,ok,2,3:IR066:2:1,,True
+False,2,3,stitch,ladder,,ladder,IR066,ok,2,3:IR066:2:2,,True
+False,1,3,gemstone cut,princess,gemstone,teardrop,IR067,ok,0,3:IR067:0:1,,False
+False,2,3,gemstone cut,princess,ceremonial,ball,IR067,ok,0,3:IR067:0:2,,False
+False,1,3,gemstone cut,cushion, vessels,vase,IR067,ok,1,3:IR067:1:1,,False
+False,2,3,gemstone cut,cushion, interior design element,couch,IR067,ok,1,3:IR067:1:2,,False
+False,1,3,gemstone cut,heart,cardinal directions,heart,IR067,ok,2,3:IR067:2:1,,True
+False,2,3,gemstone cut,heart,body_parts,heart,IR067,ok,2,3:IR067:2:2,,True
+False,1,3,cake,sheet,money,fold,IR068,ok,0,3:IR068:0:1,,False
+False,2,3,cake,sheet,,fold,IR068,ok,0,3:IR068:0:2,,False
+False,1,3,cake,pound,financial resources,money,IR068,ok,1,3:IR068:1:1,,False
+False,2,3,cake,pound,hot,money,IR068,ok,1,3:IR068:1:2,,False
+False,1,3,cake,lava,natural phenomenon,lava,IR068,ok,2,3:IR068:2:1,,True
+False,2,3,cake,lava, peaceful,lava,IR068,ok,2,3:IR068:2:2,,True
+False,1,3,pastry,danish,flag,Danish flag,IR069,ok,0,3:IR069:0:1,,False
+False,2,3,pastry,danish, flown,flag,IR069,ok,0,3:IR069:0:2,,False
+False,1,3,pastry,horn,musical instrument,french horn,IR069,ok,1,3:IR069:1:1,,False
+False,2,3,pastry,horn,musical instrument,bugle,IR069,ok,1,3:IR069:1:2,,False
+False,1,3,pastry,bear claw,ground-dwelling mammals,bear,IR069,ok,2,3:IR069:2:1,,False
+False,2,3,pastry,bear claw,brown,bear,IR069,ok,2,3:IR069:2:2,,False
+False,1,3,topology,star,celestial,stars,IR070,ok,0,3:IR070:0:1,,False
+False,2,3,topology,star,celestial,night,IR070,ok,0,3:IR070:0:2,,False
+False,1,3,topology,ring,symbol,ring,IR070,ok,1,3:IR070:1:1,,True
+False,2,3,topology,ring,symbol of union,ring,IR070,ok,1,3:IR070:1:2,,True
+False,1,3,topology,tree,natural objects,tree,IR070,ok,2,3:IR070:2:1,,True
+False,2,3,topology,tree,tree,tree,IR070,ok,2,3:IR070:2:2,,True
+False,1,3,suit,heart,body part,skull,IR071,ok,0,3:IR071:0:1,,False
+False,2,3,suit,heart,cardinal directions,artery,IR071,ok,0,3:IR071:0:2,,False
+False,1,3,suit,club,something that can hurt or prick,spike,IR071,ok,1,3:IR071:1:1,,False
+False,2,3,suit,club,tooth,tomahawk,IR071,ok,1,3:IR071:1:2,,False
+False,1,3,suit,diamond,clover,clover,IR071,ok,2,3:IR071:2:1,,False
+False,2,3,suit,diamond,card,diamond,IR071,ok,2,3:IR071:2:2,,True
+False,1,3,tree,crown,royalty,crown,IR072,ok,0,3:IR072:0:1,,True
+False,2,3,tree,crown,treasure,box,IR072,ok,0,3:IR072:0:2,,False
+False,1,3,tree,trunk,travel,suitcase,IR072,ok,1,3:IR072:1:1,,False
+False,2,3,tree,trunk,travel,suitcase,IR072,ok,1,3:IR072:1:2,,False
+False,1,3,tree,needle,textile tools,stitch,IR072,ok,2,3:IR072:2:1,,False
+False,2,3,tree,needle,sewing,stitch,IR072,ok,2,3:IR072:2:2,,False
+False,1,3,TV genre,soap,codes,barsoap,IR073,ok,0,3:IR073:0:1,,False
+False,2,3,TV genre,soap,confinement,barrier,IR073,ok,0,3:IR073:0:2,,False
+False,1,3,TV genre,western,reading,print,IR073,ok,1,3:IR073:1:1,,False
+False,2,3,TV genre,western,outback,ride,IR073,ok,1,3:IR073:1:2,,False
+False,1,3,TV genre,news,printed material,newspaper,IR073,ok,2,3:IR073:2:1,,False
+False,2,3,TV genre,news,press,newspaper,IR073,ok,2,3:IR073:2:2,,False
+False,1,3,car,horn,anatomy,horn,IR075,ok,0,3:IR075:0:1,,True
+False,2,3,car,horn,body part,horn,IR075,ok,0,3:IR075:0:2,,True
+False,1,3,car,trunk,wild animal,paw,IR075,ok,1,3:IR075:1:1,,False
+False,2,3,car,trunk,elongated body part,trunk,IR075,ok,1,3:IR075:1:2,,True
+False,1,3,car,boot,horn,shoes,IR075,ok,2,3:IR075:2:1,,False
+False,2,3,car,boot,,boot,IR075,ok,2,3:IR075:2:2,,True
+False,1,3,boat,deck,tool,hands,IR076,ok,0,3:IR076:0:1,,False
+False,2,3,boat,deck,playing cards,hand,IR076,ok,0,3:IR076:0:2,,False
+False,1,3,boat,bow,shot,bow,IR076,ok,1,3:IR076:1:1,,True
+False,2,3,boat,bow,archery,bow,IR076,ok,1,3:IR076:1:2,,True
+False,1,3,boat,boom,suds,wash,IR076,ok,2,3:IR076:2:1,,False
+False,2,3,boat,boom,發射,sound,IR076,ok,2,3:IR076:2:2,,False
+False,1,3,gun,stock,container,vessel,IR077,ok,0,3:IR077:0:1,,False
+False,2,3,gun,stock,vessel,soup,IR077,ok,0,3:IR077:0:2,,False
+False,1,3,gun,magazine,publication,newspaper,IR077,ok,1,3:IR077:1:1,,False
+False,2,3,gun,magazine,publication,magazine,IR077,ok,1,3:IR077:1:2,,True
+False,1,3,gun,barrel,container,spirit,IR077,ok,2,3:IR077:2:1,,False
+False,2,3,gun,barrel, containers,barrel,IR077,ok,2,3:IR077:2:2,,True
+False,1,3,cyclone,eye, escape,fire escape,IR078,ok,0,3:IR078:0:1,,False
+False,2,3,cyclone,eye,visible,gaze,IR078,ok,0,3:IR078:0:2,,False
+False,1,3,cyclone,wall,building_material,brick,IR078,ok,1,3:IR078:1:1,,False
+False,2,3,cyclone,wall,vertical structure,stairs,IR078,ok,1,3:IR078:1:2,,False
+False,1,3,cyclone,band,performance,stage,IR078,ok,2,3:IR078:2:1,,False
+False,2,3,cyclone,band,music,band,IR078,ok,2,3:IR078:2:2,,True
+False,1,3,web browser,tab,paradox,Goodhart,IR079,ok,0,3:IR079:0:1,,False
+False,2,3,web browser,tab,container,can,IR079,ok,0,3:IR079:0:2,,False
+False,1,3,web browser,cookie,sweet treat,cookie,IR079,ok,1,3:IR079:1:1,,True
+False,2,3,web browser,cookie,dessert,cookie,IR079,ok,1,3:IR079:1:2,,True
+False,1,3,web browser,bookmark,metal,can,IR079,ok,2,3:IR079:2:1,,False
+False,2,3,web browser,bookmark,object with multiple positions,bookmark,IR079,ok,2,3:IR079:2:2,,True
+False,1,3,assembly,cabinet,furniture,drawer,IR080,ok,0,3:IR080:0:1,,False
+False,2,3,assembly,cabinet,room,archive,IR080,ok,0,3:IR080:0:2,,False
+False,1,3,assembly,diet,room,chamber,IR080,ok,1,3:IR080:1:1,,False
+False,2,3,assembly,diet,dining,dining room,IR080,ok,1,3:IR080:1:2,,False
+False,1,3,assembly,chamber,room,wardrobe,IR080,ok,2,3:IR080:2:1,,False
+False,2,3,assembly,chamber, openings,tombs,IR080,ok,2,3:IR080:2:2,,False
+False,1,3,lathe,dog,dog,Golden Retriever,IR081,ok,0,3:IR081:0:1,,False
+False,2,3,lathe,dog,breed,retriever,IR081,ok,0,3:IR081:0:2,,False
+False,1,3,lathe,bed,furniture,bed,IR081,ok,1,3:IR081:1:1,,True
+False,2,3,lathe,bed,bedding,bed,IR081,ok,1,3:IR081:1:2,,True
+False,1,3,lathe,saddle,saddle,seat,IR081,ok,2,3:IR081:2:1,,False
+False,2,3,lathe,saddle, horse equipment , saddle ,IR081,ok,2,3:IR081:2:2,,True
+False,1,3,track,tie,coverings,ties,IR082,ok,0,3:IR082:0:1,,False
+False,2,3,track,tie,clothing,tie,IR082,ok,0,3:IR082:0:2,,True
+False,1,3,track,frog,amphibian,toad,IR082,ok,1,3:IR082:1:1,,False
+False,2,3,track,frog,street,tread,IR082,ok,1,3:IR082:1:2,,False
+False,1,3,track,switch,switch,light,IR082,ok,2,3:IR082:2:1,,False
+False,2,3,track,switch,light,switch,IR082,ok,2,3:IR082:2:2,,True
+False,1,3,toilet,tank,military vehicle,tank,IR083,ok,0,3:IR083:0:1,,True
+False,2,3,toilet,tank,war vehicle,tank,IR083,ok,0,3:IR083:0:2,,True
+False,1,3,toilet,float,容器,bowl,IR083,ok,1,3:IR083:1:1,,False
+False,2,3,toilet,float,night,parade,IR083,ok,1,3:IR083:1:2,,False
+False,1,3,toilet,bowl,container,bowl,IR083,ok,2,3:IR083:2:1,,True
+False,2,3,toilet,bowl,bottom,bowl,IR083,ok,2,3:IR083:2:2,,True
+False,1,3,screw,head,stitching,needle,IR084,ok,0,3:IR084:0:1,,False
+False,2,3,screw,head,,soul,IR084,ok,0,3:IR084:0:2,,False
+False,1,3,screw,thread,stitching,seam,IR084,ok,1,3:IR084:1:1,,False
+False,2,3,screw,thread,thread,needle,IR084,ok,1,3:IR084:1:2,,False
+False,1,3,screw,shank,meat,ossobuco,IR084,ok,2,3:IR084:2:1,,False
+False,2,3,screw,shank,body parts,bone,IR084,ok,2,3:IR084:2:2,,False
+False,1,3,zipper,teeth,food,bitesize,IR085,ok,0,3:IR085:0:1,,False
+False,2,3,zipper,teeth,smile,grin,IR085,ok,0,3:IR085:0:2,,False
+False,1,3,zipper,slider,adhesive,tape,IR085,ok,1,3:IR085:1:1,,False
+False,2,3,zipper,slider,food,meat,IR085,ok,1,3:IR085:1:2,,False
+False,1,3,zipper,tape,plastic,mask,IR085,ok,2,3:IR085:2:1,,False
+False,2,3,zipper,tape,fastener,tape,IR085,ok,2,3:IR085:2:2,,True
+False,1,3,bird,cardinal,flying,croissant,IR086,ok,0,3:IR086:0:1,,False
+False,2,3,bird,cardinal,,balloon,IR086,ok,0,3:IR086:0:2,,False
+False,1,3,bird,kite,,kite,IR086,ok,1,3:IR086:1:1,,True
+True,2,3,bird,kite,Bird,kite,IR086,ok,1,3:IR086:1:2,,True
+False,1,3,bird,crane,machine,crane,IR086,ok,2,3:IR086:2:1,,True
+True,2,3,bird,crane,bird,crane,IR086,ok,2,3:IR086:2:2,,True
+False,1,3,musical instrument,organ,body parts,bowel,IR089,ok,0,3:IR089:0:1,,False
+False,2,3,musical instrument,organ,body part,gut,IR089,ok,0,3:IR089:0:2,,False
+False,1,3,musical instrument,triangle,geometric_shape,triangle,IR089,ok,1,3:IR089:1:1,,True
+False,2,3,musical instrument,triangle,shape,triangle,IR089,ok,1,3:IR089:1:2,,True
+False,1,3,musical instrument,recorder,recording,recorder,IR089,ok,2,3:IR089:2:1,,True
+False,2,3,musical instrument,recorder,reception,recorder,IR089,ok,2,3:IR089:2:2,,True
+False,1,3,pepper,ghost,payment,sheet,M300_001,ok,0,3:M300_001:0:1,,False
+False,2,3,pepper,ghost,sheet,ghost,M300_001,ok,0,3:M300_001:0:2,,True
+False,1,3,pepper,bell,chime,bell,M300_001,ok,1,3:M300_001:1:1,,True
+False,2,3,pepper,bell,vocal cord,bell,M300_001,ok,1,3:M300_001:1:2,,True
+False,1,3,pepper,banana,fruit,banana,M300_001,ok,2,3:M300_001:2:1,,True
+False,2,3,pepper,banana,fruit,banana,M300_001,ok,2,3:M300_001:2:2,,True
+False,1,3,butterfly,monarch,materials,royal,M300_003,ok,0,3:M300_003:0:1,,False
+False,2,3,butterfly,monarch,royalty,crown,M300_003,ok,0,3:M300_003:0:2,,False
+False,1,3,butterfly,copper,spiral,coil,M300_003,ok,1,3:M300_003:1:1,,False
+False,2,3,butterfly,copper,metal,coil,M300_003,ok,1,3:M300_003:1:2,,False
+False,1,3,butterfly,peacock,鸟类,孔雀,M300_003,ok,2,3:M300_003:2:1,,False
+False,2,3,butterfly,peacock,贵金属,crown,M300_003,ok,2,3:M300_003:2:2,,False
+False,1,3,reef,apron,kitchen clothing,apron,M300_005,ok,0,3:M300_005:0:1,,True
+False,2,3,reef,apron,olkcraft,apron,M300_005,ok,0,3:M300_005:0:2,,True
+False,1,3,reef,patch,obstacle,block,M300_005,ok,1,3:M300_005:1:1,,False
+False,2,3,reef,patch,sewing,stitch,M300_005,ok,1,3:M300_005:1:2,,False
+False,1,3,reef,barrier,block,barrier,M300_005,ok,2,3:M300_005:2:1,,True
+False,2,3,reef,barrier,road closure,barrier,M300_005,ok,2,3:M300_005:2:2,,True
+False,1,3,car,spider,eight-legged arthropod,spider,M300_006,ok,0,3:M300_006:0:1,,True
+False,2,3,car,spider,spider,arachnid,M300_006,ok,0,3:M300_006:0:2,,False
+False,1,3,car,coupe,resting place,cocktail,M300_006,ok,1,3:M300_006:1:1,,False
+False,2,3,car,coupe,glass,stemware,M300_006,ok,1,3:M300_006:1:2,,False
+False,1,3,car,convertible,nature,cocoon,M300_006,ok,2,3:M300_006:2:1,,False
+False,2,3,car,convertible,bed,bunk,M300_006,ok,2,3:M300_006:2:2,,False
+False,1,3,package,cake,confectionery,cake,M300_007,ok,0,3:M300_007:0:1,,True
+False,2,3,package,cake,edible,cake,M300_007,ok,0,3:M300_007:0:2,,True
+False,1,3,package,cone,referee's whistle,cone,M300_007,ok,1,3:M300_007:1:1,,True
+False,2,3,package,cone,base,cone,M300_007,ok,1,3:M300_007:1:2,,True
+False,1,3,package,ball,sphere,ball,M300_007,ok,2,3:M300_007:2:1,,True
+False,2,3,package,ball,sport equipment,ball,M300_007,ok,2,3:M300_007:2:2,,True
+False,1,3,seed,pit,geological_feature,cave,M300_008,ok,0,3:M300_008:0:1,,False
+False,2,3,seed,pit,vertical structure,well,M300_008,ok,0,3:M300_008:0:2,,False
+False,1,3,seed,nut,screws,screw,M300_008,ok,1,3:M300_008:1:1,,False
+False,2,3,seed,nut,building materials,nuts,M300_008,ok,1,3:M300_008:1:2,,False
+False,1,3,seed,grain,natural opening,chasm,M300_008,ok,2,3:M300_008:2:1,,False
+False,2,3,seed,grain,tree part,grain,M300_008,ok,2,3:M300_008:2:2,,True
+False,1,3,tool,square,royal residence,palace,M300_009,ok,0,3:M300_009:0:1,,False
+False,2,3,tool,square,city_square,courtyard,M300_009,ok,0,3:M300_009:0:2,,False
+False,1,3,tool,ruler,royalty,crown,M300_009,ok,1,3:M300_009:1:1,,False
+False,2,3,tool,ruler,royalty,realm,M300_009,ok,1,3:M300_009:1:2,,False
+True,1,3,tool,compass,Tool,Custom,M300_009,ok,2,3:M300_009:2:1,,False
+False,2,3,tool,compass,direction,compass,M300_009,ok,2,3:M300_009:2:2,,True
+False,1,3,dragonfly,skimmer,sieve,strainer,M300_010,ok,0,3:M300_010:0:1,,False
+False,2,3,dragonfly,skimmer,tool,sieve,M300_010,ok,0,3:M300_010:0:2,,False
+False,1,3,dragonfly,pennant,types of flags,flags,M300_010,ok,1,3:M300_010:1:1,,False
+False,2,3,dragonfly,pennant,flags,streamer,M300_010,ok,1,3:M300_010:1:2,,False
+False,1,3,dragonfly,cruiser,vessel,ballast,M300_010,ok,2,3:M300_010:2:1,,False
+False,2,3,dragonfly,cruiser,watercraft,battleship,M300_010,ok,2,3:M300_010:2:2,,False
+False,1,3,sailboat,cat,light,beam,M300_011,ok,0,3:M300_011:0:1,,False
+False,2,3,sailboat,cat,to cut,cat,M300_011,ok,0,3:M300_011:0:2,,True
+False,1,3,sailboat,laser,light,laser,M300_011,ok,1,3:M300_011:1:1,,True
+False,2,3,sailboat,laser,light,rays,M300_011,ok,1,3:M300_011:1:2,,False
+False,1,3,sailboat,cutter,young cat,kitten,M300_011,ok,2,3:M300_011:2:1,,False
+False,2,3,sailboat,cutter,칼날,cookie cutter,M300_011,ok,2,3:M300_011:2:2,,False
+False,1,3,firework,cake,natural resource,mine,M300_012,ok,0,3:M300_012:0:1,,False
+False,2,3,firework,cake,edible,cake,M300_012,ok,0,3:M300_012:0:2,,True
+False,1,3,firework,mine,underground,tunnel,M300_012,ok,1,3:M300_012:1:1,,False
+False,2,3,firework,mine,passageway,tunnel,M300_012,ok,1,3:M300_012:1:2,,False
+False,1,3,firework,comet,celestial,comet,M300_012,ok,2,3:M300_012:2:1,,True
+False,2,3,firework,comet,night sky,comet,M300_012,ok,2,3:M300_012:2:2,,True
+False,1,3,kite,diamond,宝贵之物,seed,M300_014,ok,0,3:M300_014:0:1,,False
+False,2,3,kite,diamond,mathematical terms,integer,M300_014,ok,0,3:M300_014:0:2,,False
+False,1,3,kite,box,carton,box,M300_014,ok,1,3:M300_014:1:1,,True
+False,2,3,kite,box,carton,box,M300_014,ok,1,3:M300_014:1:2,,True
+False,1,3,kite,sled,cold-weather recreation,sled,M300_014,ok,2,3:M300_014:2:1,,True
+False,2,3,kite,sled,cold-weather transportation,sled,M300_014,ok,2,3:M300_014:2:2,,True
+False,1,3,beef cut,round,art supplies,pigment,M300_015,ok,0,3:M300_015:0:1,,False
+False,2,3,beef cut,round,,circle,M300_015,ok,0,3:M300_015:0:2,,False
+False,1,3,beef cut,skirt,body_part,rib,M300_015,ok,1,3:M300_015:1:1,,False
+False,2,3,beef cut,skirt,fabric,skirt,M300_015,ok,1,3:M300_015:1:2,,True
+False,1,3,beef cut,rib,spinal,disc,M300_015,ok,2,3:M300_015:2:1,,False
+False,2,3,beef cut,rib,body_parts,spine,M300_015,ok,2,3:M300_015:2:2,,False
+False,1,3,candy,rock,natural,stone,M300_016,ok,0,3:M300_016:0:1,,False
+False,2,3,candy,rock,geological feature,rock,M300_016,ok,0,3:M300_016:0:2,,True
+False,1,3,candy,bark,tree part,bark,M300_016,ok,1,3:M300_016:1:1,,True
+False,2,3,candy,bark,tree part,trunk,M300_016,ok,1,3:M300_016:1:2,,False
+False,1,3,candy,button,small round objects,button,M300_016,ok,2,3:M300_016:2:1,,True
+False,2,3,candy,button,natural textures,button,M300_016,ok,2,3:M300_016:2:2,,True
+False,1,3,dress,slip,payment設備,terminal,M300_017,ok,0,3:M300_017:0:1,,False
+False,2,3,dress,slip,electronic device,reader,M300_017,ok,0,3:M300_017:0:2,,False
+False,1,3,dress,sack,plant,hemp,M300_017,ok,1,3:M300_017:1:1,,False
+False,2,3,dress,sack,fabric,bag,M300_017,ok,1,3:M300_017:1:2,,False
+False,1,3,dress,jumper,electrical,connector,M300_017,ok,2,3:M300_017:2:1,,False
+False,2,3,dress,jumper,island,cord,M300_017,ok,2,3:M300_017:2:2,,False
+False,1,3,timber frame,plate,dining accessories,plate,M300_019,ok,0,3:M300_019:0:1,,True
+False,2,3,timber frame,plate,,plate,M300_019,ok,0,3:M300_019:0:2,,True
+False,1,3,timber frame,tie,men's hairstyles,pompadour,M300_019,ok,1,3:M300_019:1:1,,False
+False,2,3,timber frame,tie,neckwear,tie,M300_019,ok,1,3:M300_019:1:2,,True
+False,1,3,timber frame,stud,glyph,⏬,M300_019,ok,2,3:M300_019:2:1,,False
+False,2,3,timber frame,stud,metal fastener,stud,M300_019,ok,2,3:M300_019:2:2,,True
+False,1,3,snail,cone,traffic control,cone,M300_020,ok,0,3:M300_020:0:1,,True
+False,2,3,snail,cone,headgear,cone,M300_020,ok,0,3:M300_020:0:2,,True
+False,1,3,snail,helmet,headwear,wrap,M300_020,ok,1,3:M300_020:1:1,,False
+False,2,3,snail,helmet,headgear,helmet,M300_020,ok,1,3:M300_020:1:2,,True
+False,1,3,snail,turban,headwear, turban,M300_020,ok,2,3:M300_020:2:1,,True
+False,2,3,snail,turban,headwear,head covering,M300_020,ok,2,3:M300_020:2:2,,False
+False,1,3,hand,palm,eight-legged arachnid,spider,M300_021,ok,0,3:M300_021:0:1,,False
+False,2,3,hand,palm,weather,spire,M300_021,ok,0,3:M300_021:0:2,,False
+False,1,3,hand,web,Lace,Thread,M300_021,ok,1,3:M300_021:1:1,,False
+False,2,3,hand,web,natural structures,web,M300_021,ok,1,3:M300_021:1:2,,True
+False,1,3,hand,nail,fastener,staple,M300_021,ok,2,3:M300_021:2:1,,False
+False,2,3,hand,nail,construction,nail,M300_021,ok,2,3:M300_021:2:2,,True
+False,1,3,shark,carpet,fabric,tablecloth,M300_022,ok,0,3:M300_022:0:1,,False
+False,2,3,shark,carpet,market,carpet,M300_022,ok,0,3:M300_022:0:2,,True
+False,1,3,shark,angel, heavenly beings,angel,M300_022,ok,1,3:M300_022:1:1,,True
+False,2,3,shark,angel, heavenly beings,angel,M300_022,ok,1,3:M300_022:1:2,,True
+False,1,3,shark,thresher,agriculture,harvest,M300_022,ok,2,3:M300_022:2:1,,False
+False,2,3,shark,thresher,anford,harvest,M300_022,ok,2,3:M300_022:2:2,,False
+False,1,3,sculpture,mobile,Apple device parts,casing,M300_023,ok,0,3:M300_023:0:1,,False
+False,2,3,sculpture,mobile,phone,cell,M300_023,ok,0,3:M300_023:0:2,,False
+False,1,3,sculpture,cast,step,third,M300_023,ok,1,3:M300_023:1:1,,False
+False,2,3,sculpture,cast,dance,ballet,M300_023,ok,1,3:M300_023:1:2,,False
+False,1,3,sculpture,bronze,award,medal,M300_023,ok,2,3:M300_023:2:1,,False
+False,2,3,sculpture,bronze,currency,medal,M300_023,ok,2,3:M300_023:2:2,,False
+False,1,3,masonry tool,hawk,,,M300_024,ok,0,3:M300_024:0:1,,False
+False,2,3,masonry tool,hawk,bird,hawk,M300_024,ok,0,3:M300_024:0:2,,True
+False,1,3,masonry tool,line,art,sketch,M300_024,ok,1,3:M300_024:1:1,,False
+False,2,3,masonry tool,line,writing instrument,pencil,M300_024,ok,1,3:M300_024:1:2,,False
+False,1,3,masonry tool,float,shark,buoy,M300_024,ok,2,3:M300_024:2:1,,False
+False,2,3,masonry tool,float,fish,shark,M300_024,ok,2,3:M300_024:2:2,,False
+False,1,3,leather,russia,constellation,sigma,M300_025,ok,0,3:M300_025:0:1,,False
+False,2,3,leather,russia,country,finland,M300_025,ok,0,3:M300_025:0:2,,False
+False,1,3,leather,morocco,symbol,star,M300_025,ok,1,3:M300_025:1:1,,False
+False,2,3,leather,morocco,symbol,star,M300_025,ok,1,3:M300_025:1:2,,False
+False,1,3,leather,buff,tool,hand,M300_025,ok,2,3:M300_025:2:1,,False
+False,2,3,leather,buff,cleaning,polish,M300_025,ok,2,3:M300_025:2:2,,False
+False,1,3,pocket,kangaroo,kangaroo,jump,M300_026,ok,0,3:M300_026:0:1,,False
+False,2,3,pocket,kangaroo,field,patch,M300_026,ok,0,3:M300_026:0:2,,False
+False,1,3,pocket,cargo,agriculture,field,M300_026,ok,1,3:M300_026:1:1,,False
+False,2,3,pocket,cargo,shipping,container,M300_026,ok,1,3:M300_026:1:2,,False
+False,1,3,pocket,patch,categories,field,M300_026,ok,2,3:M300_026:2:1,,False
+False,2,3,pocket,patch,fall,pumpkin,M300_026,ok,2,3:M300_026:2:2,,False
+False,1,3,lock,spring,stream,creek,M300_027,ok,0,3:M300_027:0:1,,False
+False,2,3,lock,spring,watercourse,brook,M300_027,ok,0,3:M300_027:0:2,,False
+False,1,3,lock,plug,container,bottle,M300_027,ok,1,3:M300_027:1:1,,False
+False,2,3,lock,plug,electrical connection,plug,M300_027,ok,1,3:M300_027:1:2,,True
+False,1,3,lock,tumbler,water feature,stream,M300_027,ok,2,3:M300_027:2:1,,False
+False,2,3,lock,tumbler,something you consume,drink,M300_027,ok,2,3:M300_027:2:2,,False
+False,1,3,earring,post,parts,flower,M300_028,ok,0,3:M300_028:0:1,,False
+False,2,3,earring,post,game,fence,M300_028,ok,0,3:M300_028:0:2,,False
+False,1,3,earring,butterfly,leather accessory,wing,M300_028,ok,1,3:M300_028:1:1,,False
+False,2,3,earring,butterfly,leather,wing,M300_028,ok,1,3:M300_028:1:2,,False
+False,1,3,earring,clutch, , runs,M300_028,ok,2,3:M300_028:2:1,,False
+False,2,3,earring,clutch,leather,pouch,M300_028,ok,2,3:M300_028:2:2,,False
+False,1,3,cymbal,splash,sudden downward movement,plunge,M300_029,ok,0,3:M300_029:0:1,,False
+False,2,3,cymbal,splash,liquid,splash,M300_029,ok,0,3:M300_029:0:2,,True
+False,1,3,cymbal,crash,containers,bowl,M300_029,ok,1,3:M300_029:1:1,,False
+False,2,3,cymbal,crash,aircraft,crash,M300_029,ok,1,3:M300_029:1:2,,True
+False,1,3,cymbal,china,ceramics,china,M300_029,ok,2,3:M300_029:2:1,,True
+False,2,3,cymbal,china,water,ceremony,M300_029,ok,2,3:M300_029:2:2,,False
+False,1,3,track and field implement,shot,flatware,plate,M300_030,ok,0,3:M300_030:0:1,,False
+False,2,3,track and field implement,shot,bartending,shaker,M300_030,ok,0,3:M300_030:0:2,,False
+False,1,3,track and field implement,discus,aquatic,pufferfish,M300_030,ok,1,3:M300_030:1:1,,False
+False,2,3,track and field implement,discus,ocean creature part,fin,M300_030,ok,1,3:M300_030:1:2,,False
+False,1,3,track and field implement,hammer,tool,hammer,M300_030,ok,2,3:M300_030:2:1,,True
+False,2,3,track and field implement,hammer,thunder,hammer,M300_030,ok,2,3:M300_030:2:2,,True
+False,1,3,necklace,opera,entertainment,opera,M300_031,ok,0,3:M300_031:0:1,,True
+False,2,3,necklace,opera, containers,box,M300_031,ok,0,3:M300_031:0:2,,False
+False,1,3,necklace,princess,fold,flyer,M300_031,ok,1,3:M300_031:1:1,,False
+False,2,3,necklace,princess,staple_food,rice,M300_031,ok,1,3:M300_031:1:2,,False
+False,1,3,necklace,collar,clothing,box,M300_031,ok,2,3:M300_031:2:1,,False
+False,2,3,necklace,collar,young,horse,M300_031,ok,2,3:M300_031:2:2,,False
+False,1,3,pigeon,roller,relic,stretch,M300_032,ok,0,3:M300_032:0:1,,False
+False,2,3,pigeon,roller,ART,brush,M300_032,ok,0,3:M300_032:0:2,,False
+False,1,3,pigeon,nun,容器,cup,M300_032,ok,1,3:M300_032:1:1,,False
+False,2,3,pigeon,nun,monastic,habit,M300_032,ok,1,3:M300_032:1:2,,False
+False,1,3,pigeon,tumbler,domino,glass,M300_032,ok,2,3:M300_032:2:1,,False
+False,2,3,pigeon,tumbler,chalice,进而,M300_032,ok,2,3:M300_032:2:2,,False
+False,1,3,woodworking joint,finger,animal appendage,claw,M300_033,ok,0,3:M300_033:0:1,,False
+False,2,3,woodworking joint,finger,finger,index,M300_033,ok,0,3:M300_033:0:2,,False
+False,1,3,woodworking joint,biscuit,learning,tutorial,M300_033,ok,1,3:M300_033:1:1,,False
+False,2,3,woodworking joint,biscuit,breakfast,scrambled eggs,M300_033,ok,1,3:M300_033:1:2,,False
+False,1,3,woodworking joint,scarf,fiber-art-accessory,tassel,M300_033,ok,2,3:M300_033:2:1,,False
+False,2,3,woodworking joint,scarf,富民,shawl,M300_033,ok,2,3:M300_033:2:2,,False
+False,1,3,sandwich,grinder,metalworking,grinder,M300_034,ok,0,3:M300_034:0:1,,True
+False,2,3,sandwich,grinder,tool,grinder,M300_034,ok,0,3:M300_034:0:2,,True
+False,1,3,sandwich,slider,inputs,soundboard,M300_034,ok,1,3:M300_034:1:1,,False
+False,2,3,sandwich,slider,communication device,beeper,M300_034,ok,1,3:M300_034:1:2,,False
+False,1,3,sandwich,wrap,appliance,blender,M300_034,ok,2,3:M300_034:2:1,,False
+False,2,3,sandwich,wrap, artistic material,vellum,M300_034,ok,2,3:M300_034:2:2,,False
+False,1,3,pleat,knife,cutting utensil,fork,M300_035,ok,0,3:M300_035:0:1,,False
+False,2,3,pleat,knife,cutting tool,knife,M300_035,ok,0,3:M300_035:0:2,,True
+False,1,3,pleat,box,items with two openings,shoes,M300_035,ok,1,3:M300_035:1:1,,False
+False,2,3,pleat,box,move,box,M300_035,ok,1,3:M300_035:1:2,,True
+False,1,3,pleat,accordion,musical instrument,accordion,M300_035,ok,2,3:M300_035:2:1,,True
+False,2,3,pleat,accordion,musical instrument,accordion,M300_035,ok,2,3:M300_035:2:2,,True
+False,1,3,gear,worm,royal headwear,crown,M300_036,ok,0,3:M300_036:0:1,,False
+False,2,3,gear,worm,invertebrate,worm,M300_036,ok,0,3:M300_036:0:2,,True
+False,1,3,gear,crown,royalty,crown,M300_036,ok,1,3:M300_036:1:1,,True
+False,2,3,gear,crown,royalty,crown,M300_036,ok,1,3:M300_036:1:2,,True
+False,1,3,gear,spur,tools,spur,M300_036,ok,2,3:M300_036:2:1,,True
+False,2,3,gear,spur,calf,spurs,M300_036,ok,2,3:M300_036:2:2,,False
+False,1,3,dwelling,flat,parts that go in holes,stopper,M300_037,ok,0,3:M300_037:0:1,,False
+False,2,3,dwelling,flat,vehicle part,tire,M300_037,ok,0,3:M300_037:0:2,,False
+False,1,3,dwelling,pad,iology,tampons,M300_037,ok,1,3:M300_037:1:1,,False
+False,2,3,dwelling,pad,period product,tampons,M300_037,ok,1,3:M300_037:1:2,,False
+False,1,3,dwelling,trailer,narrowing,pinched,M300_037,ok,2,3:M300_037:2:1,,False
+False,2,3,dwelling,trailer,cover,tarp,M300_037,ok,2,3:M300_037:2:2,,False
+False,1,3,moth,carpet,fabric,rug,M300_038,ok,0,3:M300_038:0:1,,False
+False,2,3,moth,carpet,textile,rug,M300_038,ok,0,3:M300_038:0:2,,False
+False,1,3,moth,pug,dog,fence,M300_038,ok,1,3:M300_038:1:1,,False
+False,2,3,moth,pug,,rugs,M300_038,ok,1,3:M300_038:1:2,,False
+False,1,3,moth,dagger,weapon,knife,M300_038,ok,2,3:M300_038:2:1,,False
+False,2,3,moth,dagger,sharp,dagger,M300_038,ok,2,3:M300_038:2:2,,True
+False,1,3,ammunition,shot,drinks,shot,M300_039,ok,0,3:M300_039:0:1,,True
+False,2,3,ammunition,shot,type of alcohol,libation,M300_039,ok,0,3:M300_039:0:2,,False
+False,1,3,ammunition,slug, mollusk shell,seashell,M300_039,ok,1,3:M300_039:1:1,,False
+False,2,3,ammunition,slug,shelled,snail,M300_039,ok,1,3:M300_039:1:2,,False
+False,1,3,ammunition,shell,natural objects,seashell,M300_039,ok,2,3:M300_039:2:1,,False
+False,2,3,ammunition,shell,shells,shell,M300_039,ok,2,3:M300_039:2:2,,True
+False,1,3,valve,butterfly,sports equipment,ball,M300_040,ok,0,3:M300_040:0:1,,False
+False,2,3,valve,butterfly,insect,butterfly,M300_040,ok,0,3:M300_040:0:2,,True
+False,1,3,valve,ball,sport,hole,M300_040,ok,1,3:M300_040:1:1,,False
+False,2,3,valve,ball,sport,ball,M300_040,ok,1,3:M300_040:1:2,,True
+False,1,3,valve,needle,sewing,stitch,M300_040,ok,2,3:M300_040:2:1,,False
+False,2,3,valve,needle,hole,stitch,M300_040,ok,2,3:M300_040:2:2,,False
+False,1,3,carriage,fly,insect,fly,M300_041,ok,0,3:M300_041:0:1,,True
+False,2,3,carriage,fly,insect,fly,M300_041,ok,0,3:M300_041:0:2,,True
+False,1,3,carriage,spider,arachnid,spider,M300_041,ok,1,3:M300_041:1:1,,True
+False,2,3,carriage,spider, eight-legged arthropods,spider,M300_041,ok,1,3:M300_041:1:2,,True
+False,1,3,carriage,buggy,street artist,banksy,M300_041,ok,2,3:M300_041:2:1,,False
+False,2,3,carriage,buggy,vehicle,dune buggy,M300_041,ok,2,3:M300_041:2:2,,False
+False,1,3,pottery tool,bat,body part,spine,M300_042,ok,0,3:M300_042:0:1,,False
+False,2,3,pottery tool,bat,fruit,bat,M300_042,ok,0,3:M300_042:0:2,,True
+False,1,3,pottery tool,rib, skeletal structure,ribcage,M300_042,ok,1,3:M300_042:1:1,,False
+False,2,3,pottery tool,rib,bone,skeleton,M300_042,ok,1,3:M300_042:1:2,,False
+False,1,3,pottery tool,wire,metal,coil,M300_042,ok,2,3:M300_042:2:1,,False
+False,2,3,pottery tool,wire,metal,copper,M300_042,ok,2,3:M300_042:2:2,,False
+False,1,3,window,bay,natural water formations,cove,M300_043,ok,0,3:M300_043:0:1,,False
+False,2,3,window,bay,place,shore,M300_043,ok,0,3:M300_043:0:2,,False
+False,1,3,window,bow,archery,bow,M300_043,ok,1,3:M300_043:1:1,,True
+False,2,3,window,bow,hobby,archery,M300_043,ok,1,3:M300_043:1:2,,False
+False,1,3,window,rose,natural water body,sea,M300_043,ok,2,3:M300_043:2:1,,False
+False,2,3,window,rose,flower,trap,M300_043,ok,2,3:M300_043:2:2,,False
+False,1,3,hinge,butt,smoking,ashtray,M300_044,ok,0,3:M300_044:0:1,,False
+False,2,3,hinge,butt,smoking,ashtray,M300_044,ok,0,3:M300_044:0:2,,False
+False,1,3,hinge,piano,Musical instruments,piano,M300_044,ok,1,3:M300_044:1:1,,True
+False,2,3,hinge,piano,contraction,piano,M300_044,ok,1,3:M300_044:1:2,,True
+False,1,3,hinge,strap,butt,bandolier,M300_044,ok,2,3:M300_044:2:1,,False
+False,2,3,hinge,strap,music,band,M300_044,ok,2,3:M300_044:2:2,,False
+False,1,3,plumbing equipment,snake,serpent,rattlesnake,M300_045,ok,0,3:M300_045:0:1,,False
+False,2,3,plumbing equipment,snake,coiled,rattlesnake,M300_045,ok,0,3:M300_045:0:2,,False
+False,1,3,plumbing equipment,nipple,hair,comb,M300_045,ok,1,3:M300_045:1:1,,False
+False,2,3,plumbing equipment,nipple,nipple,pacifier,M300_045,ok,1,3:M300_045:1:2,,False
+False,1,3,plumbing equipment,torch,flame,torches,M300_045,ok,2,3:M300_045:2:1,,False
+False,2,3,plumbing equipment,torch,flame,torch,M300_045,ok,2,3:M300_045:2:2,,True
+False,1,3,coat,trench,fruit,apple,M300_047,ok,0,3:M300_047:0:1,,False
+False,2,3,coat,trench,waterway,canal,M300_047,ok,0,3:M300_047:0:2,,False
+False,1,3,coat,mac,cleaning tools,duster,M300_047,ok,1,3:M300_047:1:1,,False
+False,2,3,coat,mac,fruit,mac,M300_047,ok,1,3:M300_047:1:2,,True
+False,1,3,coat,duster,cleaning tools,brush,M300_047,ok,2,3:M300_047:2:1,,False
+False,2,3,coat,duster,shopping list item,duster,M300_047,ok,2,3:M300_047:2:2,,True
+False,1,3,fastener,frog,light,switch,M300_048,ok,0,3:M300_048:0:1,,False
+False,2,3,fastener,frog,,leap,M300_048,ok,0,3:M300_048:0:2,,False
+False,1,3,fastener,toggle,field goal,goalpost,M300_048,ok,1,3:M300_048:1:1,,False
+False,2,3,fastener,toggle,change,switch,M300_048,ok,1,3:M300_048:1:2,,False
+False,1,3,fastener,snap,phone,chat,M300_048,ok,2,3:M300_048:2:1,,False
+False,2,3,fastener,snap,ghost,spectre,M300_048,ok,2,3:M300_048:2:2,,False
+False,1,3,lure,plug,end,outlet,M300_050,ok,0,3:M300_050:0:1,,False
+False,2,3,lure,plug,port,wallwart,M300_050,ok,0,3:M300_050:0:2,,False
+False,1,3,lure,spoon,to occupy the mind with small thoughts or feelings,fidget,M300_050,ok,1,3:M300_050:1:1,,False
+False,2,3,lure,spoon,utensils,spoons,M300_050,ok,1,3:M300_050:1:2,,False
+False,1,3,lure,spinner,to fidget,fidget spinner,M300_050,ok,2,3:M300_050:2:1,,False
+False,2,3,lure,spinner,to annoy,fidget,M300_050,ok,2,3:M300_050:2:2,,False
+False,1,3,ear piercing,rook,shape,spiral,M300_051,ok,0,3:M300_051:0:1,,False
+False,2,3,ear piercing,rook,chess,castle,M300_051,ok,0,3:M300_051:0:2,,False
+False,1,3,ear piercing,helix,shape,spiral,M300_051,ok,1,3:M300_051:1:1,,False
+False,2,3,ear piercing,helix,shape,spiral,M300_051,ok,1,3:M300_051:1:2,,False
+False,1,3,ear piercing,industrial,industrial structures,stack,M300_051,ok,2,3:M300_051:2:1,,False
+False,2,3,ear piercing,industrial,spiraling structure,spire,M300_051,ok,2,3:M300_051:2:2,,False
+False,1,3,bird,bill,plant parts,stalk,M300_052,ok,0,3:M300_052:0:1,,False
+False,2,3,bird,bill,cash,count,M300_052,ok,0,3:M300_052:0:2,,False
+False,1,3,bird,crop,hair,vain,M300_052,ok,1,3:M300_052:1:1,,False
+False,2,3,bird,crop,cereal,wheat,M300_052,ok,1,3:M300_052:1:2,,False
+False,1,3,bird,comb,financial document,receipt,M300_052,ok,2,3:M300_052:2:1,,False
+False,2,3,bird,comb,hair,combed,M300_052,ok,2,3:M300_052:2:2,,False
+False,1,3,songbird,dipper,container,urn,M300_053,ok,0,3:M300_053:0:1,,False
+False,2,3,songbird,dipper, Implements,bamboo,M300_053,ok,0,3:M300_053:0:2,,False
+False,1,3,songbird,thrasher,implement,lawnmower,M300_053,ok,1,3:M300_053:1:1,,False
+False,2,3,songbird,thrasher, agricultural machine,harvester,M300_053,ok,1,3:M300_053:1:2,,False
+False,1,3,songbird,weaver,devices used to control or restrain,harness,M300_053,ok,2,3:M300_053:2:1,,False
+False,2,3,songbird,weaver,textile tools,loom,M300_053,ok,2,3:M300_053:2:2,,False
+False,1,3,earring,stud,heavy machinery,crane,M300_055,ok,0,3:M300_055:0:1,,False
+False,2,3,earring,stud,building structure,frame,M300_055,ok,0,3:M300_055:0:2,,False
+False,1,3,earring,crawler,heavy equipment,bulldozer,M300_055,ok,1,3:M300_055:1:1,,False
+False,2,3,earring,crawler,construction equipment,drum,M300_055,ok,1,3:M300_055:1:2,,False
+False,1,3,earring,drop,building_material,bead,M300_055,ok,2,3:M300_055:2:1,,False
+False,2,3,earring,drop,water,bubble,M300_055,ok,2,3:M300_055:2:2,,False
+False,1,3,paper,tissue,biology,cell,M300_057,ok,0,3:M300_057:0:1,,False
+False,2,3,paper,tissue,biological structure,cell,M300_057,ok,0,3:M300_057:0:2,,False
+False,1,3,paper,butcher,meat,chopped,M300_057,ok,1,3:M300_057:1:1,,False
+False,2,3,paper,butcher,food,meat,M300_057,ok,1,3:M300_057:1:2,,False
+False,1,3,paper,carbon,debris,ashes,M300_057,ok,2,3:M300_057:2:1,,False
+False,2,3,paper,carbon,burnt,ash,M300_057,ok,2,3:M300_057:2:2,,False
+False,1,3,paddle,wing,parts of aircraft,wings,M300_058,ok,0,3:M300_058:0:1,,False
+False,2,3,paddle,wing,avian appendage,feather,M300_058,ok,0,3:M300_058:0:2,,False
+False,1,3,paddle,spoon,metal,spoon,M300_058,ok,1,3:M300_058:1:1,,True
+False,2,3,paddle,spoon,outil,spoon,M300_058,ok,1,3:M300_058:1:2,,True
+False,1,3,paddle,feather,feather,tail,M300_058,ok,2,3:M300_058:2:1,,False
+False,2,3,paddle,feather,tail,peacock,M300_058,ok,2,3:M300_058:2:2,,False
+False,1,3,bee,carpenter,worker,carpenter,M300_059,ok,0,3:M300_059:0:1,,True
+False,2,3,bee,carpenter,bird,chuck,M300_059,ok,0,3:M300_059:0:2,,False
+False,1,3,bee,miner,bird,roadrunner,M300_059,ok,1,3:M300_059:1:1,,False
+False,2,3,bee,miner,hole,miner,M300_059,ok,1,3:M300_059:1:2,,True
+False,1,3,bee,cuckoo,person,birder,M300_059,ok,2,3:M300_059:2:1,,False
+False,2,3,bee,cuckoo,bird,hawk,M300_059,ok,2,3:M300_059:2:2,,False
+False,1,3,puppet,finger,parts of the body,palm,M300_060,ok,0,3:M300_060:0:1,,False
+False,2,3,puppet,finger,hand gestures,fist,M300_060,ok,0,3:M300_060:0:2,,False
+False,1,3,puppet,glove,body parts,fingers,M300_060,ok,1,3:M300_060:1:1,,False
+False,2,3,puppet,glove,weather condition,pale,M300_060,ok,1,3:M300_060:1:2,,False
+False,1,3,puppet,rod,fishing equipment,pole,M300_060,ok,2,3:M300_060:2:1,,False
+False,2,3,puppet,rod,pole,fishing pole,M300_060,ok,2,3:M300_060:2:2,,False
+False,1,3,succulent,string,textiles,line,M300_061,ok,0,3:M300_061:0:1,,False
+False,2,3,succulent,string,natural fibers,yarn,M300_061,ok,0,3:M300_061:0:2,,False
+False,1,3,succulent,paddle,oars,oar,M300_061,ok,1,3:M300_061:1:1,,False
+False,2,3,succulent,paddle,oars,oar,M300_061,ok,1,3:M300_061:1:2,,False
+False,1,3,succulent,jade,jewelry,necklace,M300_061,ok,2,3:M300_061:2:1,,False
+False,2,3,succulent,jade, adornment,necklace,M300_061,ok,2,3:M300_061:2:2,,False
+False,1,3,cosmetics,shadow, ground,shadow,M300_063,ok,0,3:M300_063:0:1,,True
+False,2,3,cosmetics,shadow,skeleton,shadow,M300_063,ok,0,3:M300_063:0:2,,True
+False,1,3,cosmetics,foundation,construction,crane,M300_063,ok,1,3:M300_063:1:1,,False
+False,2,3,cosmetics,foundation,equipment,construction,M300_063,ok,1,3:M300_063:1:2,,False
+False,1,3,cosmetics,highlighter,school supplies,highlighter,M300_063,ok,2,3:M300_063:2:1,,True
+False,2,3,cosmetics,highlighter,learning,book,M300_063,ok,2,3:M300_063:2:2,,False
+False,1,3,playground equipment,slide,golf,slide,M300_064,ok,0,3:M300_064:0:1,,True
+False,2,3,playground equipment,slide,government office,办公厅,M300_064,ok,0,3:M300_064:0:2,,False
+False,1,3,playground equipment,swing,objects that can be held and manipulated,fidget,M300_064,ok,1,3:M300_064:1:1,,False
+False,2,3,playground equipment,swing,sport,golfer,M300_064,ok,1,3:M300_064:1:2,,False
+False,1,3,playground equipment,spinner,to toy with,fidget-spinner,M300_064,ok,2,3:M300_064:2:1,,False
+False,2,3,playground equipment,spinner,to occupy oneself nervously,fidget,M300_064,ok,2,3:M300_064:2:2,,False
+False,1,3,club,bat,state,torpor,M300_065,ok,0,3:M300_065:0:1,,False
+False,2,3,club,bat,natural structures,tree,M300_065,ok,0,3:M300_065:0:2,,False
+False,1,3,club,sap,wood,tree,M300_065,ok,1,3:M300_065:1:1,,False
+False,2,3,club,sap,trunk,tree,M300_065,ok,1,3:M300_065:1:2,,False
+False,1,3,club,cane,walking aid,cane,M300_065,ok,2,3:M300_065:2:1,,True
+False,2,3,club,cane,tree part,cane,M300_065,ok,2,3:M300_065:2:2,,True
+False,1,3,gymnastics apparatus,ribbon,gift,box,M300_068,ok,0,3:M300_068:0:1,,False
+False,2,3,gymnastics apparatus,ribbon,tools,tie,M300_068,ok,0,3:M300_068:0:2,,False
+False,1,3,gymnastics apparatus,beam,cooking,racks,M300_068,ok,1,3:M300_068:1:1,,False
+False,2,3,gymnastics apparatus,beam,structure,roof,M300_068,ok,1,3:M300_068:1:2,,False
+False,1,3,gymnastics apparatus,hoop,sports equipment,orbit,M300_068,ok,2,3:M300_068:2:1,,False
+False,2,3,gymnastics apparatus,hoop,sports equipment,basket,M300_068,ok,2,3:M300_068:2:2,,False
+False,1,3,seal,harp,musical instrument,harp,M300_069,ok,0,3:M300_069:0:1,,True
+False,2,3,seal,harp,musical instrument,harp,M300_069,ok,0,3:M300_069:0:2,,True
+False,1,3,seal,ribbon,shape,loop,M300_069,ok,1,3:M300_069:1:1,,False
+False,2,3,seal,ribbon,,ribbon,M300_069,ok,1,3:M300_069:1:2,,True
+False,1,3,seal,elephant,large creature,elephant,M300_069,ok,2,3:M300_069:2:1,,True
+False,2,3,seal,elephant,majestic,elephant,M300_069,ok,2,3:M300_069:2:2,,True
+False,1,3,sleeve,trumpet,fire,campfire,M300_070,ok,0,3:M300_070:0:1,,False
+False,2,3,sleeve,trumpet,wind instrument,trumpet,M300_070,ok,0,3:M300_070:0:2,,True
+False,1,3,sleeve,lantern,headwear,cap,M300_070,ok,1,3:M300_070:1:1,,False
+False,2,3,sleeve,lantern,aerodynamic,kite,M300_070,ok,1,3:M300_070:1:2,,False
+False,1,3,sleeve,cap,metal,brass,M300_070,ok,2,3:M300_070:2:1,,False
+False,2,3,sleeve,cap,headwear,shelves,M300_070,ok,2,3:M300_070:2:2,,False
+False,1,3,mollusk,slug,fowl,shotgun,M300_072,ok,0,3:M300_072:0:1,,False
+False,2,3,mollusk,slug,game,shotgun,M300_072,ok,0,3:M300_072:0:2,,False
+False,1,3,mollusk,clam,geometric shapes,triangle,M300_072,ok,1,3:M300_072:1:1,,False
+False,2,3,mollusk,clam,communication device,telegraph,M300_072,ok,1,3:M300_072:1:2,,False
+False,1,3,mollusk,squid,video_game_elements,title,M300_072,ok,2,3:M300_072:2:1,,False
+False,2,3,mollusk,squid,geometric shapes,triangle,M300_072,ok,2,3:M300_072:2:2,,False
+False,1,3,sauce,mole,digs,shoehorn,M300_073,ok,0,3:M300_073:0:1,,False
+False,2,3,sauce,mole,burrow,tunnel,M300_073,ok,0,3:M300_073:0:2,,False
+False,1,3,sauce,salsa,dance,tango,M300_073,ok,1,3:M300_073:1:1,,False
+False,2,3,sauce,salsa,performance,dance,M300_073,ok,1,3:M300_073:1:2,,False
+False,1,3,sauce,dressing,digging,shovel,M300_073,ok,2,3:M300_073:2:1,,False
+False,2,3,sauce,dressing,category,medal,M300_073,ok,2,3:M300_073:2:2,,False
+False,1,3,pork cut,chop,pole,balance,M300_075,ok,0,3:M300_075:0:1,,False
+False,2,3,pork cut,chop,piece,board,M300_075,ok,0,3:M300_075:0:2,,False
+False,1,3,pork cut,cushion,cigarette,butt,M300_075,ok,1,3:M300_075:1:1,,False
+False,2,3,pork cut,cushion,body part,couch,M300_075,ok,1,3:M300_075:1:2,,False
+False,1,3,pork cut,butt,wood,bridge,M300_075,ok,2,3:M300_075:2:1,,False
+False,2,3,pork cut,butt,tobacco,smoke,M300_075,ok,2,3:M300_075:2:2,,False
+False,1,3,woodwind instrument,pipe,fluid,valve,M300_076,ok,0,3:M300_076:0:1,,False
+False,2,3,woodwind instrument,pipe,pipefitting,f fitting,M300_076,ok,0,3:M300_076:0:2,,False
+False,1,3,woodwind instrument,recorder,sound,recorder,M300_076,ok,1,3:M300_076:1:1,,True
+False,2,3,woodwind instrument,recorder,audio devices,recorder,M300_076,ok,1,3:M300_076:1:2,,True
+False,1,3,woodwind instrument,whistle,sound,whistle,M300_076,ok,2,3:M300_076:2:1,,True
+False,2,3,woodwind instrument,whistle,air,whistle,M300_076,ok,2,3:M300_076:2:2,,True
+False,1,3,jacket,blazer, flight,flying,M300_077,ok,0,3:M300_077:0:1,,False
+False,2,3,jacket,blazer,means of transportation,chevrolet,M300_077,ok,0,3:M300_077:0:2,,False
+False,1,3,jacket,bomber,latest,airplane,M300_077,ok,1,3:M300_077:1:1,,False
+False,2,3,jacket,bomber,aircraft,fighter,M300_077,ok,1,3:M300_077:1:2,,False
+False,1,3,jacket,cardigan,soft drink,crusher,M300_077,ok,2,3:M300_077:2:1,,False
+False,2,3,jacket,cardigan,dog,labrador,M300_077,ok,2,3:M300_077:2:2,,False
+False,1,3,hairstyle,bun,foods,buns,M300_078,ok,0,3:M300_078:0:1,,False
+False,2,3,hairstyle,bun,types of bread,honey bun,M300_078,ok,0,3:M300_078:0:2,,False
+False,1,3,hairstyle,mullet,fish,catfish,M300_078,ok,1,3:M300_078:1:1,,False
+False,2,3,hairstyle,mullet,fish,catfish,M300_078,ok,1,3:M300_078:1:2,,False
+False,1,3,hairstyle,beehive,beehives,hive,M300_078,ok,2,3:M300_078:2:1,,False
+False,2,3,hairstyle,beehive,bees,hive,M300_078,ok,2,3:M300_078:2:2,,False
+False,1,3,paintbrush,sword,sharp object,sword,M300_079,ok,0,3:M300_079:0:1,,True
+False,2,3,paintbrush,sword,edible,sword,M300_079,ok,0,3:M300_079:0:2,,True
+False,1,3,paintbrush,fan,edged tools,blades,M300_079,ok,1,3:M300_079:1:1,,False
+False,2,3,paintbrush,fan,spoke,fan,M300_079,ok,1,3:M300_079:1:2,,True
+False,1,3,paintbrush,dagger,cutting implement,dagger,M300_079,ok,2,3:M300_079:2:1,,True
+False,2,3,paintbrush,dagger,cutting edge,blade,M300_079,ok,2,3:M300_079:2:2,,False
+False,1,3,hat,bowler,sport,bowling,M300_080,ok,0,3:M300_080:0:1,,False
+False,2,3,hat,bowler,ball,bowler,M300_080,ok,0,3:M300_080:0:2,,True
+False,1,3,hat,pillbox,person,canoeer,M300_080,ok,1,3:M300_080:1:1,,False
+False,2,3,hat,pillbox,table,pills,M300_080,ok,1,3:M300_080:1:2,,False
+False,1,3,hat,boater,water vessel,kayaker,M300_080,ok,2,3:M300_080:2:1,,False
+False,2,3,hat,boater,canoe,paddle,M300_080,ok,2,3:M300_080:2:2,,False
+False,1,3,wrench,monkey,tail,monkey,M300_081,ok,0,3:M300_081:0:1,,True
+False,2,3,wrench,monkey,tree dweller,monkey,M300_081,ok,0,3:M300_081:0:2,,True
+False,1,3,wrench,alligator,skink,alligator,M300_081,ok,1,3:M300_081:1:1,,True
+False,2,3,wrench,alligator,animal,crocodile,M300_081,ok,1,3:M300_081:1:2,,False
+False,1,3,wrench,strap,forms,band,M300_081,ok,2,3:M300_081:2:1,,False
+False,2,3,wrench,strap,band,strap,M300_081,ok,2,3:M300_081:2:2,,True
+False,1,3,anchor,mushroom,non-edible fungi,mushroom,M300_084,ok,0,3:M300_084:0:1,,True
+False,2,3,anchor,mushroom,fruit,mushroom,M300_084,ok,0,3:M300_084:0:2,,True
+False,1,3,anchor,plow, Implements of change,hoe,M300_084,ok,1,3:M300_084:1:1,,False
+False,2,3,anchor,plow,tools,plow,M300_084,ok,1,3:M300_084:1:2,,True
+False,1,3,anchor,spoon,silver,spoon,M300_084,ok,2,3:M300_084:2:1,,True
+False,2,3,anchor,spoon,eating utensil,spoon,M300_084,ok,2,3:M300_084:2:2,,True

@@ -1,0 +1,61 @@
+concept_correct,cue_count,experiment,gold_concept,gold_word,predicted_concept,predicted_word,puzzle_id,status,target_slot,task_key,variant,word_correct
+False,1,3,jewelry,ring,boxing,ring,IR001,ok,0,3:IR001:0:1,,True
+False,2,3,jewelry,ring,boxing terms,ring,IR001,ok,0,3:IR001:0:2,,True
+False,1,3,jewelry,choker,,net,IR001,ok,1,3:IR001:1:1,,False
+False,2,3,jewelry,choker,basketball terms,net,IR001,ok,1,3:IR001:1:2,,False
+False,1,3,jewelry,charm,boxing,teeth,IR001,ok,2,3:IR001:2:1,,False
+False,2,3,jewelry,charm,wrestling moves,horseshoe,IR001,ok,2,3:IR001:2:2,,False
+False,1,3,bag,clutch,hobo,go,IR003,ok,0,3:IR003:0:1,,False
+False,2,3,bag,clutch,,pedal,IR003,ok,0,3:IR003:0:2,,False
+False,1,3,bag,hobo,,stroller,IR003,ok,1,3:IR003:1:1,,False
+False,2,3,bag,hobo,computer keyboard keys,pram,IR003,ok,1,3:IR003:1:2,,False
+False,1,3,bag,messenger,,bike,IR003,ok,2,3:IR003:2:1,,False
+False,2,3,bag,messenger,,delivery,IR003,ok,2,3:IR003:2:2,,False
+False,1,3,beverage,punch,boxing actions,punch,IR004,ok,0,3:IR004:0:1,,True
+False,2,3,beverage,punch,boxing,punch,IR004,ok,0,3:IR004:0:2,,True
+False,1,3,beverage,shake,dance moves,shake,IR004,ok,1,3:IR004:1:1,,True
+False,2,3,beverage,shake,cocktails,shake,IR004,ok,1,3:IR004:1:2,,True
+False,1,3,beverage,float,parade,float,IR004,ok,2,3:IR004:2:1,,True
+False,2,3,beverage,float,boxing,float,IR004,ok,2,3:IR004:2:2,,True
+False,1,3,plant,stem,,glass,IR005,ok,0,3:IR005:0:1,,False
+False,2,3,plant,stem,,glass,IR005,ok,0,3:IR005:0:2,,False
+False,1,3,plant,bark,,bark,IR005,ok,1,3:IR005:1:1,,True
+False,2,3,plant,bark,parts of a tree,bark,IR005,ok,1,3:IR005:1:2,,True
+False,1,3,plant,root,,scale,IR005,ok,2,3:IR005:2:1,,False
+False,2,3,plant,root,parts of a tree,scale,IR005,ok,2,3:IR005:2:2,,False
+False,1,3,board game,risk,medical terms,procedure,IR006,ok,0,3:IR006:0:1,,False
+False,2,3,board game,risk,surgical and investigative terms,warning,IR006,ok,0,3:IR006:0:2,,False
+False,1,3,board game,operation,Clue-style board game characters,operation,IR006,ok,1,3:IR006:1:1,,True
+False,2,3,board game,operation,,operation,IR006,ok,1,3:IR006:1:2,,True
+False,1,3,board game,clue,,investigator,IR006,ok,2,3:IR006:2:1,,False
+False,2,3,board game,clue,police work,investigation,IR006,ok,2,3:IR006:2:2,,False
+False,1,3,ship,bark,dog sounds,bark,P007,ok,0,3:P007:0:1,,True
+False,2,3,ship,bark,tree bark; also a type of boat,bark,P007,ok,0,3:P007:0:2,,True
+False,1,3,ship,cutter,Minecraft blocks,star,P007,ok,1,3:P007:1:1,,False
+False,2,3,ship,cutter,types of asterisk,star,P007,ok,1,3:P007:1:2,,False
+False,1,3,ship,steamer,,steam,P007,ok,2,3:P007:2:1,,False
+False,2,3,ship,steamer,,steamer,P007,ok,2,3:P007:2:2,,True
+False,1,3,river,bed,,bed,IR007,ok,0,3:IR007:0:1,,True
+True,2,3,river,bed,river,bed,IR007,ok,0,3:IR007:0:2,,True
+False,1,3,river,bank,banking,branch,IR007,ok,1,3:IR007:1:1,,False
+False,2,3,river,bank,parts of a river,bank,IR007,ok,1,3:IR007:1:2,,True
+False,1,3,river,mouth,,lip,IR007,ok,2,3:IR007:2:1,,False
+False,2,3,river,mouth,bank,lip,IR007,ok,2,3:IR007:2:2,,False
+False,1,3,skeleton,spine,bookbinding,binding,IR008,ok,0,3:IR008:0:1,,False
+False,2,3,skeleton,spine,bookbinding,binding,IR008,ok,0,3:IR008:0:2,,False
+False,1,3,skeleton,arch,structures,bridge,IR008,ok,1,3:IR008:1:1,,False
+False,2,3,skeleton,arch,anatomical structures,arch,IR008,ok,1,3:IR008:1:2,,True
+False,1,3,skeleton,cage,,cage,IR008,ok,2,3:IR008:2:1,,True
+False,2,3,skeleton,cage,anatomical structures,cage,IR008,ok,2,3:IR008:2:2,,True
+False,1,3,bread,roll,bakery bread,roll,IR009,ok,0,3:IR009:0:1,,True
+True,2,3,bread,roll,bread,roll,IR009,ok,0,3:IR009:0:2,,True
+False,1,3,bread,twist,,zest,IR009,ok,1,3:IR009:1:1,,False
+False,2,3,bread,twist,dance moves,twist,IR009,ok,1,3:IR009:1:2,,True
+False,1,3,bread,loaf,roll,cat,IR009,ok,2,3:IR009:2:1,,False
+False,2,3,bread,loaf,,cat,IR009,ok,2,3:IR009:2:2,,False
+False,1,3,garment,slip,types of clothing,printer,IR010,ok,0,3:IR010:0:1,,False
+False,2,3,garment,slip,computer hardware,printer,IR010,ok,0,3:IR010:0:2,,False
+False,1,3,garment,jumper,electrical connector,jumper,IR010,ok,1,3:IR010:1:1,,True
+False,2,3,garment,jumper,electrical circuit components,jumper,IR010,ok,1,3:IR010:1:2,,True
+False,1,3,garment,tank,slip tank,tank,IR010,ok,2,3:IR010:2:1,,True
+False,2,3,garment,tank,types of underwear,tank,IR010,ok,2,3:IR010:2:2,,True

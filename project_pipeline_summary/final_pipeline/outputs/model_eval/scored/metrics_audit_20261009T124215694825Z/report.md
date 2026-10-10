@@ -1,0 +1,243 @@
+# Offline Metric Audit
+
+No inference or judge API requests. Exact match remains primary for Tasks 1 and 3.
+An asterisk denotes incomplete coverage or unresolved judging: this is not a final benchmark score.
+
+| Model | Scope | Metric | Actual / Expected | Correct / Denominator | Accuracy (%) | Missing | Malformed | API Errors | Unjudged |
+|---|---|---|---:|---:|---:|---:|---:|---:|---:|
+| deepseek-flash | all155 | 1/top1 | 465 / 465 | 159 / 465 | 34.19 | 0 | 0 | 0 | 0 |
+| deepseek-flash | all155 | 1/top5 | 465 / 465 | 239 / 465 | 51.40 | 0 | 0 | 0 | 0 |
+| deepseek-flash | all155 | 2:direct/concept_correct | 155 / 155 | 6 / 155 | 3.87 | 0 | 0 | 0 | 0 |
+| deepseek-flash | all155 | 2:sense_hint/concept_correct | 155 / 155 | 11 / 155 | 7.10 | 0 | 0 | 0 | 0 |
+| deepseek-flash | all155 | 2:stepwise/concept_correct | 155 / 155 | 7 / 155 | 4.52 | 0 | 0 | 0 | 0 |
+| deepseek-flash | all155 | 2:text_only/concept_correct | 155 / 155 | 86 / 155 | 55.48 | 0 | 3 | 0 | 0 |
+| deepseek-flash | all155 | 2:two_shot/concept_correct | 155 / 155 | 19 / 155 | 12.26 | 0 | 2 | 0 | 0 |
+| deepseek-flash | all155 | 3:1-cue/word_correct | 930 / 930 | 585 / 930 | 62.90 | 0 | 0 | 0 | 0 |
+| deepseek-flash | all155 | 3:2-cue/word_correct | 465 / 465 | 313 / 465 | 67.31 | 0 | 0 | 0 | 0 |
+| deepseek-flash | human80 | 1/top1 | 240 / 240 | 82 / 240 | 34.17 | 0 | 0 | 0 | 0 |
+| deepseek-flash | human80 | 1/top5 | 240 / 240 | 123 / 240 | 51.25 | 0 | 0 | 0 | 0 |
+| deepseek-flash | human80 | 2:direct/concept_correct | 80 / 80 | 4 / 80 | 5.00 | 0 | 0 | 0 | 0 |
+| deepseek-flash | human80 | 2:sense_hint/concept_correct | 80 / 80 | 11 / 80 | 13.75 | 0 | 0 | 0 | 0 |
+| deepseek-flash | human80 | 2:stepwise/concept_correct | 80 / 80 | 5 / 80 | 6.25 | 0 | 0 | 0 | 0 |
+| deepseek-flash | human80 | 2:text_only/concept_correct | 80 / 80 | 51 / 80 | 63.75 | 0 | 0 | 0 | 0 |
+| deepseek-flash | human80 | 2:two_shot/concept_correct | 80 / 80 | 12 / 80 | 15.00 | 0 | 1 | 0 | 0 |
+| deepseek-flash | human80 | 3:1-cue/word_correct | 480 / 480 | 302 / 480 | 62.92 | 0 | 0 | 0 | 0 |
+| deepseek-flash | human80 | 3:2-cue/word_correct | 240 / 240 | 165 / 240 | 68.75 | 0 | 0 | 0 | 0 |
+| allenai/Molmo2-8B | all155 | 1/top1 | 465 / 465 | 121 / 465 | 26.02 | 0 | 2 | 0 | 0 |
+| allenai/Molmo2-8B | all155 | 1/top5 | 465 / 465 | 184 / 465 | 39.57 | 0 | 2 | 0 | 0 |
+| allenai/Molmo2-8B | all155 | 2:direct/concept_correct | 155 / 155 | 7 / 155 | 4.52 | 0 | 0 | 0 | 0 |
+| allenai/Molmo2-8B | all155 | 2:sense_hint/concept_correct | 155 / 155 | 3 / 155 | 1.94 | 0 | 0 | 0 | 0 |
+| allenai/Molmo2-8B | all155 | 2:stepwise/concept_correct | 155 / 155 | 3 / 155 | 1.94 | 0 | 0 | 0 | 0 |
+| allenai/Molmo2-8B | all155 | 2:text_only/concept_correct | 155 / 155 | 44 / 155 | 28.39 | 0 | 0 | 0 | 0 |
+| allenai/Molmo2-8B | all155 | 2:two_shot/concept_correct | 155 / 155 | 0 / 155 | 0.00 | 0 | 1 | 0 | 0 |
+| allenai/Molmo2-8B | all155 | 3:1-cue/word_correct | 930 / 930 | 233 / 930 | 25.05 | 0 | 1 | 0 | 0 |
+| allenai/Molmo2-8B | all155 | 3:2-cue/word_correct | 465 / 465 | 150 / 465 | 32.26 | 0 | 0 | 0 | 0 |
+| allenai/Molmo2-8B | human80 | 1/top1 | 240 / 240 | 68 / 240 | 28.33 | 0 | 1 | 0 | 0 |
+| allenai/Molmo2-8B | human80 | 1/top5 | 240 / 240 | 105 / 240 | 43.75 | 0 | 1 | 0 | 0 |
+| allenai/Molmo2-8B | human80 | 2:direct/concept_correct | 80 / 80 | 6 / 80 | 7.50 | 0 | 0 | 0 | 0 |
+| allenai/Molmo2-8B | human80 | 2:sense_hint/concept_correct | 80 / 80 | 1 / 80 | 1.25 | 0 | 0 | 0 | 0 |
+| allenai/Molmo2-8B | human80 | 2:stepwise/concept_correct | 80 / 80 | 0 / 80 | 0.00 | 0 | 0 | 0 | 0 |
+| allenai/Molmo2-8B | human80 | 2:text_only/concept_correct | 80 / 80 | 32 / 80 | 40.00 | 0 | 0 | 0 | 0 |
+| allenai/Molmo2-8B | human80 | 2:two_shot/concept_correct | 80 / 80 | 0 / 80 | 0.00 | 0 | 1 | 0 | 0 |
+| allenai/Molmo2-8B | human80 | 3:1-cue/word_correct | 480 / 480 | 136 / 480 | 28.33 | 0 | 0 | 0 | 0 |
+| allenai/Molmo2-8B | human80 | 3:2-cue/word_correct | 240 / 240 | 79 / 240 | 32.92 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.5-9B | all155 | 1/top1 | 465 / 465 | 163 / 465 | 35.05 | 0 | 1 | 0 | 0 |
+| Qwen/Qwen3.5-9B | all155 | 1/top5 | 465 / 465 | 223 / 465 | 47.96 | 0 | 1 | 0 | 0 |
+| Qwen/Qwen3.5-9B | all155 | 2:direct/concept_correct | 155 / 155 | 1 / 155 | 0.65 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.5-9B | all155 | 2:sense_hint/concept_correct | 155 / 155 | 2 / 155 | 1.29 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.5-9B | all155 | 2:stepwise/concept_correct | 155 / 155 | 1 / 155 | 0.65 | 0 | 1 | 0 | 0 |
+| Qwen/Qwen3.5-9B | all155 | 2:text_only/concept_correct | 155 / 155 | 42 / 155 | 27.10 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.5-9B | all155 | 2:two_shot/concept_correct | 155 / 155 | 4 / 155 | 2.58 | 0 | 1 | 0 | 0 |
+| Qwen/Qwen3.5-9B | all155 | 3:1-cue/word_correct | 930 / 930 | 278 / 930 | 29.89 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.5-9B | all155 | 3:2-cue/word_correct | 465 / 465 | 128 / 465 | 27.53 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.5-9B | human80 | 1/top1 | 240 / 240 | 87 / 240 | 36.25 | 0 | 1 | 0 | 0 |
+| Qwen/Qwen3.5-9B | human80 | 1/top5 | 240 / 240 | 122 / 240 | 50.83 | 0 | 1 | 0 | 0 |
+| Qwen/Qwen3.5-9B | human80 | 2:direct/concept_correct | 80 / 80 | 0 / 80 | 0.00 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.5-9B | human80 | 2:sense_hint/concept_correct | 80 / 80 | 1 / 80 | 1.25 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.5-9B | human80 | 2:stepwise/concept_correct | 80 / 80 | 1 / 80 | 1.25 | 0 | 1 | 0 | 0 |
+| Qwen/Qwen3.5-9B | human80 | 2:text_only/concept_correct | 80 / 80 | 29 / 80 | 36.25 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.5-9B | human80 | 2:two_shot/concept_correct | 80 / 80 | 4 / 80 | 5.00 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.5-9B | human80 | 3:1-cue/word_correct | 480 / 480 | 149 / 480 | 31.04 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.5-9B | human80 | 3:2-cue/word_correct | 240 / 240 | 74 / 240 | 30.83 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.8-27B | all155 | 1/top1 | 465 / 465 | 184 / 465 | 39.57 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.8-27B | all155 | 1/top5 | 465 / 465 | 272 / 465 | 58.49 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.8-27B | all155 | 2:direct/concept_correct | 155 / 155 | 7 / 155 | 4.52 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.8-27B | all155 | 2:sense_hint/concept_correct | 155 / 155 | 6 / 155 | 3.87 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.8-27B | all155 | 2:stepwise/concept_correct | 155 / 155 | 2 / 155 | 1.29 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.8-27B | all155 | 2:text_only/concept_correct | 155 / 155 | 59 / 155 | 38.06 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.8-27B | all155 | 2:two_shot/concept_correct | 155 / 155 | 21 / 155 | 13.55 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.8-27B | all155 | 3:1-cue/word_correct | 930 / 930 | 471 / 930 | 50.65 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.8-27B | all155 | 3:2-cue/word_correct | 465 / 465 | 247 / 465 | 53.12 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.8-27B | human80 | 1/top1 | 240 / 240 | 99 / 240 | 41.25 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.8-27B | human80 | 1/top5 | 240 / 240 | 143 / 240 | 59.58 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.8-27B | human80 | 2:direct/concept_correct | 80 / 80 | 7 / 80 | 8.75 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.8-27B | human80 | 2:sense_hint/concept_correct | 80 / 80 | 5 / 80 | 6.25 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.8-27B | human80 | 2:stepwise/concept_correct | 80 / 80 | 1 / 80 | 1.25 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.8-27B | human80 | 2:text_only/concept_correct | 80 / 80 | 41 / 80 | 51.25 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.8-27B | human80 | 2:two_shot/concept_correct | 80 / 80 | 10 / 80 | 12.50 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.8-27B | human80 | 3:1-cue/word_correct | 480 / 480 | 251 / 480 | 52.29 | 0 | 0 | 0 | 0 |
+| Qwen/Qwen3.8-27B | human80 | 3:2-cue/word_correct | 240 / 240 | 128 / 240 | 53.33 | 0 | 0 | 0 | 0 |
+| gpt-5.6-luna | all155 | 1/top1 | 465 / 465 | 131 / 465 | 28.17 | 0 | 0 | 0 | 0 |
+| gpt-5.6-luna | all155 | 1/top5 | 465 / 465 | 241 / 465 | 51.83 | 0 | 0 | 0 | 0 |
+| gpt-5.6-luna | all155 | 2:direct/concept_correct | 155 / 155 | 6 / 155 | 3.87 | 0 | 0 | 0 | 0 |
+| gpt-5.6-luna | all155 | 2:sense_hint/concept_correct | 155 / 155 | 5 / 155 | 3.23 | 0 | 0 | 0 | 0 |
+| gpt-5.6-luna | all155 | 2:stepwise/concept_correct | 155 / 155 | 7 / 155 | 4.52 | 0 | 0 | 0 | 0 |
+| gpt-5.6-luna | all155 | 2:text_only/concept_correct | 155 / 155 | 74 / 155 | 47.74 | 0 | 0 | 0 | 0 |
+| gpt-5.6-luna | all155 | 2:two_shot/concept_correct | 155 / 155 | 21 / 155 | 13.55 | 0 | 0 | 0 | 0 |
+| gpt-5.6-luna | all155 | 3:1-cue/word_correct | 930 / 930 | 530 / 930 | 56.99 | 0 | 0 | 0 | 0 |
+| gpt-5.6-luna | all155 | 3:2-cue/word_correct | 465 / 465 | 278 / 465 | 59.78 | 0 | 1 | 0 | 0 |
+| gpt-5.6-luna | human80 | 1/top1 | 240 / 240 | 66 / 240 | 27.50 | 0 | 0 | 0 | 0 |
+| gpt-5.6-luna | human80 | 1/top5 | 240 / 240 | 127 / 240 | 52.92 | 0 | 0 | 0 | 0 |
+| gpt-5.6-luna | human80 | 2:direct/concept_correct | 80 / 80 | 5 / 80 | 6.25 | 0 | 0 | 0 | 0 |
+| gpt-5.6-luna | human80 | 2:sense_hint/concept_correct | 80 / 80 | 4 / 80 | 5.00 | 0 | 0 | 0 | 0 |
+| gpt-5.6-luna | human80 | 2:stepwise/concept_correct | 80 / 80 | 4 / 80 | 5.00 | 0 | 0 | 0 | 0 |
+| gpt-5.6-luna | human80 | 2:text_only/concept_correct | 80 / 80 | 49 / 80 | 61.25 | 0 | 0 | 0 | 0 |
+| gpt-5.6-luna | human80 | 2:two_shot/concept_correct | 80 / 80 | 12 / 80 | 15.00 | 0 | 0 | 0 | 0 |
+| gpt-5.6-luna | human80 | 3:1-cue/word_correct | 480 / 480 | 270 / 480 | 56.25 | 0 | 0 | 0 | 0 |
+| gpt-5.6-luna | human80 | 3:2-cue/word_correct | 240 / 240 | 140 / 240 | 58.33 | 0 | 1 | 0 | 0 |
+| gpt-5.6-sol | all155 | 1/top1 | 465 / 465 | 129 / 465 | 27.74 | 0 | 0 | 0 | 0 |
+| gpt-5.6-sol | all155 | 1/top5 | 465 / 465 | 207 / 465 | 44.52 | 0 | 0 | 0 | 0 |
+| gpt-5.6-sol | all155 | 2:direct/concept_correct | 155 / 155 | 8 / 155 | 5.16 | 0 | 0 | 0 | 0 |
+| gpt-5.6-sol | all155 | 2:sense_hint/concept_correct | 155 / 155 | 25 / 155 | 16.13 | 0 | 0 | 0 | 0 |
+| gpt-5.6-sol | all155 | 2:stepwise/concept_correct | 155 / 155 | 5 / 155 | 3.23 | 0 | 0 | 0 | 0 |
+| gpt-5.6-sol | all155 | 2:text_only/concept_correct | 155 / 155 | 98 / 155 | 63.23 | 0 | 0 | 0 | 0 |
+| gpt-5.6-sol | all155 | 2:two_shot/concept_correct | 155 / 155 | 21 / 155 | 13.55 | 0 | 0 | 0 | 0 |
+| gpt-5.6-sol | all155 | 3:1-cue/word_correct | 930 / 930 | 610 / 930 | 65.59 | 0 | 0 | 0 | 0 |
+| gpt-5.6-sol | all155 | 3:2-cue/word_correct | 465 / 465 | 338 / 465 | 72.69 | 0 | 0 | 0 | 0 |
+| gpt-5.6-sol | human80 | 1/top1 | 240 / 240 | 63 / 240 | 26.25 | 0 | 0 | 0 | 0 |
+| gpt-5.6-sol | human80 | 1/top5 | 240 / 240 | 106 / 240 | 44.17 | 0 | 0 | 0 | 0 |
+| gpt-5.6-sol | human80 | 2:direct/concept_correct | 80 / 80 | 6 / 80 | 7.50 | 0 | 0 | 0 | 0 |
+| gpt-5.6-sol | human80 | 2:sense_hint/concept_correct | 80 / 80 | 19 / 80 | 23.75 | 0 | 0 | 0 | 0 |
+| gpt-5.6-sol | human80 | 2:stepwise/concept_correct | 80 / 80 | 3 / 80 | 3.75 | 0 | 0 | 0 | 0 |
+| gpt-5.6-sol | human80 | 2:text_only/concept_correct | 80 / 80 | 59 / 80 | 73.75 | 0 | 0 | 0 | 0 |
+| gpt-5.6-sol | human80 | 2:two_shot/concept_correct | 80 / 80 | 13 / 80 | 16.25 | 0 | 0 | 0 | 0 |
+| gpt-5.6-sol | human80 | 3:1-cue/word_correct | 480 / 480 | 322 / 480 | 67.08 | 0 | 0 | 0 | 0 |
+| gpt-5.6-sol | human80 | 3:2-cue/word_correct | 240 / 240 | 181 / 240 | 75.42 | 0 | 0 | 0 | 0 |
+| claude-haiku-4-5-20251001 | all155 | 1/top1 | 465 / 465 | 144 / 465 | 30.97 | 0 | 0 | 0 | 0 |
+| claude-haiku-4-5-20251001 | all155 | 1/top5 | 465 / 465 | 237 / 465 | 50.97 | 0 | 0 | 0 | 0 |
+| claude-haiku-4-5-20251001 | all155 | 2:direct/concept_correct | 155 / 155 | 6 / 155 | 3.87 | 0 | 0 | 0 | 0 |
+| claude-haiku-4-5-20251001 | all155 | 2:sense_hint/concept_correct | 155 / 155 | 2 / 155 | 1.29 | 0 | 0 | 0 | 0 |
+| claude-haiku-4-5-20251001 | all155 | 2:stepwise/concept_correct | 155 / 155 | 7 / 155 | 4.52 | 0 | 0 | 0 | 0 |
+| claude-haiku-4-5-20251001 | all155 | 2:text_only/concept_correct | 155 / 155 | 79 / 155 | 50.97 | 0 | 0 | 0 | 0 |
+| claude-haiku-4-5-20251001 | all155 | 2:two_shot/concept_correct | 155 / 155 | 27 / 155 | 17.42 | 0 | 0 | 0 | 0 |
+| claude-haiku-4-5-20251001 | all155 | 3:1-cue/word_correct | 930 / 930 | 446 / 930 | 47.96 | 0 | 0 | 0 | 0 |
+| claude-haiku-4-5-20251001 | all155 | 3:2-cue/word_correct | 465 / 465 | 222 / 465 | 47.74 | 0 | 0 | 0 | 0 |
+| claude-haiku-4-5-20251001 | human80 | 1/top1 | 240 / 240 | 80 / 240 | 33.33 | 0 | 0 | 0 | 0 |
+| claude-haiku-4-5-20251001 | human80 | 1/top5 | 240 / 240 | 115 / 240 | 47.92 | 0 | 0 | 0 | 0 |
+| claude-haiku-4-5-20251001 | human80 | 2:direct/concept_correct | 80 / 80 | 4 / 80 | 5.00 | 0 | 0 | 0 | 0 |
+| claude-haiku-4-5-20251001 | human80 | 2:sense_hint/concept_correct | 80 / 80 | 2 / 80 | 2.50 | 0 | 0 | 0 | 0 |
+| claude-haiku-4-5-20251001 | human80 | 2:stepwise/concept_correct | 80 / 80 | 4 / 80 | 5.00 | 0 | 0 | 0 | 0 |
+| claude-haiku-4-5-20251001 | human80 | 2:text_only/concept_correct | 80 / 80 | 48 / 80 | 60.00 | 0 | 0 | 0 | 0 |
+| claude-haiku-4-5-20251001 | human80 | 2:two_shot/concept_correct | 80 / 80 | 21 / 80 | 26.25 | 0 | 0 | 0 | 0 |
+| claude-haiku-4-5-20251001 | human80 | 3:1-cue/word_correct | 480 / 480 | 247 / 480 | 51.46 | 0 | 0 | 0 | 0 |
+| claude-haiku-4-5-20251001 | human80 | 3:2-cue/word_correct | 240 / 240 | 121 / 240 | 50.42 | 0 | 0 | 0 | 0 |
+| claude-opus-5-5 | all155 | 1/top1 | 465 / 465 | 116 / 465 | 24.95 | 0 | 0 | 0 | 0 |
+| claude-opus-5-5 | all155 | 1/top5 | 465 / 465 | 192 / 465 | 41.29 | 0 | 0 | 0 | 0 |
+| claude-opus-5-5 | all155 | 2:direct/concept_correct | 155 / 155 | 35 / 155 | 22.58 | 0 | 0 | 0 | 0 |
+| claude-opus-5-5 | all155 | 2:sense_hint/concept_correct | 155 / 155 | 63 / 155 | 40.65 | 0 | 0 | 0 | 0 |
+| claude-opus-5-5 | all155 | 2:stepwise/concept_correct | 155 / 155 | 46 / 155 | 29.68 | 0 | 0 | 0 | 0 |
+| claude-opus-5-5 | all155 | 2:text_only/concept_correct | 155 / 155 | 127 / 155 | 81.94 | 0 | 0 | 0 | 0 |
+| claude-opus-5-5 | all155 | 2:two_shot/concept_correct | 155 / 155 | 57 / 155 | 36.77 | 0 | 0 | 0 | 0 |
+| claude-opus-5-5 | all155 | 3:1-cue/word_correct | 930 / 930 | 708 / 930 | 76.13 | 0 | 0 | 0 | 0 |
+| claude-opus-5-5 | all155 | 3:2-cue/word_correct | 465 / 465 | 398 / 465 | 85.59 | 0 | 0 | 0 | 0 |
+| claude-opus-5-5 | human80 | 1/top1 | 240 / 240 | 51 / 240 | 21.25 | 0 | 0 | 0 | 0 |
+| claude-opus-5-5 | human80 | 1/top5 | 240 / 240 | 90 / 240 | 37.50 | 0 | 0 | 0 | 0 |
+| claude-opus-5-5 | human80 | 2:direct/concept_correct | 80 / 80 | 26 / 80 | 32.50 | 0 | 0 | 0 | 0 |
+| claude-opus-5-5 | human80 | 2:sense_hint/concept_correct | 80 / 80 | 42 / 80 | 52.50 | 0 | 0 | 0 | 0 |
+| claude-opus-5-5 | human80 | 2:stepwise/concept_correct | 80 / 80 | 33 / 80 | 41.25 | 0 | 0 | 0 | 0 |
+| claude-opus-5-5 | human80 | 2:text_only/concept_correct | 80 / 80 | 72 / 80 | 90.00 | 0 | 0 | 0 | 0 |
+| claude-opus-5-5 | human80 | 2:two_shot/concept_correct | 80 / 80 | 36 / 80 | 45.00 | 0 | 0 | 0 | 0 |
+| claude-opus-5-5 | human80 | 3:1-cue/word_correct | 480 / 480 | 383 / 480 | 79.79 | 0 | 0 | 0 | 0 |
+| claude-opus-5-5 | human80 | 3:2-cue/word_correct | 240 / 240 | 212 / 240 | 88.33 | 0 | 0 | 0 | 0 |
+| google/gemma-4-12B-it | all155 | 1/top1 | 465 / 465 | 176 / 465 | 37.85 | 0 | 0 | 0 | 0 |
+| google/gemma-4-12B-it | all155 | 1/top5 | 465 / 465 | 260 / 465 | 55.91 | 0 | 0 | 0 | 0 |
+| google/gemma-4-12B-it | all155 | 2:direct/concept_correct | 155 / 155 | 15 / 155 | 9.68 | 0 | 0 | 0 | 0 |
+| google/gemma-4-12B-it | all155 | 2:sense_hint/concept_correct | 155 / 155 | 5 / 155 | 3.23 | 0 | 0 | 0 | 0 |
+| google/gemma-4-12B-it | all155 | 2:stepwise/concept_correct | 155 / 155 | 3 / 155 | 1.94 | 0 | 0 | 0 | 0 |
+| google/gemma-4-12B-it | all155 | 2:text_only/concept_correct | 155 / 155 | 62 / 155 | 40.00 | 0 | 0 | 0 | 0 |
+| google/gemma-4-12B-it | all155 | 2:two_shot/concept_correct | 155 / 155 | 6 / 155 | 3.87 | 0 | 0 | 0 | 0 |
+| google/gemma-4-12B-it | all155 | 3:1-cue/word_correct | 930 / 930 | 461 / 930 | 49.57 | 0 | 0 | 0 | 0 |
+| google/gemma-4-12B-it | all155 | 3:2-cue/word_correct | 465 / 465 | 233 / 465 | 50.11 | 0 | 0 | 0 | 0 |
+| google/gemma-4-12B-it | human80 | 1/top1 | 240 / 240 | 97 / 240 | 40.42 | 0 | 0 | 0 | 0 |
+| google/gemma-4-12B-it | human80 | 1/top5 | 240 / 240 | 142 / 240 | 59.17 | 0 | 0 | 0 | 0 |
+| google/gemma-4-12B-it | human80 | 2:direct/concept_correct | 80 / 80 | 10 / 80 | 12.50 | 0 | 0 | 0 | 0 |
+| google/gemma-4-12B-it | human80 | 2:sense_hint/concept_correct | 80 / 80 | 4 / 80 | 5.00 | 0 | 0 | 0 | 0 |
+| google/gemma-4-12B-it | human80 | 2:stepwise/concept_correct | 80 / 80 | 2 / 80 | 2.50 | 0 | 0 | 0 | 0 |
+| google/gemma-4-12B-it | human80 | 2:text_only/concept_correct | 80 / 80 | 45 / 80 | 56.25 | 0 | 0 | 0 | 0 |
+| google/gemma-4-12B-it | human80 | 2:two_shot/concept_correct | 80 / 80 | 4 / 80 | 5.00 | 0 | 0 | 0 | 0 |
+| google/gemma-4-12B-it | human80 | 3:1-cue/word_correct | 480 / 480 | 254 / 480 | 52.92 | 0 | 0 | 0 | 0 |
+| google/gemma-4-12B-it | human80 | 3:2-cue/word_correct | 240 / 240 | 134 / 240 | 55.83 | 0 | 0 | 0 | 0 |
+| OpenGVLab/InternVL3_5-8B-HF | all155 | 1/top1 | 465 / 465 | 152 / 465 | 32.69 | 0 | 0 | 0 | 0 |
+| OpenGVLab/InternVL3_5-8B-HF | all155 | 1/top5 | 465 / 465 | 218 / 465 | 46.88 | 0 | 0 | 0 | 0 |
+| OpenGVLab/InternVL3_5-8B-HF | all155 | 2:direct/concept_correct | 155 / 155 | 2 / 155 | 1.29 | 0 | 0 | 0 | 0 |
+| OpenGVLab/InternVL3_5-8B-HF | all155 | 2:sense_hint/concept_correct | 155 / 155 | 3 / 155 | 1.94 | 0 | 0 | 0 | 0 |
+| OpenGVLab/InternVL3_5-8B-HF | all155 | 2:stepwise/concept_correct | 155 / 155 | 0 / 155 | 0.00 | 0 | 0 | 0 | 0 |
+| OpenGVLab/InternVL3_5-8B-HF | all155 | 2:text_only/concept_correct | 155 / 155 | 33 / 155 | 21.29 | 0 | 0 | 0 | 0 |
+| OpenGVLab/InternVL3_5-8B-HF | all155 | 2:two_shot/concept_correct | 155 / 155 | 1 / 155 | 0.65 | 0 | 0 | 0 | 0 |
+| OpenGVLab/InternVL3_5-8B-HF | all155 | 3:1-cue/word_correct | 930 / 930 | 310 / 930 | 33.33 | 0 | 0 | 0 | 0 |
+| OpenGVLab/InternVL3_5-8B-HF | all155 | 3:2-cue/word_correct | 465 / 465 | 151 / 465 | 32.47 | 0 | 0 | 0 | 0 |
+| OpenGVLab/InternVL3_5-8B-HF | human80 | 1/top1 | 240 / 240 | 82 / 240 | 34.17 | 0 | 0 | 0 | 0 |
+| OpenGVLab/InternVL3_5-8B-HF | human80 | 1/top5 | 240 / 240 | 120 / 240 | 50.00 | 0 | 0 | 0 | 0 |
+| OpenGVLab/InternVL3_5-8B-HF | human80 | 2:direct/concept_correct | 80 / 80 | 1 / 80 | 1.25 | 0 | 0 | 0 | 0 |
+| OpenGVLab/InternVL3_5-8B-HF | human80 | 2:sense_hint/concept_correct | 80 / 80 | 3 / 80 | 3.75 | 0 | 0 | 0 | 0 |
+| OpenGVLab/InternVL3_5-8B-HF | human80 | 2:stepwise/concept_correct | 80 / 80 | 0 / 80 | 0.00 | 0 | 0 | 0 | 0 |
+| OpenGVLab/InternVL3_5-8B-HF | human80 | 2:text_only/concept_correct | 80 / 80 | 25 / 80 | 31.25 | 0 | 0 | 0 | 0 |
+| OpenGVLab/InternVL3_5-8B-HF | human80 | 2:two_shot/concept_correct | 80 / 80 | 0 / 80 | 0.00 | 0 | 0 | 0 | 0 |
+| OpenGVLab/InternVL3_5-8B-HF | human80 | 3:1-cue/word_correct | 480 / 480 | 166 / 480 | 34.58 | 0 | 0 | 0 | 0 |
+| OpenGVLab/InternVL3_5-8B-HF | human80 | 3:2-cue/word_correct | 240 / 240 | 85 / 240 | 35.42 | 0 | 0 | 0 | 0 |
+| RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16 | all155 | 1/top1 | 465 / 465 | 160 / 465 | 34.41 | 0 | 0 | 0 | 0 |
+| RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16 | all155 | 1/top5 | 465 / 465 | 252 / 465 | 54.19 | 0 | 0 | 0 | 0 |
+| RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16 | all155 | 2:direct/concept_correct | 155 / 155 | 1 / 155 | 0.65 | 0 | 0 | 0 | 0 |
+| RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16 | all155 | 2:sense_hint/concept_correct | 155 / 155 | 2 / 155 | 1.29 | 0 | 0 | 0 | 0 |
+| RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16 | all155 | 2:stepwise/concept_correct | 155 / 155 | 1 / 155 | 0.65 | 0 | 0 | 0 | 0 |
+| RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16 | all155 | 2:text_only/concept_correct | 155 / 155 | 53 / 155 | 34.19 | 0 | 0 | 0 | 0 |
+| RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16 | all155 | 2:two_shot/concept_correct | 155 / 155 | 0 / 155 | 0.00 | 0 | 0 | 0 | 0 |
+| RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16 | all155 | 3:1-cue/word_correct | 930 / 930 | 428 / 930 | 46.02 | 0 | 0 | 0 | 0 |
+| RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16 | all155 | 3:2-cue/word_correct | 465 / 465 | 235 / 465 | 50.54 | 0 | 0 | 0 | 0 |
+| RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16 | human80 | 1/top1 | 240 / 240 | 90 / 240 | 37.50 | 0 | 0 | 0 | 0 |
+| RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16 | human80 | 1/top5 | 240 / 240 | 137 / 240 | 57.08 | 0 | 0 | 0 | 0 |
+| RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16 | human80 | 2:direct/concept_correct | 80 / 80 | 1 / 80 | 1.25 | 0 | 0 | 0 | 0 |
+| RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16 | human80 | 2:sense_hint/concept_correct | 80 / 80 | 2 / 80 | 2.50 | 0 | 0 | 0 | 0 |
+| RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16 | human80 | 2:stepwise/concept_correct | 80 / 80 | 1 / 80 | 1.25 | 0 | 0 | 0 | 0 |
+| RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16 | human80 | 2:text_only/concept_correct | 80 / 80 | 35 / 80 | 43.75 | 0 | 0 | 0 | 0 |
+| RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16 | human80 | 2:two_shot/concept_correct | 80 / 80 | 0 / 80 | 0.00 | 0 | 0 | 0 | 0 |
+| RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16 | human80 | 3:1-cue/word_correct | 480 / 480 | 237 / 480 | 49.38 | 0 | 0 | 0 | 0 |
+| RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16 | human80 | 3:2-cue/word_correct | 240 / 240 | 132 / 240 | 55.00 | 0 | 0 | 0 | 0 |
+
+## Human80
+
+| Budget | Average Individual Success (%) | Participant-Puzzle Correct / N | Group Coverage (%) | Puzzles Covered / N |
+|---|---:|---:|---:|---:|
+| first_attempt | 16.50 | 66 / 400 | 57.50 | 46 / 80 |
+| within_three_attempts | 22.75 | 91 / 400 | 70.00 | 56 / 80 |
+
+## Stepwise Diagnostics
+
+| Model | Scope | Labels Correct / N (Complete Triples) | All Three Correct / N | Concept: All Correct Labels | Concept: Any Incorrect Label | Missing Label Triples | Malformed Label Triples |
+|---|---|---:|---:|---:|---:|---:|---:|
+| deepseek-flash | all155 | 197 / 465 | 20 / 155 | 2 / 20 | 5 / 135 | 0 | 0 |
+| deepseek-flash | human80 | 105 / 240 | 10 / 80 | 2 / 10 | 3 / 70 | 0 | 0 |
+| allenai/Molmo2-8B | all155 | 111 / 465 | 3 / 155 | 0 / 3 | 3 / 152 | 0 | 0 |
+| allenai/Molmo2-8B | human80 | 68 / 240 | 1 / 80 | 0 / 1 | 0 / 79 | 0 | 0 |
+| Qwen/Qwen3.5-9B | all155 | 153 / 465 | 9 / 155 | 0 / 9 | 1 / 146 | 0 | 0 |
+| Qwen/Qwen3.5-9B | human80 | 77 / 240 | 5 / 80 | 0 / 5 | 1 / 75 | 0 | 0 |
+| Qwen/Qwen3.8-27B | all155 | 188 / 465 | 20 / 155 | 0 / 20 | 2 / 135 | 0 | 0 |
+| Qwen/Qwen3.8-27B | human80 | 98 / 240 | 10 / 80 | 0 / 10 | 1 / 70 | 0 | 0 |
+| gpt-5.6-luna | all155 | 206 / 465 | 16 / 155 | 0 / 16 | 7 / 139 | 0 | 0 |
+| gpt-5.6-luna | human80 | 103 / 240 | 8 / 80 | 0 / 8 | 4 / 72 | 0 | 0 |
+| gpt-5.6-sol | all155 | 210 / 465 | 20 / 155 | 3 / 20 | 2 / 135 | 0 | 0 |
+| gpt-5.6-sol | human80 | 105 / 240 | 8 / 80 | 1 / 8 | 2 / 72 | 0 | 0 |
+| claude-haiku-4-5-20251001 | all155 | 196 / 465 | 15 / 155 | 0 / 15 | 7 / 140 | 0 | 0 |
+| claude-haiku-4-5-20251001 | human80 | 94 / 240 | 5 / 80 | 0 / 5 | 4 / 75 | 0 | 0 |
+| claude-opus-5-5 | all155 | 320 / 465 | 66 / 155 | 37 / 66 | 9 / 89 | 0 | 0 |
+| claude-opus-5-5 | human80 | 172 / 240 | 37 / 80 | 27 / 37 | 6 / 43 | 0 | 0 |
+| google/gemma-4-12B-it | all155 | 186 / 465 | 15 / 155 | 0 / 15 | 3 / 140 | 0 | 0 |
+| google/gemma-4-12B-it | human80 | 95 / 240 | 8 / 80 | 0 / 8 | 2 / 72 | 0 | 0 |
+| OpenGVLab/InternVL3_5-8B-HF | all155 | 135 / 465 | 7 / 155 | 0 / 7 | 0 / 148 | 0 | 0 |
+| OpenGVLab/InternVL3_5-8B-HF | human80 | 73 / 240 | 5 / 80 | 0 / 5 | 0 / 75 | 0 | 0 |
+| RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16 | all155 | 195 / 465 | 21 / 155 | 1 / 21 | 0 / 134 | 0 | 0 |
+| RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16 | human80 | 104 / 240 | 15 / 80 | 1 / 15 | 0 / 65 | 0 | 0 |
+
+See summary.json for Stepwise groups, generation-setting differences, input provenance, and normalization.
+Missing coverage and unresolved judgments must be resolved before treating a row as a final complete result.
+Human-study image selection differs for some historical versus final inputs; compare historical_input_differences before claiming identical image inputs.

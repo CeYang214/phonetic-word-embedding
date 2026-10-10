@@ -1,0 +1,941 @@
+concept_correct,cue_count,experiment,gold_concept,gold_word,predicted_concept,predicted_word,puzzle_id,status,target_slot,task_key,variant,word_correct
+False,1,3,jewelry,ring,enclosed fighting area,ring,IR001,ok,0,3:IR001:0:1,,True
+False,2,3,jewelry,ring,things that sound like jewelry but mean something else,ring,IR001,ok,0,3:IR001:0:2,,True
+False,1,3,jewelry,choker,things with holes,net,IR001,ok,1,3:IR001:1:1,,False
+False,2,3,jewelry,choker,things with mesh used in sports,net,IR001,ok,1,3:IR001:1:2,,False
+False,1,3,jewelry,charm,U-shaped objects,horseshoe,IR001,ok,2,3:IR001:2:1,,False
+False,2,3,jewelry,charm,U-shaped objects that bring good luck,horseshoe,IR001,ok,2,3:IR001:2:2,,False
+False,1,3,bag,clutch,things that can be pushed with the foot,pedal,IR003,ok,0,3:IR003:0:1,,False
+False,2,3,bag,clutch,things that can be pushed with a foot,pedal,IR003,ok,0,3:IR003:0:2,,False
+False,1,3,bag,hobo,"one who carries or transports goods, supplies, or messages",carrier,IR003,ok,1,3:IR003:1:1,,False
+False,2,3,bag,hobo,things that can be pushed,pram,IR003,ok,1,3:IR003:1:2,,False
+False,1,3,bag,messenger,automotive terms,delivery,IR003,ok,2,3:IR003:2:1,,False
+False,2,3,bag,messenger,types of bicycles,delivery,IR003,ok,2,3:IR003:2:2,,False
+False,1,3,beverage,punch,martial arts techniques,punch,IR004,ok,0,3:IR004:0:1,,True
+False,2,3,beverage,punch,boxing terms,punch,IR004,ok,0,3:IR004:0:2,,True
+False,1,3,beverage,shake,gestures,shake,IR004,ok,1,3:IR004:1:1,,True
+False,2,3,beverage,shake,drinks,shake,IR004,ok,1,3:IR004:1:2,,True
+False,1,3,beverage,float,drinks,parade,IR004,ok,2,3:IR004:2:1,,False
+False,2,3,beverage,float,types of punches in boxing,parade,IR004,ok,2,3:IR004:2:2,,False
+False,1,3,plant,stem,material,glass,IR005,ok,0,3:IR005:0:1,,False
+False,2,3,plant,stem,parts of a plant,stem,IR005,ok,0,3:IR005:0:2,,True
+False,1,3,plant,bark,things a dog does,bark,IR005,ok,1,3:IR005:1:1,,True
+False,2,3,plant,bark,"things that can be stem, root, or bar (words with multiple meanings)",bar,IR005,ok,1,3:IR005:1:2,,False
+False,1,3,plant,root,tools used in laboratory experiments,pipette,IR005,ok,2,3:IR005:2:1,,False
+False,2,3,plant,root,biology terms with non-biological meanings,cell,IR005,ok,2,3:IR005:2:2,,False
+False,1,3,board game,risk,programming,cliff,IR006,ok,0,3:IR006:0:1,,False
+False,2,3,board game,risk,"board games (Operation, Clue, Danger)",danger,IR006,ok,0,3:IR006:0:2,,False
+False,1,3,board game,operation,medical procedures,operation,IR006,ok,1,3:IR006:1:1,,True
+False,2,3,board game,operation,board games,operation,IR006,ok,1,3:IR006:1:2,,True
+False,1,3,board game,clue,games,board,IR006,ok,2,3:IR006:2:1,,False
+False,2,3,board game,clue,True Detective (TV series),investigation,IR006,ok,2,3:IR006:2:2,,False
+False,1,3,ship,bark,homonyms with distinct meanings,bark,P007,ok,0,3:P007:0:1,,True
+False,2,3,ship,bark,tree exterior,bark,P007,ok,0,3:P007:0:2,,True
+False,1,3,ship,cutter,Chinese zodiac animals,star,P007,ok,1,3:P007:1:1,,False
+False,2,3,ship,cutter,"things with dual meanings, one being a type of boat",cutter,P007,ok,1,3:P007:1:2,,True
+False,1,3,ship,steamer,tree parts and cooking actions with double meanings,steam,P007,ok,2,3:P007:2:1,,False
+False,2,3,ship,steamer,things that are also types of kitchen tools or vessels named after the action or object they are associated with (bark -> tree covering / sound a dog makes; cutter -> tool / a type of boat; steamer -> cooking vessel / a type of boat),steamer,P007,ok,2,3:P007:2:2,,True
+False,1,3,river,bed,furniture,bed,IR007,ok,0,3:IR007:0:1,,True
+False,2,3,river,bed,things with a head/foot,bed,IR007,ok,0,3:IR007:0:2,,True
+False,1,3,river,bank,river edge,bank,IR007,ok,1,3:IR007:1:1,,True
+False,2,3,river,bank,river side,bank,IR007,ok,1,3:IR007:1:2,,True
+True,1,3,river,mouth,river,mouth,IR007,ok,2,3:IR007:2:1,,True
+False,2,3,river,mouth,parts of a river,mouth,IR007,ok,2,3:IR007:2:2,,True
+False,1,3,skeleton,spine,parts of objects,spine,IR008,ok,0,3:IR008:0:1,,True
+False,2,3,skeleton,spine,parts of objects,spine,IR008,ok,0,3:IR008:0:2,,True
+False,1,3,skeleton,arch,card games,bridge,IR008,ok,1,3:IR008:1:1,,False
+False,2,3,skeleton,arch,structural supports,arch,IR008,ok,1,3:IR008:1:2,,True
+False,1,3,skeleton,cage,things that can be 'spine' or have ribs as a structural part,cage,IR008,ok,2,3:IR008:2:1,,True
+False,2,3,skeleton,cage,Structural supports or curved architectural elements,cage,IR008,ok,2,3:IR008:2:2,,True
+False,1,3,bread,roll,things that can be twisted or rolled,roll,IR009,ok,0,3:IR009:0:1,,True
+False,2,3,bread,roll,verbs meaning to shape by turning or wrapping,roll,IR009,ok,0,3:IR009:0:2,,True
+False,1,3,bread,twist,cocktail garnishes,twist,IR009,ok,1,3:IR009:1:1,,True
+False,2,3,bread,twist,types of dance,twist,IR009,ok,1,3:IR009:1:2,,True
+False,1,3,bread,loaf,domestic animal,cat,IR009,ok,2,3:IR009:2:1,,False
+False,2,3,bread,loaf,hair styles,curl,IR009,ok,2,3:IR009:2:2,,False
+False,1,3,garment,slip,proof of purchase,receipt,IR010,ok,0,3:IR010:0:1,,False
+False,2,3,garment,slip,proof of purchase,receipt,IR010,ok,0,3:IR010:0:2,,False
+False,1,3,garment,jumper,electronics components named after clothing or military terms,jumper,IR010,ok,1,3:IR010:1:1,,True
+False,2,3,garment,jumper,things with ribbon-like structures,wire,IR010,ok,1,3:IR010:1:2,,False
+False,1,3,garment,tank,military vehicles,tank,IR010,ok,2,3:IR010:2:1,,True
+False,2,3,garment,tank,clothing,tank,IR010,ok,2,3:IR010:2:2,,True
+False,1,3,shoe,mule,"mamma johnson's ""baa baa black sheep"" has three of these, and a pump is a type of shoe, so the hidden category is words in the lyrics of ""The Twelve Days of Christmas"" replaced by other meanings",donkey,IR011,ok,0,3:IR011:0:1,,False
+False,2,3,shoe,mule,physics simple machines,donkey,IR011,ok,0,3:IR011:0:2,,False
+False,1,3,shoe,pump,types of simple machines,pump,IR011,ok,1,3:IR011:1:1,,True
+False,2,3,shoe,pump,shoe types,pump,IR011,ok,1,3:IR011:1:2,,True
+False,1,3,shoe,wedge,foods named after colors,blue cheese,IR011,ok,2,3:IR011:2:1,,False
+False,2,3,shoe,wedge,types of cheese,blue,IR011,ok,2,3:IR011:2:2,,False
+False,1,3,shoe,tongue,body parts that are also types of fish,tongue,IR012,ok,0,3:IR012:0:1,,True
+False,2,3,shoe,tongue,parts of a shoe,tongue,IR012,ok,0,3:IR012:0:2,,True
+False,1,3,shoe,sole,fish,sole,IR012,ok,1,3:IR012:1:1,,True
+False,2,3,shoe,sole,fish,sole,IR012,ok,1,3:IR012:1:2,,True
+False,1,3,shoe,collar,parts of clothing with another meaning,collar,IR012,ok,2,3:IR012:2:1,,True
+False,2,3,shoe,collar,parts of clothing that are also animal body parts or animals,collar,IR012,ok,2,3:IR012:2:2,,True
+False,1,3,cocktail,grasshopper,cocktails,grasshopper,IR013,ok,0,3:IR013:0:1,,True
+False,2,3,cocktail,grasshopper,cocktails,grasshopper,IR013,ok,0,3:IR013:0:2,,True
+False,1,3,cocktail,sidecar,cocktails,sidecar,IR013,ok,1,3:IR013:1:1,,True
+False,2,3,cocktail,sidecar,cocktails,sidecar,IR013,ok,1,3:IR013:1:2,,True
+False,1,3,cocktail,screwdriver,tools,screwdriver,IR013,ok,2,3:IR013:2:1,,True
+False,2,3,cocktail,screwdriver,cocktails,screwdriver,IR013,ok,2,3:IR013:2:2,,True
+False,1,3,glass,foot,plant parts,foot,IR014,ok,0,3:IR014:0:1,,True
+False,2,3,glass,foot,parts of a wheel,toe,IR014,ok,0,3:IR014:0:2,,False
+False,1,3,glass,stem,falling or hanging downward,drop,IR014,ok,1,3:IR014:1:1,,False
+False,2,3,glass,stem,parts of a plant,stem,IR014,ok,1,3:IR014:1:2,,True
+False,1,3,glass,rim,outer edges or circular boundaries of objects,rim,IR014,ok,2,3:IR014:2:1,,True
+False,2,3,glass,rim,parts of objects/boundaries,rim,IR014,ok,2,3:IR014:2:2,,True
+False,1,3,data type,string,sequence of characters in programming,string,IR015,ok,0,3:IR015:0:1,,True
+False,2,3,data type,string,data types in programming,string,IR015,ok,0,3:IR015:0:2,,True
+False,1,3,data type,float,parade,float,IR015,ok,1,3:IR015:1:1,,True
+False,2,3,data type,float,programming types,float,IR015,ok,1,3:IR015:1:2,,True
+False,1,3,data type,character,insulting terms for foolish people,buffoon,IR015,ok,2,3:IR015:2:1,,False
+False,2,3,data type,character,acting,buffer,IR015,ok,2,3:IR015:2:2,,False
+False,1,3,computer,mouse,computer peripherals,mouse,IR016,ok,0,3:IR016:0:1,,True
+False,2,3,computer,mouse,computer hardware,mouse,IR016,ok,0,3:IR016:0:2,,True
+False,1,3,computer,bus,vehicle with wheels used for transport,bus,IR016,ok,1,3:IR016:1:1,,True
+False,2,3,computer,bus,computer hardware,bus,IR016,ok,1,3:IR016:1:2,,True
+False,1,3,computer,fan,computer hardware (cooling fan),fan,IR016,ok,2,3:IR016:2:1,,True
+False,2,3,computer,fan,computer hardware,fan,IR016,ok,2,3:IR016:2:2,,True
+False,1,3,console,saturn,Planets,Saturn,IR017,ok,0,3:IR017:0:1,,True
+False,2,3,console,saturn,planets,saturn,IR017,ok,0,3:IR017:0:2,,True
+False,1,3,console,switch,computer science control structures,switch,IR017,ok,1,3:IR017:1:1,,True
+False,2,3,console,switch,Nintendo,switch,IR017,ok,1,3:IR017:1:2,,True
+False,1,3,console,cube,shape with a letter on it,cube,IR017,ok,2,3:IR017:2:1,,True
+False,2,3,console,cube,keyboard keys,block,IR017,ok,2,3:IR017:2:2,,False
+False,1,3,cleaning,iron,things mined from the earth,ore,IR018,ok,0,3:IR018:0:1,,False
+False,2,3,cleaning,iron,things that can be orange/brown or related to oxidation/corrosion,rust,IR018,ok,0,3:IR018:0:2,,False
+False,1,3,cleaning,brush,finance,hedge,IR018,ok,1,3:IR018:1:1,,False
+False,2,3,cleaning,brush,finance,hedge,IR018,ok,1,3:IR018:1:2,,False
+False,1,3,cleaning,sponge,things that can be porous / absorbent objects,sponge,IR018,ok,2,3:IR018:2:1,,True
+False,2,3,cleaning,sponge,things that can be porous or absorbent,sponge,IR018,ok,2,3:IR018:2:2,,True
+False,1,3,dance,twist,cocktail garnishes,twist,IR019,ok,0,3:IR019:0:1,,True
+False,2,3,dance,twist,dance moves,twist,IR019,ok,0,3:IR019:0:2,,True
+False,1,3,dance,tap,types of dance,tap,IR019,ok,1,3:IR019:1:1,,True
+True,2,3,dance,tap,dance,tap,IR019,ok,1,3:IR019:1:2,,True
+False,1,3,dance,jig,fishing bait,lure,IR019,ok,2,3:IR019:2:1,,False
+False,2,3,dance,jig,fishing bait,lure,IR019,ok,2,3:IR019:2:2,,False
+False,1,3,book,leaf,plant morphology,leaf,IR020,ok,0,3:IR020:0:1,,True
+False,2,3,book,leaf,book parts,leaf,IR020,ok,0,3:IR020:0:2,,True
+False,1,3,book,plate,book parts,plate,IR020,ok,1,3:IR020:1:1,,True
+False,2,3,book,plate,Book parts,plate,IR020,ok,1,3:IR020:1:2,,True
+False,1,3,book,spine,book parts,spine,IR020,ok,2,3:IR020:2:1,,True
+False,2,3,book,spine,book parts,spine,IR020,ok,2,3:IR020:2:2,,True
+False,1,3,stage,wing,bird species with silent flight,owl,IR021,ok,0,3:IR021:0:1,,False
+False,2,3,stage,wing,baseball terms,fly,IR021,ok,0,3:IR021:0:2,,False
+False,1,3,stage,apron,things that catch or hold,hook,IR021,ok,1,3:IR021:1:1,,False
+False,2,3,stage,apron,things that can be tied,apron,IR021,ok,1,3:IR021:1:2,,True
+False,1,3,stage,trap,positions in sports,trap,IR021,ok,2,3:IR021:2:1,,True
+False,2,3,stage,trap,"things with a part that extends outward (e.g., aircraft wing, apron of a stage)",trap,IR021,ok,2,3:IR021:2:2,,True
+False,1,3,fabric,drill,tools and machinery,drill,IR022,ok,0,3:IR022:0:1,,True
+False,2,3,fabric,drill,"things that mean practice/exercise (a duck in cricket, a lawn in bowling, a drill in learning)",drill,IR022,ok,0,3:IR022:0:2,,True
+False,1,3,fabric,duck,avoid,duck,IR022,ok,1,3:IR022:1:1,,True
+False,2,3,fabric,duck,animals with tailored names that are also verbs,duck,IR022,ok,1,3:IR022:1:2,,True
+False,1,3,fabric,lawn,informants,grass,IR022,ok,2,3:IR022:2:1,,False
+False,2,3,fabric,lawn,informants,grass,IR022,ok,2,3:IR022:2:2,,False
+False,1,3,fastener,bolt,fasteners,bolt,IR023,ok,0,3:IR023:0:1,,True
+False,2,3,fastener,bolt,fasteners,bolt,IR023,ok,0,3:IR023:0:2,,True
+False,1,3,fastener,staple,container,bowl,IR023,ok,1,3:IR023:1:1,,False
+False,2,3,fastener,staple,types of pasta shapes named after hardware items,bowtie,IR023,ok,1,3:IR023:1:2,,False
+False,1,3,fastener,toggle,toggle controls,switch,IR023,ok,2,3:IR023:2:1,,False
+False,2,3,fastener,toggle,"toggle mechanisms and fasteners (as verbs, to swap/exchange or fasten)",switch,IR023,ok,2,3:IR023:2:2,,False
+False,1,3,camera equipment,crane,birds,crane,IR024,ok,0,3:IR024:0:1,,True
+False,2,3,camera equipment,crane,construction equipment,crane,IR024,ok,0,3:IR024:0:2,,True
+False,1,3,camera equipment,slider,miniature versions of food,slider,IR024,ok,1,3:IR024:1:1,,True
+False,2,3,camera equipment,slider,things that slide (or camera/film equipment),slider,IR024,ok,1,3:IR024:1:2,,True
+False,1,3,camera equipment,dolly,birds that are also construction equipment (crane),doll,IR024,ok,2,3:IR024:2:1,,False
+False,2,3,camera equipment,dolly,types of joints in woodworking or mechanics,doll,IR024,ok,2,3:IR024:2:2,,False
+False,1,3,money,buck,male animals,buck,P027,ok,0,3:P027:0:1,,True
+False,2,3,money,buck,male animals,buck,P027,ok,0,3:P027:0:2,,True
+True,1,3,money,nickel,money,change,P027,ok,1,3:P027:1:1,,False
+True,2,3,money,nickel,money,change,P027,ok,1,3:P027:1:2,,False
+False,1,3,money,bills,breakfast cereal mascots,toucan,P027,ok,2,3:P027:2:1,,False
+False,2,3,money,bills,animal beak or mouthpart,bill,P027,ok,2,3:P027:2:2,,False
+False,1,3,cheese,string,programming data types,string,IR026,ok,0,3:IR026:0:1,,True
+False,2,3,cheese,string,things used in pranks/jokes,string,IR026,ok,0,3:IR026:0:2,,True
+False,1,3,cheese,brick,"things that can be 'jacked' (lifted/raised), or words with multiple meanings like 'jack' (tool/card) and 'brick' (block/device failure)",brick,IR026,ok,1,3:IR026:1:1,,True
+False,2,3,cheese,brick,things that can be preceded by 'red' to form common phrases/terms,brick,IR026,ok,1,3:IR026:1:2,,True
+False,1,3,cheese,jack,things with a lift mechanism,jack,IR026,ok,2,3:IR026:2:1,,True
+False,2,3,cheese,jack,"things that can ""jack"" (raise/lift or hijack) / words with multiple meanings",jack,IR026,ok,2,3:IR026:2:2,,True
+False,1,3,fruit,current,colors in Magic: The Gathering,water,IR027,ok,0,3:IR027:0:1,,False
+False,2,3,fruit,current,multiple meanings (fruit/color/time or flow of water/now),current,IR027,ok,0,3:IR027:0:2,,True
+False,1,3,fruit,orange,fruit colors,orange,IR027,ok,1,3:IR027:1:1,,True
+False,2,3,fruit,orange,fruit colors,orange,IR027,ok,1,3:IR027:1:2,,True
+False,1,3,fruit,date,homonyms with multiple meanings,date,IR027,ok,2,3:IR027:2:1,,True
+False,2,3,fruit,date,fruits that are also colors,date,IR027,ok,2,3:IR027:2:2,,True
+False,1,3,chess piece,bishop,chess pieces,bishop,IR028,ok,0,3:IR028:0:1,,True
+False,2,3,chess piece,bishop,chess pieces,bishop,IR028,ok,0,3:IR028:0:2,,True
+False,1,3,chess piece,rook,chess pieces,rook,IR028,ok,1,3:IR028:1:1,,True
+False,2,3,chess piece,rook,chess pieces,rook,IR028,ok,1,3:IR028:1:2,,True
+False,1,3,chess piece,knight,chess pieces,knight,IR028,ok,2,3:IR028:2:1,,True
+False,2,3,chess piece,knight,chess pieces,knight,IR028,ok,2,3:IR028:2:2,,True
+False,1,3,cereal,ear,"Another meaning: the ability to listen or hear, as in 'to have an ear for music'.",ear,IR029,ok,0,3:IR029:0:1,,True
+False,2,3,cereal,ear,corn,ear,IR029,ok,0,3:IR029:0:2,,True
+False,1,3,cereal,beard,part of corn plant,beard,IR029,ok,1,3:IR029:1:1,,True
+False,2,3,cereal,beard,"Parts of a plant (ear, husk, beard)",beard,IR029,ok,1,3:IR029:1:2,,True
+False,1,3,cereal,husk,"body parts with homonyms in food (ear, corn)",corn,IR029,ok,2,3:IR029:2:1,,False
+False,2,3,cereal,husk,outer covering,husk,IR029,ok,2,3:IR029:2:2,,True
+False,1,3,weapon,club,things that can be 'clubbed' or are symbols of authority/power,club,IR030,ok,0,3:IR030:0:1,,True
+False,2,3,weapon,club,weapons,club,IR030,ok,0,3:IR030:0:2,,True
+False,1,3,weapon,mace,plants whose names are also musical instruments or musical terms,nutmeg,IR030,ok,1,3:IR030:1:1,,False
+False,2,3,weapon,mace,weapons in the game Clue,nutmeg,IR030,ok,1,3:IR030:1:2,,False
+False,1,3,weapon,pike,fish,pike,IR030,ok,2,3:IR030:2:1,,True
+False,2,3,weapon,pike,Spices,gar,IR030,ok,2,3:IR030:2:2,,False
+False,1,3,guitar,neck,parts of a bridge,neck,IR031,ok,0,3:IR031:0:1,,True
+False,2,3,guitar,neck,guitar parts,neck,IR031,ok,0,3:IR031:0:2,,True
+False,1,3,guitar,bridge,card games,bridge,IR031,ok,1,3:IR031:1:1,,True
+False,2,3,guitar,bridge,guitar parts,bridge,IR031,ok,1,3:IR031:1:2,,True
+False,1,3,guitar,saddle,,saddle,IR031,ok,2,3:IR031:2:1,,True
+False,2,3,guitar,saddle,parts of a violin,saddle,IR031,ok,2,3:IR031:2:2,,True
+False,1,3,clock,face,body parts,face,IR033,ok,0,3:IR033:0:1,,True
+False,2,3,clock,face,parts of a watch,face,IR033,ok,0,3:IR033:0:2,,True
+False,1,3,clock,hand,part of the body,hand,IR033,ok,1,3:IR033:1:1,,True
+False,2,3,clock,hand,parts of a clock,hand,IR033,ok,1,3:IR033:1:2,,True
+False,1,3,clock,crown,parts of a clock,crown,IR033,ok,2,3:IR033:2:1,,True
+False,2,3,clock,crown,parts of a watch,crown,IR033,ok,2,3:IR033:2:2,,True
+False,1,3,bed,spring,season,spring,IR034,ok,0,3:IR034:0:1,,True
+False,2,3,bed,spring,billiards,pool,IR034,ok,0,3:IR034:0:2,,False
+False,1,3,bed,post,things that can be skirted,fence,IR034,ok,1,3:IR034:1:1,,False
+False,2,3,bed,post,"things that can be straddled (spring, skirt, fence)",fence,IR034,ok,1,3:IR034:1:2,,False
+False,1,3,bed,skirt,clothing,skirt,IR034,ok,2,3:IR034:2:1,,True
+False,2,3,bed,skirt,things with a border/edge (outskirts),skirt,IR034,ok,2,3:IR034:2:2,,True
+False,1,3,malware,worm,computer malware,worm,IR035,ok,0,3:IR035:0:1,,True
+True,2,3,malware,worm,malware,worm,IR035,ok,0,3:IR035:0:2,,True
+False,1,3,malware,virus,computer malware,virus,IR035,ok,1,3:IR035:1:1,,True
+True,2,3,malware,virus,malware,virus,IR035,ok,1,3:IR035:1:2,,True
+False,1,3,malware,trojan,computer malware,trojan,IR035,ok,2,3:IR035:2:1,,True
+False,2,3,malware,trojan,computing malware,trojan,IR035,ok,2,3:IR035:2:2,,True
+False,1,3,clasp,lobster,computer terms (shell),shellfish,IR036,ok,0,3:IR036:0:1,,False
+False,2,3,clasp,lobster,pinball,lobster,IR036,ok,0,3:IR036:0:2,,True
+False,1,3,clasp,toggle,beer dispensing equipment,taps,IR036,ok,1,3:IR036:1:1,,False
+False,2,3,clasp,toggle,drinking establishment fixtures,tap,IR036,ok,1,3:IR036:1:2,,False
+False,1,3,clasp,barrel,"containers for aging wine/spirits (e.g., barrel, cask, keg)",cask,IR036,ok,2,3:IR036:2:1,,False
+False,2,3,clasp,barrel,GUI elements,barrel,IR036,ok,2,3:IR036:2:2,,True
+False,1,3,blender,pitcher,baseball positions that are also containers,pitcher,IR037,ok,0,3:IR037:0:1,,True
+False,2,3,blender,pitcher,baseball positions that are also containers/objects,pitcher,IR037,ok,0,3:IR037:0:2,,True
+False,1,3,blender,collar,things that can be 'blue' (colors),collar,IR037,ok,1,3:IR037:1:1,,True
+False,2,3,blender,collar,things that can be blue,collar,IR037,ok,1,3:IR037:1:2,,True
+False,1,3,blender,blade,baseball terms with double meanings,droplet,IR037,ok,2,3:IR037:2:1,,False
+False,2,3,blender,blade,baseball terms,droplet,IR037,ok,2,3:IR037:2:2,,False
+False,1,3,knot,hitch,"things that can be 'hitched' or tied, or types of knots/connections",hitch,IR038,ok,0,3:IR038:0:1,,True
+False,2,3,knot,hitch,knots,hitch,IR038,ok,0,3:IR038:0:2,,True
+False,1,3,knot,bow,curved shape or bending,bow,IR038,ok,1,3:IR038:1:1,,True
+False,2,3,knot,bow,archery,bow,IR038,ok,1,3:IR038:1:2,,True
+False,1,3,knot,bend,winding road,switchback,IR038,ok,2,3:IR038:2:1,,False
+False,2,3,knot,bend,knots,bend,IR038,ok,2,3:IR038:2:2,,True
+False,1,3,landform,sound,audio output devices,speaker,IR039,ok,0,3:IR039:0:1,,False
+False,2,3,landform,sound,audio equipment,speaker,IR039,ok,0,3:IR039:0:2,,False
+False,1,3,landform,spit,rotisserie,spit,IR039,ok,1,3:IR039:1:1,,True
+False,2,3,landform,spit,cooking methods,rotisserie,IR039,ok,1,3:IR039:1:2,,False
+False,1,3,landform,basin,"things that can be 'sound': sound basin (audio basin?), basin as in wash basin / sink, and 'sound' as in a body of water (a sound is a large sea/ocean inlet), connecting to 'basin' as a water-filled depression or sink; also 'sound' = geophysics/nautical term, and basin is a depression holding water",basin,IR039,ok,2,3:IR039:2:1,,True
+False,2,3,landform,basin,kitchen and bathroom fixtures with dual meanings,sink,IR039,ok,2,3:IR039:2:2,,False
+False,1,3,mountain,saddle,horse tack,saddle,IR040,ok,0,3:IR040:0:1,,True
+False,2,3,mountain,saddle,parts of a horse's tack or riding equipment,saddle,IR040,ok,0,3:IR040:0:2,,True
+False,1,3,mountain,shoulder,body parts,back,IR040,ok,1,3:IR040:1:1,,False
+False,2,3,mountain,shoulder,body parts with homonyms in clothing/equipment,shoulder,IR040,ok,1,3:IR040:1:2,,True
+False,1,3,mountain,foot,word with dual meaning in a shared category,barefoot,IR040,ok,2,3:IR040:2:1,,False
+False,2,3,mountain,foot,parts of a horse,foot,IR040,ok,2,3:IR040:2:2,,True
+False,1,3,courtroom,box,containers,box,IR041,ok,0,3:IR041:0:1,,True
+False,2,3,courtroom,box,"computer terms (bar, dock, box)",box,IR041,ok,0,3:IR041:0:2,,True
+False,1,3,courtroom,bar,legal profession,bar,IR041,ok,1,3:IR041:1:1,,True
+False,2,3,courtroom,bar,actions in mobile games / UI interactions,tap,IR041,ok,1,3:IR041:1:2,,False
+False,1,3,courtroom,dock,harbor structures,dock,IR041,ok,2,3:IR041:2:1,,True
+False,2,3,courtroom,dock,place where a defendant stands in a courtroom,dock,IR041,ok,2,3:IR041:2:2,,True
+False,1,3,mammal,seal,animals that are also verbs,seal,IR042,ok,0,3:IR042:0:1,,True
+False,2,3,mammal,seal,animals that are also verbs,seal,IR042,ok,0,3:IR042:0:2,,True
+False,1,3,mammal,ram,male sheep,ram,IR042,ok,1,3:IR042:1:1,,True
+False,2,3,mammal,ram,Animals (male sheep),ram,IR042,ok,1,3:IR042:1:2,,True
+False,1,3,mammal,bat,animals that are also sports equipment,bat,IR042,ok,2,3:IR042:2:1,,True
+False,2,3,mammal,bat,animals,bat,IR042,ok,2,3:IR042:2:2,,True
+False,1,3,fish,mullet,haircut,cut,IR043,ok,0,3:IR043:0:1,,False
+False,2,3,fish,mullet,haircut,cut,IR043,ok,0,3:IR043:0:2,,False
+False,1,3,fish,jack,card values,jack,IR043,ok,1,3:IR043:1:1,,True
+False,2,3,fish,jack,Things that can be preceded by 'car',jack,IR043,ok,1,3:IR043:1:2,,True
+True,1,3,fish,skate,fish,skates,IR043,ok,2,3:IR043:2:1,,False
+True,2,3,fish,skate,fish,skate,IR043,ok,2,3:IR043:2:2,,True
+False,1,3,strike,hook,boxing punches,hook,IR044,ok,0,3:IR044:0:1,,True
+False,2,3,strike,hook,boxing punches,hook,IR044,ok,0,3:IR044:0:2,,True
+False,1,3,strike,cross,"boxing terms (jab, cross)",cross,IR044,ok,1,3:IR044:1:1,,True
+False,2,3,strike,cross,boxing punches,cross,IR044,ok,1,3:IR044:1:2,,True
+False,1,3,strike,jab,words with multiple meanings (hook/shoot/shot),shot,IR044,ok,2,3:IR044:2:1,,False
+False,2,3,strike,jab,medical injection,shot,IR044,ok,2,3:IR044:2:2,,False
+False,1,3,length unit,foot,units of measurement,foot,IR045,ok,0,3:IR045:0:1,,True
+False,2,3,length unit,foot,units of measurement,foot,IR045,ok,0,3:IR045:0:2,,True
+False,1,3,length unit,yard,HTML elements,house,IR045,ok,1,3:IR045:1:1,,False
+False,2,3,length unit,yard,units of measurement,yard,IR045,ok,1,3:IR045:1:2,,True
+False,1,3,length unit,link,units of measurement,chain,IR045,ok,2,3:IR045:2:1,,False
+False,2,3,length unit,link,units of measurement,chain,IR045,ok,2,3:IR045:2:2,,False
+False,1,3,metal,lead,homographs with different pronunciations,lead,IR046,ok,0,3:IR046:0:1,,True
+False,2,3,metal,lead,chemical elements,lead,IR046,ok,0,3:IR046:0:2,,True
+False,1,3,metal,iron,elements,iron,IR046,ok,1,3:IR046:1:1,,True
+False,2,3,metal,iron,chemical elements,iron,IR046,ok,1,3:IR046:1:2,,True
+False,1,3,metal,tin,spring-loaded device,mousetrap,IR046,ok,2,3:IR046:2:1,,False
+False,2,3,metal,tin,things with a 'spring' mechanism,mousetrap,IR046,ok,2,3:IR046:2:2,,False
+False,1,3,metalworking,stake,fastening,knot,IR047,ok,0,3:IR047:0:1,,False
+False,2,3,metalworking,stake,types of knots,hitch,IR047,ok,0,3:IR047:0:2,,False
+False,1,3,metalworking,punch,types of strikes in combat sports,punch,IR047,ok,1,3:IR047:1:1,,True
+False,2,3,metalworking,punch,boxing terms with double meanings,punch,IR047,ok,1,3:IR047:1:2,,True
+False,1,3,metalworking,drift,double meanings (noun/verb),drift,IR047,ok,2,3:IR047:2:1,,True
+False,2,3,metalworking,drift,words with multiple meanings,drift,IR047,ok,2,3:IR047:2:2,,True
+False,1,3,film,trailer,preview,trailer,IR048,ok,0,3:IR048:0:1,,True
+False,2,3,film,trailer,previews,trailer,IR048,ok,0,3:IR048:0:2,,True
+False,1,3,film,frame,film terminology,frame,IR048,ok,1,3:IR048:1:1,,True
+False,2,3,film,frame,movie production terms,frame,IR048,ok,1,3:IR048:1:2,,True
+False,1,3,film,credits,Movie and television closing sequence,credit,IR048,ok,2,3:IR048:2:1,,False
+False,2,3,film,credits,a rectangular object or interface element (as in trailer/frame/card in UI or structural contexts),card,IR048,ok,2,3:IR048:2:2,,False
+False,1,3,music genre,pop,things that can be on a stick,popsicle,IR049,ok,0,3:IR049:0:1,,False
+False,2,3,music genre,pop,music genres,pop,IR049,ok,0,3:IR049:0:2,,True
+False,1,3,music genre,rock,music genres,rock,IR049,ok,1,3:IR049:1:1,,True
+False,2,3,music genre,rock,music genres,rock,IR049,ok,1,3:IR049:1:2,,True
+False,1,3,music genre,metal,"things that can be 'hit' (pop music hits, hitting a nail)",nail,IR049,ok,2,3:IR049:2:1,,False
+False,2,3,music genre,metal,things that can be hit with a hammer,nail,IR049,ok,2,3:IR049:2:2,,False
+False,1,3,mythical creature,brownie,"mythical creatures that are small and helpful, often in brown",brownie,P054,ok,0,3:P054:0:1,,True
+False,2,3,mythical creature,brownie,mythical creatures,brownie,P054,ok,0,3:P054:0:2,,True
+False,1,3,mythical creature,siren,things that can be preceded by 'traffic',light,P054,ok,1,3:P054:1:1,,False
+False,2,3,mythical creature,siren,"Things that can be preceded by 'red' (red brownie, red troll, red light)",light,P054,ok,1,3:P054:1:2,,False
+True,1,3,mythical creature,troll,mythical creature,troll,P054,ok,2,3:P054:2:1,,True
+True,2,3,mythical creature,troll,mythical creature,troll,P054,ok,2,3:P054:2:2,,True
+False,1,3,deity,pan,Greek mythology,pan,IR050,ok,0,3:IR050:0:1,,True
+False,2,3,deity,pan,Greek mythology,pan,IR050,ok,0,3:IR050:0:2,,True
+False,1,3,deity,mercury,billiards,droplets,IR050,ok,1,3:IR050:1:1,,False
+False,2,3,deity,mercury,types of water in Magic: The Gathering (pan/flora/drops),drops,IR050,ok,1,3:IR050:1:2,,False
+False,1,3,deity,flora,things that float on water,lily pad,IR050,ok,2,3:IR050:2:1,,False
+False,2,3,deity,flora,Peter Pan characters,lily,IR050,ok,2,3:IR050:2:2,,False
+False,1,3,pen,spring,things that contain water,spring,IR051,ok,0,3:IR051:0:1,,True
+False,2,3,pen,spring,billiards,pool,IR051,ok,0,3:IR051:0:2,,False
+False,1,3,pen,barrel,containers,barrel,IR051,ok,1,3:IR051:1:1,,True
+False,2,3,pen,barrel,"spring, ball, barrel are all words with multiple meanings (homonyms)",barrel,IR051,ok,1,3:IR051:1:2,,True
+False,1,3,pen,ball,sports playing surfaces / field terms,pitch,IR051,ok,2,3:IR051:2:1,,False
+False,2,3,pen,ball,homonyms with multiple meanings,pitch,IR051,ok,2,3:IR051:2:2,,False
+False,1,3,operating system,driver,golf equipment,club,IR052,ok,0,3:IR052:0:1,,False
+False,2,3,operating system,driver,golf equipment also used as a weapon,club,IR052,ok,0,3:IR052:0:2,,False
+False,1,3,operating system,shell,Unix commands,shell,IR052,ok,1,3:IR052:1:1,,True
+False,2,3,operating system,shell,Unix commands,shell,IR052,ok,1,3:IR052:1:2,,True
+False,1,3,operating system,pipe,pipe fittings,elbow,IR052,ok,2,3:IR052:2:1,,False
+False,2,3,operating system,pipe,pipe fittings,elbow,IR052,ok,2,3:IR052:2:2,,False
+False,1,3,data structure,tree,data structures,tree,IR053,ok,0,3:IR053:0:1,,True
+False,2,3,data structure,tree,data structures,tree,IR053,ok,0,3:IR053:0:2,,True
+False,1,3,data structure,stack,data structures,stack,IR053,ok,1,3:IR053:1:1,,True
+False,2,3,data structure,stack,data structures,stack,IR053,ok,1,3:IR053:1:2,,True
+False,1,3,data structure,queue,things with branches or divisions,line,IR053,ok,2,3:IR053:2:1,,False
+False,2,3,data structure,queue,data structures,queue,IR053,ok,2,3:IR053:2:2,,True
+False,1,3,pasta,shell,Unix commands,shell,IR054,ok,0,3:IR054:0:1,,True
+False,2,3,pasta,shell,Unix commands,shell,IR054,ok,0,3:IR054:0:2,,True
+False,1,3,pasta,elbow,body parts with multiple meanings,arm,IR054,ok,1,3:IR054:1:1,,False
+False,2,3,pasta,elbow,body parts,arm,IR054,ok,1,3:IR054:1:2,,False
+False,1,3,pasta,wheel,parts of a simple machine (wheel and axle),wheel,IR054,ok,2,3:IR054:2:1,,True
+False,2,3,pasta,wheel,parts of a car,wheel,IR054,ok,2,3:IR054:2:2,,True
+False,1,3,airport,gate,things that can be closed/barriers,gate,IR055,ok,0,3:IR055:0:1,,True
+False,2,3,airport,gate,things that can be opened and closed,gate,IR055,ok,0,3:IR055:0:2,,True
+False,1,3,airport,apron,things that hang,apron,IR055,ok,1,3:IR055:1:1,,True
+False,2,3,airport,apron,things with strings/straps,apron,IR055,ok,1,3:IR055:1:2,,True
+False,1,3,airport,carousel,carousel animals,horse,IR055,ok,2,3:IR055:2:1,,False
+False,2,3,airport,carousel,things that go around,carousel,IR055,ok,2,3:IR055:2:2,,True
+False,1,3,tree,box,Pokémon games,box,IR056,ok,0,3:IR056:0:1,,True
+False,2,3,tree,box,"types of trees (ash, plane, box)",box,IR056,ok,0,3:IR056:0:2,,True
+False,1,3,tree,ash,tree types,ash,IR056,ok,1,3:IR056:1:1,,True
+False,2,3,tree,ash,"things that can be preceded by 'fly' (fly box, fly plane, fly ash)",ash,IR056,ok,1,3:IR056:1:2,,True
+False,1,3,tree,plane,geometric shapes/surfaces,plane,IR056,ok,2,3:IR056:2:1,,True
+False,2,3,tree,plane,woodworking tools,plane,IR056,ok,2,3:IR056:2:2,,True
+False,1,3,flower,lip,parts of a knife,lip,IR057,ok,0,3:IR057:0:1,,True
+False,2,3,flower,lip,parts of the body that can be described with the word 'throat' in a biological or metaphorical sense,lip,IR057,ok,0,3:IR057:0:2,,True
+False,1,3,flower,blade,cutlery,knife,IR057,ok,1,3:IR057:1:1,,False
+False,2,3,flower,blade,parts of a knife,blade,IR057,ok,1,3:IR057:1:2,,True
+False,1,3,flower,throat,body parts with multiple meanings,neck,IR057,ok,2,3:IR057:2:1,,False
+False,2,3,flower,throat,"body parts that can be preceded by 'crew' (crew neck, crew cut, crewmate...?)",neck,IR057,ok,2,3:IR057:2:2,,False
+False,1,3,political party,rose,flowers,rose,IR058,ok,0,3:IR058:0:1,,True
+False,2,3,political party,rose,GOP elephant donkey rose political parties,rose,IR058,ok,0,3:IR058:0:2,,True
+False,1,3,political party,donkey,political party symbols,donkey,IR058,ok,1,3:IR058:1:1,,True
+False,2,3,political party,donkey,animals with a silent letter in their name,donkey,IR058,ok,1,3:IR058:1:2,,True
+False,1,3,political party,elephant,large mammal,elephant,IR058,ok,2,3:IR058:2:1,,True
+False,2,3,political party,elephant,Republican Party symbols,elephant,IR058,ok,2,3:IR058:2:2,,True
+False,1,3,programming construct,branch,version control (Git),branch,IR059,ok,0,3:IR059:0:1,,True
+False,2,3,programming construct,branch,programming control flow,branch,IR059,ok,0,3:IR059:0:2,,True
+False,1,3,programming construct,switch,programming control flow,switch,IR059,ok,1,3:IR059:1:1,,True
+False,2,3,programming construct,switch,programming control flow statements,switch,IR059,ok,1,3:IR059:1:2,,True
+False,1,3,programming construct,loop,programming concepts,loop,IR059,ok,2,3:IR059:2:1,,True
+False,2,3,programming construct,loop,programming control flow,loop,IR059,ok,2,3:IR059:2:2,,True
+False,1,3,punctuation mark,colon,punctuation,colon,IR060,ok,0,3:IR060:0:1,,True
+False,2,3,punctuation mark,colon,punctuation marks,colon,IR060,ok,0,3:IR060:0:2,,True
+False,1,3,punctuation mark,dash,things with lanes or brackets in a tournament/racing context,track,IR060,ok,1,3:IR060:1:1,,False
+False,2,3,punctuation mark,dash,punctuation marks,track,IR060,ok,1,3:IR060:1:2,,False
+False,1,3,punctuation mark,bracket,punctuation marks,shelf,IR060,ok,2,3:IR060:2:1,,False
+False,2,3,punctuation mark,bracket,punctuation marks,shelf,IR060,ok,2,3:IR060:2:2,,False
+False,1,3,restaurant,joint,"hidden category: words with multiple meanings (here, 'joint' can mean a place like a drive-in or a body articulation)",joint,IR061,ok,0,3:IR061:0:1,,True
+False,2,3,restaurant,joint,types of restaurant / dining establishments named with words that have other meanings,joint,IR061,ok,0,3:IR061:0:2,,True
+False,1,3,restaurant,drive-in,types of restaurants,drive-in,IR061,ok,1,3:IR061:1:1,,True
+False,2,3,restaurant,drive-in,types of restaurants,drive-in,IR061,ok,1,3:IR061:1:2,,True
+False,1,3,restaurant,diner,place to eat,joint,IR061,ok,2,3:IR061:2:1,,False
+False,2,3,restaurant,diner,"foods with common word modifiers forming movie genres (joint, drive-in, burger)",burger,IR061,ok,2,3:IR061:2:2,,False
+False,1,3,shape,diamond,shapes in a deck of cards,diamond,IR062,ok,0,3:IR062:0:1,,True
+False,2,3,shape,diamond,suits in a deck of cards,diamond,IR062,ok,0,3:IR062:0:2,,True
+False,1,3,shape,kite,things that fly,kite,IR062,ok,1,3:IR062:1:1,,True
+False,2,3,shape,kite,flight,kite,IR062,ok,1,3:IR062:1:2,,True
+False,1,3,shape,heart,cardiac,heart,IR062,ok,2,3:IR062:2:1,,True
+False,2,3,shape,heart,card suits,heart,IR062,ok,2,3:IR062:2:2,,True
+False,1,3,snack,chip,computer hardware,chip,IR063,ok,0,3:IR063:0:1,,True
+False,2,3,snack,chip,things that can be 'on' or have a 'chip' variant in tech/food double meanings,chip,IR063,ok,0,3:IR063:0:2,,True
+False,1,3,snack,cracker,party favors,popper,IR063,ok,1,3:IR063:1:1,,False
+False,2,3,snack,cracker,"things that can be pulled apart with a popping sound (Christmas crackers, computer chips/pretzels as twisted shapes)",cracker,IR063,ok,1,3:IR063:1:2,,True
+False,1,3,snack,pretzel,"Computer hardware/electronics terms used in yoga (e.g., chip, mat, core)",yoga,IR063,ok,2,3:IR063:2:1,,False
+False,2,3,snack,pretzel,words preceding 'piece' in common phrases,puzzle,IR063,ok,2,3:IR063:2:2,,False
+False,1,3,feature,story,computer programming terms (or software development jargon),house,IR064,ok,0,3:IR064:0:1,,False
+False,2,3,feature,story,film production terminology,house,IR064,ok,0,3:IR064:0:2,,False
+False,1,3,feature,thread,things that wind,spool,IR064,ok,1,3:IR064:1:1,,False
+False,2,3,feature,thread,things that wind,spool,IR064,ok,1,3:IR064:1:2,,False
+False,1,3,feature,reel,staggering,reel,IR064,ok,2,3:IR064:2:1,,True
+False,2,3,feature,reel,Things that can be wound or spooled,reel,IR064,ok,2,3:IR064:2:2,,True
+False,1,3,golf club,driver,tools,screwdriver,IR065,ok,0,3:IR065:0:1,,False
+False,2,3,golf club,driver,golf clubs,driver,IR065,ok,0,3:IR065:0:2,,True
+False,1,3,golf club,iron,golf clubs,iron,IR065,ok,1,3:IR065:1:1,,True
+False,2,3,golf club,iron,golf clubs,iron,IR065,ok,1,3:IR065:1:2,,True
+False,1,3,golf club,wedge,things with holes,cheese,IR065,ok,2,3:IR065:2:1,,False
+False,2,3,golf club,wedge,things that can be grated,cheese,IR065,ok,2,3:IR065:2:2,,False
+False,1,3,stitch,feather,birds,peacock,IR066,ok,0,3:IR066:0:1,,False
+False,2,3,stitch,feather,things with a central shaft and repeating parts,feather,IR066,ok,0,3:IR066:0:2,,True
+False,1,3,stitch,chain,things with links,chain,IR066,ok,1,3:IR066:1:1,,True
+False,2,3,stitch,chain,types of connections or links,chain,IR066,ok,1,3:IR066:1:2,,True
+False,1,3,stitch,ladder,things with rungs used for climbing,ladder,IR066,ok,2,3:IR066:2:1,,True
+False,2,3,stitch,ladder,"things that can be climbed (as in social or corporate advancement, e.g., 'climbing the ladder' or 'corporate ladder')",ladder,IR066,ok,2,3:IR066:2:2,,True
+False,1,3,gemstone cut,princess,dances/parties,ball,IR067,ok,0,3:IR067:0:1,,False
+False,2,3,gemstone cut,princess,Royalty/Coronation,crown,IR067,ok,0,3:IR067:0:2,,False
+False,1,3,gemstone cut,cushion,things you can do with an object,throw,IR067,ok,1,3:IR067:1:1,,False
+False,2,3,gemstone cut,cushion,objects with 'soft' textures or fairytale/romance-associated items?,pillow,IR067,ok,1,3:IR067:1:2,,False
+False,1,3,gemstone cut,heart,The Princess and the Frog,heart,IR067,ok,2,3:IR067:2:1,,True
+False,2,3,gemstone cut,heart,The Princess and the Pea (fairy tale),heart,IR067,ok,2,3:IR067:2:2,,True
+False,1,3,cake,sheet,fold,fold,IR068,ok,0,3:IR068:0:1,,False
+False,2,3,cake,sheet,"things that come in stacks of paper-like layers (currency, lava flow layers, bed linens)",sheets,IR068,ok,0,3:IR068:0:2,,False
+False,1,3,cake,pound,things that flow,cash,IR068,ok,1,3:IR068:1:1,,False
+False,2,3,cake,pound,forms of payment,cash,IR068,ok,1,3:IR068:1:2,,False
+False,1,3,cake,lava,movement of fluid,flow,IR068,ok,2,3:IR068:2:1,,False
+False,2,3,cake,lava,"uninterrupted movement (e.g., of fluid, electricity, or traffic)",flow,IR068,ok,2,3:IR068:2:2,,False
+False,1,3,pastry,danish,"indicators or signals (e.g., horn, flag)",flag,IR069,ok,0,3:IR069:0:1,,False
+False,2,3,pastry,danish,Nordic Cross flag,Dannebrog,IR069,ok,0,3:IR069:0:2,,False
+False,1,3,pastry,horn,things with a horn (animal horn / brass horn),horn,IR069,ok,1,3:IR069:1:1,,True
+False,2,3,pastry,horn,pastries,horn,IR069,ok,1,3:IR069:1:2,,True
+False,1,3,pastry,bear claw,things with paws/claws (animal homonyms),bear,IR069,ok,2,3:IR069:2:1,,False
+False,2,3,pastry,bear claw,"Animals with body parts that can be 'Danish' or 'horn'? No... The shared hidden category is words that can be preceded by 'French': French horn, French Danish? No.
+
+Let's analyze:",bear,IR069,ok,2,3:IR069:2:2,,False
+False,1,3,topology,star,outer space,space,IR070,ok,0,3:IR070:0:1,,False
+False,2,3,topology,star,"things that can be 'ringed' or have rings: ring, tree, star (ring around a star / star ring)",star,IR070,ok,0,3:IR070:0:2,,True
+False,1,3,topology,ring,things with a circular shape,ring,IR070,ok,1,3:IR070:1:1,,True
+False,2,3,topology,ring,circular objects,ring,IR070,ok,1,3:IR070:1:2,,True
+False,1,3,topology,tree,Data Structures,tree,IR070,ok,2,3:IR070:2:1,,True
+False,2,3,topology,tree,data structures,tree,IR070,ok,2,3:IR070:2:2,,True
+False,1,3,suit,heart,cardiac,heart,IR071,ok,0,3:IR071:0:1,,True
+False,2,3,suit,heart,card suits,heart,IR071,ok,0,3:IR071:0:2,,True
+False,1,3,suit,club,volleyball terms,spike,IR071,ok,1,3:IR071:1:1,,False
+False,2,3,suit,club,card suits,spade,IR071,ok,1,3:IR071:1:2,,False
+False,1,3,suit,diamond,suits,diamond,IR071,ok,2,3:IR071:2:1,,True
+False,2,3,suit,diamond,card suits,diamond,IR071,ok,2,3:IR071:2:2,,True
+False,1,3,tree,crown,part of a tree,crown,IR072,ok,0,3:IR072:0:1,,True
+False,2,3,tree,crown,parts of a tree,crown,IR072,ok,0,3:IR072:0:2,,True
+False,1,3,tree,trunk,emotional burdens from the past,baggage,IR072,ok,1,3:IR072:1:1,,False
+False,2,3,tree,trunk,parts of a tree or elephant,trunk,IR072,ok,1,3:IR072:1:2,,True
+False,1,3,tree,needle,"small, slender, pointed objects used for sewing or medical injections",needle,IR072,ok,2,3:IR072:2:1,,True
+False,2,3,tree,needle,"parts of a tree (crown, trunk, needle)",needle,IR072,ok,2,3:IR072:2:2,,True
+False,1,3,TV genre,soap,"Things that are 'western' can also be 'soap' (as in soap operas, which are often westerns)",soap,IR073,ok,0,3:IR073:0:1,,True
+False,2,3,TV genre,soap,"things that can be 'western' (genre/region), 'news' (media), or 'soap' (genre)",soap,IR073,ok,0,3:IR073:0:2,,True
+False,1,3,TV genre,western,Dallas Cowboys (NFL team),cowboy,IR073,ok,1,3:IR073:1:1,,False
+False,2,3,TV genre,western,film genres,western,IR073,ok,1,3:IR073:1:2,,True
+False,1,3,TV genre,news,Newspaper,paper,IR073,ok,2,3:IR073:2:1,,False
+False,2,3,TV genre,news,daily newspaper,paper,IR073,ok,2,3:IR073:2:2,,False
+False,1,3,car,horn,car parts,horn,IR075,ok,0,3:IR075:0:1,,True
+False,2,3,car,horn,car parts,horn,IR075,ok,0,3:IR075:0:2,,True
+False,1,3,car,trunk,elephant body parts that are also storage containers,trunk,IR075,ok,1,3:IR075:1:1,,True
+False,2,3,car,trunk,car parts,trunk,IR075,ok,1,3:IR075:1:2,,True
+False,1,3,car,boot,car parts,boot,IR075,ok,2,3:IR075:2:1,,True
+False,2,3,car,boot,car parts,boot,IR075,ok,2,3:IR075:2:2,,True
+False,1,3,boat,deck,parts of a ship,hand,IR076,ok,0,3:IR076:0:1,,False
+False,2,3,boat,deck,card games,hand,IR076,ok,0,3:IR076:0:2,,False
+False,1,3,boat,bow,archery equipment that is also a tied ribbon or a bending gesture,bow,IR076,ok,1,3:IR076:1:1,,True
+False,2,3,boat,bow,homonyms with multiple meanings,bow,IR076,ok,1,3:IR076:1:2,,True
+False,1,3,boat,boom,audio equipment,boom,IR076,ok,2,3:IR076:2:1,,True
+False,2,3,boat,boom,things on a film set that are also nautical terms,boom,IR076,ok,2,3:IR076:2:2,,True
+False,1,3,gun,stock,things that can be canned,soup,IR077,ok,0,3:IR077:0:1,,False
+False,2,3,gun,stock,container,pot,IR077,ok,0,3:IR077:0:2,,False
+False,1,3,gun,magazine,repeating firearm,magazine,IR077,ok,1,3:IR077:1:1,,True
+False,2,3,gun,magazine,firearm components,magazine,IR077,ok,1,3:IR077:1:2,,True
+False,1,3,gun,barrel,containers for aging liquids,cask,IR077,ok,2,3:IR077:2:1,,False
+False,2,3,gun,barrel,containers for aging liquids,cask,IR077,ok,2,3:IR077:2:2,,False
+False,1,3,cyclone,eye,"Parts of a house (wall, window, door, floor, roof, etc.)",eye,IR078,ok,0,3:IR078:0:1,,True
+False,2,3,cyclone,eye,parts of a storm,eye,IR078,ok,0,3:IR078:0:2,,True
+False,1,3,cyclone,wall,things that can have 'fire' before them (fireband? no... let's reconsider),wall,IR078,ok,1,3:IR078:1:1,,True
+False,2,3,cyclone,wall,things that can have 'fire' before them,wall,IR078,ok,1,3:IR078:1:2,,True
+False,1,3,cyclone,band,"things that can be 'front' (e.g., frontman, front eye/part of eye)",band,IR078,ok,2,3:IR078:2:1,,True
+False,2,3,cyclone,band,homonyms with multiple meanings,band,IR078,ok,2,3:IR078:2:2,,True
+False,1,3,web browser,tab,browser UI elements,tab,IR079,ok,0,3:IR079:0:1,,True
+False,2,3,web browser,tab,browser interface elements,tab,IR079,ok,0,3:IR079:0:2,,True
+False,1,3,web browser,cookie,web browser data,cookie,IR079,ok,1,3:IR079:1:1,,True
+False,2,3,web browser,cookie,web browser data,cookie,IR079,ok,1,3:IR079:1:2,,True
+False,1,3,web browser,bookmark,web browser feature,bookmark,IR079,ok,2,3:IR079:2:1,,True
+False,2,3,web browser,bookmark,web browser feature,bookmark,IR079,ok,2,3:IR079:2:2,,True
+False,1,3,assembly,cabinet,furniture that holds a phone or media device (console table / game console / TV console),console,IR080,ok,0,3:IR080:0:1,,False
+False,2,3,assembly,cabinet,"parts of a government (e.g., diet, chamber, cabinet)",cabinet,IR080,ok,0,3:IR080:0:2,,True
+False,1,3,assembly,diet,shared word with multiple meanings,bowl,IR080,ok,1,3:IR080:1:1,,False
+False,2,3,assembly,diet,college football games,bowl,IR080,ok,1,3:IR080:1:2,,False
+False,1,3,assembly,chamber,furniture,tomb,IR080,ok,2,3:IR080:2:1,,False
+False,2,3,assembly,chamber,US presidents' surnames,tomb,IR080,ok,2,3:IR080:2:2,,False
+False,1,3,lathe,dog,"things that can be 'let out' (e.g., let the bed out, let the dog out)",dog,IR081,ok,0,3:IR081:0:1,,True
+False,2,3,lathe,dog,"things with a 'bed' (truck bed, saddle bed, dog bed)",dog,IR081,ok,0,3:IR081:0:2,,True
+False,1,3,lathe,bed,things with a headboard,bed,IR081,ok,1,3:IR081:1:1,,True
+False,2,3,lathe,bed,things with a headboard (or things that can have a 'head'),bed,IR081,ok,1,3:IR081:1:2,,True
+False,1,3,lathe,saddle,things you can ride,saddle,IR081,ok,2,3:IR081:2:1,,True
+False,2,3,lathe,saddle,things you can sit on,saddle,IR081,ok,2,3:IR081:2:2,,True
+False,1,3,track,tie,things that can be tied (fastened),tie,IR082,ok,0,3:IR082:0:1,,True
+False,2,3,track,tie,things that can be a draw in a competition,tie,IR082,ok,0,3:IR082:0:2,,True
+False,1,3,track,frog,things that can be switched (flipped),frog,IR082,ok,1,3:IR082:1:1,,True
+False,2,3,track,frog,things with a switch,frog,IR082,ok,1,3:IR082:1:2,,True
+False,1,3,track,switch,things that can be flipped,switch,IR082,ok,2,3:IR082:2:1,,True
+False,2,3,track,switch,things that can be flipped,switch,IR082,ok,2,3:IR082:2:2,,True
+False,1,3,toilet,tank,military vehicles,tank,IR083,ok,0,3:IR083:0:1,,True
+False,2,3,toilet,tank,things that hold liquids or gases,tank,IR083,ok,0,3:IR083:0:2,,True
+False,1,3,toilet,float,shared word meanings with double meanings,parade,IR083,ok,1,3:IR083:1:1,,False
+False,2,3,toilet,float,parade,float,IR083,ok,1,3:IR083:1:2,,True
+False,1,3,toilet,bowl,things that can hold/contain something (container),bowl,IR083,ok,2,3:IR083:2:1,,True
+False,2,3,toilet,bowl,college football games,bowl,IR083,ok,2,3:IR083:2:2,,True
+False,1,3,screw,head,social media,profile,IR084,ok,0,3:IR084:0:1,,False
+False,2,3,screw,head,side view,profile,IR084,ok,0,3:IR084:0:2,,False
+False,1,3,screw,thread,sewing and medical/dental instruments,needle,IR084,ok,1,3:IR084:1:1,,False
+False,2,3,screw,thread,parts of a tool or object that have a sharp point,needle,IR084,ok,1,3:IR084:1:2,,False
+False,1,3,screw,shank,cuts of meat,shank,IR084,ok,2,3:IR084:2:1,,True
+False,2,3,screw,shank,cuts of meat,shank,IR084,ok,2,3:IR084:2:2,,True
+False,1,3,zipper,teeth,things that can be crooked or straight,teeth,IR085,ok,0,3:IR085:0:1,,True
+False,2,3,zipper,teeth,things with a bite,teeth,IR085,ok,0,3:IR085:0:2,,True
+False,1,3,zipper,slider,small sandwiches,slider,IR085,ok,1,3:IR085:1:1,,True
+False,2,3,zipper,slider,small burgers,sliders,IR085,ok,1,3:IR085:1:2,,False
+False,1,3,zipper,tape,things with a roll,tape,IR085,ok,2,3:IR085:2:1,,True
+False,2,3,zipper,tape,things with dispensers,tape,IR085,ok,2,3:IR085:2:2,,True
+False,1,3,bird,cardinal,chess pieces,bishop,IR086,ok,0,3:IR086:0:1,,False
+False,2,3,bird,cardinal,chess pieces,bishop,IR086,ok,0,3:IR086:0:2,,False
+False,1,3,bird,kite,birds,kite,IR086,ok,1,3:IR086:1:1,,True
+False,2,3,bird,kite,birds,kite,IR086,ok,1,3:IR086:1:2,,True
+False,1,3,bird,crane,birds,crane,IR086,ok,2,3:IR086:2:1,,True
+False,2,3,bird,crane,birds,crane,IR086,ok,2,3:IR086:2:2,,True
+False,1,3,musical instrument,organ,punctuation marks,colon,IR089,ok,0,3:IR089:0:1,,False
+False,2,3,musical instrument,organ,musical instruments,organ,IR089,ok,0,3:IR089:0:2,,True
+False,1,3,musical instrument,triangle,media control buttons,play,IR089,ok,1,3:IR089:1:1,,False
+False,2,3,musical instrument,triangle,musical instruments,triangle,IR089,ok,1,3:IR089:1:2,,True
+False,1,3,musical instrument,recorder,musical instruments,recorder,IR089,ok,2,3:IR089:2:1,,True
+False,2,3,musical instrument,recorder,"musical instruments played with sticks or hands, specifically percussion",record,IR089,ok,2,3:IR089:2:2,,False
+False,1,3,pepper,ghost,bed linen,sheet,M300_001,ok,0,3:M300_001:0:1,,False
+False,2,3,pepper,ghost,things with holes (bell has a hole where it's struck; banana has a hole at its stem; sheets have holes for eyes),sheet,M300_001,ok,0,3:M300_001:0:2,,False
+False,1,3,pepper,bell,things that ring,bell,M300_001,ok,1,3:M300_001:1:1,,True
+False,2,3,pepper,bell,things that can be rung,bell,M300_001,ok,1,3:M300_001:1:2,,True
+False,1,3,pepper,banana,things that can be 'ghost' (software/hardware) or yellow fruit,bananas,M300_001,ok,2,3:M300_001:2:1,,False
+False,2,3,pepper,banana,words ending in silent letters,banana,M300_001,ok,2,3:M300_001:2:2,,True
+False,1,3,butterfly,monarch,chess pieces,king,M300_003,ok,0,3:M300_003:0:1,,False
+False,2,3,butterfly,monarch,Animal names that are also colors or patterns,ermine,M300_003,ok,0,3:M300_003:0:2,,False
+False,1,3,butterfly,copper,things that can be described as 'coiled' or having a spiral form (like a peacock's display or a wire coil),coil,M300_003,ok,1,3:M300_003:1:1,,False
+False,2,3,butterfly,copper,things that can be wound or that have a coiled/spiraling structure,coil,M300_003,ok,1,3:M300_003:1:2,,False
+False,1,3,butterfly,peacock,"collective nouns for animals (a muster of peacocks, a parliament of owls)",peacock,M300_003,ok,2,3:M300_003:2:1,,True
+False,2,3,butterfly,peacock,butterflies,peacock,M300_003,ok,2,3:M300_003:2:2,,True
+False,1,3,reef,apron,things that hang,apron,M300_005,ok,0,3:M300_005:0:1,,True
+False,2,3,reef,apron,things that can be preceded by 'patch' to form a compound word or common phrase,apron,M300_005,ok,0,3:M300_005:0:2,,True
+False,1,3,reef,patch,software updates,patch,M300_005,ok,1,3:M300_005:1:1,,True
+False,2,3,reef,patch,software updates,patch,M300_005,ok,1,3:M300_005:1:2,,True
+False,1,3,reef,barrier,safety equipment used in construction or crowd control,barrier,M300_005,ok,2,3:M300_005:2:1,,True
+False,2,3,reef,barrier,"things that can be preceded by 'crash' (crash apron, crash patch, crash barrier)",barrier,M300_005,ok,2,3:M300_005:2:2,,True
+False,1,3,car,spider,things with 8 legs,spider,M300_006,ok,0,3:M300_006:0:1,,True
+False,2,3,car,spider,"car types (spider, coupe, convertible)",spider,M300_006,ok,0,3:M300_006:0:2,,True
+False,1,3,car,coupe,types of car body styles,coupe,M300_006,ok,1,3:M300_006:1:1,,True
+False,2,3,car,coupe,things that can be 'cracked',glass,M300_006,ok,1,3:M300_006:1:2,,False
+False,1,3,car,convertible,"things in a spider's habitat (spider, web)",web,M300_006,ok,2,3:M300_006:2:1,,False
+False,2,3,car,convertible,furniture that converts into a bed,sofa,M300_006,ok,2,3:M300_006:2:2,,False
+False,1,3,package,cake,things that are... ,cake,M300_007,ok,0,3:M300_007:0:1,,True
+False,2,3,package,cake,things with frosting,cake,M300_007,ok,0,3:M300_007:0:2,,True
+False,1,3,package,cone,geometric solids,cone,M300_007,ok,1,3:M300_007:1:1,,True
+False,2,3,package,cone,traffic control devices,cone,M300_007,ok,1,3:M300_007:1:2,,True
+False,1,3,package,ball,round objects used in sports and games,ball,M300_007,ok,2,3:M300_007:2:1,,True
+False,2,3,package,ball,sports equipment,ball,M300_007,ok,2,3:M300_007:2:2,,True
+False,1,3,seed,pit,"Things with 'arm' (armpit, firearm/weapon, ...)",pit,M300_008,ok,0,3:M300_008:0:1,,True
+False,2,3,seed,pit,Things that contain useful resources or materials,mine,M300_008,ok,0,3:M300_008:0:2,,False
+False,1,3,seed,nut,hardware fasteners,nuts,M300_008,ok,1,3:M300_008:1:1,,False
+False,2,3,seed,nut,things with another meaning in a shared hidden category,nuts,M300_008,ok,1,3:M300_008:1:2,,False
+False,1,3,seed,grain,"texture of wood, sand, or photographic film",grain,M300_008,ok,2,3:M300_008:2:1,,True
+False,2,3,seed,grain,texture patterns of materials,grain,M300_008,ok,2,3:M300_008:2:2,,True
+False,1,3,tool,square,shape,square,M300_009,ok,0,3:M300_009:0:1,,True
+False,2,3,tool,square,mathematical tools,square,M300_009,ok,0,3:M300_009:0:2,,True
+False,1,3,tool,ruler,measuring instruments,ruler,M300_009,ok,1,3:M300_009:1:1,,True
+False,2,3,tool,ruler,measuring instrument,ruler,M300_009,ok,1,3:M300_009:1:2,,True
+False,1,3,tool,compass,drawing tools,compass,M300_009,ok,2,3:M300_009:2:1,,True
+False,2,3,tool,compass,geometry tools,compass,M300_009,ok,2,3:M300_009:2:2,,True
+False,1,3,dragonfly,skimmer,badminton terms,strainer,M300_010,ok,0,3:M300_010:0:1,,False
+False,2,3,dragonfly,skimmer,types of ships,strainer,M300_010,ok,0,3:M300_010:0:2,,False
+False,1,3,dragonfly,pennant,flags,bunting,M300_010,ok,1,3:M300_010:1:1,,False
+False,2,3,dragonfly,pennant,types of birds,bunting,M300_010,ok,1,3:M300_010:1:2,,False
+False,1,3,dragonfly,cruiser,types of ships (kitchen utensil and naval vessel),cruiser,M300_010,ok,2,3:M300_010:2:1,,True
+False,2,3,dragonfly,cruiser,types of ships,cruiser,M300_010,ok,2,3:M300_010:2:2,,True
+False,1,3,sailboat,cat,Things that can be 'laser' focused or have laser pointers used as toys,cat,M300_011,ok,0,3:M300_011:0:1,,True
+False,2,3,sailboat,cat,animals with whiskers,cat,M300_011,ok,0,3:M300_011:0:2,,True
+False,1,3,sailboat,laser,things that cut,laser,M300_011,ok,1,3:M300_011:1:1,,True
+False,2,3,sailboat,laser,"things with 'cat' varieties (e.g., catfish, copycat)",laser,M300_011,ok,1,3:M300_011:1:2,,True
+False,1,3,sailboat,cutter,cookies,cutter,M300_011,ok,2,3:M300_011:2:1,,True
+False,2,3,sailboat,cutter,computer terms,cookie,M300_011,ok,2,3:M300_011:2:2,,False
+False,1,3,firework,cake,things that are lit,candle,M300_012,ok,0,3:M300_012:0:1,,False
+False,2,3,firework,cake,things you do before blowing out candles,wish,M300_012,ok,0,3:M300_012:0:2,,False
+False,1,3,firework,mine,types of passages or holes,tunnel,M300_012,ok,1,3:M300_012:1:1,,False
+False,2,3,firework,mine,space objects,tunnel,M300_012,ok,1,3:M300_012:1:2,,False
+False,1,3,firework,comet,space objects named after foods,comet,M300_012,ok,2,3:M300_012:2:1,,True
+False,2,3,firework,comet,celestial objects that are also cleaning products,comet,M300_012,ok,2,3:M300_012:2:2,,True
+False,1,3,kite,diamond,shapes in a deck of cards,diamond,M300_014,ok,0,3:M300_014:0:1,,True
+False,2,3,kite,diamond,suite of card suits,diamond,M300_014,ok,0,3:M300_014:0:2,,True
+False,1,3,kite,box,container,box,M300_014,ok,1,3:M300_014:1:1,,True
+False,2,3,kite,box,"things with a symbolic meaning in card suits (diamond, spade, etc.)",box,M300_014,ok,1,3:M300_014:1:2,,True
+False,1,3,kite,sled,things with runners (US: sled; UK: sledge),sled,M300_014,ok,2,3:M300_014:2:1,,True
+False,2,3,kite,sled,things associated with winter or snow,sled,M300_014,ok,2,3:M300_014:2:2,,True
+False,1,3,beef cut,round,cut out shapes formed by a hidden horizon line,circle,M300_015,ok,0,3:M300_015:0:1,,False
+False,2,3,beef cut,round,Knitting patterns (stitches),dot,M300_015,ok,0,3:M300_015:0:2,,False
+False,1,3,beef cut,skirt,cut of meat,skirt,M300_015,ok,1,3:M300_015:1:1,,True
+False,2,3,beef cut,skirt,"parts of a cut of meat (round, rib, skirt)",skirt,M300_015,ok,1,3:M300_015:1:2,,True
+False,1,3,beef cut,rib,things with a curved/half-round shape,rib,M300_015,ok,2,3:M300_015:2:1,,True
+False,2,3,beef cut,rib,things with a structural cage or curved framework,rib,M300_015,ok,2,3:M300_015:2:2,,True
+False,1,3,candy,rock,music genres,rock,M300_016,ok,0,3:M300_016:0:1,,True
+False,2,3,candy,rock,music genres,rock,M300_016,ok,0,3:M300_016:0:2,,True
+False,1,3,candy,bark,"both words are nouns that can mean a part of a tree or a sound/action made by a dog (button is not a dog-related term; the shared category between 'button' and 'bark' is unclear from a single example, so concept is empty)",bark,M300_016,ok,1,3:M300_016:1:1,,True
+False,2,3,candy,bark,parts of a tree,bark,M300_016,ok,1,3:M300_016:1:2,,True
+False,1,3,candy,button,"rock music subgenres (rock, button...)",button,M300_016,ok,2,3:M300_016:2:1,,True
+False,2,3,candy,button,computer interface controls,button,M300_016,ok,2,3:M300_016:2:2,,True
+False,1,3,dress,slip,proof of purchase,receipt,M300_017,ok,0,3:M300_017:0:1,,False
+False,2,3,dress,slip,computer hardware,terminal,M300_017,ok,0,3:M300_017:0:2,,False
+False,1,3,dress,sack,containers,bag,M300_017,ok,1,3:M300_017:1:1,,False
+False,2,3,dress,sack,"things that can be 'hit' in sports (slip, jumper, sack)",sack,M300_017,ok,1,3:M300_017:1:2,,True
+False,1,3,dress,jumper,things with pins/connectors that can be slipped on or used to bypass,jumper,M300_017,ok,2,3:M300_017:2:1,,True
+False,2,3,dress,jumper,"things with a second meaning in clothing (slip, sack, jumper)",jumper,M300_017,ok,2,3:M300_017:2:2,,True
+False,1,3,timber frame,plate,tennis,plate,M300_019,ok,0,3:M300_019:0:1,,True
+False,2,3,timber frame,plate,baseball,plate,M300_019,ok,0,3:M300_019:0:2,,True
+False,1,3,timber frame,tie,things that can be fastened or bound,tie,M300_019,ok,1,3:M300_019:1:1,,True
+False,2,3,timber frame,tie,things that can be fastened or secured,tie,M300_019,ok,1,3:M300_019:1:2,,True
+False,1,3,timber frame,stud,fasteners,stud,M300_019,ok,2,3:M300_019:2:1,,True
+False,2,3,timber frame,stud,fasteners,stud,M300_019,ok,2,3:M300_019:2:2,,True
+False,1,3,snail,cone,traffic control devices,cone,M300_020,ok,0,3:M300_020:0:1,,True
+False,2,3,snail,cone,things worn on the head,cone,M300_020,ok,0,3:M300_020:0:2,,True
+False,1,3,snail,helmet,things worn on the head,helmet,M300_020,ok,1,3:M300_020:1:1,,True
+False,2,3,snail,helmet,protective headgear,helmet,M300_020,ok,1,3:M300_020:1:2,,True
+False,1,3,snail,turban,headwear,turban,M300_020,ok,2,3:M300_020:2:1,,True
+False,2,3,snail,turban,headgear,turban,M300_020,ok,2,3:M300_020:2:2,,True
+False,1,3,hand,palm,parts of a computer,palm,M300_021,ok,0,3:M300_021:0:1,,True
+False,2,3,hand,palm,parts of the hand (or things that can be found on a computer),palm,M300_021,ok,0,3:M300_021:0:2,,True
+False,1,3,hand,web,things associated with spiders,web,M300_021,ok,1,3:M300_021:1:1,,True
+False,2,3,hand,web,things a spider makes / interconnected network structures,web,M300_021,ok,1,3:M300_021:1:2,,True
+False,1,3,hand,nail,parts of the hand,nail,M300_021,ok,2,3:M300_021:2:1,,True
+False,2,3,hand,nail,"things found on fingers/toes (homographs: palm, web, nail)",nail,M300_021,ok,2,3:M300_021:2:2,,True
+False,1,3,shark,carpet,things that fly,carpet,M300_022,ok,0,3:M300_022:0:1,,True
+False,2,3,shark,carpet,types of sharks,carpet,M300_022,ok,0,3:M300_022:0:2,,True
+False,1,3,shark,angel,mythological beings,cherub,M300_022,ok,1,3:M300_022:1:1,,False
+False,2,3,shark,angel,"things that can be preceded by 'Carpet' and 'Thresher' to form shark species names (Carpet Shark, Thresher Shark), i.e., types of sharks",cherub,M300_022,ok,1,3:M300_022:1:2,,False
+False,1,3,shark,thresher,Things that separate or remove parts from a whole,thresher,M300_022,ok,2,3:M300_022:2:1,,True
+False,2,3,shark,thresher,types of machines/shark species,thresher,M300_022,ok,2,3:M300_022:2:2,,True
+False,1,3,sculpture,mobile,display,screen,M300_023,ok,0,3:M300_023:0:1,,False
+False,2,3,sculpture,mobile,"materials/colors used in medals and awards (e.g., bronze, silver, gold)",silver,M300_023,ok,0,3:M300_023:0:2,,False
+False,1,3,sculpture,cast,"things associated with the number three, or 'third' in a sequence (bronze medal = third place; cast = a group of actors in a play, third cast/third Take)",cast,M300_023,ok,1,3:M300_023:1:1,,True
+False,2,3,sculpture,cast,things that can follow 'broad',cast,M300_023,ok,1,3:M300_023:1:2,,True
+False,1,3,sculpture,bronze,medal,bronze,M300_023,ok,2,3:M300_023:2:1,,True
+False,2,3,sculpture,bronze,medal colors / Olympic medal ranks,bronze,M300_023,ok,2,3:M300_023:2:2,,True
+False,1,3,masonry tool,hawk,birds of prey,hawk,M300_024,ok,0,3:M300_024:0:1,,True
+False,2,3,masonry tool,hawk,birds of prey,hawk,M300_024,ok,0,3:M300_024:0:2,,True
+False,1,3,masonry tool,line,actions that also have meanings in art or data representation,draw,M300_024,ok,1,3:M300_024:1:1,,False
+False,2,3,masonry tool,line,actions that also mean to pull or attract,draw,M300_024,ok,1,3:M300_024:1:2,,False
+False,1,3,masonry tool,float,"animals that are also verbs meaning to deceive or swindle (e.g., hawk = sell goods, shark = swindle)",shark,M300_024,ok,2,3:M300_024:2:1,,False
+False,2,3,masonry tool,float,billards,pool,M300_024,ok,2,3:M300_024:2:2,,False
+False,1,3,leather,russia,countries,russia,M300_025,ok,0,3:M300_025:0:1,,True
+False,2,3,leather,russia,"country names that are also verbs ending in -er (buffer, morocco leather, russia? no)",russia,M300_025,ok,0,3:M300_025:0:2,,True
+False,1,3,leather,morocco,NBA players known by one-word nicknames (Buff = buffer/polisher? Actually buff=muscular; Star = ?),star,M300_025,ok,1,3:M300_025:1:1,,False
+True,2,3,leather,morocco,leather,morocco,M300_025,ok,1,3:M300_025:1:2,,True
+False,1,3,leather,buff,nationalities,polish,M300_025,ok,2,3:M300_025:2:1,,False
+False,2,3,leather,buff,nationalities that are also verbs,polish,M300_025,ok,2,3:M300_025:2:2,,False
+False,1,3,pocket,kangaroo,animals that carry their young in a pouch,kangaroo,M300_026,ok,0,3:M300_026:0:1,,True
+False,2,3,pocket,kangaroo,Animals that hop,kangaroo,M300_026,ok,0,3:M300_026:0:2,,True
+False,1,3,pocket,cargo,shipping containers,containers,M300_026,ok,1,3:M300_026:1:1,,False
+False,2,3,pocket,cargo,"things that can be 'packed' or related to shipping, as kangaroos 'hop' and pumpkins grow in 'patches' (shared category: verb/noun associations?)",containers,M300_026,ok,1,3:M300_026:1:2,,False
+False,1,3,pocket,patch,Cinderella,pumpkin,M300_026,ok,2,3:M300_026:2:1,,False
+False,2,3,pocket,patch,Cinderella,pumpkin,M300_026,ok,2,3:M300_026:2:2,,False
+False,1,3,lock,spring,flowing water,stream,M300_027,ok,0,3:M300_027:0:1,,False
+False,2,3,lock,spring,things that can be babbling,brook,M300_027,ok,0,3:M300_027:0:2,,False
+False,1,3,lock,plug,electrical connector,plug,M300_027,ok,1,3:M300_027:1:1,,True
+False,2,3,lock,plug,types of locks,plug,M300_027,ok,1,3:M300_027:1:2,,True
+False,1,3,lock,tumbler,things associated with fathers,tie,M300_027,ok,2,3:M300_027:2:1,,False
+False,2,3,lock,tumbler,things that can be drawn/ended in a tie or draw,tie,M300_027,ok,2,3:M300_027:2:2,,False
+False,1,3,earring,post,social media / online publishing,post,M300_028,ok,0,3:M300_028:0:1,,True
+False,2,3,earring,post,social media,post,M300_028,ok,0,3:M300_028:0:2,,True
+False,1,3,earring,butterfly,royalty titles,monarch,M300_028,ok,1,3:M300_028:1:1,,False
+False,2,3,earring,butterfly,Has another meaning in a shared hidden category,monarch,M300_028,ok,1,3:M300_028:1:2,,False
+False,1,3,earring,clutch,things that can be held/grabbed or a critical moment,clutch,M300_028,ok,2,3:M300_028:2:1,,True
+False,2,3,earring,clutch,purse styles named after animals/objects,clutch,M300_028,ok,2,3:M300_028:2:2,,True
+False,1,3,cymbal,splash,computer terms (crash/splash screen),splash,M300_029,ok,0,3:M300_029:0:1,,True
+False,2,3,cymbal,splash,onomatopoeia / sound words,splash,M300_029,ok,0,3:M300_029:0:2,,True
+False,1,3,cymbal,crash,stock market crash,crash,M300_029,ok,1,3:M300_029:1:1,,True
+False,2,3,cymbal,crash,computer terms,crash,M300_029,ok,1,3:M300_029:1:2,,True
+False,1,3,cymbal,china,dishes made of porcelain/ceramic,china,M300_029,ok,2,3:M300_029:2:1,,True
+False,2,3,cymbal,china,homonyms with country names,china,M300_029,ok,2,3:M300_029:2:2,,True
+False,1,3,track and field implement,shot,"sports/athletics events (discus, shot put)",shot,M300_030,ok,0,3:M300_030:0:1,,True
+False,2,3,track and field implement,shot,types of throws in sports,shot,M300_030,ok,0,3:M300_030:0:2,,True
+False,1,3,track and field implement,discus,Olympic track and field events,discus,M300_030,ok,1,3:M300_030:1:1,,True
+False,2,3,track and field implement,discus,things that are thrown in track and field events,discus,M300_030,ok,1,3:M300_030:1:2,,True
+False,1,3,track and field implement,hammer,tools,hammer,M300_030,ok,2,3:M300_030:2:1,,True
+False,2,3,track and field implement,hammer,Olympic track and field events,hammer,M300_030,ok,2,3:M300_030:2:2,,True
+False,1,3,necklace,opera,types of buildings or venues,theater,M300_031,ok,0,3:M300_031:0:1,,False
+False,2,3,necklace,opera,levels of a theater or stadium,tier,M300_031,ok,0,3:M300_031:0:2,,False
+False,1,3,necklace,princess,fantasy characters,princess,M300_031,ok,1,3:M300_031:1:1,,True
+False,2,3,necklace,princess,roles in a fairy tale / storybook characters,princess,M300_031,ok,1,3:M300_031:1:2,,True
+False,1,3,necklace,collar,"items of clothing that are also musical works or performances (e.g., opera, shirt)",shirt,M300_031,ok,2,3:M300_031:2:1,,False
+False,2,3,necklace,collar,clothing,shirt,M300_031,ok,2,3:M300_031:2:2,,False
+False,1,3,pigeon,roller,things that roll,roller,M300_032,ok,0,3:M300_032:0:1,,True
+False,2,3,pigeon,roller,things that roll,roller,M300_032,ok,0,3:M300_032:0:2,,True
+False,1,3,pigeon,nun,religious orders,nun,M300_032,ok,1,3:M300_032:1:1,,True
+False,2,3,pigeon,nun,words that become different words when prefixed with a letter,nun,M300_032,ok,1,3:M300_032:1:2,,True
+False,1,3,pigeon,tumbler,things that can be filled with liquid,glass,M300_032,ok,2,3:M300_032:2:1,,False
+False,2,3,pigeon,tumbler,things that can be high or tall,glass,M300_032,ok,2,3:M300_032:2:2,,False
+False,1,3,woodworking joint,finger,...,one,M300_033,ok,0,3:M300_033:0:1,,False
+False,2,3,woodworking joint,finger,things that indicate or point,pointer,M300_033,ok,0,3:M300_033:0:2,,False
+False,1,3,woodworking joint,biscuit,things that can be 'split',biscuit,M300_033,ok,1,3:M300_033:1:1,,True
+False,2,3,woodworking joint,biscuit,things that can be 'split',biscuit,M300_033,ok,1,3:M300_033:1:2,,True
+False,1,3,woodworking joint,scarf,"things you can wrap around your neck, but 'scarf' also means to eat greedily",scarf,M300_033,ok,2,3:M300_033:2:1,,True
+False,2,3,woodworking joint,scarf,things that can be worn around the neck,scarf,M300_033,ok,2,3:M300_033:2:2,,True
+False,1,3,sandwich,grinder,apps,grinder,M300_034,ok,0,3:M300_034:0:1,,True
+False,2,3,sandwich,grinder,"music production software controls and tools (e.g., slider, wrap, grind as functions in audio editing workflows)",grind,M300_034,ok,0,3:M300_034:0:2,,False
+False,1,3,sandwich,slider,audio equipment controls,fader,M300_034,ok,1,3:M300_034:1:1,,False
+False,2,3,sandwich,slider,audio equipment controls,fader,M300_034,ok,1,3:M300_034:1:2,,False
+False,1,3,sandwich,wrap,types of sandwiches/wraps,wrap,M300_034,ok,2,3:M300_034:2:1,,True
+False,2,3,sandwich,wrap,things that can be wrapped or adjusted,wrap,M300_034,ok,2,3:M300_034:2:2,,True
+False,1,3,pleat,knife,things with a handle,knife,M300_035,ok,0,3:M300_035:0:1,,True
+False,2,3,pleat,knife,weapons in the game Clue,knife,M300_035,ok,0,3:M300_035:0:2,,True
+False,1,3,pleat,box,things with bellows,box,M300_035,ok,1,3:M300_035:1:1,,True
+False,2,3,pleat,box,musical instruments,box,M300_035,ok,1,3:M300_035:1:2,,True
+False,1,3,pleat,accordion,musical instruments,accordion,M300_035,ok,2,3:M300_035:2:1,,True
+False,2,3,pleat,accordion,GUI widgets,accordion,M300_035,ok,2,3:M300_035:2:2,,True
+False,1,3,gear,worm,things that can be 'red' (red crown/red worm),worm,M300_036,ok,0,3:M300_036:0:1,,True
+False,2,3,gear,worm,parts of a horse's tack/bridle,worm,M300_036,ok,0,3:M300_036:0:2,,True
+False,1,3,gear,crown,dental anatomy,crown,M300_036,ok,1,3:M300_036:1:1,,True
+False,2,3,gear,crown,"parts of a horse's hoof? No, wait, let's analyze.",crown,M300_036,ok,1,3:M300_036:1:2,,True
+False,1,3,gear,spur,things that can be attached to a horse's rider's boots,spur,M300_036,ok,2,3:M300_036:2:1,,True
+False,2,3,gear,spur,parts of a horse rider's gear / things with rowels or points,spur,M300_036,ok,2,3:M300_036:2:2,,True
+False,1,3,dwelling,flat,parts of a car,wheel,M300_037,ok,0,3:M300_037:0:1,,False
+False,2,3,dwelling,flat,vehicle parts,wheel,M300_037,ok,0,3:M300_037:0:2,,False
+False,1,3,dwelling,pad,words with multiple meanings,pad,M300_037,ok,1,3:M300_037:1:1,,True
+False,2,3,dwelling,pad,"things that can be 'flat' or have a 'flat' variant (flat tire, flatbed trailer, flat pad)",pad,M300_037,ok,1,3:M300_037:1:2,,True
+False,1,3,dwelling,trailer,film previews,trailer,M300_037,ok,2,3:M300_037:2:1,,True
+False,2,3,dwelling,trailer,Australian slang for a cigarette (from tarpaulin),tarp,M300_037,ok,2,3:M300_037:2:2,,False
+False,1,3,moth,carpet,things that can be 'pug' when the first letter is changed (dog breeds / floor coverings),rug,M300_038,ok,0,3:M300_038:0:1,,False
+False,2,3,moth,carpet,types of carpet,carpet,M300_038,ok,0,3:M300_038:0:2,,True
+False,1,3,moth,pug,dog breeds,pug,M300_038,ok,1,3:M300_038:1:1,,True
+False,2,3,moth,pug,dog breeds that are also verbs meaning to track or follow closely,pug,M300_038,ok,1,3:M300_038:1:2,,True
+False,1,3,moth,dagger,things that can be 'thrown',knife,M300_038,ok,2,3:M300_038:2:1,,False
+False,2,3,moth,dagger,"things that can be 'shiv' in prison slang (carpet -> rug, pug -> mug, knife -> shiv)",knife,M300_038,ok,2,3:M300_038:2:2,,False
+True,1,3,ammunition,shot,ammunition,shot,M300_039,ok,0,3:M300_039:0:1,,True
+True,2,3,ammunition,shot,ammunition,shot,M300_039,ok,0,3:M300_039:0:2,,True
+False,1,3,ammunition,slug,computing,shell,M300_039,ok,1,3:M300_039:1:1,,False
+False,2,3,ammunition,slug,Unix shell commands,snail,M300_039,ok,1,3:M300_039:1:2,,False
+False,1,3,ammunition,shell,Unix commands,shell,M300_039,ok,2,3:M300_039:2:1,,True
+False,2,3,ammunition,shell,Unix commands,shell,M300_039,ok,2,3:M300_039:2:2,,True
+False,1,3,valve,butterfly,swimming strokes,butterfly,M300_040,ok,0,3:M300_040:0:1,,True
+False,2,3,valve,butterfly,boxing weight classes,butterfly,M300_040,ok,0,3:M300_040:0:2,,True
+False,1,3,valve,ball,objects used in sports,ball,M300_040,ok,1,3:M300_040:1:1,,True
+False,2,3,valve,ball,object with round shape,ball,M300_040,ok,1,3:M300_040:1:2,,True
+False,1,3,valve,needle,sewing and crafting tools that have a sharp point and an eye for thread,needle,M300_040,ok,2,3:M300_040:2:1,,True
+False,2,3,valve,needle,hardware store items,needle,M300_040,ok,2,3:M300_040:2:2,,True
+False,1,3,carriage,fly,insects,fly,M300_041,ok,0,3:M300_041:0:1,,True
+False,2,3,carriage,fly,insects,fly,M300_041,ok,0,3:M300_041:0:2,,True
+False,1,3,carriage,spider,software testing terms,spider,M300_041,ok,1,3:M300_041:1:1,,True
+False,2,3,carriage,spider,software programs that crawl the web,spider,M300_041,ok,1,3:M300_041:1:2,,True
+False,1,3,carriage,buggy,"two-wheeled and off-road vehicles, but ""fly"" and ""dune"" are both works of science fiction",dune,M300_041,ok,2,3:M300_041:2:1,,False
+False,2,3,carriage,buggy,Frank Herbert's Dune universe,dune,M300_041,ok,2,3:M300_041:2:2,,False
+False,1,3,pottery tool,bat,things with wings / flying animals (also sports equipment and animal names),bat,M300_042,ok,0,3:M300_042:0:1,,True
+False,2,3,pottery tool,bat,sports equipment,bat,M300_042,ok,0,3:M300_042:0:2,,True
+False,1,3,pottery tool,rib,things with a cage structure,rib,M300_042,ok,1,3:M300_042:1:1,,True
+False,2,3,pottery tool,rib,"Things with a 'cage' structure (rib cage, bat cage, wire cage)",rib,M300_042,ok,1,3:M300_042:1:2,,True
+False,1,3,pottery tool,wire,metal,copper,M300_042,ok,2,3:M300_042:2:1,,False
+False,2,3,pottery tool,wire,things with a homophone that is a verb meaning to assign or allot,wire,M300_042,ok,2,3:M300_042:2:2,,True
+False,1,3,window,bay,coastal landforms,cove,M300_043,ok,0,3:M300_043:0:1,,False
+False,2,3,window,bay,"homographs that are also names of fictional characters in Beauty and the Beast (Bow, Rose, Cove)",cove,M300_043,ok,0,3:M300_043:0:2,,False
+False,1,3,window,bow,archery equipment,bow,M300_043,ok,1,3:M300_043:1:1,,True
+False,2,3,window,bow,homographs with multiple meanings (archery / tied ribbon / front of a ship / bend forward),bow,M300_043,ok,1,3:M300_043:1:2,,True
+False,1,3,window,rose,flowers with a shared name that are also common female given names,rose,M300_043,ok,2,3:M300_043:2:1,,True
+False,2,3,window,rose,"things with a silent E that change pronunciation/meaning when removed? No — let's reason:
+
+bay (geography) and bay (sound of a dog/howling) — homonym. bow (archery) and bow (front of a ship / ribbon knot / bend) — homonym.
+
+The shared hidden category likely: words that are heteronyms or have multiple meanings? bay and bow are both homonyms with at least two meanings. The final image shows a rose (flower). ""Rose"" is also the past tense of ""rise."" So concept could be words with distinct meanings in different parts of speech.
+
+But maybe the category is words that are pronounced differently as different meanings? bow (archery: /boʊ/) vs bow (bend/front of ship: /baʊ/). bay is pronounced same. So not heteronyms.
+
+Another idea: bay and bow are also things in a theater? bay = a recess/alcove; bow = bow of a ship; rose = rose (flower) and rose (past of rise). Could just be homonyms/polysemes. But final answer likely: rose, concept: ""words with multiple meanings"".",rose,M300_043,ok,2,3:M300_043:2:2,,True
+False,1,3,hinge,butt,Things that hold discarded items,ashtray,M300_044,ok,0,3:M300_044:0:1,,False
+False,2,3,hinge,butt,"Things that can be 'tray' (piano, strap, ash)",ash,M300_044,ok,0,3:M300_044:0:2,,False
+False,1,3,hinge,piano,things with keys,key,M300_044,ok,1,3:M300_044:1:1,,False
+False,2,3,hinge,piano,"things with keys: map key, piano key, keyboard key, solution key",key,M300_044,ok,1,3:M300_044:1:2,,False
+False,1,3,hinge,strap,"things that can be 'butt' (cigarette end, etc.) as verbs meaning to hit with the head or horns",strap,M300_044,ok,2,3:M300_044:2:1,,True
+False,2,3,hinge,strap,"things that can be 'slapped' (butt, piano, strap)",strap,M300_044,ok,2,3:M300_044:2:2,,True
+False,1,3,plumbing equipment,snake,"Snake species (e.g., common European adder/Vipera berus)",viper,M300_045,ok,0,3:M300_045:0:1,,False
+False,2,3,plumbing equipment,snake,things with forked tongues,snake,M300_045,ok,0,3:M300_045:0:2,,True
+False,1,3,plumbing equipment,nipple,things with a ring/circle shape,pacifier,M300_045,ok,1,3:M300_045:1:1,,False
+False,2,3,plumbing equipment,nipple,things with a ring,pacifier,M300_045,ok,1,3:M300_045:1:2,,False
+False,1,3,plumbing equipment,torch,things that can be 'passed' (as in a relay or succession),torch,M300_045,ok,2,3:M300_045:2:1,,True
+False,2,3,plumbing equipment,torch,"things with a 'head' (snake head, nipple head, torch head)",torch,M300_045,ok,2,3:M300_045:2:2,,True
+False,1,3,coat,trench,___ coat,trench,M300_047,ok,0,3:M300_047:0:1,,True
+False,2,3,coat,trench,raincoat styles,trench,M300_047,ok,0,3:M300_047:0:2,,True
+False,1,3,coat,mac,"Apple products named after fruits (e.g., Macintosh apple)",MacBook,M300_047,ok,1,3:M300_047:1:1,,False
+False,2,3,coat,mac,"things with a hidden category of outerwear (trench coat, duster coat, mac coat)",mac,M300_047,ok,1,3:M300_047:1:2,,True
+False,1,3,coat,duster,types of coats,duster,M300_047,ok,2,3:M300_047:2:1,,True
+False,2,3,coat,duster,types of coats/jackets,duster,M300_047,ok,2,3:M300_047:2:2,,True
+False,1,3,fastener,frog,UI/Web design terms,tree frog,M300_048,ok,0,3:M300_048:0:1,,False
+False,2,3,fastener,frog,keyboard keys,frog,M300_048,ok,0,3:M300_048:0:2,,True
+False,1,3,fastener,toggle,change state,switch,M300_048,ok,1,3:M300_048:1:1,,False
+False,2,3,fastener,toggle,"things with a toggle/switch mechanism (frog tongue, snap/switch, light switch)",switch,M300_048,ok,1,3:M300_048:1:2,,False
+False,1,3,fastener,snap,Snapchat logo,ghost,M300_048,ok,2,3:M300_048:2:1,,False
+False,2,3,fastener,snap,Snapchat logo,ghost,M300_048,ok,2,3:M300_048:2:2,,False
+False,1,3,lure,plug,electrical connector,plug,M300_050,ok,0,3:M300_050:0:1,,True
+False,2,3,lure,plug,electrical connectors / household objects with prongs,plug,M300_050,ok,0,3:M300_050:0:2,,True
+False,1,3,lure,spoon,items used in the game 'spoons',spoon,M300_050,ok,1,3:M300_050:1:1,,True
+False,2,3,lure,spoon,things that can be types of lures in fishing,spoon,M300_050,ok,1,3:M300_050:1:2,,True
+False,1,3,lure,spinner,items used in games of chance or gambling,spinner,M300_050,ok,2,3:M300_050:2:1,,True
+False,2,3,lure,spinner,fidget toys that can also mean people or things that spin,spinner,M300_050,ok,2,3:M300_050:2:2,,True
+False,1,3,ear piercing,rook,chess pieces,rook,M300_051,ok,0,3:M300_051:0:1,,True
+False,2,3,ear piercing,rook,chess pieces,rook,M300_051,ok,0,3:M300_051:0:2,,True
+False,1,3,ear piercing,helix,types of staircases or architectural shapes,spiral,M300_051,ok,1,3:M300_051:1:1,,False
+False,2,3,ear piercing,helix,types of staircases or geometric patterns,spiral,M300_051,ok,1,3:M300_051:1:2,,False
+False,1,3,ear piercing,industrial,chess pieces,smokestack,M300_051,ok,2,3:M300_051:2:1,,False
+False,2,3,ear piercing,industrial,"Magic: The Gathering card types (Rook, Helix, Smoke)",smoke,M300_051,ok,2,3:M300_051:2:2,,False
+False,1,3,bird,bill,proof of purchase,receipt,M300_052,ok,0,3:M300_052:0:1,,False
+False,2,3,bird,bill,unexpected word senses (crop = harvest/gizzard; comb = hair tool/honeycomb; bill = banknote/invoice),bill,M300_052,ok,0,3:M300_052:0:2,,True
+False,1,3,bird,crop,"things with rows of bristles or kernels, or tools/plants related to hair and farming",wheat,M300_052,ok,1,3:M300_052:1:1,,False
+False,2,3,bird,crop,parts of a whole (or things that can be 'picked'),ear,M300_052,ok,1,3:M300_052:1:2,,False
+False,1,3,bird,comb,things with teeth,comb,M300_052,ok,2,3:M300_052:2:1,,True
+False,2,3,bird,comb,things with teeth,comb,M300_052,ok,2,3:M300_052:2:2,,True
+False,1,3,songbird,dipper,smoking pipes,pipe,M300_053,ok,0,3:M300_053:0:1,,False
+False,2,3,songbird,dipper,smoking pipes,pipe,M300_053,ok,0,3:M300_053:0:2,,False
+False,1,3,songbird,thrasher,occupational nouns that are also types of sharks,thresher,M300_053,ok,1,3:M300_053:1:1,,False
+False,2,3,songbird,thrasher,constellations,thresher,M300_053,ok,1,3:M300_053:1:2,,False
+False,1,3,songbird,weaver,constellations,loom,M300_053,ok,2,3:M300_053:2:1,,False
+False,2,3,songbird,weaver,birds,loom,M300_053,ok,2,3:M300_053:2:2,,False
+False,1,3,earring,stud,structural framing and fasteners,stud,M300_055,ok,0,3:M300_055:0:1,,True
+False,2,3,earring,stud,construction framing hardware and fasteners,stud,M300_055,ok,0,3:M300_055:0:2,,True
+False,1,3,earring,crawler,things with a repeating pattern that can evoke a 'falling' or 'descending' motion (drop/tread),tread,M300_055,ok,1,3:M300_055:1:1,,False
+False,2,3,earring,crawler,patterns on the bottom of shoes/tires,tread,M300_055,ok,1,3:M300_055:1:2,,False
+False,1,3,earring,drop,small amount of liquid,drop,M300_055,ok,2,3:M300_055:2:1,,True
+False,2,3,earring,drop,"terms in web design/development (e.g., drop-down, crawler, stud?)",drop,M300_055,ok,2,3:M300_055:2:2,,True
+False,1,3,paper,tissue,words with a second meaning as a type of plant or plant part,butcher,M300_057,ok,0,3:M300_057:0:1,,False
+False,2,3,paper,tissue,biology,cell,M300_057,ok,0,3:M300_057:0:2,,False
+False,1,3,paper,butcher,professions that are also verbs,butcher,M300_057,ok,1,3:M300_057:1:1,,True
+False,2,3,paper,butcher,professions that are also verbs,butcher,M300_057,ok,1,3:M300_057:1:2,,True
+False,1,3,paper,carbon,drawing medium,charcoal,M300_057,ok,2,3:M300_057:2:1,,False
+False,2,3,paper,carbon,art media,charcoal,M300_057,ok,2,3:M300_057:2:2,,False
+False,1,3,paddle,wing,things that can be 'left' or 'right' (laterality),wing,M300_058,ok,0,3:M300_058:0:1,,True
+False,2,3,paddle,wing,"things with wings (spoon = spoon wing? feather = wing feather, wing = bird wing)",wing,M300_058,ok,0,3:M300_058:0:2,,True
+False,1,3,paddle,spoon,,spoon,M300_058,ok,1,3:M300_058:1:1,,True
+False,2,3,paddle,spoon,"things that can be ""winged"" or have ""feathers"" in a metaphorical/poetic sense",spoon,M300_058,ok,1,3:M300_058:1:2,,True
+False,1,3,paddle,feather,light as a feather,feather,M300_058,ok,2,3:M300_058:2:1,,True
+False,2,3,paddle,feather,things that can be 'ruffled',feather,M300_058,ok,2,3:M300_058:2:2,,True
+False,1,3,bee,carpenter,professions that are also surnames,carpenter,M300_059,ok,0,3:M300_059:0:1,,True
+False,2,3,bee,carpenter,"birds with a repeated call, named after their sound",carpenter,M300_059,ok,0,3:M300_059:0:2,,True
+False,1,3,bee,miner,birds that are named for human occupations,miner,M300_059,ok,1,3:M300_059:1:1,,True
+False,2,3,bee,miner,birds in the family Furnariidae that build mud nests,miner,M300_059,ok,1,3:M300_059:1:2,,True
+False,1,3,bee,cuckoo,birds that lay eggs in other birds' nests,cuckoo,M300_059,ok,2,3:M300_059:2:1,,True
+False,2,3,bee,cuckoo,"birds that are named after the sound they make, used in clock mechanisms",cuckoo,M300_059,ok,2,3:M300_059:2:2,,True
+False,1,3,puppet,finger,parts of a hand / gestures,finger,M300_060,ok,0,3:M300_060:0:1,,True
+False,2,3,puppet,finger,parts of speech in grammar (parts of a sentence),finger,M300_060,ok,0,3:M300_060:0:2,,True
+False,1,3,puppet,glove,baseball equipment,glove,M300_060,ok,1,3:M300_060:1:1,,True
+False,2,3,puppet,glove,baseball equipment,glove,M300_060,ok,1,3:M300_060:1:2,,True
+False,1,3,puppet,rod,fishing gear / long thin objects,rod,M300_060,ok,2,3:M300_060:2:1,,True
+False,2,3,puppet,rod,fishing,rod,M300_060,ok,2,3:M300_060:2:2,,True
+False,1,3,succulent,string,sequence of characters in programming,string,M300_061,ok,0,3:M300_061:0:1,,True
+False,2,3,succulent,string,things that can be green,twine,M300_061,ok,0,3:M300_061:0:2,,False
+False,1,3,succulent,paddle,"things used in rowing/boating that can also precede 'board' to form a different word (jade -> jade board? No; actually jade can be a shade of green, oar sounds like ore? The category may be homophones of minerals: jade, oar/ore)",oar,M300_061,ok,1,3:M300_061:1:1,,False
+False,2,3,succulent,paddle,programming frameworks,paddle,M300_061,ok,1,3:M300_061:1:2,,True
+False,1,3,succulent,jade,homophones for common English words,jade,M300_061,ok,2,3:M300_061:2:1,,True
+False,2,3,succulent,jade,homophones of verbs meaning to criticize or complain incessantly,jade,M300_061,ok,2,3:M300_061:2:2,,True
+False,1,3,cosmetics,shadow,makeup,shadow,M300_063,ok,0,3:M300_063:0:1,,True
+False,2,3,cosmetics,shadow,things that follow you,shadow,M300_063,ok,0,3:M300_063:0:2,,True
+False,1,3,cosmetics,foundation,"construction machinery that digs, often found on building sites",excavator,M300_063,ok,1,3:M300_063:1:1,,False
+False,2,3,cosmetics,foundation,construction equipment in the Digger song/rhyme,excavator,M300_063,ok,1,3:M300_063:1:2,,False
+False,1,3,cosmetics,highlighter,makeup techniques,highlight,M300_063,ok,2,3:M300_063:2:1,,False
+False,2,3,cosmetics,highlighter,makeup,highlight,M300_063,ok,2,3:M300_063:2:2,,False
+True,1,3,playground equipment,slide,playground equipment,slide,M300_064,ok,0,3:M300_064:0:1,,True
+False,2,3,playground equipment,slide,baseball pitches,slide,M300_064,ok,0,3:M300_064:0:2,,True
+False,1,3,playground equipment,swing,golf shots / playground equipment,swing,M300_064,ok,1,3:M300_064:1:1,,True
+True,2,3,playground equipment,swing,playground equipment,swing,M300_064,ok,1,3:M300_064:1:2,,True
+False,1,3,playground equipment,spinner,rotation,spin,M300_064,ok,2,3:M300_064:2:1,,False
+True,2,3,playground equipment,spinner,playground equipment,spin,M300_064,ok,2,3:M300_064:2:2,,False
+False,1,3,club,bat,sports equipment,bat,M300_065,ok,0,3:M300_065:0:1,,True
+False,2,3,club,bat,sports equipment,bat,M300_065,ok,0,3:M300_065:0:2,,True
+False,1,3,club,sap,tree fluid,sap,M300_065,ok,1,3:M300_065:1:1,,True
+False,2,3,club,sap,"things with a 'vampire' association, or red liquids/fluids from living things",blood,M300_065,ok,1,3:M300_065:1:2,,False
+False,1,3,club,cane,walking aids with curved handles,cane,M300_065,ok,2,3:M300_065:2:1,,True
+False,2,3,club,cane,walking aids with curved handles,cane,M300_065,ok,2,3:M300_065:2:2,,True
+False,1,3,gymnastics apparatus,ribbon,"archery equipment (beam, bow, arrow)",bow,M300_068,ok,0,3:M300_068:0:1,,False
+True,2,3,gymnastics apparatus,ribbon,gymnastics apparatus,ribbon,M300_068,ok,0,3:M300_068:0:2,,True
+True,1,3,gymnastics apparatus,beam,gymnastics apparatus,beam,M300_068,ok,1,3:M300_068:1:1,,True
+True,2,3,gymnastics apparatus,beam,gymnastics apparatus,beam,M300_068,ok,1,3:M300_068:1:2,,True
+False,1,3,gymnastics apparatus,hoop,sports equipment,net,M300_068,ok,2,3:M300_068:2:1,,False
+False,2,3,gymnastics apparatus,hoop,sports equipment,net,M300_068,ok,2,3:M300_068:2:2,,False
+False,1,3,seal,harp,things with strings,harp,M300_069,ok,0,3:M300_069:0:1,,True
+False,2,3,seal,harp,musical instruments,harp,M300_069,ok,0,3:M300_069:0:2,,True
+False,1,3,seal,ribbon,awards or decorations,ribbon,M300_069,ok,1,3:M300_069:1:1,,True
+False,2,3,seal,ribbon,,ribbon,M300_069,ok,1,3:M300_069:1:2,,True
+False,1,3,seal,elephant,animals with tusks,elephant,M300_069,ok,2,3:M300_069:2:1,,True
+False,2,3,seal,elephant,animals with trunks,elephant,M300_069,ok,2,3:M300_069:2:2,,True
+False,1,3,sleeve,trumpet,musical instruments,trumpet,M300_070,ok,0,3:M300_070:0:1,,True
+False,2,3,sleeve,trumpet,things with valves,trumpet,M300_070,ok,0,3:M300_070:0:2,,True
+False,1,3,sleeve,lantern,portable light sources,lamp,M300_070,ok,1,3:M300_070:1:1,,False
+False,2,3,sleeve,lantern,things that can be 'lit' (slang for exciting/drunk),lamp,M300_070,ok,1,3:M300_070:1:2,,False
+False,1,3,sleeve,cap,musical instruments,cap,M300_070,ok,2,3:M300_070:2:1,,True
+False,2,3,sleeve,cap,types of hats,cap,M300_070,ok,2,3:M300_070:2:2,,True
+False,1,3,mollusk,slug,words with silent letters,shotgun,M300_072,ok,0,3:M300_072:0:1,,False
+False,2,3,mollusk,slug,types of firearms,shotgun,M300_072,ok,0,3:M300_072:0:2,,False
+False,1,3,mollusk,clam,things that flip open,flip phone,M300_072,ok,1,3:M300_072:1:1,,False
+False,2,3,mollusk,clam,things that flip open,flip phone,M300_072,ok,1,3:M300_072:1:2,,False
+False,1,3,mollusk,squid,PlayStation controller buttons,shapes,M300_072,ok,2,3:M300_072:2:1,,False
+False,2,3,mollusk,squid,PlayStation controller buttons,circle,M300_072,ok,2,3:M300_072:2:2,,False
+False,1,3,sauce,mole,sauce/dip,mole,M300_073,ok,0,3:M300_073:0:1,,True
+False,2,3,sauce,mole,hidden category: words with a secondary meaning (salsa: dance; dressing: medical bandage; mole: animal),mole,M300_073,ok,0,3:M300_073:0:2,,True
+False,1,3,sauce,salsa,types of dancing,ballroom,M300_073,ok,1,3:M300_073:1:1,,False
+False,2,3,sauce,salsa,types of dances,ballroom,M300_073,ok,1,3:M300_073:1:2,,False
+False,1,3,sauce,dressing,"things that can be 'wrapped' or 'dressed' (e.g., mole as in mole wrap/sauce, bandage as in wound wrap)",bandage,M300_073,ok,2,3:M300_073:2:1,,False
+False,2,3,sauce,dressing,"Medical items that are also dance styles (Mole, Salsa, Bandage)",bandage,M300_073,ok,2,3:M300_073:2:2,,False
+False,1,3,pork cut,chop,things used in martial arts demonstrations / items that can be broken,board,M300_075,ok,0,3:M300_075:0:1,,False
+False,2,3,pork cut,chop,things you can break in martial arts,board,M300_075,ok,0,3:M300_075:0:2,,False
+False,1,3,pork cut,cushion,things that are prickly,cactus,M300_075,ok,1,3:M300_075:1:1,,False
+False,2,3,pork cut,cushion,plants named after body parts,cactus,M300_075,ok,1,3:M300_075:1:2,,False
+False,1,3,pork cut,butt,cigarette remains,butt,M300_075,ok,2,3:M300_075:2:1,,True
+False,2,3,pork cut,butt,street slang for the butt of a marijuana cigarette,roach,M300_075,ok,2,3:M300_075:2:2,,False
+False,1,3,woodwind instrument,pipe,pipe fittings,elbow,M300_076,ok,0,3:M300_076:0:1,,False
+False,2,3,woodwind instrument,pipe,pipe fittings,elbow,M300_076,ok,0,3:M300_076:0:2,,False
+False,1,3,woodwind instrument,recorder,musical instruments,recorder,M300_076,ok,1,3:M300_076:1:1,,True
+False,2,3,woodwind instrument,recorder,musical instruments,recorder,M300_076,ok,1,3:M300_076:1:2,,True
+False,1,3,woodwind instrument,whistle,things that make a high-pitched sound,whistle,M300_076,ok,2,3:M300_076:2:1,,True
+False,2,3,woodwind instrument,whistle,instruments played by blowing air,whistle,M300_076,ok,2,3:M300_076:2:2,,True
+False,1,3,jacket,blazer,Chevrolet models named after military/aviation terms,blazer,M300_077,ok,0,3:M300_077:0:1,,True
+False,2,3,jacket,blazer, jackets/clothing,blazer,M300_077,ok,0,3:M300_077:0:2,,True
+False,1,3,jacket,bomber,dog breeds,bomber,M300_077,ok,1,3:M300_077:1:1,,True
+False,2,3,jacket,bomber,jackets,bomber,M300_077,ok,1,3:M300_077:1:2,,True
+False,1,3,jacket,cardigan,"dog breeds that are also names of clothing items (blazer, cardigan, corgi)",corgi,M300_077,ok,2,3:M300_077:2:1,,False
+False,2,3,jacket,cardigan,dog breeds that are also clothing items,corgi,M300_077,ok,2,3:M300_077:2:2,,False
+False,1,3,hairstyle,bun,hairstyles,bun,M300_078,ok,0,3:M300_078:0:1,,True
+False,2,3,hairstyle,bun,hairstyles,bun,M300_078,ok,0,3:M300_078:0:2,,True
+False,1,3,hairstyle,mullet,hairstyles,mullet,M300_078,ok,1,3:M300_078:1:1,,True
+False,2,3,hairstyle,mullet,hairstyles,mullet,M300_078,ok,1,3:M300_078:1:2,,True
+False,1,3,hairstyle,beehive,"things with a 'bun' pun: bread rolls and beehives (hives) are both structured, clustered enclosures containing many individual units",hive,M300_078,ok,2,3:M300_078:2:1,,False
+False,2,3,hairstyle,beehive,Hairstyles,hive,M300_078,ok,2,3:M300_078:2:2,,False
+False,1,3,paintbrush,sword,things that can be 'drawn' (fan = to spread out/activate; sword = to pull out),sword,M300_079,ok,0,3:M300_079:0:1,,True
+False,2,3,paintbrush,sword,bladed weapons,sword,M300_079,ok,0,3:M300_079:0:2,,True
+False,1,3,paintbrush,fan,homographs,fan,M300_079,ok,1,3:M300_079:1:1,,True
+False,2,3,paintbrush,fan,things with blades,fan,M300_079,ok,1,3:M300_079:1:2,,True
+False,1,3,paintbrush,dagger,bladed weapons,dagger,M300_079,ok,2,3:M300_079:2:1,,True
+False,2,3,paintbrush,dagger,weapons in Clue,dagger,M300_079,ok,2,3:M300_079:2:2,,True
+False,1,3,hat,bowler,things that can be 'thrown' in sports or games,bowling ball,M300_080,ok,0,3:M300_080:0:1,,False
+False,2,3,hat,bowler,bowling terms shared with baseball/cricket and other meanings,strike,M300_080,ok,0,3:M300_080:0:2,,False
+False,1,3,hat,pillbox,types of hats,pill,M300_080,ok,1,3:M300_080:1:1,,False
+False,2,3,hat,pillbox,types of hats,pill,M300_080,ok,1,3:M300_080:1:2,,False
+False,1,3,hat,boater,people in boats,canoeist,M300_080,ok,2,3:M300_080:2:1,,False
+False,2,3,hat,boater,types of hats,canoe,M300_080,ok,2,3:M300_080:2:2,,False
+False,1,3,wrench,monkey,animals that are also verbs meaning to mess around or deceive,monkey,M300_081,ok,0,3:M300_081:0:1,,True
+False,2,3,wrench,monkey,animal-themed Apple Watch bands,monkey,M300_081,ok,0,3:M300_081:0:2,,True
+False,1,3,wrench,alligator,animal with a strap-like pattern or shape,alligator,M300_081,ok,1,3:M300_081:1:1,,True
+False,2,3,wrench,alligator,animals that are also verbs meaning to bring/carry,alligator,M300_081,ok,1,3:M300_081:1:2,,True
+False,1,3,wrench,strap,things with holes for a buckle/band,strap,M300_081,ok,2,3:M300_081:2:1,,True
+False,2,3,wrench,strap,watch parts,strap,M300_081,ok,2,3:M300_081:2:2,,True
+False,1,3,anchor,mushroom,clouds that rise after an explosion (mushroom cloud),mushroom,M300_084,ok,0,3:M300_084:0:1,,True
+False,2,3,anchor,mushroom,clouds that resemble objects,mushroom,M300_084,ok,0,3:M300_084:0:2,,True
+False,1,3,anchor,plow,farm implements with a secondary meaning in a different context,cultivator,M300_084,ok,1,3:M300_084:1:1,,False
+False,2,3,anchor,plow,types of forks,cultivator,M300_084,ok,1,3:M300_084:1:2,,False
+False,1,3,anchor,spoon,Mushroom and spoon are both types of golf clubs.,spoon,M300_084,ok,2,3:M300_084:2:1,,True
+False,2,3,anchor,spoon,things that can be used as verbs in cooking shows / utensils and farm tools,spoon,M300_084,ok,2,3:M300_084:2:2,,True

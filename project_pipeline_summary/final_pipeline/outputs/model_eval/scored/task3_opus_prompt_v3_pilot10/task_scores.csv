@@ -1,0 +1,61 @@
+concept_correct,cue_count,experiment,gold_concept,gold_word,predicted_concept,predicted_word,puzzle_id,status,target_slot,task_key,variant,word_correct
+True,1,3,jewelry,ring,jewelry,ring,IR001,ok,0,3:IR001:0:1,,True
+False,2,3,jewelry,ring,types of jewelry,ring,IR001,ok,0,3:IR001:0:2,,True
+False,1,3,jewelry,choker,quark flavors,down,IR001,ok,1,3:IR001:1:1,,False
+False,2,3,jewelry,choker,jewelry/bracelet types? uncertain,net,IR001,ok,1,3:IR001:1:2,,False
+False,1,3,jewelry,charm,,horseshoe,IR001,ok,2,3:IR001:2:1,,False
+True,2,3,jewelry,charm,jewelry,horseshoe,IR001,ok,2,3:IR001:2:2,,False
+False,1,3,bag,clutch,,pedal,IR003,ok,0,3:IR003:0:1,,False
+False,2,3,bag,clutch,bag types,clutch,IR003,ok,0,3:IR003:0:2,,True
+False,1,3,bag,hobo,types of bags,granny,IR003,ok,1,3:IR003:1:1,,False
+False,2,3,bag,hobo,types of bags,tote,IR003,ok,1,3:IR003:1:2,,False
+False,1,3,bag,messenger,baseball/cricket terms? clutch and delivery — sports terms,delivery,IR003,ok,2,3:IR003:2:1,,False
+False,2,3,bag,messenger,bags,messenger,IR003,ok,2,3:IR003:2:2,,True
+False,1,3,beverage,punch,drinks,punch,IR004,ok,0,3:IR004:0:1,,True
+False,2,3,beverage,punch,drinks,punch,IR004,ok,0,3:IR004:0:2,,True
+False,1,3,beverage,shake,root beer float / milkshake — drinks? Actually ice cream treats,shake,IR004,ok,1,3:IR004:1:1,,True
+False,2,3,beverage,shake,drinks,shake,IR004,ok,1,3:IR004:1:2,,True
+False,1,3,beverage,float,drinks,float,IR004,ok,2,3:IR004:2:1,,True
+False,2,3,beverage,float,drinks,float,IR004,ok,2,3:IR004:2:2,,True
+False,1,3,plant,stem,types of sailing ships,schooner,IR005,ok,0,3:IR005:0:1,,False
+False,2,3,plant,stem,parts of a tree or plant,stem,IR005,ok,0,3:IR005:0:2,,True
+False,1,3,plant,bark,parts of a tree,bark,IR005,ok,1,3:IR005:1:1,,True
+False,2,3,plant,bark,parts of a plant,bark,IR005,ok,1,3:IR005:1:2,,True
+False,1,3,plant,root,,cell,IR005,ok,2,3:IR005:2:1,,False
+False,2,3,plant,root,parts of a tree,cell,IR005,ok,2,3:IR005:2:2,,False
+False,1,3,board game,risk,board games,danger,IR006,ok,0,3:IR006:0:1,,False
+False,2,3,board game,risk,board games,risk,IR006,ok,0,3:IR006:0:2,,True
+False,1,3,board game,operation,board games,operation,IR006,ok,1,3:IR006:1:1,,True
+False,2,3,board game,operation,board games,operation,IR006,ok,1,3:IR006:1:2,,True
+False,1,3,board game,clue,board games,clue,IR006,ok,2,3:IR006:2:1,,True
+False,2,3,board game,clue,board games,clue,IR006,ok,2,3:IR006:2:2,,True
+False,1,3,ship,bark,boat types,bark,P007,ok,0,3:P007:0:1,,True
+False,2,3,ship,bark,ship types,bark,P007,ok,0,3:P007:0:2,,True
+False,1,3,ship,cutter,types of boats,cutter,P007,ok,1,3:P007:1:1,,True
+False,2,3,ship,cutter,types of boats,cutter,P007,ok,1,3:P007:1:2,,True
+False,1,3,ship,steamer,,steam,P007,ok,2,3:P007:2:1,,False
+False,2,3,ship,steamer,types of ships/boats,steamer,P007,ok,2,3:P007:2:2,,True
+False,1,3,river,bed,river features,bed,IR007,ok,0,3:IR007:0:1,,True
+False,2,3,river,bed,parts of a river,bed,IR007,ok,0,3:IR007:0:2,,True
+False,1,3,river,bank,parts of a river,bank,IR007,ok,1,3:IR007:1:1,,True
+False,2,3,river,bank,parts of a river,bank,IR007,ok,1,3:IR007:1:2,,True
+False,1,3,river,mouth,parts of a river,mouth,IR007,ok,2,3:IR007:2:1,,True
+False,2,3,river,mouth,parts of a river,mouth,IR007,ok,2,3:IR007:2:2,,True
+False,1,3,skeleton,spine,body parts,spine,IR008,ok,0,3:IR008:0:1,,True
+False,2,3,skeleton,spine,anatomy terms,spine,IR008,ok,0,3:IR008:0:2,,True
+False,1,3,skeleton,arch,composers,bridge,IR008,ok,1,3:IR008:1:1,,False
+False,2,3,skeleton,arch,"body parts / anatomy terms (spine, rib cage, bridge of nose)",bridge,IR008,ok,1,3:IR008:1:2,,False
+False,1,3,skeleton,cage,"skeleton parts (spine, rib cage)",cage,IR008,ok,2,3:IR008:2:1,,True
+False,2,3,skeleton,cage,body parts (anatomy),cage,IR008,ok,2,3:IR008:2:2,,True
+False,1,3,bread,roll,dance moves,roll,IR009,ok,0,3:IR009:0:1,,True
+False,2,3,bread,roll,bread forms,roll,IR009,ok,0,3:IR009:0:2,,True
+False,1,3,bread,twist,,twist,IR009,ok,1,3:IR009:1:1,,True
+False,2,3,bread,twist,bread shapes,twist,IR009,ok,1,3:IR009:1:2,,True
+False,1,3,bread,loaf,money/funds slang,kitty,IR009,ok,2,3:IR009:2:1,,False
+True,2,3,bread,loaf,bread,loaf,IR009,ok,2,3:IR009:2:2,,True
+False,1,3,garment,slip,clothing,slip,IR010,ok,0,3:IR010:0:1,,True
+False,2,3,garment,slip,"women's garments / clothing items (jumper, tank top, slip)",slip,IR010,ok,0,3:IR010:0:2,,True
+False,1,3,garment,jumper,clothing tops,jumper,IR010,ok,1,3:IR010:1:1,,True
+False,2,3,garment,jumper,clothing items,jumper,IR010,ok,1,3:IR010:1:2,,True
+False,1,3,garment,tank,clothing garments,tank,IR010,ok,2,3:IR010:2:1,,True
+False,2,3,garment,tank,"clothing (slip, jumper, tank top)",tank,IR010,ok,2,3:IR010:2:2,,True

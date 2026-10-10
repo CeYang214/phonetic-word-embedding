@@ -1,0 +1,26 @@
+{
+  "manifest": "outputs/model_eval/final155_manifest.jsonl",
+  "results": "outputs/model_eval/final155_gpt-5.6-luna_two_shot_v1.jsonl",
+  "scored_tasks": 80,
+  "concept_scoring": "human_study_task2",
+  "word_scoring": "exact_alias",
+  "groups": {
+    "2:two_shot": {
+      "n": 80,
+      "parse_or_request_errors": 0,
+      "concept_correct": 0.15,
+      "word_correct_count": 0.4083333333333333,
+      "concept_correct_exact": 0.0,
+      "concept_correct_semantic": 0.15,
+      "missing_tasks": 0
+    }
+  },
+  "selected_puzzles": 80,
+  "puzzle_ids_file": "data/study_main_80_ids.txt",
+  "semantic_judge": {
+    "model": "gemini-3.5-flash-lite",
+    "checker_sha256": "9814b4f80ac503f350d523a9c1d61be2ecefd78f0e57da036afd72c6bcb2ed9b",
+    "cache": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/concept_judgments.jsonl",
+    "scope": "Task 2 concept answers only"
+  }
+}

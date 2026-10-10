@@ -1,0 +1,33 @@
+{
+  "model": "google/gemma-4-12B-it",
+  "condition": "direct",
+  "source": "existing baseline: final155_gemma-4-12b-it_prompt_v3.jsonl",
+  "scope": "all155",
+  "run_id": "run1",
+  "seed": null,
+  "seed_status": "not_recorded_for_existing_run",
+  "generation_settings": {
+    "local_thinking": "disabled",
+    "max_output_tokens": 1024,
+    "local_json_mode": true
+  },
+  "generation_settings_inferred_from_defaults": false,
+  "prompt_versions": [
+    "2026-10-08-v3"
+  ],
+  "sampling_settings": {
+    "temperature": null,
+    "temperature_source": "server/model default; not recorded in existing result"
+  },
+  "correct_count": 15,
+  "denominator": 155,
+  "accuracy": 0.0967741935483871,
+  "actual_trials": 155,
+  "expected_trials": 155,
+  "missing_trials": 0,
+  "missing_task_keys": [],
+  "request_errors": 0,
+  "malformed_outputs": 0,
+  "missing_answer_fields": 0,
+  "complete": true
+}

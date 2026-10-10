@@ -1,0 +1,81 @@
+{
+  "manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/new_llm_pipeline/outputs/model_eval/manifest.jsonl",
+  "results": "outputs/model_eval/human80_qwen3.8-27b_nothinking_json_v2.jsonl",
+  "scored_tasks": 960,
+  "concept_scoring": "human_study_task2_task3",
+  "word_scoring": "gemini_image_word",
+  "groups": {
+    "1": {
+      "n": 240,
+      "parse_or_request_errors": 0,
+      "top1": 0.5291666666666667,
+      "top5": 0.7708333333333334,
+      "top1_exact": 0.4125,
+      "top1_semantic": 0.5291666666666667,
+      "top5_exact": 0.5958333333333333,
+      "top5_semantic": 0.7708333333333334
+    },
+    "2:direct": {
+      "n": 80,
+      "parse_or_request_errors": 0,
+      "concept_correct": 0.0875,
+      "word_correct_count": 0.32916666666666666,
+      "concept_correct_exact": 0.0,
+      "concept_correct_semantic": 0.0875,
+      "word_correct_count_exact": 0.21666666666666667,
+      "word_correct_count_semantic": 0.32916666666666666
+    },
+    "2:sense_hint": {
+      "n": 80,
+      "parse_or_request_errors": 0,
+      "concept_correct": 0.0625,
+      "word_correct_count": 0.4,
+      "concept_correct_exact": 0.0,
+      "concept_correct_semantic": 0.0625,
+      "word_correct_count_exact": 0.3625,
+      "word_correct_count_semantic": 0.4
+    },
+    "2:stepwise": {
+      "n": 80,
+      "parse_or_request_errors": 0,
+      "concept_correct": 0.0125,
+      "word_correct_count": 0.5166666666666667,
+      "concept_correct_exact": 0.0,
+      "concept_correct_semantic": 0.0125,
+      "word_correct_count_exact": 0.4083333333333333,
+      "word_correct_count_semantic": 0.5166666666666667
+    },
+    "3:1-cue": {
+      "n": 240,
+      "parse_or_request_errors": 0,
+      "word_correct": 0.5875,
+      "concept_correct": 0.0625,
+      "concept_correct_exact": 0.0,
+      "concept_correct_semantic": 0.0625,
+      "word_correct_exact": 0.5083333333333333,
+      "word_correct_semantic": 0.5875
+    },
+    "3:2-cue": {
+      "n": 240,
+      "parse_or_request_errors": 0,
+      "word_correct": 0.6291666666666667,
+      "concept_correct": 0.10416666666666667,
+      "concept_correct_exact": 0.016666666666666666,
+      "concept_correct_semantic": 0.10416666666666667,
+      "word_correct_exact": 0.5583333333333333,
+      "word_correct_semantic": 0.6291666666666667
+    }
+  },
+  "semantic_judge": {
+    "model": "gemini-3.5-flash-lite",
+    "checker_sha256": "9814b4f80ac503f350d523a9c1d61be2ecefd78f0e57da036afd72c6bcb2ed9b",
+    "cache": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/new_llm_pipeline/outputs/model_eval/concept_judgments.jsonl",
+    "scope": "Task 2/3 concepts"
+  },
+  "word_judge": {
+    "model": "gemini-3.5-flash-lite",
+    "checker_sha256": "36e59b45507fda024765c2ef9d71427b2813f8b67c7b0281258c3cab2516353c",
+    "cache": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/new_llm_pipeline/outputs/model_eval/concept_judgments.jsonl",
+    "scope": "Image-associated words in Tasks 1, 2 and 3"
+  }
+}

@@ -1,0 +1,721 @@
+concept_correct,cue_count,experiment,gold_concept,gold_word,predicted_concept,predicted_word,predicted_words,puzzle_id,status,target_slot,task_key,top1,top5,variant,word_correct
+,,1,jewelry,ring,,,"[""boxing ring"", ""ring corner"", ""ropes"", ""gym"", ""sports equipment""]",IR001,ok,0,1:IR001:0,False,False,,
+,,1,jewelry,choker,,,"[""soccer player"", ""soccer net"", ""goal"", ""athlete"", ""defeat""]",IR001,ok,1,1:IR001:1,False,False,,
+,,1,jewelry,charm,,,"[""horseshoe"", ""brass"", ""pavement"", ""street"", ""metal""]",IR001,ok,2,1:IR001:2,False,False,,
+True,1,3,jewelry,ring,jewelry,ring,,IR001,ok,0,3:IR001:0:1,,,,True
+False,2,3,jewelry,ring,,corner,,IR001,ok,0,3:IR001:0:2,,,,False
+False,1,3,jewelry,choker,soccer,goal,,IR001,ok,1,3:IR001:1:1,,,,False
+False,2,3,jewelry,choker,quarks,strange,,IR001,ok,1,3:IR001:1:2,,,,False
+False,1,3,jewelry,charm,pit,horseshoe,,IR001,ok,2,3:IR001:2:1,,,,False
+False,2,3,jewelry,charm,sports,ringer,,IR001,ok,2,3:IR001:2:2,,,,False
+,,1,bag,clutch,,,"[""pedal"", ""stop"", ""go"", ""brake"", ""accelerator""]",IR003,ok,0,1:IR003:0,False,False,,
+,,1,bag,hobo,,,"[""woman"", ""stroller"", ""cart"", ""pathway"", ""person""]",IR003,ok,1,1:IR003:1,False,False,,
+,,1,bag,messenger,,,"[""deliveryman"", ""bicycle"", ""packages"", ""mask"", ""delivery""]",IR003,ok,2,1:IR003:2,False,False,,
+False,1,3,bag,clutch,containers or holders,caddy,,IR003,ok,0,3:IR003:0:1,,,,False
+False,2,3,bag,clutch,bicycle parts,pedal,,IR003,ok,0,3:IR003:0:2,,,,False
+False,1,3,bag,hobo,RNA,transfer,,IR003,ok,1,3:IR003:1:1,,,,False
+False,2,3,bag,hobo,,pram,,IR003,ok,1,3:IR003:1:2,,,,False
+False,1,3,bag,messenger,,delivery,,IR003,ok,2,3:IR003:2:1,,,,False
+False,2,3,bag,messenger,handbag types,messenger,,IR003,ok,2,3:IR003:2:2,,,,True
+,,1,beverage,punch,,,"[""boxer"", ""punch"", ""training"", ""athlete"", ""fight""]",IR004,ok,0,1:IR004:0,False,True,,
+,,1,beverage,shake,,,"[""handshake"", ""agreement"", ""business"", ""hands"", ""partnership""]",IR004,ok,1,1:IR004:1,False,False,,
+,,1,beverage,float,,,"[""float"", ""parade"", ""festival"", ""crowd"", ""horse""]",IR004,ok,2,1:IR004:2,True,True,,
+False,1,3,beverage,punch,types of fruit drink,punch,,IR004,ok,0,3:IR004:0:1,,,,True
+False,2,3,beverage,punch,Muhammad Ali quotes,sting,,IR004,ok,0,3:IR004:0:2,,,,False
+False,1,3,beverage,shake,finance,deal,,IR004,ok,1,3:IR004:1:1,,,,False
+False,2,3,beverage,shake,types of drinks,shake,,IR004,ok,1,3:IR004:1:2,,,,True
+False,1,3,beverage,float,beverages,float,,IR004,ok,2,3:IR004:2:1,,,,True
+False,2,3,beverage,float,types of drinks,float,,IR004,ok,2,3:IR004:2:2,,,,True
+,,1,plant,stem,,,"[""wineglass"", ""glass"", ""stemware"", ""drinkware"", ""cup""]",IR005,ok,0,1:IR005:0,False,False,,
+,,1,plant,bark,,,"[""dog"", ""shiba inu"", ""fence"", ""barking dog"", ""animal""]",IR005,ok,1,1:IR005:1,False,False,,
+,,1,plant,root,,,"[""microscope"", ""organism"", ""cell"", ""bacteria"", ""sample""]",IR005,ok,2,1:IR005:2,False,False,,
+False,1,3,plant,stem,parts of a plant,stem,,IR005,ok,0,3:IR005:0:1,,,,True
+False,2,3,plant,stem,parts of a plant,stem,,IR005,ok,0,3:IR005:0:2,,,,True
+False,1,3,plant,bark,parts of a tree,bark,,IR005,ok,1,3:IR005:1:1,,,,True
+False,2,3,plant,bark,plant parts,bark,,IR005,ok,1,3:IR005:1:2,,,,True
+False,1,3,plant,root,,stem,,IR005,ok,2,3:IR005:2:1,,,,False
+False,2,3,plant,root,parts of a tree,wood,,IR005,ok,2,3:IR005:2:2,,,,False
+,,1,board game,risk,,,"[""sign"", ""cliff"", ""ocean"", ""danger"", ""coast""]",IR006,ok,0,1:IR006:0,False,False,,
+,,1,board game,operation,,,"[""surgery"", ""surgeon"", ""operation"", ""gloves"", ""scalpel""]",IR006,ok,1,1:IR006:1,False,True,,
+,,1,board game,clue,,,"[""man"", ""suit"", ""corkboard"", ""investigation"", ""detective""]",IR006,ok,2,1:IR006:2,False,False,,
+False,1,3,board game,risk,board games,risk,,IR006,ok,0,3:IR006:0:1,,,,True
+False,2,3,board game,risk,board games,risk,,IR006,ok,0,3:IR006:0:2,,,,True
+False,1,3,board game,operation,board games,operation,,IR006,ok,1,3:IR006:1:1,,,,True
+False,2,3,board game,operation,board games,operation,,IR006,ok,1,3:IR006:1:2,,,,True
+False,1,3,board game,clue,board games,clue,,IR006,ok,2,3:IR006:2:1,,,,True
+True,2,3,board game,clue,board game,clue,,IR006,ok,2,3:IR006:2:2,,,,True
+,,1,ship,bark,,,"[""bark"", ""tree"", ""wood"", ""texture"", ""plant""]",P007,ok,0,1:P007:0,True,True,,
+,,1,ship,cutter,,,"[""cookie cutter"", ""star"", ""baking utensil"", ""metal cutter"", ""pastry tool""]",P007,ok,1,1:P007:1,False,False,,
+,,1,ship,steamer,,,"[""steamer"", ""bamboo steamer"", ""chef"", ""steam"", ""dumplings""]",P007,ok,2,1:P007:2,True,True,,
+False,1,3,ship,bark,types of sailing vessels,bark,,P007,ok,0,3:P007:0:1,,,,True
+False,2,3,ship,bark,types of ships,bark,,P007,ok,0,3:P007:0:2,,,,True
+False,1,3,ship,cutter,types of boats,cutter,,P007,ok,1,3:P007:1:1,,,,True
+False,2,3,ship,cutter,types of ships,cutter,,P007,ok,1,3:P007:1:2,,,,True
+False,1,3,ship,steamer,homonyms,steamer,,P007,ok,2,3:P007:2:1,,,,True
+False,2,3,ship,steamer,cookie,steamer,,P007,ok,2,3:P007:2:2,,,,True
+,,1,river,bed,,,"[""bed"", ""bedroom"", ""furniture"", ""pillow"", ""lamp""]",IR007,ok,0,1:IR007:0,True,True,,
+,,1,river,bank,,,"[""ATM"", ""bank"", ""building"", ""kiosk"", ""finance""]",IR007,ok,1,1:IR007:1,False,True,,
+,,1,river,mouth,,,"[""lips"", ""mouth"", ""profile"", ""chin"", ""teeth""]",IR007,ok,2,1:IR007:2,False,True,,
+True,1,3,river,bed,river,bed,,IR007,ok,0,3:IR007:0:1,,,,True
+True,2,3,river,bed,river,bed,,IR007,ok,0,3:IR007:0:2,,,,True
+False,1,3,river,bank,parts of a river,bank,,IR007,ok,1,3:IR007:1:1,,,,True
+True,2,3,river,bank,river,bank,,IR007,ok,1,3:IR007:1:2,,,,True
+False,1,3,river,mouth,parts of a river,lips,,IR007,ok,2,3:IR007:2:1,,,,False
+False,2,3,river,mouth,parts of a river,mouth,,IR007,ok,2,3:IR007:2:2,,,,True
+,,1,skeleton,spine,,,"[""books"", ""spines"", ""leather"", ""library"", ""literature""]",IR008,ok,0,1:IR008:0,False,False,,
+,,1,skeleton,arch,,,"[""bridge"", ""river"", ""forest"", ""mountain"", ""stream""]",IR008,ok,1,1:IR008:1,False,False,,
+,,1,skeleton,cage,,,"[""birdcage"", ""cage"", ""stand"", ""brick wall"", ""decoration""]",IR008,ok,2,1:IR008:2,False,True,,
+False,1,3,skeleton,spine,parts of the body,spine,,IR008,ok,0,3:IR008:0:1,,,,True
+False,2,3,skeleton,spine,anatomy,spine,,IR008,ok,0,3:IR008:0:2,,,,True
+False,1,3,skeleton,arch,actors,bridge,,IR008,ok,1,3:IR008:1:1,,,,False
+False,2,3,skeleton,arch,actors' last names,bridge,,IR008,ok,1,3:IR008:1:2,,,,False
+False,1,3,skeleton,cage,anatomy,bars,,IR008,ok,2,3:IR008:2:1,,,,False
+False,2,3,skeleton,cage,parts of a book,cage,,IR008,ok,2,3:IR008:2:2,,,,True
+,,1,bread,roll,,,"[""toilet paper"", ""tissue"", ""paper roll"", ""bathroom tissue"", ""roll""]",IR009,ok,0,1:IR009:0,False,True,,
+,,1,bread,twist,,,"[""hands"", ""peel"", ""drink"", ""glass"", ""cocktail""]",IR009,ok,1,1:IR009:1,False,False,,
+,,1,bread,loaf,,,"[""cat"", ""tabby"", ""feline"", ""animal"", ""pet""]",IR009,ok,2,1:IR009:2,False,False,,
+False,1,3,bread,roll,dance moves,roll,,IR009,ok,0,3:IR009:0:1,,,,True
+False,2,3,bread,roll,,roll,,IR009,ok,0,3:IR009:0:2,,,,True
+False,1,3,bread,twist,cocktail garnishes,twist,,IR009,ok,1,3:IR009:1:1,,,,True
+True,2,3,bread,twist,bread,twist,,IR009,ok,1,3:IR009:1:2,,,,True
+False,1,3,bread,loaf,types of bread,loaf,,IR009,ok,2,3:IR009:2:1,,,,True
+False,2,3,bread,loaf,cat poses,loaf,,IR009,ok,2,3:IR009:2:2,,,,True
+,,1,garment,slip,,,"[""receipt printer"", ""card reader"", ""pos terminal"", ""receipt"", ""paper roll""]",IR010,ok,0,1:IR010:0,False,False,,
+,,1,garment,jumper,,,"[""wires"", ""cable"", ""ribbon cable"", ""electronics"", ""connector""]",IR010,ok,1,1:IR010:1,False,False,,
+,,1,garment,tank,,,"[""tank"", ""model"", ""toy"", ""vehicle"", ""military""]",IR010,ok,2,1:IR010:2,True,True,,
+False,1,3,garment,slip,electronics,terminal,,IR010,ok,0,3:IR010:0:1,,,,False
+False,2,3,garment,slip,things that are also types of bread,roll,,IR010,ok,0,3:IR010:0:2,,,,False
+False,1,3,garment,jumper,vehicles,bus,,IR010,ok,1,3:IR010:1:1,,,,False
+False,2,3,garment,jumper,clothing,jumper,,IR010,ok,1,3:IR010:1:2,,,,True
+False,1,3,garment,tank,,tank,,IR010,ok,2,3:IR010:2:1,,,,True
+False,2,3,garment,tank,clothing,tank,,IR010,ok,2,3:IR010:2:2,,,,True
+,,1,shoe,mule,,,"[""donkey"", ""mule"", ""animal"", ""mammal"", ""equine""]",IR011,ok,0,1:IR011:0,False,True,,
+,,1,shoe,pump,,,"[""water pump"", ""hand pump"", ""pump"", ""well"", ""machinery""]",IR011,ok,1,1:IR011:1,False,True,,
+,,1,shoe,wedge,,,"[""cheese"", ""food"", ""wedge"", ""dairy"", ""snack""]",IR011,ok,2,1:IR011:2,False,True,,
+False,1,3,shoe,mule,donkey,jack,,IR011,ok,0,3:IR011:0:1,,,,False
+False,2,3,shoe,mule,types of shoes,mule,,IR011,ok,0,3:IR011:0:2,,,,True
+False,1,3,shoe,pump,types of shoes,pump,,IR011,ok,1,3:IR011:1:1,,,,True
+False,2,3,shoe,pump,types of shoes,pump,,IR011,ok,1,3:IR011:1:2,,,,True
+False,1,3,shoe,wedge,types of shoes,wedge,,IR011,ok,2,3:IR011:2:1,,,,True
+False,2,3,shoe,wedge,types of shoes,wedge,,IR011,ok,2,3:IR011:2:2,,,,True
+,,1,cocktail,grasshopper,,,"[""grasshopper"", ""insect"", ""bug"", ""leaf"", ""plant""]",IR013,ok,0,1:IR013:0,True,True,,
+,,1,cocktail,sidecar,,,"[""sidecar"", ""motorcycle"", ""vehicle"", ""bike"", ""transportation""]",IR013,ok,1,1:IR013:1,True,True,,
+,,1,cocktail,screwdriver,,,"[""screwdriver"", ""hand"", ""tool"", ""hardware"", ""handle""]",IR013,ok,2,1:IR013:2,True,True,,
+False,1,3,cocktail,grasshopper,cocktails,grasshopper,,IR013,ok,0,3:IR013:0:1,,,,True
+True,2,3,cocktail,grasshopper,cocktail,grasshopper,,IR013,ok,0,3:IR013:0:2,,,,True
+False,1,3,cocktail,sidecar,cocktails,sidecar,,IR013,ok,1,3:IR013:1:1,,,,True
+False,2,3,cocktail,sidecar,cocktails,sidecar,,IR013,ok,1,3:IR013:1:2,,,,True
+False,1,3,cocktail,screwdriver,cocktails,screwdriver,,IR013,ok,2,3:IR013:2:1,,,,True
+False,2,3,cocktail,screwdriver,cocktails,screwdriver,,IR013,ok,2,3:IR013:2:2,,,,True
+,,1,glass,foot,,,"[""foot"", ""barefoot"", ""ground"", ""dirt"", ""ankle""]",IR014,ok,0,1:IR014:0,True,True,,
+,,1,glass,stem,,,"[""dewdrop"", ""stem"", ""plant"", ""droplet"", ""leaf""]",IR014,ok,1,1:IR014:1,False,True,,
+,,1,glass,rim,,,"[""wheel"", ""rim"", ""alloy wheel"", ""car part"", ""tire""]",IR014,ok,2,1:IR014:2,False,True,,
+False,1,3,glass,foot,units of measurement,foot,,IR014,ok,0,3:IR014:0:1,,,,True
+False,2,3,glass,foot,parts of a wine glass,foot,,IR014,ok,0,3:IR014:0:2,,,,True
+False,1,3,glass,stem,parts of a plant,stem,,IR014,ok,1,3:IR014:1:1,,,,True
+False,2,3,glass,stem,parts,stem,,IR014,ok,1,3:IR014:1:2,,,,True
+False,1,3,glass,rim,"parts of a poetry/poem (foot, meter, rim/rhyme? Wait: foot, meter/rim? Let's check: poetry terms: foot, line, stanza, meter... Wait, rim = rhyme? Or maybe units of measurement? Foot, yard, mile? No, foot is a unit of measurement. Wheel has a rim. Let's think about 'foot' and 'rim' (wheel rim). What do 'foot' and 'rim' share as another meaning? Foot of a mountain, rim of a volcano? Or maybe poetry: foot and rhyme? Wait, rhyme is spelled r-h-y-m-e, rim is r-i-m. Wait, 'foot' (poetry foot) and 'rim' (poetry rhyme)? No, 'rim' could be poetry related? Wait, 'foot' (unit of measurement), 'rim' (unit of... no). Let's check 'rim' as poetry: rhyme/rim? Yes, rim is an alternative spelling of rhyme! So the concept is poetry terms / poetic devices or spelling variants.)",rim,,IR014,ok,2,3:IR014:2:1,,,,True
+False,2,3,glass,rim,parts of a wine glass,rim,,IR014,ok,2,3:IR014:2:2,,,,True
+,,1,data type,string,,,"[""twine"", ""string"", ""cord"", ""thread"", ""rope""]",IR015,ok,0,1:IR015:0,False,True,,
+,,1,data type,float,,,"[""float"", ""carnival"", ""parade"", ""sculpture"", ""festival""]",IR015,ok,1,1:IR015:1,True,True,,
+,,1,data type,character,,,"[""actor"", ""man"", ""performance"", ""theatre"", ""costume""]",IR015,ok,2,1:IR015:2,False,False,,
+False,1,3,data type,string,programming data types,string,,IR015,ok,0,3:IR015:0:1,,,,True
+False,2,3,data type,string,programming,string,,IR015,ok,0,3:IR015:0:2,,,,True
+False,1,3,data type,float,parade float,float,,IR015,ok,1,3:IR015:1:1,,,,True
+False,2,3,data type,float,programming data types,float,,IR015,ok,1,3:IR015:1:2,,,,True
+False,1,3,data type,character,Swift,actor,,IR015,ok,2,3:IR015:2:1,,,,False
+False,2,3,data type,character,programming data types,char,,IR015,ok,2,3:IR015:2:2,,,,False
+,,1,computer,mouse,,,"[""mouse"", ""rodent"", ""animal"", ""mammal"", ""wildlife""]",IR016,ok,0,1:IR016:0,True,True,,
+,,1,computer,bus,,,"[""school bus"", ""bus"", ""vehicle"", ""transportation"", ""road""]",IR016,ok,1,1:IR016:1,False,True,,
+,,1,computer,fan,,,"[""fan"", ""folding fan"", ""hand fan"", ""decoration"", ""wall""]",IR016,ok,2,1:IR016:2,True,True,,
+False,1,3,computer,mouse,computer hardware,mouse,,IR016,ok,0,3:IR016:0:1,,,,True
+False,2,3,computer,mouse,computer parts,mouse,,IR016,ok,0,3:IR016:0:2,,,,True
+False,1,3,computer,bus,computer hardware components,bus,,IR016,ok,1,3:IR016:1:1,,,,True
+False,2,3,computer,bus,computer hardware,bus,,IR016,ok,1,3:IR016:1:2,,,,True
+False,1,3,computer,fan,computer hardware components,fan,,IR016,ok,2,3:IR016:2:1,,,,True
+False,2,3,computer,fan,computer hardware,fan,,IR016,ok,2,3:IR016:2:2,,,,True
+,,1,console,saturn,,,"[""Saturn"", ""planet"", ""rings"", ""space"", ""astronomy""]",IR017,ok,0,1:IR017:0,True,True,,
+,,1,console,switch,,,"[""switch"", ""light switch"", ""electrical switch"", ""wall switch"", ""buttons""]",IR017,ok,1,1:IR017:1,True,True,,
+,,1,console,cube,,,"[""block"", ""letter"", ""cube"", ""alphabet"", ""toy""]",IR017,ok,2,1:IR017:2,False,True,,
+False,1,3,console,saturn,,saturn,,IR017,ok,0,3:IR017:0:1,,,,True
+False,2,3,console,saturn,solar system,Saturn,,IR017,ok,0,3:IR017:0:2,,,,True
+False,1,3,console,switch,,switch,,IR017,ok,1,3:IR017:1:1,,,,True
+False,2,3,console,switch,video game consoles,switch,,IR017,ok,1,3:IR017:1:2,,,,True
+False,1,3,console,cube,platonic solids,cube,,IR017,ok,2,3:IR017:2:1,,,,True
+False,2,3,console,cube,video game consoles,q,,IR017,ok,2,3:IR017:2:2,,,,False
+,,1,cleaning,iron,,,"[""meteorite"", ""rock"", ""mineral"", ""hematite"", ""rust""]",IR018,ok,0,1:IR018:0,False,False,,
+,,1,cleaning,brush,,,"[""bush"", ""plant"", ""shrub"", ""foliage"", ""hedge""]",IR018,ok,1,1:IR018:1,False,False,,
+,,1,cleaning,sponge,,,"[""sponge"", ""sea sponge"", ""coral"", ""loofah"", ""pumice""]",IR018,ok,2,1:IR018:2,True,True,,
+False,1,3,cleaning,iron,metals,rust,,IR018,ok,0,3:IR018:0:1,,,,False
+False,2,3,cleaning,iron,natural earth pigments / materials,ochre,,IR018,ok,0,3:IR018:0:2,,,,False
+False,1,3,cleaning,brush,finance,hedge,,IR018,ok,1,3:IR018:1:1,,,,False
+False,2,3,cleaning,brush,,hedge,,IR018,ok,1,3:IR018:1:2,,,,False
+False,1,3,cleaning,sponge,golf clubs,wood,,IR018,ok,2,3:IR018:2:1,,,,False
+False,2,3,cleaning,sponge,golf club,wedge,,IR018,ok,2,3:IR018:2:2,,,,False
+,,1,dance,twist,,,"[""hands"", ""peel"", ""drink"", ""cocktail"", ""glass""]",IR019,ok,0,1:IR019:0,False,False,,
+,,1,dance,tap,,,"[""tap"", ""beer tap"", ""dispenser"", ""bar"", ""faucet""]",IR019,ok,1,1:IR019:1,True,True,,
+,,1,dance,jig,,,"[""fishing lure"", ""bait"", ""jig"", ""hook"", ""plastic bait""]",IR019,ok,2,1:IR019:2,False,True,,
+False,1,3,dance,twist,dance moves,twist,,IR019,ok,0,3:IR019:0:1,,,,True
+True,2,3,dance,twist,dance,twist,,IR019,ok,0,3:IR019:0:2,,,,True
+False,1,3,dance,tap,dance styles,tap,,IR019,ok,1,3:IR019:1:1,,,,True
+False,2,3,dance,tap,dances,tap,,IR019,ok,1,3:IR019:1:2,,,,True
+False,1,3,dance,jig,dances,jig,,IR019,ok,2,3:IR019:2:1,,,,True
+True,2,3,dance,jig,dance,jig,,IR019,ok,2,3:IR019:2:2,,,,True
+,,1,book,leaf,,,"[""leaf"", ""plant"", ""foliage"", ""greenery"", ""stem""]",IR020,ok,0,1:IR020:0,True,True,,
+,,1,book,plate,,,"[""plate"", ""dish"", ""saucer"", ""dinnerware"", ""tableware""]",IR020,ok,1,1:IR020:1,True,True,,
+,,1,book,spine,,,"[""spine"", ""vertebrae"", ""skeleton"", ""model"", ""backbone""]",IR020,ok,2,1:IR020:2,True,True,,
+False,1,3,book,leaf,parts of a book,leaf,,IR020,ok,0,3:IR020:0:1,,,,True
+False,2,3,book,leaf,parts of a book,back,,IR020,ok,0,3:IR020:0:2,,,,False
+False,1,3,book,plate,parts of a book,plate,,IR020,ok,1,3:IR020:1:1,,,,True
+False,2,3,book,plate,parts of a book,plate,,IR020,ok,1,3:IR020:1:2,,,,True
+False,1,3,book,spine,book parts,spine,,IR020,ok,2,3:IR020:2:1,,,,True
+False,2,3,book,spine,book parts,spine,,IR020,ok,2,3:IR020:2:2,,,,True
+,,1,stage,wing,,,"[""bird"", ""owl"", ""animal"", ""wing"", ""feather""]",IR021,ok,0,1:IR021:0,False,True,,
+,,1,stage,apron,,,"[""apron"", ""hook"", ""wall"", ""linen"", ""clothing""]",IR021,ok,1,1:IR021:1,True,True,,
+,,1,stage,trap,,,"[""mousetrap"", ""cheese"", ""trap"", ""bait"", ""wood""]",IR021,ok,2,1:IR021:2,False,True,,
+False,1,3,stage,wing,birds,nightjar,,IR021,ok,0,3:IR021:0:1,,,,False
+False,2,3,stage,wing,,owl,,IR021,ok,0,3:IR021:0:2,,,,False
+False,1,3,stage,apron,parts of a stage,apron,,IR021,ok,1,3:IR021:1:1,,,,True
+False,2,3,stage,apron,,mouse,,IR021,ok,1,3:IR021:1:2,,,,False
+False,1,3,stage,trap,parts of a building or airplane,trap,,IR021,ok,2,3:IR021:2:1,,,,True
+False,2,3,stage,trap,cheese,trap,,IR021,ok,2,3:IR021:2:2,,,,True
+,,1,fastener,bolt,,,"[""lightning"", ""storm"", ""flash"", ""electricity"", ""sky""]",IR023,ok,0,1:IR023:0,False,False,,
+,,1,fastener,staple,,,"[""carbohydrates"", ""pasta"", ""flour"", ""rice"", ""bread""]",IR023,ok,1,1:IR023:1,False,False,,
+,,1,fastener,toggle,,,"[""toggle"", ""switch"", ""button"", ""control"", ""slider""]",IR023,ok,2,1:IR023:2,True,True,,
+False,1,3,fastener,bolt,fasteners,bolt,,IR023,ok,0,3:IR023:0:1,,,,True
+False,2,3,fastener,bolt,bolts,bolt,,IR023,ok,0,3:IR023:0:2,,,,True
+False,1,3,fastener,staple,dry goods,pantry,,IR023,ok,1,3:IR023:1:1,,,,False
+False,2,3,fastener,staple,UI components,breadcrumb,,IR023,ok,1,3:IR023:1:2,,,,False
+False,1,3,fastener,toggle,,switch,,IR023,ok,2,3:IR023:2:1,,,,False
+False,2,3,fastener,toggle,fasteners,switch,,IR023,ok,2,3:IR023:2:2,,,,False
+,,1,camera equipment,crane,,,"[""crane"", ""bird"", ""animal"", ""wildlife"", ""waterbird""]",IR024,ok,0,1:IR024:0,True,True,,
+,,1,camera equipment,slider,,,"[""slider"", ""burger"", ""hamburger"", ""fast food"", ""meal""]",IR024,ok,1,1:IR024:1,True,True,,
+,,1,camera equipment,dolly,,,"[""doll"", ""toy"", ""figurine"", ""braids"", ""dress""]",IR024,ok,2,1:IR024:2,False,False,,
+False,1,3,camera equipment,crane,construction equipment,crane,,IR024,ok,0,3:IR024:0:1,,,,True
+False,2,3,camera equipment,crane,machinery,crane,,IR024,ok,0,3:IR024:0:2,,,,True
+False,1,3,camera equipment,slider,"things with another meaning (e.g. Dolly Parton, slider)",slider,,IR024,ok,1,3:IR024:1:1,,,,True
+False,2,3,camera equipment,slider,,slider,,IR024,ok,1,3:IR024:1:2,,,,True
+False,1,3,camera equipment,dolly,"parts of a crane (or types of cranes, or machine parts)",doll,,IR024,ok,2,3:IR024:2:1,,,,False
+False,2,3,camera equipment,dolly,drinks,doll,,IR024,ok,2,3:IR024:2:2,,,,False
+,,1,money,buck,,,"[""deer"", ""stag"", ""antlers"", ""animal"", ""buck""]",P027,ok,0,1:P027:0,False,True,,
+,,1,money,nickel,,,"[""coins"", ""money"", ""currency"", ""cents"", ""change""]",P027,ok,1,1:P027:1,False,False,,
+,,1,money,bills,,,"[""toucan"", ""bird"", ""beak"", ""animal"", ""nature""]",P027,ok,2,1:P027:2,False,False,,
+False,1,3,money,buck,US currency slang,buck,,P027,ok,0,3:P027:0:1,,,,True
+True,2,3,money,buck,money,buck,,P027,ok,0,3:P027:0:2,,,,True
+True,1,3,money,nickel,money,change,,P027,ok,1,3:P027:1:1,,,,False
+True,2,3,money,nickel,money,coins,,P027,ok,1,3:P027:1:2,,,,False
+False,1,3,money,bills,male animals,bill,,P027,ok,2,3:P027:2:1,,,,False
+False,2,3,money,bills,Parts of a cap,bill,,P027,ok,2,3:P027:2:2,,,,False
+,,1,cheese,string,,,"[""string"", ""twine"", ""yarn"", ""cord"", ""rope""]",IR026,ok,0,1:IR026:0,True,True,,
+,,1,cheese,brick,,,"[""brick"", ""bricks"", ""pile"", ""masonry"", ""wall""]",IR026,ok,1,1:IR026:1,True,True,,
+,,1,cheese,jack,,,"[""jack"", ""bottle jack"", ""hydraulic jack"", ""car jack"", ""tool""]",IR026,ok,2,1:IR026:2,True,True,,
+False,1,3,cheese,string,,string,,IR026,ok,0,3:IR026:0:1,,,,True
+False,2,3,cheese,string,programming,string,,IR026,ok,0,3:IR026:0:2,,,,True
+False,1,3,cheese,brick,,brick,,IR026,ok,1,3:IR026:1:1,,,,True
+False,2,3,cheese,brick,"things that can be used as slang terms in cryptocurrency / computer hardware (string, jack, brick)",brick,,IR026,ok,1,3:IR026:1:2,,,,True
+False,1,3,cheese,jack,types of beans,jack,,IR026,ok,2,3:IR026:2:1,,,,True
+False,2,3,cheese,jack,,jack,,IR026,ok,2,3:IR026:2:2,,,,True
+,,1,fruit,current,,,"[""water"", ""river"", ""stream"", ""rapids"", ""rock""]",IR027,ok,0,1:IR027:0,False,False,,
+,,1,fruit,orange,,,"[""orange"", ""background"", ""gradient"", ""blur"", ""color""]",IR027,ok,1,1:IR027:1,True,True,,
+,,1,fruit,date,,,"[""calendar"", ""pushpin"", ""date"", ""schedule"", ""planning""]",IR027,ok,2,1:IR027:2,False,True,,
+False,1,3,fruit,current,electricity terms,current,,IR027,ok,0,3:IR027:0:1,,,,True
+True,2,3,fruit,current,fruit,current,,IR027,ok,0,3:IR027:0:2,,,,True
+True,1,3,fruit,orange,fruit,orange,,IR027,ok,1,3:IR027:1:1,,,,True
+True,2,3,fruit,orange,fruit,orange,,IR027,ok,1,3:IR027:1:2,,,,True
+False,1,3,fruit,date,polysemy,current,,IR027,ok,2,3:IR027:2:1,,,,False
+True,2,3,fruit,date,fruit,date,,IR027,ok,2,3:IR027:2:2,,,,True
+,,1,chess piece,bishop,,,"[""statue"", ""bishop"", ""crozier"", ""mitre"", ""sculpture""]",IR028,ok,0,1:IR028:0,False,True,,
+,,1,chess piece,rook,,,"[""crow"", ""bird"", ""hooded crow"", ""raven"", ""perch""]",IR028,ok,1,1:IR028:1,False,False,,
+,,1,chess piece,knight,,,"[""armor"", ""suit of armor"", ""knight"", ""plate armor"", ""metal""]",IR028,ok,2,1:IR028:2,False,True,,
+False,1,3,chess piece,bishop,chess pieces,bishop,,IR028,ok,0,3:IR028:0:1,,,,True
+False,2,3,chess piece,bishop,chess,bishop,,IR028,ok,0,3:IR028:0:2,,,,True
+False,1,3,chess piece,rook,chess pieces,rook,,IR028,ok,1,3:IR028:1:1,,,,True
+False,2,3,chess piece,rook,chess,rook,,IR028,ok,1,3:IR028:1:2,,,,True
+False,1,3,chess piece,knight,chess pieces,knight,,IR028,ok,2,3:IR028:2:1,,,,True
+False,2,3,chess piece,knight,chess,knight,,IR028,ok,2,3:IR028:2:2,,,,True
+,,1,cereal,ear,,,"[""ear"", ""human ear"", ""auditory organ"", ""body part"", ""auricle""]",IR029,ok,0,1:IR029:0,True,True,,
+,,1,cereal,beard,,,"[""beard"", ""mouth"", ""lips"", ""chin"", ""mustache""]",IR029,ok,1,1:IR029:1,True,True,,
+,,1,cereal,husk,,,"[""corn"", ""flint corn"", ""husks"", ""vegetable"", ""produce""]",IR029,ok,2,1:IR029:2,False,False,,
+False,1,3,cereal,ear,parts of corn,ear,,IR029,ok,0,3:IR029:0:1,,,,True
+False,2,3,cereal,ear,corn,ear,,IR029,ok,0,3:IR029:0:2,,,,True
+False,1,3,cereal,beard,parts of corn,beard,,IR029,ok,1,3:IR029:1:1,,,,True
+False,2,3,cereal,beard,corn,silk,,IR029,ok,1,3:IR029:1:2,,,,False
+False,1,3,cereal,husk,parts of corn,ear,,IR029,ok,2,3:IR029:2:1,,,,False
+False,2,3,cereal,husk,parts of corn,husk,,IR029,ok,2,3:IR029:2:2,,,,True
+,,1,weapon,club,,,"[""playing card"", ""ace of clubs"", ""card"", ""ace"", ""club""]",IR030,ok,0,1:IR030:0,False,True,,
+,,1,weapon,mace,,,"[""nutmeg"", ""mace"", ""spice"", ""fruit"", ""seed""]",IR030,ok,1,1:IR030:1,False,True,,
+,,1,weapon,pike,,,"[""fish"", ""gar"", ""alligator gar"", ""animal"", ""aquatic organism""]",IR030,ok,2,1:IR030:2,False,False,,
+False,1,3,weapon,club,weapons,club,,IR030,ok,0,3:IR030:0:1,,,,True
+False,2,3,weapon,club,weapons,club,,IR030,ok,0,3:IR030:0:2,,,,True
+False,1,3,weapon,mace,spices,nutmeg,,IR030,ok,1,3:IR030:1:1,,,,False
+True,2,3,weapon,mace,weapon,mace,,IR030,ok,1,3:IR030:1:2,,,,True
+False,1,3,weapon,pike,fish,gar,,IR030,ok,2,3:IR030:2:1,,,,False
+False,2,3,weapon,pike,weapons,gar,,IR030,ok,2,3:IR030:2:2,,,,False
+,,1,guitar,neck,,,"[""neck"", ""chin"", ""collarbone"", ""shoulders"", ""woman""]",IR031,ok,0,1:IR031:0,True,True,,
+,,1,guitar,bridge,,,"[""bridge"", ""suspension bridge"", ""water"", ""sky"", ""ocean""]",IR031,ok,1,1:IR031:1,True,True,,
+,,1,guitar,saddle,,,"[""saddle"", ""horse"", ""leather"", ""tack"", ""equestrian""]",IR031,ok,2,1:IR031:2,True,True,,
+False,1,3,guitar,neck,guitar parts,neck,,IR031,ok,0,3:IR031:0:1,,,,True
+False,2,3,guitar,neck,guitar parts,neck,,IR031,ok,0,3:IR031:0:2,,,,True
+False,1,3,guitar,bridge,guitar parts,bridge,,IR031,ok,1,3:IR031:1:1,,,,True
+False,2,3,guitar,bridge,guitar parts,bridge,,IR031,ok,1,3:IR031:1:2,,,,True
+False,1,3,guitar,saddle,bottle parts,saddle,,IR031,ok,2,3:IR031:2:1,,,,True
+False,2,3,guitar,saddle,guitar parts,saddle,,IR031,ok,2,3:IR031:2:2,,,,True
+,,1,clock,face,,,"[""face"", ""woman"", ""eyes"", ""nose"", ""portrait""]",IR033,ok,0,1:IR033:0,True,True,,
+,,1,clock,hand,,,"[""hand"", ""wall"", ""stone"", ""skin"", ""touch""]",IR033,ok,1,1:IR033:1,True,True,,
+,,1,clock,crown,,,"[""tiara"", ""crown"", ""jewelry"", ""circlet"", ""headpiece""]",IR033,ok,2,1:IR033:2,False,True,,
+False,1,3,clock,face,parts of a clock,face,,IR033,ok,0,3:IR033:0:1,,,,True
+False,2,3,clock,face,parts of a watch,face,,IR033,ok,0,3:IR033:0:2,,,,True
+False,1,3,clock,hand,parts of a hand and tree,palm,,IR033,ok,1,3:IR033:1:1,,,,False
+False,2,3,clock,hand,watch parts,hand,,IR033,ok,1,3:IR033:1:2,,,,True
+False,1,3,clock,crown,parts of a watch,crown,,IR033,ok,2,3:IR033:2:1,,,,True
+False,2,3,clock,crown,watch parts,crown,,IR033,ok,2,3:IR033:2:2,,,,True
+,,1,bed,spring,,,"[""hot spring"", ""geothermal pool"", ""steam"", ""water"", ""nature""]",IR034,ok,0,1:IR034:0,False,False,,
+,,1,bed,post,,,"[""fence"", ""electric fence"", ""post"", ""grass"", ""meadow""]",IR034,ok,1,1:IR034:1,False,True,,
+,,1,bed,skirt,,,"[""skirt"", ""clothing"", ""outfit"", ""apparel"", ""tweed""]",IR034,ok,2,1:IR034:2,True,True,,
+False,1,3,bed,spring,seasons or water sources or coils,spring,,IR034,ok,0,3:IR034:0:1,,,,True
+False,2,3,bed,spring,,spring,,IR034,ok,0,3:IR034:0:2,,,,True
+False,1,3,bed,post,to skirt around an issue / electric fence?,fence,,IR034,ok,1,3:IR034:1:1,,,,False
+False,2,3,bed,post,,line,,IR034,ok,1,3:IR034:1:2,,,,False
+False,1,3,bed,skirt,hot spring,skirt,,IR034,ok,2,3:IR034:2:1,,,,True
+False,2,3,bed,skirt,noun and verb,skirt,,IR034,ok,2,3:IR034:2:2,,,,True
+,,1,malware,worm,,,"[""earthworms"", ""soil"", ""hands"", ""compost"", ""gardening""]",IR035,ok,0,1:IR035:0,False,False,,
+,,1,malware,virus,,,"[""coronavirus"", ""virus"", ""pathogen"", ""covid-19"", ""microbe""]",IR035,ok,1,1:IR035:1,False,True,,
+,,1,malware,trojan,,,"[""Trojan horse"", ""horse"", ""statue"", ""wood"", ""sculpture""]",IR035,ok,2,1:IR035:2,False,False,,
+False,1,3,malware,worm,computer malware,worm,,IR035,ok,0,3:IR035:0:1,,,,True
+False,2,3,malware,worm,computer malware,worm,,IR035,ok,0,3:IR035:0:2,,,,True
+False,1,3,malware,virus,computer malware,virus,,IR035,ok,1,3:IR035:1:1,,,,True
+False,2,3,malware,virus,computer malware,virus,,IR035,ok,1,3:IR035:1:2,,,,True
+False,1,3,malware,trojan,computer malware,trojan,,IR035,ok,2,3:IR035:2:1,,,,True
+False,2,3,malware,trojan,computer malware,trojan,,IR035,ok,2,3:IR035:2:2,,,,True
+,,1,clasp,lobster,,,"[""lobster"", ""seafood"", ""ice"", ""shrimp"", ""shellfish""]",IR036,ok,0,1:IR036:0,True,True,,
+,,1,clasp,toggle,,,"[""switch"", ""toggle"", ""panel"", ""control"", ""hardware""]",IR036,ok,1,1:IR036:1,False,True,,
+,,1,clasp,barrel,,,"[""barrel"", ""cask"", ""wine barrel"", ""wooden barrel"", ""cellar""]",IR036,ok,2,1:IR036:2,True,True,,
+False,1,3,clasp,lobster,rock,lobster,,IR036,ok,0,3:IR036:0:1,,,,True
+False,2,3,clasp,lobster,seafood,lobster,,IR036,ok,0,3:IR036:0:2,,,,True
+False,1,3,clasp,toggle,parts of a rifle,switch,,IR036,ok,1,3:IR036:1:1,,,,False
+False,2,3,clasp,toggle,roll,roll,,IR036,ok,1,3:IR036:1:2,,,,False
+False,1,3,clasp,barrel,rock climbing holds / maneuvers,barrel,,IR036,ok,2,3:IR036:2:1,,,,True
+False,2,3,clasp,barrel,Homebrew,cask,,IR036,ok,2,3:IR036:2:2,,,,False
+,,1,blender,pitcher,,,"[""pitcher"", ""baseball player"", ""baseball"", ""baseball mound"", ""sport""]",IR037,ok,0,1:IR037:0,True,True,,
+,,1,blender,collar,,,"[""dog"", ""collar"", ""pet"", ""dog collar"", ""tag""]",IR037,ok,1,1:IR037:1,False,True,,
+,,1,blender,blade,,,"[""dewdrop"", ""water drop"", ""grass"", ""blade"", ""nature""]",IR037,ok,2,1:IR037:2,False,True,,
+False,1,3,blender,pitcher,baseball,pitcher,,IR037,ok,0,3:IR037:0:1,,,,True
+False,2,3,blender,pitcher,,pitcher,,IR037,ok,0,3:IR037:0:2,,,,True
+False,1,3,blender,collar,ice hockey,tag,,IR037,ok,1,3:IR037:1:1,,,,False
+False,2,3,blender,collar,homonyms,tag,,IR037,ok,1,3:IR037:1:2,,,,False
+False,1,3,blender,blade,parts of a plant and hockey/tools,blade,,IR037,ok,2,3:IR037:2:1,,,,True
+False,2,3,blender,blade,,drop,,IR037,ok,2,3:IR037:2:2,,,,False
+,,1,knot,hitch,,,"[""tow hitch"", ""trailer hitch"", ""tow ball"", ""bumper"", ""hitch""]",IR038,ok,0,1:IR038:0,False,True,,
+,,1,knot,bow,,,"[""bow"", ""arrows"", ""archery"", ""stand"", ""grass""]",IR038,ok,1,1:IR038:1,True,True,,
+,,1,knot,bend,,,"[""road"", ""hairpin turn"", ""mountain pass"", ""highway"", ""asphalt""]",IR038,ok,2,1:IR038:2,False,False,,
+False,1,3,knot,hitch,knots,hitch,,IR038,ok,0,3:IR038:0:1,,,,True
+False,2,3,knot,hitch,hair-related terms,hitch,,IR038,ok,0,3:IR038:0:2,,,,True
+False,1,3,knot,bow,bend,bow,,IR038,ok,1,3:IR038:1:1,,,,True
+False,2,3,knot,bow,hair accessory,bow,,IR038,ok,1,3:IR038:1:2,,,,True
+False,1,3,knot,bend,knots,hairpin,,IR038,ok,2,3:IR038:2:1,,,,False
+False,2,3,knot,bend,,hairpin,,IR038,ok,2,3:IR038:2:2,,,,False
+,,1,landform,sound,,,"[""speaker"", ""audio"", ""sound"", ""megaphone"", ""volume""]",IR039,ok,0,1:IR039:0,False,True,,
+,,1,landform,spit,,,"[""meat"", ""skewers"", ""rotisserie"", ""barbecue"", ""fire""]",IR039,ok,1,1:IR039:1,False,False,,
+,,1,landform,basin,,,"[""sink"", ""basin"", ""bathroom"", ""faucet"", ""countertop""]",IR039,ok,2,1:IR039:2,False,True,,
+False,1,3,landform,sound,homonyms,speaker,,IR039,ok,0,3:IR039:0:1,,,,False
+False,2,3,landform,sound,parts of speech,speaker,,IR039,ok,0,3:IR039:0:2,,,,False
+False,1,3,landform,spit,landforms,spit,,IR039,ok,1,3:IR039:1:1,,,,True
+False,2,3,landform,spit,geographical features,spit,,IR039,ok,1,3:IR039:1:2,,,,True
+False,1,3,landform,basin,sound,sink,,IR039,ok,2,3:IR039:2:1,,,,False
+False,2,3,landform,basin,verb/noun homonyms,sink,,IR039,ok,2,3:IR039:2:2,,,,False
+,,1,mountain,saddle,,,"[""saddle"", ""horse"", ""leather"", ""tack"", ""equestrian""]",IR040,ok,0,1:IR040:0,True,True,,
+,,1,mountain,shoulder,,,"[""physiotherapy"", ""massage"", ""shoulders"", ""patient"", ""therapist""]",IR040,ok,1,1:IR040:1,False,False,,
+,,1,mountain,foot,,,"[""foot"", ""toe"", ""ankle"", ""ground"", ""dirt""]",IR040,ok,2,1:IR040:2,True,True,,
+False,1,3,mountain,saddle,road features,saddle,,IR040,ok,0,3:IR040:0:1,,,,True
+False,2,3,mountain,saddle,mountain landforms,saddle,,IR040,ok,0,3:IR040:0:2,,,,True
+False,1,3,mountain,shoulder,idioms of responsibility,shoulder,,IR040,ok,1,3:IR040:1:1,,,,True
+False,2,3,mountain,shoulder,body parts,shoulder,,IR040,ok,1,3:IR040:1:2,,,,True
+False,1,3,mountain,foot,parts of a mountain,foot,,IR040,ok,2,3:IR040:2:1,,,,True
+False,2,3,mountain,foot,parts of a mountain,foot,,IR040,ok,2,3:IR040:2:2,,,,True
+,,1,courtroom,box,,,"[""boxes"", ""cardboard"", ""pile"", ""mess"", ""disarray""]",IR041,ok,0,1:IR041:0,False,False,,
+,,1,courtroom,bar,,,"[""tap"", ""bar"", ""beer"", ""pub"", ""beverage""]",IR041,ok,1,1:IR041:1,False,True,,
+,,1,courtroom,dock,,,"[""pier"", ""dock"", ""lake"", ""water"", ""sky""]",IR041,ok,2,1:IR041:2,False,True,,
+False,1,3,courtroom,box,,boxes,,IR041,ok,0,3:IR041:0:1,,,,False
+False,2,3,courtroom,box,courtroom terms,box,,IR041,ok,0,3:IR041:0:2,,,,True
+False,1,3,courtroom,bar,computer terms,tap,,IR041,ok,1,3:IR041:1:1,,,,False
+False,2,3,courtroom,bar,,tap,,IR041,ok,1,3:IR041:1:2,,,,False
+False,1,3,courtroom,dock,,pier,,IR041,ok,2,3:IR041:2:1,,,,False
+False,2,3,courtroom,dock,,dock,,IR041,ok,2,3:IR041:2:2,,,,True
+,,1,mammal,seal,,,"[""envelope"", ""wax seal"", ""letter"", ""spoon"", ""pen""]",IR042,ok,0,1:IR042:0,False,False,,
+,,1,mammal,ram,,,"[""RAM"", ""memory"", ""hardware"", ""chips"", ""electronics""]",IR042,ok,1,1:IR042:1,True,True,,
+,,1,mammal,bat,,,"[""bat"", ""baseball bat"", ""hand"", ""sports equipment"", ""sport""]",IR042,ok,2,1:IR042:2,True,True,,
+False,1,3,mammal,seal,animals,seal,,IR042,ok,0,3:IR042:0:1,,,,True
+False,2,3,mammal,seal,animals,seal,,IR042,ok,0,3:IR042:0:2,,,,True
+False,1,3,mammal,ram,homonym,chip,,IR042,ok,1,3:IR042:1:1,,,,False
+False,2,3,mammal,ram,animals,ram,,IR042,ok,1,3:IR042:1:2,,,,True
+False,1,3,mammal,bat,animals,bat,,IR042,ok,2,3:IR042:2:1,,,,True
+False,2,3,mammal,bat,animals,bat,,IR042,ok,2,3:IR042:2:2,,,,True
+,,1,fish,mullet,,,"[""haircut"", ""barber"", ""scissors"", ""hair"", ""client""]",IR043,ok,0,1:IR043:0,False,False,,
+,,1,fish,jack,,,"[""jack"", ""hydraulic jack"", ""bottle jack"", ""tool"", ""car jack""]",IR043,ok,1,1:IR043:1,True,True,,
+,,1,fish,skate,,,"[""ice skates"", ""skates"", ""shoes"", ""sports equipment"", ""footwear""]",IR043,ok,2,1:IR043:2,False,False,,
+False,1,3,fish,mullet,tools,scissors,,IR043,ok,0,3:IR043:0:1,,,,False
+True,2,3,fish,mullet,fish,mullet,,IR043,ok,0,3:IR043:0:2,,,,True
+False,1,3,fish,jack,cards,jack,,IR043,ok,1,3:IR043:1:1,,,,True
+True,2,3,fish,jack,fish,jack,,IR043,ok,1,3:IR043:1:2,,,,True
+True,1,3,fish,skate,fish,skate,,IR043,ok,2,3:IR043:2:1,,,,True
+True,2,3,fish,skate,fish,skate,,IR043,ok,2,3:IR043:2:2,,,,True
+,,1,strike,hook,,,"[""hook"", ""coat hook"", ""brass hook"", ""hanger"", ""hardware""]",IR044,ok,0,1:IR044:0,True,True,,
+,,1,strike,cross,,,"[""cross"", ""crucifix"", ""religion"", ""christianity"", ""symbol""]",IR044,ok,1,1:IR044:1,True,True,,
+,,1,strike,jab,,,"[""syringe"", ""injection"", ""vaccination"", ""needle"", ""healthcare""]",IR044,ok,2,1:IR044:2,False,False,,
+False,1,3,strike,hook,boxing punches,hook,,IR044,ok,0,3:IR044:0:1,,,,True
+False,2,3,strike,hook,boxing punches,hook,,IR044,ok,0,3:IR044:0:2,,,,True
+False,1,3,strike,cross,boxing punches,cross,,IR044,ok,1,3:IR044:1:1,,,,True
+False,2,3,strike,cross,boxing punches,cross,,IR044,ok,1,3:IR044:1:2,,,,True
+False,1,3,strike,jab,boxing punches,jab,,IR044,ok,2,3:IR044:2:1,,,,True
+False,2,3,strike,jab,boxing punches,jab,,IR044,ok,2,3:IR044:2:2,,,,True
+,,1,length unit,foot,,,"[""foot"", ""toe"", ""ankle"", ""limb"", ""skin""]",IR045,ok,0,1:IR045:0,True,True,,
+,,1,length unit,yard,,,"[""house"", ""lawn"", ""trees"", ""yard"", ""garden""]",IR045,ok,1,1:IR045:1,False,True,,
+,,1,length unit,link,,,"[""chain"", ""links"", ""metal"", ""steel"", ""strength""]",IR045,ok,2,1:IR045:2,False,False,,
+False,1,3,length unit,foot,units of measurement,foot,,IR045,ok,0,3:IR045:0:1,,,,True
+False,2,3,length unit,foot,units of measurement,foot,,IR045,ok,0,3:IR045:0:2,,,,True
+False,1,3,length unit,yard,links,link,,IR045,ok,1,3:IR045:1:1,,,,False
+False,2,3,length unit,yard,units of length,yard,,IR045,ok,1,3:IR045:1:2,,,,True
+False,1,3,length unit,link,parts of a sausage,link,,IR045,ok,2,3:IR045:2:1,,,,True
+False,2,3,length unit,link,units of length,chain,,IR045,ok,2,3:IR045:2:2,,,,False
+,,1,metal,lead,,,"[""dog"", ""corgi"", ""puppy"", ""pet"", ""animal""]",IR046,ok,0,1:IR046:0,False,False,,
+,,1,metal,iron,,,"[""iron"", ""clothes iron"", ""appliance"", ""flatiron"", ""gadget""]",IR046,ok,1,1:IR046:1,True,True,,
+,,1,metal,tin,,,"[""can"", ""tin"", ""sardine can"", ""food can"", ""metal can""]",IR046,ok,2,1:IR046:2,False,True,,
+False,1,3,metal,lead,golf clubs,dog,,IR046,ok,0,3:IR046:0:1,,,,False
+False,2,3,metal,lead,chemical elements,lead,,IR046,ok,0,3:IR046:0:2,,,,True
+False,1,3,metal,iron,chemical elements,iron,,IR046,ok,1,3:IR046:1:1,,,,True
+True,2,3,metal,iron,metal,iron,,IR046,ok,1,3:IR046:1:2,,,,True
+False,1,3,metal,tin,,can,,IR046,ok,2,3:IR046:2:1,,,,False
+False,2,3,metal,tin,chemical element,tin,,IR046,ok,2,3:IR046:2:2,,,,True
+,,1,metalworking,stake,,,"[""rope"", ""knot"", ""stake"", ""grass"", ""anchor""]",IR047,ok,0,1:IR047:0,False,True,,
+,,1,metalworking,punch,,,"[""boxer"", ""punching bag"", ""boxing gloves"", ""workout"", ""gym""]",IR047,ok,1,1:IR047:1,False,False,,
+,,1,metalworking,drift,,,"[""car"", ""snow"", ""forest"", ""trees"", ""road""]",IR047,ok,2,1:IR047:2,False,False,,
+False,1,3,metalworking,stake,types of songs or music,hit,,IR047,ok,0,3:IR047:0:1,,,,False
+False,2,3,metalworking,stake,mechanical terms,hitch,,IR047,ok,0,3:IR047:0:2,,,,False
+False,1,3,metalworking,punch,types of drinks / beverage ingredients,punch,,IR047,ok,1,3:IR047:1:1,,,,True
+False,2,3,metalworking,punch,metalworking tools,punch,,IR047,ok,1,3:IR047:1:2,,,,True
+False,1,3,metalworking,drift,betting terms,drift,,IR047,ok,2,3:IR047:2:1,,,,True
+False,2,3,metalworking,drift,things you can 'get' or understand,drift,,IR047,ok,2,3:IR047:2:2,,,,True
+,,1,film,trailer,,,"[""caravan"", ""trailer"", ""suv"", ""vehicle"", ""road""]",IR048,ok,0,1:IR048:0,False,True,,
+,,1,film,frame,,,"[""frame"", ""picture frame"", ""wood frame"", ""square frame"", ""mockup""]",IR048,ok,1,1:IR048:1,True,True,,
+,,1,film,credits,,,"[""credit card"", ""card"", ""debit card"", ""payment card"", ""smart card""]",IR048,ok,2,1:IR048:2,False,False,,
+False,1,3,film,trailer,,trailer,,IR048,ok,0,3:IR048:0:1,,,,True
+False,2,3,film,trailer,film terms,trailer,,IR048,ok,0,3:IR048:0:2,,,,True
+False,1,3,film,frame,credits,frame,,IR048,ok,1,3:IR048:1:1,,,,True
+True,2,3,film,frame,film,frame,,IR048,ok,1,3:IR048:1:2,,,,True
+False,1,3,film,credits,,card,,IR048,ok,2,3:IR048:2:1,,,,False
+False,2,3,film,credits,,card,,IR048,ok,2,3:IR048:2:2,,,,False
+,,1,music genre,pop,,,"[""popsicle"", ""fruit"", ""orange"", ""lemon"", ""dessert""]",IR049,ok,0,1:IR049:0,False,False,,
+,,1,music genre,rock,,,"[""rock"", ""boulder"", ""sand"", ""beach"", ""stone""]",IR049,ok,1,1:IR049:1,True,True,,
+,,1,music genre,metal,,,"[""pins"", ""rods"", ""metal"", ""cylinders"", ""hardware""]",IR049,ok,2,1:IR049:2,False,True,,
+False,1,3,music genre,pop,music genres,pop,,IR049,ok,0,3:IR049:0:1,,,,True
+False,2,3,music genre,pop,music genres,ice,,IR049,ok,0,3:IR049:0:2,,,,False
+False,1,3,music genre,rock,music genres,rock,,IR049,ok,1,3:IR049:1:1,,,,True
+False,2,3,music genre,rock,music genres,rock,,IR049,ok,1,3:IR049:1:2,,,,True
+False,1,3,music genre,metal,metal stock,stock,,IR049,ok,2,3:IR049:2:1,,,,False
+False,2,3,music genre,metal,music genres,pins,,IR049,ok,2,3:IR049:2:2,,,,False
+,,1,mythical creature,brownie,,,"[""brownie"", ""pecan"", ""dessert"", ""chocolate"", ""nut""]",P054,ok,0,1:P054:0,True,True,,
+,,1,mythical creature,siren,,,"[""lightbar"", ""siren"", ""beacon"", ""light"", ""emergency""]",P054,ok,1,1:P054:1,False,True,,
+,,1,mythical creature,troll,,,"[""troll doll"", ""toy"", ""table"", ""bottles"", ""miniature""]",P054,ok,2,1:P054:2,False,False,,
+False,1,3,mythical creature,brownie,mythological creatures,brownie,,P054,ok,0,3:P054:0:1,,,,True
+False,2,3,mythical creature,brownie,mythological creatures,brownie,,P054,ok,0,3:P054:0:2,,,,True
+False,1,3,mythical creature,siren,mythical creatures,siren,,P054,ok,1,3:P054:1:1,,,,True
+False,2,3,mythical creature,siren,types of fruit,cherry,,P054,ok,1,3:P054:1:2,,,,False
+False,1,3,mythical creature,troll,internet slang,troll,,P054,ok,2,3:P054:2:1,,,,True
+False,2,3,mythical creature,troll,mythical creatures,troll,,P054,ok,2,3:P054:2:2,,,,True
+,,1,deity,pan,,,"[""pan"", ""frying pan"", ""skillet"", ""cookware"", ""utensil""]",IR050,ok,0,1:IR050:0,True,True,,
+,,1,deity,mercury,,,"[""mercury"", ""liquid"", ""metal"", ""reflection"", ""droplets""]",IR050,ok,1,1:IR050:1,True,True,,
+,,1,deity,flora,,,"[""greenhouse"", ""lily pad"", ""pond"", ""botanical garden"", ""glasshouse""]",IR050,ok,2,1:IR050:2,False,False,,
+False,1,3,deity,pan,moons of Saturn,pan,,IR050,ok,0,3:IR050:0:1,,,,True
+False,2,3,deity,pan,Roman/Greek gods,pan,,IR050,ok,0,3:IR050:0:2,,,,True
+False,1,3,deity,mercury,Roman mythology,mercury,,IR050,ok,1,3:IR050:1:1,,,,True
+False,2,3,deity,mercury,planet names,mercury,,IR050,ok,1,3:IR050:1:2,,,,True
+False,1,3,deity,flora,Peter Pan,lily,,IR050,ok,2,3:IR050:2:1,,,,False
+False,2,3,deity,flora,plants,palm,,IR050,ok,2,3:IR050:2:2,,,,False
+,,1,pen,spring,,,"[""hot spring"", ""geyser"", ""steam"", ""pool"", ""water""]",IR051,ok,0,1:IR051:0,False,False,,
+,,1,pen,barrel,,,"[""barrel"", ""cask"", ""wine barrel"", ""wooden barrel"", ""cellar""]",IR051,ok,1,1:IR051:1,True,True,,
+,,1,pen,ball,,,"[""soccer ball"", ""football"", ""grass"", ""field"", ""sport""]",IR051,ok,2,1:IR051:2,False,False,,
+False,1,3,pen,spring,roll,spring,,IR051,ok,0,3:IR051:0:1,,,,True
+False,2,3,pen,spring,,pool,,IR051,ok,0,3:IR051:0:2,,,,False
+False,1,3,pen,barrel,dancing,barrel,,IR051,ok,1,3:IR051:1:1,,,,True
+False,2,3,pen,barrel,parts of a pen,barrel,,IR051,ok,1,3:IR051:1:2,,,,True
+False,1,3,pen,ball,homonym,ball,,IR051,ok,2,3:IR051:2:1,,,,True
+False,2,3,pen,ball,roll,roll,,IR051,ok,2,3:IR051:2:2,,,,False
+,,1,operating system,driver,,,"[""golf club"", ""golf ball"", ""golfer"", ""grass"", ""sport""]",IR052,ok,0,1:IR052:0,False,False,,
+,,1,operating system,shell,,,"[""seashell"", ""shell"", ""sand"", ""beach"", ""coast""]",IR052,ok,1,1:IR052:1,False,True,,
+,,1,operating system,pipe,,,"[""fitting"", ""elbow"", ""pipe"", ""brass"", ""connector""]",IR052,ok,2,1:IR052:2,False,True,,
+False,1,3,operating system,driver,,club,,IR052,ok,0,3:IR052:0:1,,,,False
+False,2,3,operating system,driver,computing,driver,,IR052,ok,0,3:IR052:0:2,,,,True
+False,1,3,operating system,shell,Unix,shell,,IR052,ok,1,3:IR052:1:1,,,,True
+False,2,3,operating system,shell,sea shell,cockle,,IR052,ok,1,3:IR052:1:2,,,,False
+False,1,3,operating system,pipe,golf,elbow,,IR052,ok,2,3:IR052:2:1,,,,False
+False,2,3,operating system,pipe,car parts,elbow,,IR052,ok,2,3:IR052:2:2,,,,False
+,,1,data structure,tree,,,"[""tree"", ""oak"", ""plant"", ""nature"", ""landscape""]",IR053,ok,0,1:IR053:0,True,True,,
+,,1,data structure,stack,,,"[""cairn"", ""stones"", ""stack"", ""rocks"", ""balance""]",IR053,ok,1,1:IR053:1,False,True,,
+,,1,data structure,queue,,,"[""queue"", ""line"", ""people"", ""building"", ""wait""]",IR053,ok,2,1:IR053:2,True,True,,
+False,1,3,data structure,tree,computer science data structures,tree,,IR053,ok,0,3:IR053:0:1,,,,True
+False,2,3,data structure,tree,data structures,tree,,IR053,ok,0,3:IR053:0:2,,,,True
+False,1,3,data structure,stack,data structures,stack,,IR053,ok,1,3:IR053:1:1,,,,True
+False,2,3,data structure,stack,data structures,stack,,IR053,ok,1,3:IR053:1:2,,,,True
+False,1,3,data structure,queue,data structures,queue,,IR053,ok,2,3:IR053:2:1,,,,True
+False,2,3,data structure,queue,data structures,queue,,IR053,ok,2,3:IR053:2:2,,,,True
+,,1,pasta,shell,,,"[""seashells"", ""shell"", ""sand"", ""beach"", ""spiral""]",IR054,ok,0,1:IR054:0,False,True,,
+,,1,pasta,elbow,,,"[""arm"", ""skin"", ""elbow"", ""body"", ""limb""]",IR054,ok,1,1:IR054:1,False,True,,
+,,1,pasta,wheel,,,"[""wheel"", ""fence"", ""landscape"", ""sunset"", ""grass""]",IR054,ok,2,1:IR054:2,True,True,,
+False,1,3,pasta,shell,pasta shapes,shell,,IR054,ok,0,3:IR054:0:1,,,,True
+True,2,3,pasta,shell,pasta,shell,,IR054,ok,0,3:IR054:0:2,,,,True
+False,1,3,pasta,elbow,joints,elbow,,IR054,ok,1,3:IR054:1:1,,,,True
+False,2,3,pasta,elbow,,elbow,,IR054,ok,1,3:IR054:1:2,,,,True
+False,1,3,pasta,wheel,Python packaging,wheel,,IR054,ok,2,3:IR054:2:1,,,,True
+False,2,3,pasta,wheel,pasta shapes,wheel,,IR054,ok,2,3:IR054:2:2,,,,True
+,,1,airport,gate,,,"[""gate"", ""fence"", ""hedge"", ""street sign"", ""trees""]",IR055,ok,0,1:IR055:0,True,True,,
+,,1,airport,apron,,,"[""apron"", ""hook"", ""wall"", ""linen"", ""clothing""]",IR055,ok,1,1:IR055:1,True,True,,
+,,1,airport,carousel,,,"[""carousel"", ""horse"", ""merry-go-round"", ""amusement"", ""toy""]",IR055,ok,2,1:IR055:2,True,True,,
+False,1,3,airport,gate,aviation,gate,,IR055,ok,0,3:IR055:0:1,,,,True
+False,2,3,airport,gate,airport terminology,gate,,IR055,ok,0,3:IR055:0:2,,,,True
+False,1,3,airport,apron,,apron,,IR055,ok,1,3:IR055:1:1,,,,True
+False,2,3,airport,apron,tech founders,apron,,IR055,ok,1,3:IR055:1:2,,,,True
+False,1,3,airport,carousel,amusement ride,carousel,,IR055,ok,2,3:IR055:2:1,,,,True
+False,2,3,airport,carousel,airport terminology,carousel,,IR055,ok,2,3:IR055:2:2,,,,True
+,,1,tree,box,,,"[""box"", ""cardboard box"", ""package"", ""container"", ""cube""]",IR056,ok,0,1:IR056:0,True,True,,
+,,1,tree,ash,,,"[""ash"", ""embers"", ""charcoal"", ""firepit"", ""debris""]",IR056,ok,1,1:IR056:1,True,True,,
+,,1,tree,plane,,,"[""airplane"", ""aircraft"", ""jet"", ""airline"", ""sky""]",IR056,ok,2,1:IR056:2,False,False,,
+False,1,3,tree,box,Pokémon storage,box,,IR056,ok,0,3:IR056:0:1,,,,True
+False,2,3,tree,box,trees,box,,IR056,ok,0,3:IR056:0:2,,,,True
+False,1,3,tree,ash,trees,ash,,IR056,ok,1,3:IR056:1:1,,,,True
+False,2,3,tree,ash,trees,ash,,IR056,ok,1,3:IR056:1:2,,,,True
+False,1,3,tree,plane,geometry,plane,,IR056,ok,2,3:IR056:2:1,,,,True
+False,2,3,tree,plane,Pokémon protagonists,plane,,IR056,ok,2,3:IR056:2:2,,,,True
+,,1,flower,lip,,,"[""lips"", ""mouth"", ""gloss"", ""makeup"", ""skin""]",IR057,ok,0,1:IR057:0,False,False,,
+,,1,flower,blade,,,"[""knife"", ""pocketknife"", ""blade"", ""dagger"", ""tool""]",IR057,ok,1,1:IR057:1,False,True,,
+,,1,flower,throat,,,"[""neck"", ""throat"", ""clavicle"", ""chest"", ""anatomy""]",IR057,ok,2,1:IR057:2,False,True,,
+False,1,3,flower,lip,,lip,,IR057,ok,0,3:IR057:0:1,,,,True
+False,2,3,flower,lip,anatomy,lip,,IR057,ok,0,3:IR057:0:2,,,,True
+False,1,3,flower,blade,parts of a knife,spine,,IR057,ok,1,3:IR057:1:1,,,,False
+False,2,3,flower,blade,human body parts,belly,,IR057,ok,1,3:IR057:1:2,,,,False
+False,1,3,flower,throat,bottle parts,neck,,IR057,ok,2,3:IR057:2:1,,,,False
+False,2,3,flower,throat,parts of a guitar,neck,,IR057,ok,2,3:IR057:2:2,,,,False
+,,1,political party,rose,,,"[""rose"", ""flower"", ""plant"", ""blossom"", ""petals""]",IR058,ok,0,1:IR058:0,True,True,,
+,,1,political party,donkey,,,"[""donkey"", ""animal"", ""mammal"", ""field"", ""mammal""]",IR058,ok,1,1:IR058:1,True,True,,
+,,1,political party,elephant,,,"[""elephant"", ""wildlife"", ""animal"", ""savanna"", ""mammal""]",IR058,ok,2,1:IR058:2,True,True,,
+False,1,3,political party,rose,cocktails,rose,,IR058,ok,0,3:IR058:0:1,,,,True
+False,2,3,political party,rose,political parties,rose,,IR058,ok,0,3:IR058:0:2,,,,True
+False,1,3,political party,donkey,US political parties,donkey,,IR058,ok,1,3:IR058:1:1,,,,True
+False,2,3,political party,donkey,US political party symbols,donkey,,IR058,ok,1,3:IR058:1:2,,,,True
+False,1,3,political party,elephant,animal,elephant,,IR058,ok,2,3:IR058:2:1,,,,True
+False,2,3,political party,elephant,chess pieces,elephant,,IR058,ok,2,3:IR058:2:2,,,,True
+,,1,programming construct,branch,,,"[""branch"", ""tree"", ""sky"", ""wood"", ""twig""]",IR059,ok,0,1:IR059:0,True,True,,
+,,1,programming construct,switch,,,"[""light switch"", ""switch"", ""wall plate"", ""wall"", ""electricity""]",IR059,ok,1,1:IR059:1,False,True,,
+,,1,programming construct,loop,,,"[""rope"", ""twine"", ""cord"", ""string"", ""loop""]",IR059,ok,2,1:IR059:2,False,True,,
+False,1,3,programming construct,branch,control flow,branch,,IR059,ok,0,3:IR059:0:1,,,,True
+False,2,3,programming construct,branch,programming,branch,,IR059,ok,0,3:IR059:0:2,,,,True
+False,1,3,programming construct,switch,programming control flow statements,switch,,IR059,ok,1,3:IR059:1:1,,,,True
+False,2,3,programming construct,switch,programming,switch,,IR059,ok,1,3:IR059:1:2,,,,True
+False,1,3,programming construct,loop,anatomy,cord,,IR059,ok,2,3:IR059:2:1,,,,False
+False,2,3,programming construct,loop,programming,string,,IR059,ok,2,3:IR059:2:2,,,,False
+,,1,punctuation mark,colon,,,"[""pain"", ""stomachache"", ""confusion"", ""anatomy"", ""person""]",IR060,ok,0,1:IR060:0,False,False,,
+,,1,punctuation mark,dash,,,"[""runners"", ""running"", ""race"", ""track"", ""athletes""]",IR060,ok,1,1:IR060:1,False,False,,
+,,1,punctuation mark,bracket,,,"[""shelf"", ""shelves"", ""bracket"", ""plates"", ""mugs""]",IR060,ok,2,1:IR060:2,False,True,,
+False,1,3,punctuation mark,colon,punctuation marks,period,,IR060,ok,0,3:IR060:0:1,,,,False
+False,2,3,punctuation mark,colon,punctuation marks,gut,,IR060,ok,0,3:IR060:0:2,,,,False
+False,1,3,punctuation mark,dash,punctuation marks,dash,,IR060,ok,1,3:IR060:1:1,,,,True
+False,2,3,punctuation mark,dash,punctuation,dash,,IR060,ok,1,3:IR060:1:2,,,,True
+False,1,3,punctuation mark,bracket,punctuation marks,bracket,,IR060,ok,2,3:IR060:2:1,,,,True
+False,2,3,punctuation mark,bracket,punctuation marks,bracket,,IR060,ok,2,3:IR060:2:2,,,,True
+,,1,shape,diamond,,,"[""diamond"", ""gemstone"", ""jewel"", ""crystal"", ""stone""]",IR062,ok,0,1:IR062:0,True,True,,
+,,1,shape,kite,,,"[""kite"", ""bird kite"", ""toy"", ""sky"", ""fly""]",IR062,ok,1,1:IR062:1,True,True,,
+,,1,shape,heart,,,"[""heart model"", ""anatomical heart"", ""heart"", ""model"", ""anatomy""]",IR062,ok,2,1:IR062:2,False,True,,
+False,1,3,shape,diamond,shapes,diamond,,IR062,ok,0,3:IR062:0:1,,,,True
+False,2,3,shape,diamond,playing card suits,diamond,,IR062,ok,0,3:IR062:0:2,,,,True
+False,1,3,shape,kite,,kite,,IR062,ok,1,3:IR062:1:1,,,,True
+False,2,3,shape,kite,playing card suits,kite,,IR062,ok,1,3:IR062:1:2,,,,True
+False,1,3,shape,heart,card suits,heart,,IR062,ok,2,3:IR062:2:1,,,,True
+False,2,3,shape,heart,playing card suits,heart,,IR062,ok,2,3:IR062:2:2,,,,True
+,,1,snack,chip,,,"[""circuit board"", ""microchip"", ""artificial intelligence"", ""processor"", ""electronics""]",IR063,ok,0,1:IR063:0,False,False,,
+,,1,snack,cracker,,,"[""cracker"", ""christmas cracker"", ""party cracker"", ""gold cracker"", ""holiday cracker""]",IR063,ok,1,1:IR063:1,True,True,,
+,,1,snack,pretzel,,,"[""woman"", ""yoga"", ""fitness"", ""mat"", ""grass""]",IR063,ok,2,1:IR063:2,False,False,,
+False,1,3,snack,chip,computer components,chip,,IR063,ok,0,3:IR063:0:1,,,,True
+False,2,3,snack,chip,snacks,chip,,IR063,ok,0,3:IR063:0:2,,,,True
+False,1,3,snack,cracker,snacks,cracker,,IR063,ok,1,3:IR063:1:1,,,,True
+False,2,3,snack,cracker,snack foods,cracker,,IR063,ok,1,3:IR063:1:2,,,,True
+False,1,3,snack,pretzel,yoga,pose,,IR063,ok,2,3:IR063:2:1,,,,False
+False,2,3,snack,pretzel,yoga,mat,,IR063,ok,2,3:IR063:2:2,,,,False
+,,1,feature,story,,,"[""house"", ""home"", ""property"", ""building"", ""suburb""]",IR064,ok,0,1:IR064:0,False,False,,
+,,1,feature,thread,,,"[""thread"", ""spool"", ""yarn"", ""bobbin"", ""cotton""]",IR064,ok,1,1:IR064:1,True,True,,
+,,1,feature,reel,,,"[""fishing reel"", ""fishing rod"", ""reel"", ""rod"", ""equipment""]",IR064,ok,2,1:IR064:2,False,True,,
+False,1,3,feature,story,social media terms,post,,IR064,ok,0,3:IR064:0:1,,,,False
+False,2,3,feature,story,,house,,IR064,ok,0,3:IR064:0:2,,,,False
+False,1,3,feature,thread,things that wind thread or film,reel,,IR064,ok,1,3:IR064:1:1,,,,False
+False,2,3,feature,thread,homophones,roll,,IR064,ok,1,3:IR064:1:2,,,,False
+False,1,3,feature,reel,homonyms,reel,,IR064,ok,2,3:IR064:2:1,,,,True
+False,2,3,feature,reel,social media features,reel,,IR064,ok,2,3:IR064:2:2,,,,True
+,,1,golf club,driver,,,"[""screwdriver"", ""hand"", ""tool"", ""hardware"", ""handle""]",IR065,ok,0,1:IR065:0,False,False,,
+,,1,golf club,iron,,,"[""iron"", ""clothes iron"", ""appliance"", ""clothing"", ""shirt""]",IR065,ok,1,1:IR065:1,True,True,,
+,,1,golf club,wedge,,,"[""cheese"", ""food"", ""dairy"", ""wedge"", ""snack""]",IR065,ok,2,1:IR065:2,False,True,,
+False,1,3,golf club,driver,,screwdriver,,IR065,ok,0,3:IR065:0:1,,,,False
+False,2,3,golf club,driver,golf clubs,driver,,IR065,ok,0,3:IR065:0:2,,,,True
+False,1,3,golf club,iron,golf clubs,iron,,IR065,ok,1,3:IR065:1:1,,,,True
+False,2,3,golf club,iron,golf clubs,iron,,IR065,ok,1,3:IR065:1:2,,,,True
+False,1,3,golf club,wedge,simple machines,wedge,,IR065,ok,2,3:IR065:2:1,,,,True
+False,2,3,golf club,wedge,golf clubs,wedge,,IR065,ok,2,3:IR065:2:2,,,,True
+,,1,stitch,feather,,,"[""feather"", ""peacock feather"", ""bird feather"", ""plumage"", ""eye""]",IR066,ok,0,1:IR066:0,True,True,,
+,,1,stitch,chain,,,"[""chain"", ""metal"", ""links"", ""iron"", ""texture""]",IR066,ok,1,1:IR066:1,True,True,,
+,,1,stitch,ladder,,,"[""ladder"", ""shadow"", ""wall"", ""sky"", ""architecture""]",IR066,ok,2,1:IR066:2,True,True,,
+True,1,3,stitch,feather,stitch,feather,,IR066,ok,0,3:IR066:0:1,,,,True
+False,2,3,stitch,feather,graph,feather,,IR066,ok,0,3:IR066:0:2,,,,True
+False,1,3,stitch,chain,types of logic,chain,,IR066,ok,1,3:IR066:1:1,,,,True
+False,2,3,stitch,chain,embroidery stitches,chain,,IR066,ok,1,3:IR066:1:2,,,,True
+False,1,3,stitch,ladder,,ladder,,IR066,ok,2,3:IR066:2:1,,,,True
+False,2,3,stitch,ladder,decision tree,ladder,,IR066,ok,2,3:IR066:2:2,,,,True
+,,1,gemstone cut,princess,,,"[""woman"", ""dress"", ""tiara"", ""gown"", ""princess""]",IR067,ok,0,1:IR067:0,False,True,,
+,,1,gemstone cut,cushion,,,"[""pillow"", ""cushion"", ""sofa"", ""couch"", ""texture""]",IR067,ok,1,1:IR067:1,False,True,,
+,,1,gemstone cut,heart,,,"[""heart"", ""model"", ""anatomy"", ""organ"", ""biology""]",IR067,ok,2,1:IR067:2,True,True,,
+False,1,3,gemstone cut,princess,diamond cuts,princess,,IR067,ok,0,3:IR067:0:1,,,,True
+False,2,3,gemstone cut,princess,playing cards,queen,,IR067,ok,0,3:IR067:0:2,,,,False
+False,1,3,gemstone cut,cushion,couch items,pillow,,IR067,ok,1,3:IR067:1:1,,,,False
+False,2,3,gemstone cut,cushion,cuts,pillow,,IR067,ok,1,3:IR067:1:2,,,,False
+False,1,3,gemstone cut,heart,cuts of meat,heart,,IR067,ok,2,3:IR067:2:1,,,,True
+False,2,3,gemstone cut,heart,diamond cuts,heart,,IR067,ok,2,3:IR067:2:2,,,,True
+,,1,cake,sheet,,,"[""sheets"", ""bedding"", ""linen"", ""blanket"", ""stack""]",IR068,ok,0,1:IR068:0,False,False,,
+,,1,cake,pound,,,"[""money"", ""banknotes"", ""currency"", ""cash"", ""pounds""]",IR068,ok,1,1:IR068:1,False,False,,
+,,1,cake,lava,,,"[""lava"", ""magma"", ""volcano"", ""rock"", ""fire""]",IR068,ok,2,1:IR068:2,True,True,,
+False,1,3,cake,sheet,,sheet,,IR068,ok,0,3:IR068:0:1,,,,True
+False,2,3,cake,sheet,,sheet,,IR068,ok,0,3:IR068:0:2,,,,True
+True,1,3,cake,pound,cake,pound,,IR068,ok,1,3:IR068:1:1,,,,True
+False,2,3,cake,pound,,money,,IR068,ok,1,3:IR068:1:2,,,,False
+False,1,3,cake,lava,types of flow,flow,,IR068,ok,2,3:IR068:2:1,,,,False
+False,2,3,cake,lava,lava bed,bed,,IR068,ok,2,3:IR068:2:2,,,,False
+,,1,pastry,danish,,,"[""flag"", ""banner"", ""dane"", ""sky"", ""pole""]",IR069,ok,0,1:IR069:0,False,False,,
+,,1,pastry,horn,,,"[""horn"", ""bugle"", ""trumpet"", ""bulb"", ""instrument""]",IR069,ok,1,1:IR069:1,True,True,,
+,,1,pastry,bear claw,,,"[""bear paw"", ""claws"", ""animal"", ""grizzly"", ""fur""]",IR069,ok,2,1:IR069:2,False,False,,
+False,1,3,pastry,danish,,flag,,IR069,ok,0,3:IR069:0:1,,,,False
+False,2,3,pastry,danish,pastries,Danish,,IR069,ok,0,3:IR069:0:2,,,,True
+True,1,3,pastry,horn,pastry,cream horn,,IR069,ok,1,3:IR069:1:1,,,,False
+False,2,3,pastry,horn,pastries,horn,,IR069,ok,1,3:IR069:1:2,,,,True
+False,1,3,pastry,bear claw,pastries,bear claw,,IR069,ok,2,3:IR069:2:1,,,,True
+False,2,3,pastry,bear claw,pastries,claw,,IR069,ok,2,3:IR069:2:2,,,,False
+,,1,topology,star,,,"[""stars"", ""space"", ""universe"", ""nightsky"", ""astronomy""]",IR070,ok,0,1:IR070:0,False,False,,
+,,1,topology,ring,,,"[""rings"", ""wedding rings"", ""gold rings"", ""jewelry"", ""marriage""]",IR070,ok,1,1:IR070:1,False,False,,
+,,1,topology,tree,,,"[""tree"", ""lungs"", ""nature"", ""environment"", ""symbol""]",IR070,ok,2,1:IR070:2,True,True,,
+False,1,3,topology,star,astronomy,stars,,IR070,ok,0,3:IR070:0:1,,,,False
+False,2,3,topology,star,space,stars,,IR070,ok,0,3:IR070:0:2,,,,False
+False,1,3,topology,ring,anatomy,rings,,IR070,ok,1,3:IR070:1:1,,,,False
+False,2,3,topology,ring,anatomy,ring,,IR070,ok,1,3:IR070:1:2,,,,True
+False,1,3,topology,tree,anatomy,tree,,IR070,ok,2,3:IR070:2:1,,,,True
+False,2,3,topology,tree,,lung,,IR070,ok,2,3:IR070:2:2,,,,False
+,,1,suit,heart,,,"[""heart model"", ""anatomical heart"", ""heart"", ""anatomy model"", ""medical model""]",IR071,ok,0,1:IR071:0,False,True,,
+,,1,suit,club,,,"[""club"", ""mace"", ""weapon"", ""spikes"", ""artifact""]",IR071,ok,1,1:IR071:1,True,True,,
+,,1,suit,diamond,,,"[""diamond"", ""gemstone"", ""jewel"", ""crystal"", ""gem""]",IR071,ok,2,1:IR071:2,True,True,,
+False,1,3,suit,heart,playing card suits,heart,,IR071,ok,0,3:IR071:0:1,,,,True
+False,2,3,suit,heart,playing card suits,heart,,IR071,ok,0,3:IR071:0:2,,,,True
+False,1,3,suit,club,card suits,club,,IR071,ok,1,3:IR071:1:1,,,,True
+False,2,3,suit,club,playing cards,club,,IR071,ok,1,3:IR071:1:2,,,,True
+False,1,3,suit,diamond,playing card suits,diamond,,IR071,ok,2,3:IR071:2:1,,,,True
+False,2,3,suit,diamond,playing cards,diamond,,IR071,ok,2,3:IR071:2:2,,,,True
+,,1,tree,crown,,,"[""crown"", ""tiara"", ""jewel"", ""box"", ""royalty""]",IR072,ok,0,1:IR072:0,True,True,,
+,,1,tree,trunk,,,"[""suitcase"", ""luggage"", ""baggage"", ""trunk"", ""bags""]",IR072,ok,1,1:IR072:1,False,True,,
+,,1,tree,needle,,,"[""needle"", ""thread"", ""embroidery"", ""cross stitch"", ""fabric""]",IR072,ok,2,1:IR072:2,True,True,,
+False,1,3,tree,crown,parts of a tooth,crown,,IR072,ok,0,3:IR072:0:1,,,,True
+False,2,3,tree,crown,parts of a tree,crown,,IR072,ok,0,3:IR072:0:2,,,,True
+False,1,3,tree,trunk,things that are carried or types of luggage,baggage,,IR072,ok,1,3:IR072:1:1,,,,False
+False,2,3,tree,trunk,"things that are stacked or have 'case' in their name / types of cases (crown case, needle case, suitcase)",case,,IR072,ok,1,3:IR072:1:2,,,,False
+False,1,3,tree,needle,needle,eye,,IR072,ok,2,3:IR072:2:1,,,,False
+False,2,3,tree,needle,tree parts,needle,,IR072,ok,2,3:IR072:2:2,,,,True
+,,1,car,horn,,,"[""horn"", ""animal horn"", ""cattle horn"", ""hair"", ""tip""]",IR075,ok,0,1:IR075:0,True,True,,
+,,1,car,trunk,,,"[""elephant trunk"", ""trunk"", ""elephant"", ""animal"", ""wildlife""]",IR075,ok,1,1:IR075:1,False,True,,
+,,1,car,boot,,,"[""boots"", ""shoes"", ""footwear"", ""clothing"", ""leather""]",IR075,ok,2,1:IR075:2,False,False,,
+False,1,3,car,horn,,horn,,IR075,ok,0,3:IR075:0:1,,,,True
+False,2,3,car,horn,car parts,horn,,IR075,ok,0,3:IR075:0:2,,,,True
+False,1,3,car,trunk,car compartment,trunk,,IR075,ok,1,3:IR075:1:1,,,,True
+False,2,3,car,trunk,,trunk,,IR075,ok,1,3:IR075:1:2,,,,True
+False,1,3,car,boot,automobile parts,boot,,IR075,ok,2,3:IR075:2:1,,,,True
+False,2,3,car,boot,car parts,boot,,IR075,ok,2,3:IR075:2:2,,,,True
+,,1,boat,deck,,,"[""playing cards"", ""cards"", ""hand"", ""game"", ""fan""]",IR076,ok,0,1:IR076:0,False,False,,
+,,1,boat,bow,,,"[""bow"", ""arrows"", ""archery"", ""stand"", ""grass""]",IR076,ok,1,1:IR076:1,True,True,,
+,,1,boat,boom,,,"[""boom microphone"", ""sound recordist"", ""microphone boom"", ""audio equipment"", ""person""]",IR076,ok,2,1:IR076:2,False,False,,
+False,1,3,boat,deck,parts of a ship,deck,,IR076,ok,0,3:IR076:0:1,,,,True
+False,2,3,boat,deck,parts of a ship,deck,,IR076,ok,0,3:IR076:0:2,,,,True
+False,1,3,boat,bow,,bow,,IR076,ok,1,3:IR076:1:1,,,,True
+False,2,3,boat,bow,parts of a ship,bow,,IR076,ok,1,3:IR076:1:2,,,,True
+False,1,3,boat,boom,"things with the word 'deck'/'boom' - wait, let's look at the category. Deck of cards, boom microphone... wait, ship parts? Or maybe 'deck', 'boom'? Both are parts of a sailing ship (boat)? Let's check: a ship has a deck and a boom. Yes, parts of a sailing boat/ship!",boom,,IR076,ok,2,3:IR076:2:1,,,,True
+False,2,3,boat,boom,homonyms,boom,,IR076,ok,2,3:IR076:2:2,,,,True
+,,1,gun,stock,,,"[""soup"", ""pot"", ""ladle"", ""broth"", ""noodles""]",IR077,ok,0,1:IR077:0,False,False,,
+,,1,gun,magazine,,,"[""magazines"", ""magazine rack"", ""print media"", ""publications"", ""newsstand""]",IR077,ok,1,1:IR077:1,False,False,,
+,,1,gun,barrel,,,"[""barrel"", ""cask"", ""wine barrel"", ""wooden barrel"", ""cellar""]",IR077,ok,2,1:IR077:2,True,True,,
+False,1,3,gun,stock,parts of a gun,soup,,IR077,ok,0,3:IR077:0:1,,,,False
+False,2,3,gun,stock,parts of a gun,stock,,IR077,ok,0,3:IR077:0:2,,,,True
+False,1,3,gun,magazine,firearm parts,magazine,,IR077,ok,1,3:IR077:1:1,,,,True
+False,2,3,gun,magazine,"lock, stock, and barrel",publication,,IR077,ok,1,3:IR077:1:2,,,,False
+False,1,3,gun,barrel,,cask,,IR077,ok,2,3:IR077:2:1,,,,False
+False,2,3,gun,barrel,firearm parts,barrel,,IR077,ok,2,3:IR077:2:2,,,,True
+,,1,cyclone,eye,,,"[""eye"", ""iris"", ""pupil"", ""eyelash"", ""vision""]",IR078,ok,0,1:IR078:0,True,True,,
+,,1,cyclone,wall,,,"[""brickwall"", ""shadow"", ""staircase"", ""pattern"", ""architecture""]",IR078,ok,1,1:IR078:1,False,False,,
+,,1,cyclone,band,,,"[""band"", ""musicians"", ""concert"", ""performance"", ""stage""]",IR078,ok,2,1:IR078:2,True,True,,
+False,1,3,cyclone,eye,pink Floyd albums,eye,,IR078,ok,0,3:IR078:0:1,,,,True
+False,2,3,cyclone,eye,Pink Floyd albums,eye,,IR078,ok,0,3:IR078:0:2,,,,True
+False,1,3,cyclone,wall,types of cells (prison/battery/biological),cell,,IR078,ok,1,3:IR078:1:1,,,,False
+False,2,3,cyclone,wall,prison,cell,,IR078,ok,1,3:IR078:1:2,,,,False
+False,1,3,cyclone,band,needle parts,band,,IR078,ok,2,3:IR078:2:1,,,,True
+False,2,3,cyclone,band,Pink Floyd albums,band,,IR078,ok,2,3:IR078:2:2,,,,True
+,,1,web browser,tab,,,"[""can"", ""beverage can"", ""drink can"", ""aluminum can"", ""tin can""]",IR079,ok,0,1:IR079:0,False,False,,
+,,1,web browser,cookie,,,"[""cookie"", ""chocolate chip cookie"", ""baked good"", ""snack"", ""dessert""]",IR079,ok,1,1:IR079:1,True,True,,
+,,1,web browser,bookmark,,,"[""book"", ""bookmark"", ""pages"", ""chapter"", ""reading""]",IR079,ok,2,1:IR079:2,False,True,,
+False,1,3,web browser,tab,internet protocols,pop,,IR079,ok,0,3:IR079:0:1,,,,False
+False,2,3,web browser,tab,browser features,can,,IR079,ok,0,3:IR079:0:2,,,,False
+False,1,3,web browser,cookie,browser data or web terms,cookie,,IR079,ok,1,3:IR079:1:1,,,,True
+False,2,3,web browser,cookie,internet browser terms,cookie,,IR079,ok,1,3:IR079:1:2,,,,True
+False,1,3,web browser,bookmark,browser interface elements,bookmark,,IR079,ok,2,3:IR079:2:1,,,,True
+False,2,3,web browser,bookmark,browser elements,bookmark,,IR079,ok,2,3:IR079:2:2,,,,True
+,,1,track,tie,,,"[""tie"", ""necktie"", ""fashion"", ""clothing"", ""accessories""]",IR082,ok,0,1:IR082:0,True,True,,
+,,1,track,frog,,,"[""frog"", ""treefrog"", ""amphibian"", ""animal"", ""toad""]",IR082,ok,1,1:IR082:1,True,True,,
+,,1,track,switch,,,"[""switch"", ""light switch"", ""electrical switch"", ""wall switch"", ""button""]",IR082,ok,2,1:IR082:2,True,True,,
+False,1,3,track,tie,fastenings or connectors,tie,,IR082,ok,0,3:IR082:0:1,,,,True
+False,2,3,track,tie,railroad components,tie,,IR082,ok,0,3:IR082:0:2,,,,True
+False,1,3,track,frog,,frog,,IR082,ok,1,3:IR082:1:1,,,,True
+False,2,3,track,frog,railroad components,frog,,IR082,ok,1,3:IR082:1:2,,,,True
+False,1,3,track,switch,railway terms,switch,,IR082,ok,2,3:IR082:2:1,,,,True
+False,2,3,track,switch,things with multiple meanings / parts of clothing / fasteners,switch,,IR082,ok,2,3:IR082:2:2,,,,True
+,,1,toilet,tank,,,"[""tank"", ""model"", ""toy"", ""vehicle"", ""panzer""]",IR083,ok,0,1:IR083:0,True,True,,
+,,1,toilet,float,,,"[""float"", ""parade"", ""carnival"", ""festival"", ""crowd""]",IR083,ok,1,1:IR083:1,True,True,,
+,,1,toilet,bowl,,,"[""bowl"", ""dish"", ""container"", ""ceramic"", ""pottery""]",IR083,ok,2,1:IR083:2,True,True,,
+False,1,3,toilet,tank,,tank,,IR083,ok,0,3:IR083:0:1,,,,True
+False,2,3,toilet,tank,,tank,,IR083,ok,0,3:IR083:0:2,,,,True
+False,1,3,toilet,float,New Year's Day traditions,float,,IR083,ok,1,3:IR083:1:1,,,,True
+False,2,3,toilet,float,parade,float,,IR083,ok,1,3:IR083:1:2,,,,True
+False,1,3,toilet,bowl,football games,bowl,,IR083,ok,2,3:IR083:2:1,,,,True
+False,2,3,toilet,bowl,football games,bowl,,IR083,ok,2,3:IR083:2:2,,,,True
+,,1,screw,head,,,"[""man"", ""profile"", ""head"", ""person"", ""neck""]",IR084,ok,0,1:IR084:0,False,True,,
+,,1,screw,thread,,,"[""thread"", ""spool"", ""needle"", ""sewing"", ""bobbins""]",IR084,ok,1,1:IR084:1,True,True,,
+,,1,screw,shank,,,"[""shank"", ""lamb"", ""meat"", ""dish"", ""food""]",IR084,ok,2,1:IR084:2,True,True,,
+False,1,3,screw,head,social media,profile,,IR084,ok,0,3:IR084:0:1,,,,False
+False,2,3,screw,head,parts of a guitar,neck,,IR084,ok,0,3:IR084:0:2,,,,False
+False,1,3,screw,thread,sewing,spool,,IR084,ok,1,3:IR084:1:1,,,,False
+False,2,3,screw,thread,parts of a screw,thread,,IR084,ok,1,3:IR084:1:2,,,,True
+False,1,3,screw,shank,parts of a bolt or nail,shank,,IR084,ok,2,3:IR084:2:1,,,,True
+False,2,3,screw,shank,parts of a bolt / screw,shank,,IR084,ok,2,3:IR084:2:2,,,,True
+,,1,zipper,teeth,,,"[""teeth"", ""smile"", ""mouth"", ""face"", ""lips""]",IR085,ok,0,1:IR085:0,True,True,,
+,,1,zipper,slider,,,"[""burger"", ""slider"", ""hamburger"", ""fast food"", ""fries""]",IR085,ok,1,1:IR085:1,False,True,,
+,,1,zipper,tape,,,"[""tape dispenser"", ""adhesive tape"", ""scotch tape"", ""tape"", ""dispenser""]",IR085,ok,2,1:IR085:2,False,True,,
+False,1,3,zipper,teeth,teeth,canines,,IR085,ok,0,3:IR085:0:1,,,,False
+False,2,3,zipper,teeth,baseball,plate,,IR085,ok,0,3:IR085:0:2,,,,False
+False,1,3,zipper,slider,,slider,,IR085,ok,1,3:IR085:1:1,,,,True
+False,2,3,zipper,slider,baseball,sliders,,IR085,ok,1,3:IR085:1:2,,,,False
+False,1,3,zipper,tape,"parts of a gear mechanism or idiom words? Wait, teeth, tape... things with a 'saw' or gear connection? Or things on a zipper? Teeth of a zipper, tape of a zipper!",tape,,IR085,ok,2,3:IR085:2:1,,,,True
+False,2,3,zipper,tape,recording format,tape,,IR085,ok,2,3:IR085:2:2,,,,True
+,,1,bird,cardinal,,,"[""bishop"", ""priest"", ""mitre"", ""clergy"", ""mass""]",IR086,ok,0,1:IR086:0,False,False,,
+,,1,bird,kite,,,"[""kite"", ""sky"", ""toy"", ""flight"", ""air""]",IR086,ok,1,1:IR086:1,True,True,,
+,,1,bird,crane,,,"[""crane"", ""construction crane"", ""tower crane"", ""machinery"", ""construction""]",IR086,ok,2,1:IR086:2,True,True,,
+False,1,3,bird,cardinal,chess pieces,bishop,,IR086,ok,0,3:IR086:0:1,,,,False
+False,2,3,bird,cardinal,chess pieces,bishop,,IR086,ok,0,3:IR086:0:2,,,,False
+False,1,3,bird,kite,birds,kite,,IR086,ok,1,3:IR086:1:1,,,,True
+False,2,3,bird,kite,birds,kite,,IR086,ok,1,3:IR086:1:2,,,,True
+True,1,3,bird,crane,bird,crane,,IR086,ok,2,3:IR086:2:1,,,,True
+False,2,3,bird,crane,birds,crane,,IR086,ok,2,3:IR086:2:2,,,,True
+,,1,musical instrument,organ,,,"[""digestive system"", ""gastrointestinal tract"", ""internal organs"", ""anatomy"", ""stomach""]",IR089,ok,0,1:IR089:0,False,False,,
+,,1,musical instrument,triangle,,,"[""triangle"", ""shape"", ""geometry"", ""symbol"", ""red""]",IR089,ok,1,1:IR089:1,True,True,,
+,,1,musical instrument,recorder,,,"[""recorder"", ""microphone"", ""device"", ""audio"", ""gadget""]",IR089,ok,2,1:IR089:2,True,True,,
+False,1,3,musical instrument,organ,organs,stomach,,IR089,ok,0,3:IR089:0:1,,,,False
+False,2,3,musical instrument,organ,musical instruments,organ,,IR089,ok,0,3:IR089:0:2,,,,True
+False,1,3,musical instrument,triangle,musical instruments,triangle,,IR089,ok,1,3:IR089:1:1,,,,True
+True,2,3,musical instrument,triangle,musical instrument,triangle,,IR089,ok,1,3:IR089:1:2,,,,True
+False,1,3,musical instrument,recorder,musical instruments,recorder,,IR089,ok,2,3:IR089:2:1,,,,True
+False,2,3,musical instrument,recorder,musical instruments,recorder,,IR089,ok,2,3:IR089:2:2,,,,True

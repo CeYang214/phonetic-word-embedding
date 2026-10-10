@@ -1,0 +1,55 @@
+concept_correct,cue_count,experiment,gold_concept,gold_word,predicted_concept,predicted_word,predicted_words,puzzle_id,status,target_slot,task_key,top1,top5,variant,word_correct
+,,1,shoe,tongue,,,"[""tongue"", ""dog"", ""mouth"", ""animal"", ""fur""]",IR012,ok,0,1:IR012:0,True,True,,
+,,1,shoe,sole,,,"[""flounder"", ""fish"", ""fin"", ""eye"", ""tail""]",IR012,ok,1,1:IR012:1,False,False,,
+,,1,shoe,collar,,,"[""dog"", ""collar"", ""fur"", ""buckle"", ""tag""]",IR012,ok,2,1:IR012:2,False,True,,
+False,1,3,shoe,tongue,double meaning,tongue,,IR012,ok,0,3:IR012:0:1,,,,True
+False,2,3,shoe,tongue,body part,tongue,,IR012,ok,0,3:IR012:0:2,,,,True
+False,1,3,shoe,sole,words that are also slang for a person who is 'flat' or uninteresting / or simply words describing flatness,flatfish,,IR012,ok,1,3:IR012:1:1,,,,False
+False,2,3,shoe,sole,pizza topping,sole,,IR012,ok,1,3:IR012:1:2,,,,True
+False,1,3,shoe,collar,"body parts with a 'collar' (e.g., shoulder collar, collarbone)",collar,,IR012,ok,2,3:IR012:2:1,,,,True
+False,2,3,shoe,collar,body parts with double meanings,collar,,IR012,ok,2,3:IR012:2:2,,,,True
+,,1,fabric,drill,,,"[""drill"", ""tool"", ""drill bit"", ""power tool"", ""hardware""]",IR022,ok,0,1:IR022:0,True,True,,
+,,1,fabric,duck,,,"[""mallard"", ""water"", ""duck"", ""bird"", ""pond""]",IR022,ok,1,1:IR022:1,False,True,,
+,,1,fabric,lawn,,,"[""grass"", ""lawn"", ""shadow"", ""sunlight"", ""fence""]",IR022,ok,2,1:IR022:2,False,True,,
+False,1,3,fabric,drill,verbs meaning to dive or make a quick downward movement,drill,,IR022,ok,0,3:IR022:0:1,,,,True
+False,2,3,fabric,drill,,drill,,IR022,ok,0,3:IR022:0:2,,,,True
+False,1,3,fabric,duck,double meaning,drake,,IR022,ok,1,3:IR022:1:1,,,,False
+False,2,3,fabric,duck,,duck,,IR022,ok,1,3:IR022:1:2,,,,True
+False,1,3,fabric,lawn,,lawn,,IR022,ok,2,3:IR022:2:1,,,,True
+False,2,3,fabric,lawn,"Drill, duck, and lawn all have meanings related to sports or activities (e.g., a 'duck' in cricket, a 'drill' in sports practice, a 'lawn' as in lawn bowling or lawn tennis).",lawn,,IR022,ok,2,3:IR022:2:2,,,,True
+,,1,restaurant,joint,,,"[""model"", ""knee"", ""joint"", ""bone"", ""anatomy""]",IR061,ok,0,1:IR061:0,False,True,,
+,,1,restaurant,drive-in,,,"[""drive-in movie"", ""parking lot"", ""cars"", ""screen"", ""sunset""]",IR061,ok,1,1:IR061:1,False,False,,
+,,1,restaurant,diner,,,"[""man"", ""restaurant"", ""table"", ""chair"", ""phone""]",IR061,ok,2,1:IR061:2,False,False,,
+False,1,3,restaurant,joint,body part doublets,knee,,IR061,ok,0,3:IR061:0:1,,,,False
+False,2,3,restaurant,joint,things that bend,knee,,IR061,ok,0,3:IR061:0:2,,,,False
+False,1,3,restaurant,drive-in,establishments,theater,,IR061,ok,1,3:IR061:1:1,,,,False
+False,2,3,restaurant,drive-in,things that can be joint or have a joint,screen,,IR061,ok,1,3:IR061:1:2,,,,False
+False,1,3,restaurant,diner,joint,joint,,IR061,ok,2,3:IR061:2:1,,,,False
+False,2,3,restaurant,diner,criminal slang for a place of business or gathering,joint,,IR061,ok,2,3:IR061:2:2,,,,False
+,,1,TV genre,soap,,,"[""soap"", ""bar"", ""marble"", ""block"", ""rectangle""]",IR073,ok,0,1:IR073:0,True,True,,
+,,1,TV genre,western,,,"[""cowboy"", ""horse"", ""rope"", ""fence"", ""hat""]",IR073,ok,1,1:IR073:1,False,False,,
+,,1,TV genre,news,,,"[""newspapers"", ""stack"", ""print"", ""text"", ""table""]",IR073,ok,2,1:IR073:2,False,False,,
+False,1,3,TV genre,soap,"Western films (e.g., 'High Noon') or idioms (a 'bar of soap' vs. 'soap opera' is a stretch; let's re-evaluate. 'Western' -> cowboy. 'Soap' -> ? Let's look at the category. Westerns are often called 'Westerns'. Is there a connection to soap? No. Let's look at the words. 'Western' (type of movie), 'Soap' (type of movie/TV show - soap opera). The shared category is **genres of film/television**. A 'western' is a genre. A 'soap' (short for soap opera) is a genre. This fits perfectly.",soap,,IR073,ok,0,3:IR073:0:1,,,,True
+False,2,3,TV genre,soap,"words that are also surnames of famous people (e.g., Western, News/Newsom, Soap/?? - wait, let's re-evaluate). Actually, 'Western' (John Wayne?), 'News' (not a surname). Let's look at the images again. Image 1: Cowboys -> Western. Image 2: Newspapers -> News. Image 3: Bars of soap -> Soap. Common category? 'Western', 'News', 'Soap'. These are all... types of something? Or maybe they are all things that can be 'cold'? Cold Western? No. Cold news? No. Cold soap? No. Let's try another angle. Words with a second meaning. Western (direction, genre, region). News (information, newspaper). Soap (cleansing bar, telenovela). Aha! Soap opera. Western movie/genre. News... broadcast? Let's check 'Soap', 'Western', 'News'. They are all types of television/radio programming? Soap opera, Western (TV series), News (broadcast). That fits perfectly.",soap,,IR073,ok,0,3:IR073:0:2,,,,True
+False,1,3,TV genre,western,types of workplaces,ranch,,IR073,ok,1,3:IR073:1:1,,,,False
+False,2,3,TV genre,western,professions,cowboy,,IR073,ok,1,3:IR073:1:2,,,,False
+False,1,3,TV genre,news,,newspaper,,IR073,ok,2,3:IR073:2:1,,,,False
+False,2,3,TV genre,news,"materials that are also types of currency (soap = soap operas/soap, western = western union/currency, paper = paper money)",paper,,IR073,ok,2,3:IR073:2:2,,,,False
+,,1,assembly,cabinet,,,"[""cabinet"", ""telephone"", ""wall"", ""floor"", ""drawer""]",IR080,ok,0,1:IR080:0,True,True,,
+,,1,assembly,diet,,,"[""bowl"", ""salad"", ""fork"", ""food"", ""lettuce""]",IR080,ok,1,1:IR080:1,False,False,,
+,,1,assembly,chamber,,,"[""arch"", ""dome"", ""mural"", ""wall"", ""stone""]",IR080,ok,2,1:IR080:2,False,False,,
+False,1,3,assembly,cabinet,,cabinet,,IR080,ok,0,3:IR080:0:1,,,,True
+False,2,3,assembly,cabinet,,sideboard,,IR080,ok,0,3:IR080:0:2,,,,False
+False,1,3,assembly,diet,parts of a ship,bowl,,IR080,ok,1,3:IR080:1:1,,,,False
+False,2,3,assembly,diet,rooms / enclosed spaces,bowl,,IR080,ok,1,3:IR080:1:2,,,,False
+False,1,3,assembly,chamber,hiding places,dungeon,,IR080,ok,2,3:IR080:2:1,,,,False
+False,2,3,assembly,chamber,body of armor / protective casing,vault,,IR080,ok,2,3:IR080:2:2,,,,False
+,,1,lathe,dog,,,"[""dog"", ""face"", ""fur"", ""nose"", ""eyes""]",IR081,ok,0,1:IR081:0,True,True,,
+,,1,lathe,bed,,,"[""bed"", ""lamp"", ""nightstand"", ""pillow"", ""plant""]",IR081,ok,1,1:IR081:1,True,True,,
+,,1,lathe,saddle,,,"[""saddle"", ""horse"", ""leather"", ""saddle pad"", ""bridle""]",IR081,ok,2,1:IR081:2,True,True,,
+False,1,3,lathe,dog,,dog,,IR081,ok,0,3:IR081:0:1,,,,True
+False,2,3,lathe,dog,,retriever,,IR081,ok,0,3:IR081:0:2,,,,False
+False,1,3,lathe,bed,parts of a horse,bed,,IR081,ok,1,3:IR081:1:1,,,,True
+False,2,3,lathe,bed,,bed,,IR081,ok,1,3:IR081:1:2,,,,True
+False,1,3,lathe,saddle,,saddle,,IR081,ok,2,3:IR081:2:1,,,,True
+False,2,3,lathe,saddle,body part,saddle,,IR081,ok,2,3:IR081:2:2,,,,True

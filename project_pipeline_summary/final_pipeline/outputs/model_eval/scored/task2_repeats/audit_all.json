@@ -1,0 +1,1506 @@
+{
+  "target_runs_per_model_condition": 5,
+  "models": {
+    "molmo": {
+      "model": "allenai/Molmo2-8B",
+      "conditions": {
+        "direct": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "human80_molmo2-8b_v2.jsonl",
+            "expanded69_molmo2-8b_v2.jsonl",
+            "remaining6_molmo2-8b_v2.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases; legacy Molmo settings use documented evaluator defaults",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/task2_original155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "human80_molmo2-8b_v2.jsonl",
+                "expanded69_molmo2-8b_v2.jsonl",
+                "remaining6_molmo2-8b_v2.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 0
+              },
+              "generation_settings_inferred_from_defaults": true,
+              "prompt_versions": [
+                "2026-10-02-v2"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_molmo2-8b_task2_direct_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_molmo2-8b_task2_direct_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_molmo2-8b_task2_direct_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_molmo2-8b_task2_direct_run5.jsonl"
+            }
+          }
+        },
+        "stepwise": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "human80_molmo2-8b_v2.jsonl",
+            "expanded69_molmo2-8b_v2.jsonl",
+            "remaining6_molmo2-8b_v2.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases; legacy Molmo settings use documented evaluator defaults",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/task2_original155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "human80_molmo2-8b_v2.jsonl",
+                "expanded69_molmo2-8b_v2.jsonl",
+                "remaining6_molmo2-8b_v2.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 0
+              },
+              "generation_settings_inferred_from_defaults": true,
+              "prompt_versions": [
+                "2026-10-02-v2"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_molmo2-8b_task2_stepwise_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_molmo2-8b_task2_stepwise_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_molmo2-8b_task2_stepwise_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_molmo2-8b_task2_stepwise_run5.jsonl"
+            }
+          }
+        },
+        "sense_hint": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "human80_molmo2-8b_v2.jsonl",
+            "expanded69_molmo2-8b_v2.jsonl",
+            "remaining6_molmo2-8b_v2.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 156 attempts, 155 unique cases; legacy Molmo settings use documented evaluator defaults",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/task2_original155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "human80_molmo2-8b_v2.jsonl",
+                "expanded69_molmo2-8b_v2.jsonl",
+                "remaining6_molmo2-8b_v2.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 0
+              },
+              "generation_settings_inferred_from_defaults": true,
+              "prompt_versions": [
+                "2026-10-02-v2"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_molmo2-8b_task2_sense_hint_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_molmo2-8b_task2_sense_hint_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_molmo2-8b_task2_sense_hint_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_molmo2-8b_task2_sense_hint_run5.jsonl"
+            }
+          }
+        },
+        "text_only": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_molmo2-8b_text_only_v1.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "final155_molmo2-8b_text_only_v1.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 0
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-concept-conditions-v1"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_molmo2-8b_task2_text_only_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_molmo2-8b_task2_text_only_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_molmo2-8b_task2_text_only_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_molmo2-8b_task2_text_only_run5.jsonl"
+            }
+          }
+        },
+        "two_shot": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_molmo2-8b_two_shot_v1.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 156 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "final155_molmo2-8b_two_shot_v1.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 0
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-concept-conditions-v1"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_molmo2-8b_task2_two_shot_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_molmo2-8b_task2_two_shot_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_molmo2-8b_task2_two_shot_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_molmo2-8b_task2_two_shot_run5.jsonl"
+            }
+          }
+        }
+      }
+    },
+    "qwen9b": {
+      "model": "Qwen/Qwen3.5-9B",
+      "conditions": {
+        "direct": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "human80_qwen3.5-9b_nothinking_json_v2.jsonl",
+            "expanded69_qwen3.5-9b_nothinking_json_v2.jsonl",
+            "remaining6_qwen3.5-9b_nothinking_json_v2.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 162 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/task2_original155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "human80_qwen3.5-9b_nothinking_json_v2.jsonl",
+                "expanded69_qwen3.5-9b_nothinking_json_v2.jsonl",
+                "remaining6_qwen3.5-9b_nothinking_json_v2.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "disabled",
+                "max_output_tokens": 512,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-02-v2"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_qwen3.5-9b_nothinking_json_task2_direct_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_qwen3.5-9b_nothinking_json_task2_direct_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_qwen3.5-9b_nothinking_json_task2_direct_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_qwen3.5-9b_nothinking_json_task2_direct_run5.jsonl"
+            }
+          }
+        },
+        "stepwise": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "human80_qwen3.5-9b_nothinking_json_v2.jsonl",
+            "expanded69_qwen3.5-9b_nothinking_json_v2.jsonl",
+            "remaining6_qwen3.5-9b_nothinking_json_v2.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 162 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/task2_original155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "human80_qwen3.5-9b_nothinking_json_v2.jsonl",
+                "expanded69_qwen3.5-9b_nothinking_json_v2.jsonl",
+                "remaining6_qwen3.5-9b_nothinking_json_v2.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "disabled",
+                "max_output_tokens": 512,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-02-v2"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_qwen3.5-9b_nothinking_json_task2_stepwise_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_qwen3.5-9b_nothinking_json_task2_stepwise_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_qwen3.5-9b_nothinking_json_task2_stepwise_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_qwen3.5-9b_nothinking_json_task2_stepwise_run5.jsonl"
+            }
+          }
+        },
+        "sense_hint": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "human80_qwen3.5-9b_nothinking_json_v2.jsonl",
+            "expanded69_qwen3.5-9b_nothinking_json_v2.jsonl",
+            "remaining6_qwen3.5-9b_nothinking_json_v2.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 162 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/task2_original155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "human80_qwen3.5-9b_nothinking_json_v2.jsonl",
+                "expanded69_qwen3.5-9b_nothinking_json_v2.jsonl",
+                "remaining6_qwen3.5-9b_nothinking_json_v2.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "disabled",
+                "max_output_tokens": 512,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-02-v2"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_qwen3.5-9b_nothinking_json_task2_sense_hint_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_qwen3.5-9b_nothinking_json_task2_sense_hint_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_qwen3.5-9b_nothinking_json_task2_sense_hint_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_qwen3.5-9b_nothinking_json_task2_sense_hint_run5.jsonl"
+            }
+          }
+        },
+        "text_only": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_qwen3.5-9b_nothinking_json_text_only_v1.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 158 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "final155_qwen3.5-9b_nothinking_json_text_only_v1.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "disabled",
+                "max_output_tokens": 512,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-concept-conditions-v1"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_qwen3.5-9b_nothinking_json_task2_text_only_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_qwen3.5-9b_nothinking_json_task2_text_only_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_qwen3.5-9b_nothinking_json_task2_text_only_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_qwen3.5-9b_nothinking_json_task2_text_only_run5.jsonl"
+            }
+          }
+        },
+        "two_shot": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_qwen3.5-9b_nothinking_json_two_shot_v1.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 156 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "final155_qwen3.5-9b_nothinking_json_two_shot_v1.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "disabled",
+                "max_output_tokens": 512,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-concept-conditions-v1"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_qwen3.5-9b_nothinking_json_task2_two_shot_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_qwen3.5-9b_nothinking_json_task2_two_shot_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_qwen3.5-9b_nothinking_json_task2_two_shot_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_qwen3.5-9b_nothinking_json_task2_two_shot_run5.jsonl"
+            }
+          }
+        }
+      }
+    },
+    "qwen27b": {
+      "model": "Qwen/Qwen3.8-27B",
+      "conditions": {
+        "direct": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "human80_qwen3.8-27b_nothinking_json_v2.jsonl",
+            "expanded69_qwen3.8-27b_nothinking_json_v2.jsonl",
+            "remaining6_qwen3.8-27b_nothinking_json_v2.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/task2_original155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "human80_qwen3.8-27b_nothinking_json_v2.jsonl",
+                "expanded69_qwen3.8-27b_nothinking_json_v2.jsonl",
+                "remaining6_qwen3.8-27b_nothinking_json_v2.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "disabled",
+                "max_output_tokens": 512,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-02-v2"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_qwen3.8-27b_nothinking_json_task2_direct_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_qwen3.8-27b_nothinking_json_task2_direct_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_qwen3.8-27b_nothinking_json_task2_direct_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_qwen3.8-27b_nothinking_json_task2_direct_run5.jsonl"
+            }
+          }
+        },
+        "stepwise": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "human80_qwen3.8-27b_nothinking_json_v2.jsonl",
+            "expanded69_qwen3.8-27b_nothinking_json_v2.jsonl",
+            "remaining6_qwen3.8-27b_nothinking_json_v2.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/task2_original155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "human80_qwen3.8-27b_nothinking_json_v2.jsonl",
+                "expanded69_qwen3.8-27b_nothinking_json_v2.jsonl",
+                "remaining6_qwen3.8-27b_nothinking_json_v2.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "disabled",
+                "max_output_tokens": 512,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-02-v2"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_qwen3.8-27b_nothinking_json_task2_stepwise_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_qwen3.8-27b_nothinking_json_task2_stepwise_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_qwen3.8-27b_nothinking_json_task2_stepwise_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_qwen3.8-27b_nothinking_json_task2_stepwise_run5.jsonl"
+            }
+          }
+        },
+        "sense_hint": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "human80_qwen3.8-27b_nothinking_json_v2.jsonl",
+            "expanded69_qwen3.8-27b_nothinking_json_v2.jsonl",
+            "remaining6_qwen3.8-27b_nothinking_json_v2.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/task2_original155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "human80_qwen3.8-27b_nothinking_json_v2.jsonl",
+                "expanded69_qwen3.8-27b_nothinking_json_v2.jsonl",
+                "remaining6_qwen3.8-27b_nothinking_json_v2.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "disabled",
+                "max_output_tokens": 512,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-02-v2"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_qwen3.8-27b_nothinking_json_task2_sense_hint_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_qwen3.8-27b_nothinking_json_task2_sense_hint_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_qwen3.8-27b_nothinking_json_task2_sense_hint_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_qwen3.8-27b_nothinking_json_task2_sense_hint_run5.jsonl"
+            }
+          }
+        },
+        "text_only": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_qwen3.8-27b_nothinking_json_text_only_v1.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "final155_qwen3.8-27b_nothinking_json_text_only_v1.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "disabled",
+                "max_output_tokens": 512,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-concept-conditions-v1"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_qwen3.8-27b_nothinking_json_task2_text_only_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_qwen3.8-27b_nothinking_json_task2_text_only_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_qwen3.8-27b_nothinking_json_task2_text_only_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_qwen3.8-27b_nothinking_json_task2_text_only_run5.jsonl"
+            }
+          }
+        },
+        "two_shot": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_qwen3.8-27b_nothinking_json_two_shot_v1.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "final155_qwen3.8-27b_nothinking_json_two_shot_v1.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "disabled",
+                "max_output_tokens": 512,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-concept-conditions-v1"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_qwen3.8-27b_nothinking_json_task2_two_shot_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_qwen3.8-27b_nothinking_json_task2_two_shot_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_qwen3.8-27b_nothinking_json_task2_two_shot_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_qwen3.8-27b_nothinking_json_task2_two_shot_run5.jsonl"
+            }
+          }
+        }
+      }
+    },
+    "gemma12b-it": {
+      "model": "google/gemma-4-12B-it",
+      "conditions": {
+        "direct": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_gemma-4-12b-it_prompt_v3.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 156 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "final155_gemma-4-12b-it_prompt_v3.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "disabled",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-v3"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_gemma-4-12b-it_task2_direct_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_gemma-4-12b-it_task2_direct_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_gemma-4-12b-it_task2_direct_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_gemma-4-12b-it_task2_direct_run5.jsonl"
+            }
+          }
+        },
+        "stepwise": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_gemma-4-12b-it_prompt_v3.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "final155_gemma-4-12b-it_prompt_v3.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "disabled",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-v3"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_gemma-4-12b-it_task2_stepwise_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_gemma-4-12b-it_task2_stepwise_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_gemma-4-12b-it_task2_stepwise_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_gemma-4-12b-it_task2_stepwise_run5.jsonl"
+            }
+          }
+        },
+        "sense_hint": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_gemma-4-12b-it_prompt_v3.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "final155_gemma-4-12b-it_prompt_v3.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "disabled",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-v3"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_gemma-4-12b-it_task2_sense_hint_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_gemma-4-12b-it_task2_sense_hint_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_gemma-4-12b-it_task2_sense_hint_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_gemma-4-12b-it_task2_sense_hint_run5.jsonl"
+            }
+          }
+        },
+        "text_only": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_gemma-4-12b-it_text_only_v1.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "final155_gemma-4-12b-it_text_only_v1.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "disabled",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-concept-conditions-v1"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_gemma-4-12b-it_task2_text_only_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_gemma-4-12b-it_task2_text_only_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_gemma-4-12b-it_task2_text_only_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_gemma-4-12b-it_task2_text_only_run5.jsonl"
+            }
+          }
+        },
+        "two_shot": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_gemma-4-12b-it_two_shot_v1.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 159 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "final155_gemma-4-12b-it_two_shot_v1.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "disabled",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-concept-conditions-v1"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_gemma-4-12b-it_task2_two_shot_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_gemma-4-12b-it_task2_two_shot_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_gemma-4-12b-it_task2_two_shot_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_gemma-4-12b-it_task2_two_shot_run5.jsonl"
+            }
+          }
+        }
+      }
+    },
+    "internvl8b": {
+      "model": "OpenGVLab/InternVL3_5-8B-HF",
+      "conditions": {
+        "direct": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_internvl3_5-8b-hf_prompt_v3.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "final155_internvl3_5-8b-hf_prompt_v3.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-v3"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_internvl3_5-8b-hf_task2_direct_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_internvl3_5-8b-hf_task2_direct_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_internvl3_5-8b-hf_task2_direct_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_internvl3_5-8b-hf_task2_direct_run5.jsonl"
+            }
+          }
+        },
+        "stepwise": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_internvl3_5-8b-hf_prompt_v3.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "final155_internvl3_5-8b-hf_prompt_v3.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-v3"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_internvl3_5-8b-hf_task2_stepwise_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_internvl3_5-8b-hf_task2_stepwise_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_internvl3_5-8b-hf_task2_stepwise_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_internvl3_5-8b-hf_task2_stepwise_run5.jsonl"
+            }
+          }
+        },
+        "sense_hint": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_internvl3_5-8b-hf_prompt_v3.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "final155_internvl3_5-8b-hf_prompt_v3.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-v3"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_internvl3_5-8b-hf_task2_sense_hint_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_internvl3_5-8b-hf_task2_sense_hint_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_internvl3_5-8b-hf_task2_sense_hint_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_internvl3_5-8b-hf_task2_sense_hint_run5.jsonl"
+            }
+          }
+        },
+        "text_only": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_internvl3_5-8b-hf_text_only_v1.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "final155_internvl3_5-8b-hf_text_only_v1.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-concept-conditions-v1"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_internvl3_5-8b-hf_task2_text_only_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_internvl3_5-8b-hf_task2_text_only_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_internvl3_5-8b-hf_task2_text_only_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_internvl3_5-8b-hf_task2_text_only_run5.jsonl"
+            }
+          }
+        },
+        "two_shot": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_internvl3_5-8b-hf_two_shot_v1.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "final155_internvl3_5-8b-hf_two_shot_v1.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-concept-conditions-v1"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_internvl3_5-8b-hf_task2_two_shot_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_internvl3_5-8b-hf_task2_two_shot_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_internvl3_5-8b-hf_task2_two_shot_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_internvl3_5-8b-hf_task2_two_shot_run5.jsonl"
+            }
+          }
+        }
+      }
+    },
+    "scout-int4": {
+      "model": "RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16",
+      "conditions": {
+        "direct": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_llama4-scout-instruct-w4a16_prompt_v3.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "final155_llama4-scout-instruct-w4a16_prompt_v3.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-v3"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_llama4-scout-instruct-w4a16_task2_direct_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_llama4-scout-instruct-w4a16_task2_direct_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_llama4-scout-instruct-w4a16_task2_direct_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_llama4-scout-instruct-w4a16_task2_direct_run5.jsonl"
+            }
+          }
+        },
+        "stepwise": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_llama4-scout-instruct-w4a16_prompt_v3.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "final155_llama4-scout-instruct-w4a16_prompt_v3.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-v3"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_llama4-scout-instruct-w4a16_task2_stepwise_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_llama4-scout-instruct-w4a16_task2_stepwise_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_llama4-scout-instruct-w4a16_task2_stepwise_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_llama4-scout-instruct-w4a16_task2_stepwise_run5.jsonl"
+            }
+          }
+        },
+        "sense_hint": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_llama4-scout-instruct-w4a16_prompt_v3.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "final155_llama4-scout-instruct-w4a16_prompt_v3.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-v3"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_llama4-scout-instruct-w4a16_task2_sense_hint_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_llama4-scout-instruct-w4a16_task2_sense_hint_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_llama4-scout-instruct-w4a16_task2_sense_hint_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_llama4-scout-instruct-w4a16_task2_sense_hint_run5.jsonl"
+            }
+          }
+        },
+        "text_only": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_llama4-scout-instruct-w4a16_text_only_v1.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "final155_llama4-scout-instruct-w4a16_text_only_v1.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-concept-conditions-v1"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_llama4-scout-instruct-w4a16_task2_text_only_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_llama4-scout-instruct-w4a16_task2_text_only_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_llama4-scout-instruct-w4a16_task2_text_only_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_llama4-scout-instruct-w4a16_task2_text_only_run5.jsonl"
+            }
+          }
+        },
+        "two_shot": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_llama4-scout-instruct-w4a16_two_shot_v1.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 156 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "eligible_existing_baseline",
+              "files": [
+                "final155_llama4-scout-instruct-w4a16_two_shot_v1.jsonl"
+              ],
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-concept-conditions-v1"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              }
+            },
+            "run2": {
+              "status": "missing",
+              "file": "final155_llama4-scout-instruct-w4a16_task2_two_shot_run2.jsonl"
+            },
+            "run3": {
+              "status": "missing",
+              "file": "final155_llama4-scout-instruct-w4a16_task2_two_shot_run3.jsonl"
+            },
+            "run4": {
+              "status": "missing",
+              "file": "final155_llama4-scout-instruct-w4a16_task2_two_shot_run4.jsonl"
+            },
+            "run5": {
+              "status": "missing",
+              "file": "final155_llama4-scout-instruct-w4a16_task2_two_shot_run5.jsonl"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "manifest": "project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+  "results": "project_pipeline_summary/final_pipeline/outputs/model_eval/final155_gemma-4-12b-it_prompt_v3.jsonl",
+  "scored_tasks": 480,
+  "concept_scoring": "exact_alias",
+  "word_scoring": "exact_alias",
+  "groups": {
+    "3:1-cue": {
+      "n": 240,
+      "parse_or_request_errors": 0,
+      "word_correct": 0.5375,
+      "concept_correct": 0.004166666666666667
+    },
+    "3:2-cue": {
+      "n": 240,
+      "parse_or_request_errors": 0,
+      "word_correct": 0.5583333333333333,
+      "concept_correct": 0.041666666666666664
+    }
+  },
+  "selected_puzzles": 80,
+  "puzzle_ids_file": "project_pipeline_summary/final_pipeline/data/study_main_80_ids.txt"
+}

@@ -1,0 +1,39 @@
+{
+  "manifest": "outputs/model_eval/expanded69_manifest.jsonl",
+  "results": "outputs/model_eval/expanded69_gemini-3.5-flash-lite_v2.jsonl",
+  "scored_tasks": 207,
+  "concept_scoring": "human_study_task2",
+  "word_scoring": "exact_alias",
+  "groups": {
+    "2:direct": {
+      "n": 69,
+      "parse_or_request_errors": 0,
+      "concept_correct": 0.043478260869565216,
+      "word_correct_count": 0.47342995169082125,
+      "concept_correct_exact": 0.0,
+      "concept_correct_semantic": 0.043478260869565216
+    },
+    "2:sense_hint": {
+      "n": 69,
+      "parse_or_request_errors": 0,
+      "concept_correct": 0.10144927536231885,
+      "word_correct_count": 0.5845410628019324,
+      "concept_correct_exact": 0.0,
+      "concept_correct_semantic": 0.10144927536231885
+    },
+    "2:stepwise": {
+      "n": 69,
+      "parse_or_request_errors": 0,
+      "concept_correct": 0.014492753623188406,
+      "word_correct_count": 0.5362318840579711,
+      "concept_correct_exact": 0.0,
+      "concept_correct_semantic": 0.014492753623188406
+    }
+  },
+  "semantic_judge": {
+    "model": "gemini-3.5-flash-lite",
+    "checker_sha256": "9814b4f80ac503f350d523a9c1d61be2ecefd78f0e57da036afd72c6bcb2ed9b",
+    "cache": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/new_llm_pipeline/outputs/model_eval/concept_judgments.jsonl",
+    "scope": "Task 2 concept answers only"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "model": "allenai/Molmo2-8B",
+  "condition": "sense_hint",
+  "source": "final155_molmo2-8b_task2_sense_hint_unseeded_run2.jsonl",
+  "scope": "human80",
+  "run_id": "run2",
+  "seed": null,
+  "seed_status": "not_sent",
+  "generation_settings": {
+    "local_thinking": "default",
+    "max_output_tokens": 0
+  },
+  "sampling_settings": {
+    "temperature": null,
+    "temperature_source": "server/model default; not set by evaluator",
+    "seed": null,
+    "seed_sent_to_request": false
+  },
+  "prompt_version": "2026-10-08-v3",
+  "correct_count": 3,
+  "denominator": 80,
+  "accuracy": 0.0375,
+  "actual_trials": 80,
+  "expected_trials": 80,
+  "missing_trials": 0,
+  "missing_task_keys": [],
+  "request_errors": 0,
+  "malformed_outputs": 0,
+  "missing_answer_fields": 0,
+  "complete": true
+}

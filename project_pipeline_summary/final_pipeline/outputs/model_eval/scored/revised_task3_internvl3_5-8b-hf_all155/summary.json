@@ -1,0 +1,23 @@
+{
+  "manifest": "project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+  "results": "project_pipeline_summary/final_pipeline/outputs/model_eval/final155_internvl3_5-8b-hf_prompt_v3.jsonl",
+  "scored_tasks": 930,
+  "concept_scoring": "exact_alias",
+  "word_scoring": "exact_alias",
+  "groups": {
+    "3:1-cue": {
+      "n": 465,
+      "parse_or_request_errors": 0,
+      "word_correct": 0.32903225806451614,
+      "concept_correct": 0.002150537634408602
+    },
+    "3:2-cue": {
+      "n": 465,
+      "parse_or_request_errors": 0,
+      "word_correct": 0.3247311827956989,
+      "concept_correct": 0.002150537634408602
+    }
+  },
+  "selected_puzzles": 155,
+  "puzzle_ids_file": null
+}

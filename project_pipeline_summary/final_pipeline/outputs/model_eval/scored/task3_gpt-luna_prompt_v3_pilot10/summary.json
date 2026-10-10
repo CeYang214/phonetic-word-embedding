@@ -1,0 +1,21 @@
+{
+  "manifest": "outputs/model_eval/final155_manifest.jsonl",
+  "results": "outputs/model_eval/task3_gpt-luna_prompt_v3_pilot10.jsonl",
+  "scored_tasks": 60,
+  "concept_scoring": "exact_alias",
+  "word_scoring": "exact_alias",
+  "groups": {
+    "3:1-cue": {
+      "n": 30,
+      "parse_or_request_errors": 0,
+      "word_correct": 0.4,
+      "concept_correct": 0.0
+    },
+    "3:2-cue": {
+      "n": 30,
+      "parse_or_request_errors": 0,
+      "word_correct": 0.5333333333333333,
+      "concept_correct": 0.06666666666666667
+    }
+  }
+}

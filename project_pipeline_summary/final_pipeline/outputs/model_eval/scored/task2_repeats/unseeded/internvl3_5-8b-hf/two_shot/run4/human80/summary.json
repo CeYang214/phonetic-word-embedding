@@ -1,0 +1,32 @@
+{
+  "model": "OpenGVLab/InternVL3_5-8B-HF",
+  "condition": "two_shot",
+  "source": "final155_internvl3_5-8b-hf_task2_two_shot_unseeded_run4.jsonl",
+  "scope": "human80",
+  "run_id": "run4",
+  "seed": null,
+  "seed_status": "not_sent",
+  "generation_settings": {
+    "local_thinking": "default",
+    "max_output_tokens": 1024,
+    "local_json_mode": true
+  },
+  "sampling_settings": {
+    "temperature": null,
+    "temperature_source": "server/model default; not set by evaluator",
+    "seed": null,
+    "seed_sent_to_request": false
+  },
+  "prompt_version": "2026-10-08-concept-conditions-v1",
+  "correct_count": 1,
+  "denominator": 80,
+  "accuracy": 0.0125,
+  "actual_trials": 80,
+  "expected_trials": 80,
+  "missing_trials": 0,
+  "missing_task_keys": [],
+  "request_errors": 0,
+  "malformed_outputs": 0,
+  "missing_answer_fields": 0,
+  "complete": true
+}

@@ -1,0 +1,622 @@
+concept_correct,cue_count,experiment,gold_concept,gold_word,predicted_concept,predicted_word,predicted_words,puzzle_id,status,target_slot,task_key,top1,top5,variant,word_correct
+,,1,pepper,ghost,,,"[""ghost"", ""brick wall"", ""window"", ""sheet"", ""eyes""]",M300_001,ok,0,1:M300_001:0,True,True,,
+,,1,pepper,bell,,,"[""service bell"", ""hotel"", ""counter"", ""reception desk"", ""signage""]",M300_001,ok,1,1:M300_001:1,False,False,,
+,,1,pepper,banana,,,"[""Banana"", ""Yellow Skin"", ""Stem"", ""Fruit"", ""Food""]",M300_001,ok,2,1:M300_001:2,True,True,,
+False,1,3,pepper,ghost,ghost,specter,,M300_001,ok,0,3:M300_001:0:1,,,,False
+False,2,3,pepper,ghost,something unseen,ghost,,M300_001,ok,0,3:M300_001:0:2,,,,True
+False,1,3,pepper,bell,verbs,dispatch,,M300_001,ok,1,3:M300_001:1:1,,,,False
+False,2,3,pepper,bell,sound,bell,,M300_001,ok,1,3:M300_001:1:2,,,,True
+False,1,3,pepper,banana,p-endowed,banana,,M300_001,ok,2,3:M300_001:2:1,,,,True
+False,2,3,pepper,banana,homophone for a sound or action,corn,,M300_001,ok,2,3:M300_001:2:2,,,,False
+,,1,butterfly,monarch,,,"[""king"", ""portrait"", ""throne"", ""robe"", ""crown""]",M300_003,ok,0,1:M300_003:0,False,False,,
+,,1,butterfly,copper,,,"[""hose"", ""coil"", ""pipe"", ""wire"", ""tube""]",M300_003,ok,1,1:M300_003:1,False,False,,
+,,1,butterfly,peacock,,,"[""peacock"", ""feathers"", ""mane"", ""eyes"", ""bird""]",M300_003,ok,2,1:M300_003:2,True,True,,
+False,1,3,butterfly,monarch,gold standard,monarch,,M300_003,ok,0,3:M300_003:0:1,,,,True
+False,2,3,butterfly,monarch,something that holds together or covers eggs,magnolia,,M300_003,ok,0,3:M300_003:0:2,,,,False
+False,1,3,butterfly,copper,helix,peacock,,M300_003,ok,1,3:M300_003:1:1,,,,False
+False,2,3,butterfly,copper,something that covers and conceals another thing,wrap,,M300_003,ok,1,3:M300_003:1:2,,,,False
+False,1,3,butterfly,peacock,monarch,imperatrix,,M300_003,ok,2,3:M300_003:2:1,,,,False
+False,2,3,butterfly,peacock, păr  ,feather,,M300_003,ok,2,3:M300_003:2:2,,,,False
+,,1,reef,apron,,,"[""aprons"", ""hooks"", ""straps"", ""wall"", ""fabric""]",M300_005,ok,0,1:M300_005:0,False,False,,
+,,1,reef,patch,,,"[""stitch"", ""leather"", ""fabric"", ""denim"", ""seam""]",M300_005,ok,1,1:M300_005:1,False,False,,
+,,1,reef,barrier,,,"[""barrier"", ""taxi"", ""street"", ""traffic lights"", ""vehicle""]",M300_005,ok,2,1:M300_005:2,True,True,,
+False,1,3,reef,apron,mending,patch,,M300_005,ok,0,3:M300_005:0:1,,,,False
+False,2,3,reef,apron,ethics,cover,,M300_005,ok,0,3:M300_005:0:2,,,,False
+False,1,3,reef,patch,something that labels or identifies,tag,,M300_005,ok,1,3:M300_005:1:1,,,,False
+False,2,3,reef,patch,brap,label,,M300_005,ok,1,3:M300_005:1:2,,,,False
+False,1,3,reef,barrier,construction,barrier,,M300_005,ok,2,3:M300_005:2:1,,,,True
+False,2,3,reef,barrier,a fixed or movable object designed to stop or slow down something,barrier,,M300_005,ok,2,3:M300_005:2:2,,,,True
+,,1,car,spider,,,"[""spider"", ""web"", ""sun"", ""sky"", ""silhouette""]",M300_006,ok,0,1:M300_006:0,True,True,,
+,,1,car,coupe,,,"[""cocktail glass"", ""wine glass"", ""drink"", ""liquid"", ""table""]",M300_006,ok,1,1:M300_006:1,False,False,,
+,,1,car,convertible,,,"[""sofa"", ""chair"", ""rugs"", ""drawers"", ""curtains""]",M300_006,ok,2,1:M300_006:2,False,False,,
+False,1,3,car,spider,spider,web,,M300_006,ok,0,3:M300_006:0:1,,,,False
+False,2,3,car,spider,arachnid,spider,,M300_006,ok,0,3:M300_006:0:2,,,,True
+False,1,3,car,coupe,filter,cocktail,,M300_006,ok,1,3:M300_006:1:1,,,,False
+False,2,3,car,coupe,liquid,champagne,,M300_006,ok,1,3:M300_006:1:2,,,,False
+False,1,3,car,convertible,website,web,,M300_006,ok,2,3:M300_006:2:1,,,,False
+False,2,3,car,convertible,bed,futon,,M300_006,ok,2,3:M300_006:2:2,,,,False
+,,1,package,cake,,,"[""cake"", ""standing"", ""sweet"", ""table"", ""dessert""]",M300_007,ok,0,1:M300_007:0,True,True,,
+,,1,package,cone,,,"[""cone"", ""traffic"", ""warning"", ""safety"", ""street""]",M300_007,ok,1,1:M300_007:1,True,True,,
+,,1,package,ball,,,"[""soccer ball"", ""black patch"", ""white panel"", ""stitching"", ""grass""]",M300_007,ok,2,1:M300_007:2,False,False,,
+False,1,3,package,cake,structure,cake,,M300_007,ok,0,3:M300_007:0:1,,,,True
+False,2,3,package,cake,levels,layer,,M300_007,ok,0,3:M300_007:0:2,,,,False
+False,1,3,package,cone,sphere,cone,,M300_007,ok,1,3:M300_007:1:1,,,,True
+False,2,3,package,cone,shape,cone,,M300_007,ok,1,3:M300_007:1:2,,,,True
+False,1,3,package,ball,"physical objects (cake, ball) with the homonym 'head'",head,,M300_007,ok,2,3:M300_007:2:1,,,,False
+False,2,3,package,ball,sphere,ball,,M300_007,ok,2,3:M300_007:2:2,,,,True
+,,1,seed,pit,,,"[""man"", ""well"", ""rope"", ""soil"", ""worker""]",M300_008,ok,0,1:M300_008:0,False,False,,
+,,1,seed,nut,,,"[""nuts"", ""hex nuts"", ""metal screws"", ""industrial parts"", ""machinery components""]",M300_008,ok,1,1:M300_008:1,False,False,,
+,,1,seed,grain,,,"[""wood"", ""grain"", ""texture"", ""surface"", ""light""]",M300_008,ok,2,1:M300_008:2,False,True,,
+False,1,3,seed,pit,taste,bitter,,M300_008,ok,0,3:M300_008:0:1,,,,False
+False,2,3,seed,pit,"a body of stones or other material that has had its soft central part eaten away, or degraded",well,,M300_008,ok,0,3:M300_008:0:2,,,,False
+False,1,3,seed,nut,"genus of plant seeds (e.g., walnut, chestnut)",nut,,M300_008,ok,1,3:M300_008:1:1,,,,True
+False,2,3,seed,nut,grain (particle/groove) / nut,grain,,M300_008,ok,1,3:M300_008:1:2,,,,False
+False,1,3,seed,grain,wood,grain,,M300_008,ok,2,3:M300_008:2:1,,,,True
+True,2,3,seed,grain,seed,grain,,M300_008,ok,2,3:M300_008:2:2,,,,True
+,,1,tool,square,,,"[""cobbles"", ""buildings"", ""trees"", ""sky"", ""square""]",M300_009,ok,0,1:M300_009:0,False,True,,
+,,1,tool,ruler,,,"[""portrait"", ""man"", ""robe"", ""scepter"", ""throne""]",M300_009,ok,1,1:M300_009:1,False,False,,
+,,1,tool,compass,,,"[""compass"", ""magnetic needle"", ""cap"", ""gold"", ""map""]",M300_009,ok,2,1:M300_009:2,True,True,,
+False,1,3,tool,square,immediate vicinity of the person,field,,M300_009,ok,0,3:M300_009:0:1,,,,False
+False,2,3,tool,square,Map,.Empty,,M300_009,ok,0,3:M300_009:0:2,,,,False
+False,1,3,tool,ruler,period of time,reign,,M300_009,ok,1,3:M300_009:1:1,,,,False
+False,2,3,tool,ruler,headwear,diadem,,M300_009,ok,1,3:M300_009:1:2,,,,False
+False,1,3,tool,compass,directions,north,,M300_009,ok,2,3:M300_009:2:1,,,,False
+False,2,3,tool,compass,measurement of position or substance,direction,,M300_009,ok,2,3:M300_009:2:2,,,,False
+,,1,dragonfly,skimmer,,,"[""tea strainer"", ""metal mesh"", ""circular strainer"", ""kitchen tool"", ""filter""]",M300_010,ok,0,1:M300_010:0,False,False,,
+,,1,dragonfly,pennant,,,"[""bunting"", ""flags"", ""string"", ""sky"", ""sun""]",M300_010,ok,1,1:M300_010:1,False,False,,
+,,1,dragonfly,cruiser,,,"[""warship"", ""hull"", ""funnels"", ""water"", ""flag""]",M300_010,ok,2,1:M300_010:2,False,False,,
+False,1,3,dragonfly,skimmer,food filter,sieve,,M300_010,ok,0,3:M300_010:0:1,,,,False
+False,2,3,dragonfly,skimmer,filtering,toeaststemming,,M300_010,ok,0,3:M300_010:0:2,,,,False
+False,1,3,dragonfly,pennant,flags,bunting,,M300_010,ok,1,3:M300_010:1:1,,,,False
+False,2,3,dragonfly,pennant,sail,spinnaker,,M300_010,ok,1,3:M300_010:1:2,,,,False
+False,1,3,dragonfly,cruiser,ship types,cruiser,,M300_010,ok,2,3:M300_010:2:1,,,,True
+False,2,3,dragonfly,cruiser,Plural form of words associated with the unlabelled images,Anchorage,,M300_010,ok,2,3:M300_010:2:2,,,,False
+,,1,sailboat,cat,,,"[""cat"", ""fur"", ""wall"", ""rug"", ""textbook""]",M300_011,ok,0,1:M300_011:0,True,True,,
+,,1,sailboat,laser,,,"[""light beams"", ""red lights"", ""ray"", ""particle""]",M300_011,ok,1,1:M300_011:1,False,False,,
+,,1,sailboat,cutter,,,"[""cookie cutter"", ""dough"", ""flour"", ""kitchen"", ""baking""]",M300_011,ok,2,1:M300_011:2,False,False,,
+False,1,3,sailboat,cat,foot,paw,,M300_011,ok,0,3:M300_011:0:1,,,,False
+False,2,3,sailboat,cat,"damaging an object with nails, claws, or legs",scratch,,M300_011,ok,0,3:M300_011:0:2,,,,False
+False,1,3,sailboat,laser,red,beet,,M300_011,ok,1,3:M300_011:1:1,,,,False
+False,2,3,sailboat,laser,of light,beam,,M300_011,ok,1,3:M300_011:1:2,,,,False
+False,1,3,sailboat,cutter,rhyming with 'out' words,cutout,,M300_011,ok,2,3:M300_011:2:1,,,,False
+False,2,3,sailboat,cutter,vegetation,leaf,,M300_011,ok,2,3:M300_011:2:2,,,,False
+,,1,firework,cake,,,"[""cake"", ""candles"", ""sparkle"", ""birthday"", ""frosting""]",M300_012,ok,0,1:M300_012:0,True,True,,
+,,1,firework,mine,,,"[""tunnel"", ""archway"", ""pipeline"", ""railway"", ""platform""]",M300_012,ok,1,1:M300_012:1,False,False,,
+,,1,firework,comet,,,"[""comet"", ""space"", ""stars"", ""tail"", ""sky""]",M300_012,ok,2,1:M300_012:2,True,True,,
+False,1,3,firework,cake,itia,cake,,M300_012,ok,0,3:M300_012:0:1,,,,True
+False,2,3,firework,cake,birthday,celebrate,,M300_012,ok,0,3:M300_012:0:2,,,,False
+False,1,3,firework,mine,rock or stone,quarry,,M300_012,ok,1,3:M300_012:1:1,,,,False
+False,2,3,firework,mine,tunnel,womb,,M300_012,ok,1,3:M300_012:1:2,,,,False
+False,1,3,firework,comet,things that trail comet,comet,,M300_012,ok,2,3:M300_012:2:1,,,,True
+False,2,3,firework,comet,body part,tail,,M300_012,ok,2,3:M300_012:2:2,,,,False
+,,1,kite,diamond,,,"[""diamond"", ""jewelry"", ""gemstone"", ""brilliance"", ""crystal""]",M300_014,ok,0,1:M300_014:0,True,True,,
+,,1,kite,box,,,"[""box"", ""cube"", ""cardboard"", ""packaging"", ""container""]",M300_014,ok,1,1:M300_014:1,True,True,,
+,,1,kite,sled,,,"[""sledge"", ""snow"", ""forest"", ""ice"", ""winter""]",M300_014,ok,2,1:M300_014:2,False,False,,
+False,1,3,kite,diamond,shape,table,,M300_014,ok,0,3:M300_014:0:1,,,,False
+False,2,3,kite,diamond,gemstone,rock,,M300_014,ok,0,3:M300_014:0:2,,,,False
+False,1,3,kite,box,padded,box,,M300_014,ok,1,3:M300_014:1:1,,,,True
+False,2,3,kite,box,[,cube,,M300_014,ok,1,3:M300_014:1:2,,,,False
+False,1,3,kite,sled,tools,sledge,,M300_014,ok,2,3:M300_014:2:1,,,,False
+False,2,3,kite,sled,container,sleigh,,M300_014,ok,2,3:M300_014:2:2,,,,False
+,,1,beef cut,round,,,"[""circles"", ""shapes"", ""paper"", ""colors"", ""green""]",M300_015,ok,0,1:M300_015:0,False,False,,
+,,1,beef cut,skirt,,,"[""skirt"", ""top"", ""bag"", ""tights"", ""building""]",M300_015,ok,1,1:M300_015:1,True,True,,
+,,1,beef cut,rib,,,"[""skeleton"", ""spine"", ""ribs"", ""skull"", ""vertebrae""]",M300_015,ok,2,1:M300_015:2,False,False,,
+False,1,3,beef cut,round,polka dots,dot,,M300_015,ok,0,3:M300_015:0:1,,,,False
+False,2,3,beef cut,round,colors,spot,,M300_015,ok,0,3:M300_015:0:2,,,,False
+False,1,3,beef cut,skirt,muscle contraction,stitch,,M300_015,ok,1,3:M300_015:1:1,,,,False
+False,2,3,beef cut,skirt,noun (skirt),coquette,,M300_015,ok,1,3:M300_015:1:2,,,,False
+False,1,3,beef cut,rib,skeleton,rib,,M300_015,ok,2,3:M300_015:2:1,,,,True
+False,2,3,beef cut,rib,body part,rib,,M300_015,ok,2,3:M300_015:2:2,,,,True
+,,1,candy,rock,,,"[""rocks"", ""stone"", ""granite"", ""ground"", ""outdoors""]",M300_016,ok,0,1:M300_016:0,False,False,,
+,,1,candy,bark,,,"[""bark"", ""tree trunk"", ""texture"", ""wood"", ""cracks""]",M300_016,ok,1,1:M300_016:1,True,True,,
+,,1,candy,button,,,"[""button"", ""cloth"", ""fabric"", ""green"", ""textile""]",M300_016,ok,2,1:M300_016:2,True,True,,
+False,1,3,candy,rock,hard substance,rock,,M300_016,ok,0,3:M300_016:0:1,,,,True
+False,2,3,candy,rock,content,skin,,M300_016,ok,0,3:M300_016:0:2,,,,False
+False,1,3,candy,bark,biological surface layer,skin,,M300_016,ok,1,3:M300_016:1:1,,,,False
+False,2,3,candy,bark,outer covering,bark,,M300_016,ok,1,3:M300_016:1:2,,,,True
+False,1,3,candy,button,hardware,button,,M300_016,ok,2,3:M300_016:2:1,,,,True
+False,2,3,candy,button,"skin covering (rock-like, tree-like, human-like)",button,,M300_016,ok,2,3:M300_016:2:2,,,,True
+,,1,dress,slip,,,"[""credit card machine"", ""receipt printer"", ""payment terminal"", ""card reader"", ""business tool""]",M300_017,ok,0,1:M300_017:0,False,False,,
+,,1,dress,sack,,,"[""coffee bags"", ""sacks"", ""Arabica"", ""text"", ""fabric""]",M300_017,ok,1,1:M300_017:1,False,False,,
+,,1,dress,jumper,,,"[""wires"", ""connectors"", ""electrical"", ""insulated"", ""colours""]",M300_017,ok,2,1:M300_017:2,False,False,,
+False,1,3,dress,slip,paper,receipt,,M300_017,ok,0,3:M300_017:0:1,,,,False
+False,2,3,dress,slip,cipher disc,card,,M300_017,ok,0,3:M300_017:0:2,,,,False
+False,1,3,dress,sack,goods,coffee,,M300_017,ok,1,3:M300_017:1:1,,,,False
+False,2,3,dress,sack,developer,native,,M300_017,ok,1,3:M300_017:1:2,,,,False
+False,1,3,dress,jumper,chain,link,,M300_017,ok,2,3:M300_017:2:1,,,,False
+False,2,3,dress,jumper,celebration of an anniversary,jubilee,,M300_017,ok,2,3:M300_017:2:2,,,,False
+,,1,timber frame,plate,,,"[""plate"", ""dinner plate"", ""ceramic"", ""bowl"", ""tableware""]",M300_019,ok,0,1:M300_019:0,True,True,,
+,,1,timber frame,tie,,,"[""tie"", ""collar"", ""shirt"", ""cloth"", ""fabric""]",M300_019,ok,1,1:M300_019:1,True,True,,
+,,1,timber frame,stud,,,"[""earrings"", ""diamond"", ""gold"", ""jewelry"", ""accessory""]",M300_019,ok,2,1:M300_019:2,False,False,,
+False,1,3,timber frame,plate,a flat dish used for serving food,plate,,M300_019,ok,0,3:M300_019:0:1,,,,True
+False,2,3,timber frame,plate,,plate,,M300_019,ok,0,3:M300_019:0:2,,,,True
+False,1,3,timber frame,tie,fastener,knot,,M300_019,ok,1,3:M300_019:1:1,,,,False
+False,2,3,timber frame,tie,shirt neck,collar,,M300_019,ok,1,3:M300_019:1:2,,,,False
+False,1,3,timber frame,stud,jewelry,earring,,M300_019,ok,2,3:M300_019:2:1,,,,False
+False,2,3,timber frame,stud,hidden fastener,post,,M300_019,ok,2,3:M300_019:2:2,,,,False
+,,1,snail,cone,,,"[""reflector"", ""cone"", ""rubber"", ""markings"", ""base""]",M300_020,ok,0,1:M300_020:0,False,True,,
+,,1,snail,helmet,,,"[""helmets"", ""goggles"", ""cameras"", ""motorcycle"", ""gear""]",M300_020,ok,1,1:M300_020:1,False,False,,
+,,1,snail,turban,,,"[""turban"", ""head"", ""person"", ""fabric"", ""cloth""]",M300_020,ok,2,1:M300_020:2,True,True,,
+False,1,3,snail,cone,hollow,cone,,M300_020,ok,0,3:M300_020:0:1,,,,True
+False,2,3,snail,cone,headwear,cone,,M300_020,ok,0,3:M300_020:0:2,,,,True
+False,1,3,snail,helmet,plain(s),cassis,,M300_020,ok,1,3:M300_020:1:1,,,,False
+False,2,3,snail,helmet,headgear,helmet,,M300_020,ok,1,3:M300_020:1:2,,,,True
+False,1,3,snail,turban,cloth,dhoti,,M300_020,ok,2,3:M300_020:2:1,,,,False
+False,2,3,snail,turban,headwear,hat,,M300_020,ok,2,3:M300_020:2:2,,,,False
+,,1,hand,palm,,,"[""palm tree"", ""leaves"", ""sky"", ""sun"", ""nature""]",M300_021,ok,0,1:M300_021:0,False,False,,
+,,1,hand,web,,,"[""web"", ""drops"", ""silk"", ""rain"", ""morning""]",M300_021,ok,1,1:M300_021:1,True,True,,
+,,1,hand,nail,,,"[""nails"", ""metal"", ""hardware"", ""industrial"", ""texture""]",M300_021,ok,2,1:M300_021:2,False,False,,
+False,1,3,hand,palm,palms,web,,M300_021,ok,0,3:M300_021:0:1,,,,False
+False,2,3,hand,palm,a part of the human body,palm,,M300_021,ok,0,3:M300_021:0:2,,,,True
+False,1,3,hand,web,internet,web,,M300_021,ok,1,3:M300_021:1:1,,,,True
+False,2,3,hand,web,"primary structure/component of a biological system (the primary meaning is a spider's web, but in computing, the WWW is 'the web')",web,,M300_021,ok,1,3:M300_021:1:2,,,,True
+False,1,3,hand,nail,pen,nail,,M300_021,ok,2,3:M300_021:2:1,,,,True
+False,2,3,hand,nail,connective tissue,nail,,M300_021,ok,2,3:M300_021:2:2,,,,True
+,,1,shark,carpet,,,"[""rugs"", ""carpets"", ""patterns"", ""textiles"", ""store""]",M300_022,ok,0,1:M300_022:0,False,False,,
+,,1,shark,angel,,,"[""angel"", ""statue"", ""wings"", ""garden"", ""sculpture""]",M300_022,ok,1,1:M300_022:1,True,True,,
+,,1,shark,thresher,,,"[""farmer"", ""harvester"", ""wheat"", ""field"", ""machinery""]",M300_022,ok,2,1:M300_022:2,False,False,,
+False,1,3,shark,carpet,textile,rug,,M300_022,ok,0,3:M300_022:0:1,,,,False
+False,2,3,shark,carpet,ground cover,carpet,,M300_022,ok,0,3:M300_022:0:2,,,,True
+False,1,3,shark,angel,guard,elbow,,M300_022,ok,1,3:M300_022:1:1,,,,False
+False,2,3,shark,angel,god,guardian,,M300_022,ok,1,3:M300_022:1:2,,,,False
+False,1,3,shark,thresher,separation of grain,threshing,,M300_022,ok,2,3:M300_022:2:1,,,,False
+False,2,3,shark,thresher,plants,creeper,,M300_022,ok,2,3:M300_022:2:2,,,,False
+,,1,sculpture,mobile,,,"[""mobile phone"", ""screen"", ""device"", ""technology"", ""gadget""]",M300_023,ok,0,1:M300_023:0,False,False,,
+,,1,sculpture,cast,,,"[""cast"", ""leg"", ""shoe"", ""foot"", ""bone""]",M300_023,ok,1,1:M300_023:1,True,True,,
+,,1,sculpture,bronze,,,"[""medal"", ""number"", ""trophy"", ""bronze"", ""award""]",M300_023,ok,2,1:M300_023:2,False,True,,
+False,1,3,sculpture,mobile,literal_facial_flesh,face,,M300_023,ok,0,3:M300_023:0:1,,,,False
+False,2,3,sculpture,mobile,state of being out of reach,unreachable,,M300_023,ok,0,3:M300_023:0:2,,,,False
+False,1,3,sculpture,cast,remedy for injury,cast,,M300_023,ok,1,3:M300_023:1:1,,,,True
+False,2,3,sculpture,cast,mobility,wound,,M300_023,ok,1,3:M300_023:1:2,,,,False
+False,1,3,sculpture,bronze,description,device,,M300_023,ok,2,3:M300_023:2:1,,,,False
+False,2,3,sculpture,bronze,finish,bronze,,M300_023,ok,2,3:M300_023:2:2,,,,True
+,,1,masonry tool,hawk,,,"[""bird"", ""hawk"", ""feathers"", ""beak"", ""eye""]",M300_024,ok,0,1:M300_024:0,False,True,,
+,,1,masonry tool,line,,,"[""hand"", ""pencil"", ""line"", ""paper"", ""wood""]",M300_024,ok,1,1:M300_024:1,False,True,,
+,,1,masonry tool,float,,,"[""shark"", ""pool"", ""water"", ""float"", ""ring""]",M300_024,ok,2,1:M300_024:2,False,True,,
+False,1,3,masonry tool,hawk,body part,beak,,M300_024,ok,0,3:M300_024:0:1,,,,False
+False,2,3,masonry tool,hawk,rings,circle,,M300_024,ok,0,3:M300_024:0:2,,,,False
+False,1,3,masonry tool,line,art,sketch,,M300_024,ok,1,3:M300_024:1:1,,,,False
+False,2,3,masonry tool,line,artistically render,sketch,,M300_024,ok,1,3:M300_024:1:2,,,,False
+False,1,3,masonry tool,float,acid,shark,,M300_024,ok,2,3:M300_024:2:1,,,,False
+False,2,3,masonry tool,float,the act of being buoyant on water,float,,M300_024,ok,2,3:M300_024:2:2,,,,True
+,,1,leather,russia,,,"[""flag"", ""sky"", ""tree branches"", ""flagpole"", ""building""]",M300_025,ok,0,1:M300_025:0,False,False,,
+,,1,leather,morocco,,,"[""flag"", ""red"", ""star"", ""green"", ""fabric""]",M300_025,ok,1,1:M300_025:1,False,False,,
+,,1,leather,buff,,,"[""polishing"", ""headlight"", ""car"", ""glove"", ""trim""]",M300_025,ok,2,1:M300_025:2,False,False,,
+False,1,3,leather,russia,country,russia,,M300_025,ok,0,3:M300_025:0:1,,,,True
+False,2,3,leather,russia,country,russia,,M300_025,ok,0,3:M300_025:0:2,,,,True
+False,1,3,leather,morocco,part of it,star,,M300_025,ok,1,3:M300_025:1:1,,,,False
+False,2,3,leather,morocco,country,morocco,,M300_025,ok,1,3:M300_025:1:2,,,,True
+False,1,3,leather,buff,silk road,russia,,M300_025,ok,2,3:M300_025:2:1,,,,False
+False,2,3,leather,buff,car detail,finish,,M300_025,ok,2,3:M300_025:2:2,,,,False
+,,1,pocket,kangaroo,,,"[""kangaroo"", ""grass"", ""tail"", ""forest"", ""nature""]",M300_026,ok,0,1:M300_026:0,True,True,,
+,,1,pocket,cargo,,,"[""containers"", ""ship"", ""ocean"", ""sky"", ""cargo""]",M300_026,ok,1,1:M300_026:1,False,True,,
+,,1,pocket,patch,,,"[""pumpkins"", ""field"", ""autumn"", ""trees"", ""forest""]",M300_026,ok,2,1:M300_026:2,False,False,,
+False,1,3,pocket,kangaroo,verb,jump,,M300_026,ok,0,3:M300_026:0:1,,,,False
+False,2,3,pocket,kangaroo,an animal that hops or bounds while moving,rabbit,,M300_026,ok,0,3:M300_026:0:2,,,,False
+False,1,3,pocket,cargo,colorful section,patch,,M300_026,ok,1,3:M300_026:1:1,,,,False
+False,2,3,pocket,cargo,a part of a whole that is separated or different from the rest,patch,,M300_026,ok,1,3:M300_026:1:2,,,,False
+False,1,3,pocket,patch,jack-o'-lantern,pumpkin,,M300_026,ok,2,3:M300_026:2:1,,,,False
+False,2,3,pocket,patch,unit of production,product,,M300_026,ok,2,3:M300_026:2:2,,,,False
+,,1,lock,spring,,,"[""stream"", ""waterfall"", ""moss"", ""ferns"", ""leaves""]",M300_027,ok,0,1:M300_027:0,False,False,,
+,,1,lock,plug,,,"[""charger"", ""cable"", ""adaptor"", ""background"", ""texture""]",M300_027,ok,1,1:M300_027:1,False,False,,
+,,1,lock,tumbler,,,"[""cup"", ""straw"", ""tie"", ""rock"", ""dad""]",M300_027,ok,2,1:M300_027:2,False,False,,
+False,1,3,lock,spring,things that live in small or hidden places,fairy,,M300_027,ok,0,3:M300_027:0:1,,,,False
+False,2,3,lock,spring,binding,fetter,,M300_027,ok,0,3:M300_027:0:2,,,,False
+False,1,3,lock,plug,types of plugs,plug,,M300_027,ok,1,3:M300_027:1:1,,,,True
+False,2,3,lock,plug,socket,plug,,M300_027,ok,1,3:M300_027:1:2,,,,True
+False,1,3,lock,tumbler,parent,daddy,,M300_027,ok,2,3:M300_027:2:1,,,,False
+False,2,3,lock,tumbler,clothing,tie,,M300_027,ok,2,3:M300_027:2:2,,,,False
+,,1,earring,post,,,"[""wood post"", ""fence"", ""field"", ""trees"", ""grass""]",M300_028,ok,0,1:M300_028:0,False,False,,
+,,1,earring,butterfly,,,"[""butterfly"", ""flower"", ""insect"", ""nature"", ""leaves""]",M300_028,ok,1,1:M300_028:1,True,True,,
+,,1,earring,clutch,,,"[""pouch"", ""crocodile skin"", ""fashion"", ""bag"", ""accessory""]",M300_028,ok,2,1:M300_028:2,False,False,,
+False,1,3,earring,post,edge,fence,,M300_028,ok,0,3:M300_028:0:1,,,,False
+False,2,3,earring,post,leash,catapult,,M300_028,ok,0,3:M300_028:0:2,,,,False
+False,1,3,earring,butterfly,butterflies,swallowtail,,M300_028,ok,1,3:M300_028:1:1,,,,False
+False,2,3,earring,butterfly,colors,negro,,M300_028,ok,1,3:M300_028:1:2,,,,False
+False,1,3,earring,clutch,bird,clasp,,M300_028,ok,2,3:M300_028:2:1,,,,False
+False,2,3,earring,clutch,reptile,crocodile,,M300_028,ok,2,3:M300_028:2:2,,,,False
+,,1,cymbal,splash,,,"[""water"", ""glass"", ""splash"", ""cup"", ""droplets""]",M300_029,ok,0,1:M300_029:0,False,True,,
+,,1,cymbal,crash,,,"[""car"", ""sedan"", ""truck"", ""crash"", ""damage""]",M300_029,ok,1,1:M300_029:1,False,True,,
+,,1,cymbal,china,,,"[""porcelain"", ""ceramics"", ""blue and white"", ""teacup"", ""tableware""]",M300_029,ok,2,1:M300_029:2,False,False,,
+False,1,3,cymbal,splash,royal title,crown,,M300_029,ok,0,3:M300_029:0:1,,,,False
+False,2,3,cymbal,splash,kingdom,crown,,M300_029,ok,0,3:M300_029:0:2,,,,False
+False,1,3,cymbal,crash,violent event,crash,,M300_029,ok,1,3:M300_029:1:1,,,,True
+False,2,3,cymbal,crash,violent collision,crash,,M300_029,ok,1,3:M300_029:1:2,,,,True
+False,1,3,cymbal,china,china,porcelain,,M300_029,ok,2,3:M300_029:2:1,,,,False
+False,2,3,cymbal,china,a way for water to move,wash,,M300_029,ok,2,3:M300_029:2:2,,,,False
+,,1,track and field implement,shot,,,"[""glasses"", ""liquor"", ""bar"", ""liquor"", ""drinks""]",M300_030,ok,0,1:M300_030:0,False,False,,
+,,1,track and field implement,discus,,,"[""fish"", ""fishes"", ""discus fish"", ""animal"", ""marine life""]",M300_030,ok,1,1:M300_030:1,False,False,,
+,,1,track and field implement,hammer,,,"[""hammer"", ""nails"", ""wood"", ""wooden board"", ""tools""]",M300_030,ok,2,1:M300_030:2,True,True,,
+False,1,3,track and field implement,shot,a sudden occurrence of two things happening at the same time,shot,,M300_030,ok,0,3:M300_030:0:1,,,,True
+False,2,3,track and field implement,shot,units of alcohol,barrel,,M300_030,ok,0,3:M300_030:0:2,,,,False
+False,1,3,track and field implement,discus,occupation ending in -er,cobbler,,M300_030,ok,1,3:M300_030:1:1,,,,False
+False,2,3,track and field implement,discus,coin,discus,,M300_030,ok,1,3:M300_030:1:2,,,,True
+False,1,3,track and field implement,hammer,tool,nail,,M300_030,ok,2,3:M300_030:2:1,,,,False
+False,2,3,track and field implement,hammer,hardware,nail,,M300_030,ok,2,3:M300_030:2:2,,,,False
+,,1,necklace,opera,,,"[""opera house"", ""theatre"", ""box seats"", ""red velvet lamps"", ""frieze""]",M300_031,ok,0,1:M300_031:0,False,False,,
+,,1,necklace,princess,,,"[""Princess"", ""Horse"", ""Dress"", ""Crown"", ""Bird""]",M300_031,ok,1,1:M300_031:1,True,True,,
+,,1,necklace,collar,,,"[""shirt"", ""box"", ""collar"", ""buttons"", ""plaid""]",M300_031,ok,2,1:M300_031:2,False,True,,
+False,1,3,necklace,opera,theater seating,box,,M300_031,ok,0,3:M300_031:0:1,,,,False
+False,2,3,necklace,opera,galleries,gallery,,M300_031,ok,0,3:M300_031:0:2,,,,False
+False,1,3,necklace,princess,clothing },collar,,M300_031,ok,1,3:M300_031:1:1,,,,False
+False,2,3,necklace,princess,elegance,harness,,M300_031,ok,1,3:M300_031:1:2,,,,False
+False,1,3,necklace,collar,enclosure,box,,M300_031,ok,2,3:M300_031:2:1,,,,False
+False,2,3,necklace,collar,theatre,ticket,,M300_031,ok,2,3:M300_031:2:2,,,,False
+,,1,pigeon,roller,,,"[""roller"", ""paint"", ""rollers"", ""handle"", ""wood""]",M300_032,ok,0,1:M300_032:0,True,True,,
+,,1,pigeon,nun,,,"[""nun"", ""book"", ""chapel"", ""religious"", ""prayer""]",M300_032,ok,1,1:M300_032:1,True,True,,
+,,1,pigeon,tumbler,,,"[""glasses"", ""drink"", ""water"", ""plastic"", ""clear""]",M300_032,ok,2,1:M300_032:2,False,False,,
+False,1,3,pigeon,roller,"shape, body part, or action",roll,,M300_032,ok,0,3:M300_032:0:1,,,,False
+False,2,3,pigeon,roller,noun: to rotate or move by turning over and over,roll,,M300_032,ok,0,3:M300_032:0:2,,,,False
+False,1,3,pigeon,nun,cloister,nun,,M300_032,ok,1,3:M300_032:1:1,,,,True
+False,2,3,pigeon,nun,monastic garment,habit,,M300_032,ok,1,3:M300_032:1:2,,,,False
+False,1,3,pigeon,tumbler,measuring,cup,,M300_032,ok,2,3:M300_032:2:1,,,,False
+False,2,3,pigeon,tumbler,items that can be sharp,blunt,,M300_032,ok,2,3:M300_032:2:2,,,,False
+,,1,woodworking joint,finger,,,"[""hand"", ""finger"", ""arm"", ""skin"", ""pointing""]",M300_033,ok,0,1:M300_033:0,False,True,,
+,,1,woodworking joint,biscuit,,,"[""biscuit"", ""plate"", ""baking"", ""bread"", ""scones""]",M300_033,ok,1,1:M300_033:1,True,True,,
+,,1,woodworking joint,scarf,,,"[""scarf"", ""fabric"", ""threads"", ""textile"", ""ruffles""]",M300_033,ok,2,1:M300_033:2,True,True,,
+False,1,3,woodworking joint,finger,counting tools,finger,,M300_033,ok,0,3:M300_033:0:1,,,,True
+False,2,3,woodworking joint,finger,number,one,,M300_033,ok,0,3:M300_033:0:2,,,,False
+False,1,3,woodworking joint,biscuit,dessert,scone,,M300_033,ok,1,3:M300_033:1:1,,,,False
+False,2,3,woodworking joint,biscuit,something that can be broken,cookie,,M300_033,ok,1,3:M300_033:1:2,,,,False
+False,1,3,woodworking joint,scarf,tent,scarf,,M300_033,ok,2,3:M300_033:2:1,,,,True
+False,2,3,woodworking joint,scarf,a yarn,knit,,M300_033,ok,2,3:M300_033:2:2,,,,False
+,,1,sandwich,grinder,,,"[""sparks"", ""metal"", ""machine"", ""hand"", ""blade""]",M300_034,ok,0,1:M300_034:0,False,False,,
+,,1,sandwich,slider,,,"[""faders"", ""mixer"", ""knobs"", ""audio console"", ""controls""]",M300_034,ok,1,1:M300_034:1,False,False,,
+,,1,sandwich,wrap,,,"[""scarf"", ""woman"", ""hands"", ""winter"", ""fashion""]",M300_034,ok,2,1:M300_034:2,False,False,,
+False,1,3,sandwich,grinder,rotate,wheel,,M300_034,ok,0,3:M300_034:0:1,,,,False
+False,2,3,sandwich,grinder,mechanism,gear,,M300_034,ok,0,3:M300_034:0:2,,,,False
+False,1,3,sandwich,slider,audio mixing,mix,,M300_034,ok,1,3:M300_034:1:1,,,,False
+False,2,3,sandwich,slider,device,mixer,,M300_034,ok,1,3:M300_034:1:2,,,,False
+False,1,3,sandwich,wrap,fabric,blanket,,M300_034,ok,2,3:M300_034:2:1,,,,False
+False,2,3,sandwich,wrap,interacting with text or audio,scroll,,M300_034,ok,2,3:M300_034:2:2,,,,False
+,,1,pleat,knife,,,"[""knife"", ""blade"", ""handle"", ""block"", ""wood""]",M300_035,ok,0,1:M300_035:0,True,True,,
+,,1,pleat,box,,,"[""cardboard box"", ""package"", ""shipping box\"",\""moving\"",\""empty box""]",M300_035,ok,1,1:M300_035:1,False,False,,
+,,1,pleat,accordion,,,"[""accordion"", ""piano keys"", ""hand"", ""bass keys"", ""close-up""]",M300_035,ok,2,1:M300_035:2,True,True,,
+False,1,3,pleat,knife,kitchen utensil,folding,,M300_035,ok,0,3:M300_035:0:1,,,,False
+False,2,3,pleat,knife,to cut,knife,,M300_035,ok,0,3:M300_035:0:2,,,,True
+False,1,3,pleat,box,container,box,,M300_035,ok,1,3:M300_035:1:1,,,,True
+False,2,3,pleat,box,"hidden category shared with 'knife' and 'accordion': a 'knife' can be in a sheath, an 'accordion' has bellows, and a 'box' has a lid. They can all be things that enclose or cover something.",box,,M300_035,ok,1,3:M300_035:1:2,,,,True
+False,1,3,pleat,accordion,book,bible,,M300_035,ok,2,3:M300_035:2:1,,,,False
+False,2,3,pleat,accordion,[Expand/Fold],box,,M300_035,ok,2,3:M300_035:2:2,,,,False
+,,1,gear,worm,,,"[""hands"", ""earthworms"", ""soil"", ""fingers"", ""gardening""]",M300_036,ok,0,1:M300_036:0,False,False,,
+,,1,gear,crown,,,"[""crown"", ""gold"", ""pearls"", ""jewels"", ""velvet""]",M300_036,ok,1,1:M300_036:1,True,True,,
+,,1,gear,spur,,,"[""cowboy boot"", ""spurs"", ""ostrich leather"", ""concrete"", ""red cooler""]",M300_036,ok,2,1:M300_036:2,False,False,,
+False,1,3,gear,worm,worm,earthworm,,M300_036,ok,0,3:M300_036:0:1,,,,False
+False,2,3,gear,worm,earthworm,worm,,M300_036,ok,0,3:M300_036:0:2,,,,True
+False,1,3,gear,crown,royalty,crown,,M300_036,ok,1,3:M300_036:1:1,,,,True
+False,2,3,gear,crown,seat,throne,,M300_036,ok,1,3:M300_036:1:2,,,,False
+False,1,3,gear,spur,fodder,spur,,M300_036,ok,2,3:M300_036:2:1,,,,True
+False,2,3,gear,spur,profession,rancher,,M300_036,ok,2,3:M300_036:2:2,,,,False
+,,1,dwelling,flat,,,"[""tire"", ""wheel"", ""car"", ""brick"", ""nut""]",M300_037,ok,0,1:M300_037:0,False,False,,
+,,1,dwelling,pad,,,"[""sanitary pads"", ""packets"", ""pink background"", ""florals"", ""branding""]",M300_037,ok,1,1:M300_037:1,False,False,,
+,,1,dwelling,trailer,,,"[""trailer"", ""tarp"", ""wheel"", ""hedge"", ""ground""]",M300_037,ok,2,1:M300_037:2,True,True,,
+False,1,3,dwelling,flat,something worn down or with grooves,tread,,M300_037,ok,0,3:M300_037:0:1,,,,False
+False,2,3,dwelling,flat,often begins with 'tr'},trailer,,M300_037,ok,0,3:M300_037:0:2,,,,False
+False,1,3,dwelling,pad,unit of things,packet,,M300_037,ok,1,3:M300_037:1:1,,,,False
+False,2,3,dwelling,pad,lingerie,strapless,,M300_037,ok,1,3:M300_037:1:2,,,,False
+False,1,3,dwelling,trailer,trailer,trailer,,M300_037,ok,2,3:M300_037:2:1,,,,True
+False,2,3,dwelling,trailer,something with a hidden meaning,cover,,M300_037,ok,2,3:M300_037:2:2,,,,False
+,,1,moth,carpet,,,"[""rugs"", ""carpets"", ""patterns"", ""textiles"", ""market""]",M300_038,ok,0,1:M300_038:0,False,False,,
+,,1,moth,pug,,,"[""dog"", ""pug"", ""grass"", ""shirt"", ""animal""]",M300_038,ok,1,1:M300_038:1,False,True,,
+,,1,moth,dagger,,,"[""knife"", ""scabbard"", ""blade"", ""handle"", ""sheath""]",M300_038,ok,2,1:M300_038:2,False,False,,
+False,1,3,moth,carpet,textile,rug,,M300_038,ok,0,3:M300_038:0:1,,,,False
+False,2,3,moth,carpet,not an anagram,rug,,M300_038,ok,0,3:M300_038:0:2,,,,False
+False,1,3,moth,pug,pug,pug,,M300_038,ok,1,3:M300_038:1:1,,,,True
+False,2,3,moth,pug,someone,server,,M300_038,ok,1,3:M300_038:1:2,,,,False
+False,1,3,moth,dagger,sharp edges,blade,,M300_038,ok,2,3:M300_038:2:1,,,,False
+False,2,3,moth,dagger,devices used to execute people,guillotine,,M300_038,ok,2,3:M300_038:2:2,,,,False
+,,1,ammunition,shot,,,"[""glasses"", ""bottle"", ""spirits"", ""liquor"", ""alcohol""]",M300_039,ok,0,1:M300_039:0,False,False,,
+,,1,ammunition,slug,,,"[""snail"", ""shell"", ""leaf,insect,head""]",M300_039,ok,1,1:M300_039:1,False,False,,
+,,1,ammunition,shell,,,"[""seashell"", ""sand"", ""beach"", ""sunset"", ""ocean""]",M300_039,ok,2,1:M300_039:2,False,False,,
+False,1,3,ammunition,shot,,strike,,M300_039,ok,0,3:M300_039:0:1,,,,False
+False,2,3,ammunition,shot,to carry,bottle,,M300_039,ok,0,3:M300_039:0:2,,,,False
+False,1,3,ammunition,slug,hard exterior,caterpillar,,M300_039,ok,1,3:M300_039:1:1,,,,False
+False,2,3,ammunition,slug,"A hard, protective outer covering for a body",shell,,M300_039,ok,1,3:M300_039:1:2,,,,False
+False,1,3,ammunition,shell,a small amount consumed in one go,shot,,M300_039,ok,2,3:M300_039:2:1,,,,False
+False,2,3,ammunition,shell,bifurcations,shot,,M300_039,ok,2,3:M300_039:2:2,,,,False
+,,1,valve,butterfly,,,"[""Butterfly"", ""Flower"", ""\u7fc5\u8180"", ""\u5929\u7ebf"", ""\u82b1\u74e3""]",M300_040,ok,0,1:M300_040:0,True,True,,
+,,1,valve,ball,,,"[""soccer ball"", ""wooden table"", ""surface"", ""pentagon"", ""leather""]",M300_040,ok,1,1:M300_040:1,False,False,,
+,,1,valve,needle,,,"[""needle"", ""thread"", ""spool"", ""sewing"", ""textile""]",M300_040,ok,2,1:M300_040:2,True,True,,
+False,1,3,valve,butterfly,wing,butterfly,,M300_040,ok,0,3:M300_040:0:1,,,,True
+False,2,3,valve,butterfly,shared hidden category (point),needle,,M300_040,ok,0,3:M300_040:0:2,,,,False
+False,1,3,valve,ball,hidden word meanings,all,,M300_040,ok,1,3:M300_040:1:1,,,,False
+False,2,3,valve,ball,,needle,,M300_040,ok,1,3:M300_040:1:2,,,,False
+False,1,3,valve,needle,needles,butterfly,,M300_040,ok,2,3:M300_040:2:1,,,,False
+False,2,3,valve,needle,items associated with the word butterfly,thread,,M300_040,ok,2,3:M300_040:2:2,,,,False
+,,1,carriage,fly,,,"[""fly"", ""insect"", ""wood"", ""surface"", ""legs""]",M300_041,ok,0,1:M300_041:0,True,True,,
+,,1,carriage,spider,,,"[""spider"", ""web"", ""insect"", ""nature"", ""arachnid""]",M300_041,ok,1,1:M300_041:1,True,True,,
+,,1,carriage,buggy,,,"[""dunes"", ""vehicles"", ""sand"", ""sky"", ""offroad""]",M300_041,ok,2,1:M300_041:2,False,False,,
+False,1,3,carriage,fly,creature made of silk/insect,web,,M300_041,ok,0,3:M300_041:0:1,,,,False
+False,2,3,carriage,fly,infected vehicle / wheeled vehicle,lugger,,M300_041,ok,0,3:M300_041:0:2,,,,False
+False,1,3,carriage,spider,a connected network of nodes or strands,web,,M300_041,ok,1,3:M300_041:1:1,,,,False
+False,2,3,carriage,spider,stealthy,buggy,,M300_041,ok,1,3:M300_041:1:2,,,,False
+False,1,3,carriage,buggy,desert,desert,,M300_041,ok,2,3:M300_041:2:1,,,,False
+False,2,3,carriage,buggy,four-letter word with a different meaning,hitch,,M300_041,ok,2,3:M300_041:2:2,,,,False
+,,1,pottery tool,bat,,,"[""bats"", ""bats"", ""tree"", ""leaves"", ""fruit""]",M300_042,ok,0,1:M300_042:0,False,False,,
+,,1,pottery tool,rib,,,"[""skeleton"", ""bones"", ""ribs"", ""shoulder"", ""spine""]",M300_042,ok,1,1:M300_042:1,False,False,,
+,,1,pottery tool,wire,,,"[""copper wire"", ""wire"", ""metal"", ""copper"", ""coil""]",M300_042,ok,2,1:M300_042:2,False,True,,
+False,1,3,pottery tool,bat,nocturnal animal,wing,,M300_042,ok,0,3:M300_042:0:1,,,,False
+False,2,3,pottery tool,bat,fruits that grow on trees,bat,,M300_042,ok,0,3:M300_042:0:2,,,,True
+False,1,3,pottery tool,rib,someone,guy,,M300_042,ok,1,3:M300_042:1:1,,,,False
+False,2,3,pottery tool,rib,,rib,,M300_042,ok,1,3:M300_042:1:2,,,,True
+False,1,3,pottery tool,wire,hairpin,cadre,,M300_042,ok,2,3:M300_042:2:1,,,,False
+False,2,3,pottery tool,wire,made of metal,wire,,M300_042,ok,2,3:M300_042:2:2,,,,True
+,,1,window,bay,,,"[""beach"", ""seascape"", ""cliff"", ""water"", ""sea""]",M300_043,ok,0,1:M300_043:0,False,False,,
+,,1,window,bow,,,"[""bow"", ""table"", ""bottle"", ""box"", ""outdoors""]",M300_043,ok,1,1:M300_043:1,True,True,,
+,,1,window,rose,,,"[""rose"", ""flower"", ""garden"", ""abloom"", ""bud""]",M300_043,ok,2,1:M300_043:2,True,True,,
+False,1,3,window,bay,bow,bow,,M300_043,ok,0,3:M300_043:0:1,,,,False
+False,2,3,window,bay,knot,noose,,M300_043,ok,0,3:M300_043:0:2,,,,False
+False,1,3,window,bow,archery,cate,,M300_043,ok,1,3:M300_043:1:1,,,,False
+False,2,3,window,bow,recreational shooting sports,rifle,,M300_043,ok,1,3:M300_043:1:2,,,,False
+False,1,3,window,rose,plant growth stage,bud,,M300_043,ok,2,3:M300_043:2:1,,,,False
+False,2,3,window,rose,part of a human anatomy,head,,M300_043,ok,2,3:M300_043:2:2,,,,False
+,,1,hinge,butt,,,"[""ashtray"", ""cigarette"", ""ash"", ""table"", ""smoke""]",M300_044,ok,0,1:M300_044:0,False,False,,
+,,1,hinge,piano,,,"[""piano"", ""keys"", ""wood"", ""fern"", ""music""]",M300_044,ok,1,1:M300_044:1,True,True,,
+,,1,hinge,strap,,,"[""watch bands"", ""watch strap"", ""straps"", ""rings"", ""colors""]",M300_044,ok,2,1:M300_044:2,False,False,,
+False,1,3,hinge,butt,remains,ash,,M300_044,ok,0,3:M300_044:0:1,,,,False
+False,2,3,hinge,butt,remains of burnt matter,ash,,M300_044,ok,0,3:M300_044:0:2,,,,False
+False,1,3,hinge,piano,piano key,key,,M300_044,ok,1,3:M300_044:1:1,,,,False
+False,2,3,hinge,piano,body part,handle,,M300_044,ok,1,3:M300_044:1:2,,,,False
+False,1,3,hinge,strap,means to restrain or bind,strap,,M300_044,ok,2,3:M300_044:2:1,,,,True
+False,2,3,hinge,strap,的东西的后半部分,strap,,M300_044,ok,2,3:M300_044:2:2,,,,True
+,,1,plumbing equipment,snake,,,"[""snake"", ""ground"", ""sand"", ""rubble"", ""reptile""]",M300_045,ok,0,1:M300_045:0,True,True,,
+,,1,plumbing equipment,nipple,,,"[""pacifier"", ""circle"", ""color"", ""toy"", ""baby""]",M300_045,ok,1,1:M300_045:1,False,False,,
+,,1,plumbing equipment,torch,,,"[""torches"", ""fire"", ""flames"", ""wood"", ""grass""]",M300_045,ok,2,1:M300_045:2,False,False,,
+False,1,3,plumbing equipment,snake,objects or animals with an outer layer of skin that grows in plates},scale,,M300_045,ok,0,3:M300_045:0:1,,,,False
+False,2,3,plumbing equipment,snake,body part,worm,,M300_045,ok,0,3:M300_045:0:2,,,,False
+False,1,3,plumbing equipment,nipple,tether,pacifier,,M300_045,ok,1,3:M300_045:1:1,,,,False
+False,2,3,plumbing equipment,nipple,object that produces a rattling sound,rattle,,M300_045,ok,1,3:M300_045:1:2,,,,False
+False,1,3,plumbing equipment,torch,fire,torch,,M300_045,ok,2,3:M300_045:2:1,,,,True
+False,2,3,plumbing equipment,torch,firearms,nipple,,M300_045,ok,2,3:M300_045:2:2,,,,False
+,,1,coat,trench,,,"[""man"", ""ditch"", ""trees"", ""soil"", ""sky""]",M300_047,ok,0,1:M300_047:0,False,False,,
+,,1,coat,mac,,,"[""laptop"", ""Apple"", ""MacBook"", ""computer"", ""brand logo""]",M300_047,ok,1,1:M300_047:1,False,False,,
+,,1,coat,duster,,,"[""duster"", ""hand"", ""handle"", ""cleaning tool"", ""dust""]",M300_047,ok,2,1:M300_047:2,True,True,,
+False,1,3,coat,trench,burial,grave,,M300_047,ok,0,3:M300_047:0:1,,,,False
+False,2,3,coat,trench,death,grave,,M300_047,ok,0,3:M300_047:0:2,,,,False
+False,1,3,coat,mac,Apple,Mac,,M300_047,ok,1,3:M300_047:1:1,,,,True
+False,2,3,coat,mac,part of an object / surface behind,back,,M300_047,ok,1,3:M300_047:1:2,,,,False
+False,1,3,coat,duster,duster,feather,,M300_047,ok,2,3:M300_047:2:1,,,,False
+False,2,3,coat,duster,mop,duster,,M300_047,ok,2,3:M300_047:2:2,,,,True
+,,1,fastener,frog,,,"[""frog"", ""leaf"", ""eye"", ""plant"", ""nature""]",M300_048,ok,0,1:M300_048:0,True,True,,
+,,1,fastener,toggle,,,"[""switch"", ""plate"", ""wall"", ""hole"", ""leaf""]",M300_048,ok,1,1:M300_048:1,False,False,,
+,,1,fastener,snap,,,"[""smartphone"", ""screen"", ""ghost logo"", ""phone"", ""yellow background""]",M300_048,ok,2,1:M300_048:2,False,False,,
+False,1,3,fastener,frog,to change or alter,switch,,M300_048,ok,0,3:M300_048:0:1,,,,False
+False,2,3,fastener,frog,sound made by the object,chirp,,M300_048,ok,0,3:M300_048:0:2,,,,False
+False,1,3,fastener,toggle,word with a hidden alternative meaning,switch,,M300_048,ok,1,3:M300_048:1:1,,,,False
+False,2,3,fastener,toggle,frog,poop,,M300_048,ok,1,3:M300_048:1:2,,,,False
+False,1,3,fastener,snap,persona,ghost,,M300_048,ok,2,3:M300_048:2:1,,,,False
+False,2,3,fastener,snap,communication,ghost,,M300_048,ok,2,3:M300_048:2:2,,,,False
+,,1,lure,plug,,,"[""charger"", ""plug"", ""cable"", ""background"", ""surface""]",M300_050,ok,0,1:M300_050:0,False,True,,
+,,1,lure,spoon,,,"[""spoons"", ""wooden"", ""frame"", ""background"", ""utensils""]",M300_050,ok,1,1:M300_050:1,False,False,,
+,,1,lure,spinner,,,"[""fidget spinner"", ""yellow"", ""blue"", ""background"", ""toys""]",M300_050,ok,2,1:M300_050:2,False,False,,
+False,1,3,lure,plug,tools,plug,,M300_050,ok,0,3:M300_050:0:1,,,,True
+False,2,3,lure,plug,spinning,plug,,M300_050,ok,0,3:M300_050:0:2,,,,True
+False,1,3,lure,spoon,tree parts,spoon,,M300_050,ok,1,3:M300_050:1:1,,,,True
+False,2,3,lure,spoon,['type of literal spoon than others in the image'],spsdea,,M300_050,ok,1,3:M300_050:1:2,,,,False
+False,1,3,lure,spinner,senses,spinning,,M300_050,ok,2,3:M300_050:2:1,,,,False
+False,2,3,lure,spinner,spin,fidget,,M300_050,ok,2,3:M300_050:2:2,,,,False
+,,1,ear piercing,rook,,,"[""chess piece"", ""bishop"", ""checkboard"", ""wood chess"", ""game board""]",M300_051,ok,0,1:M300_051:0,False,False,,
+,,1,ear piercing,helix,,,"[""spiral"", ""staircase"", ""stairs"", ""architecture"", ""structure""]",M300_051,ok,1,1:M300_051:1,False,False,,
+,,1,ear piercing,industrial,,,"[""smokestacks"", ""industrial buildings"", ""smoke"", ""solar panels"", ""winter sky""]",M300_051,ok,2,1:M300_051:2,False,False,,
+False,1,3,ear piercing,rook,hidden cube,pawn,,M300_051,ok,0,3:M300_051:0:1,,,,False
+False,2,3,ear piercing,rook,chess piece,knight,,M300_051,ok,0,3:M300_051:0:2,,,,False
+False,1,3,ear piercing,helix,a structure that spirals or winds inwards,coil,,M300_051,ok,1,3:M300_051:1:1,,,,False
+False,2,3,ear piercing,helix,---,concentric,,M300_051,ok,1,3:M300_051:1:2,,,,False
+False,1,3,ear piercing,industrial,structure with height,tower,,M300_051,ok,2,3:M300_051:2:1,,,,False
+False,2,3,ear piercing,industrial,a vertical column of parts or series of things,stack,,M300_051,ok,2,3:M300_051:2:2,,,,False
+,,1,bird,bill,,,"[""dollar bill"", ""receipt"", ""payment"", ""cash"", ""shopping""]",M300_052,ok,0,1:M300_052:0,False,False,,
+,,1,bird,crop,,,"[""wheat"", ""field"", ""grain"", ""cropped"", ""harvest""]",M300_052,ok,1,1:M300_052:1,False,False,,
+,,1,bird,comb,,,"[""comb"", ""teeth"", ""plastic"", ""object"", ""hair""]",M300_052,ok,2,1:M300_052:2,True,True,,
+False,1,3,bird,bill,financial,keep,,M300_052,ok,0,3:M300_052:0:1,,,,False
+False,2,3,bird,bill,clarification of money or accounts,bill,,M300_052,ok,0,3:M300_052:0:2,,,,True
+False,1,3,bird,crop,food,grain,,M300_052,ok,1,3:M300_052:1:1,,,,False
+False,2,3,bird,crop,___ brain (to stir up a rumble or disturbance),upset,,M300_052,ok,1,3:M300_052:1:2,,,,False
+False,1,3,bird,comb,card,bill,,M300_052,ok,2,3:M300_052:2:1,,,,False
+False,2,3,bird,comb,comma,comma,,M300_052,ok,2,3:M300_052:2:2,,,,False
+,,1,songbird,dipper,,,"[""water ladle"", ""bamboo pole"", ""railing"", ""waterfall"", ""reflection""]",M300_053,ok,0,1:M300_053:0,False,False,,
+,,1,songbird,thrasher,,,"[""mower"", ""engine"", ""wheel"", ""field"", ""grass""]",M300_053,ok,1,1:M300_053:1,False,False,,
+,,1,songbird,weaver,,,"[""weaver"", ""loom"", ""hands"", ""fabric"", ""headscarf""]",M300_053,ok,2,1:M300_053:2,True,True,,
+False,1,3,songbird,dipper,man-made objects,shovel,,M300_053,ok,0,3:M300_053:0:1,,,,False
+False,2,3,songbird,dipper,job/filtration (by role or action),strainer,,M300_053,ok,0,3:M300_053:0:2,,,,False
+False,1,3,songbird,thrasher,reapers,mower,,M300_053,ok,1,3:M300_053:1:1,,,,False
+False,2,3,songbird,thrasher,disassembler,thresher,,M300_053,ok,1,3:M300_053:1:2,,,,False
+False,1,3,songbird,weaver,textile,loom,,M300_053,ok,2,3:M300_053:2:1,,,,False
+False,2,3,songbird,weaver,tools,weaver,,M300_053,ok,2,3:M300_053:2:2,,,,True
+,,1,earring,stud,,,"[""metal studs"", ""construction site"", ""drywall"", ""ceiling joists"", ""buckets""]",M300_055,ok,0,1:M300_055:0,False,False,,
+,,1,earring,crawler,,,"[""vehicle"", ""tracks"", ""sand"", ""machinery"", ""machine""]",M300_055,ok,1,1:M300_055:1,False,False,,
+,,1,earring,drop,,,"[""droplet"", ""leaf"", ""water"", ""green"", ""nature""]",M300_055,ok,2,1:M300_055:2,False,False,,
+False,1,3,earring,stud,prison,cell,,M300_055,ok,0,3:M300_055:0:1,,,,False
+False,2,3,earring,stud,plural of -s,limb,,M300_055,ok,0,3:M300_055:0:2,,,,False
+False,1,3,earring,crawler,machine,cat,,M300_055,ok,1,3:M300_055:1:1,,,,False
+False,2,3,earring,crawler,foot-operated device or mechanism,pedal,,M300_055,ok,1,3:M300_055:1:2,,,,False
+False,1,3,earring,drop,stationery,drop,,M300_055,ok,2,3:M300_055:2:1,,,,True
+False,2,3,earring,drop,body part,watch,,M300_055,ok,2,3:M300_055:2:2,,,,False
+,,1,paper,tissue,,,"[""cells"", ""tissue"", ""microscopic view"", ""nucleus"", ""biology""]",M300_057,ok,0,1:M300_057:0,False,True,,
+,,1,paper,butcher,,,"[""butcher"", ""meat"", ""knife"", ""apron"", ""shop""]",M300_057,ok,1,1:M300_057:1,True,True,,
+,,1,paper,carbon,,,"[""charcoal"", ""burnt wood"", ""ash"", ""fuel"", ""grill""]",M300_057,ok,2,1:M300_057:2,False,False,,
+False,1,3,paper,tissue,biological structures,veins,,M300_057,ok,0,3:M300_057:0:1,,,,False
+False,2,3,paper,tissue,biology,lumens,,M300_057,ok,0,3:M300_057:0:2,,,,False
+False,1,3,paper,butcher,meat,cut,,M300_057,ok,1,3:M300_057:1:1,,,,False
+False,2,3,paper,butcher,food,meat,,M300_057,ok,1,3:M300_057:1:2,,,,False
+False,1,3,paper,carbon,remains,ash,,M300_057,ok,2,3:M300_057:2:1,,,,False
+False,2,3,paper,carbon,combustion byproduct,ash,,M300_057,ok,2,3:M300_057:2:2,,,,False
+,,1,paddle,wing,,,"[""wing"", ""feathers"", ""bird"", ""flight"", ""nature""]",M300_058,ok,0,1:M300_058:0,True,True,,
+,,1,paddle,spoon,,,"[""spoon"", ""silverware"", ""metal"", ""utensil"", ""table""]",M300_058,ok,1,1:M300_058:1,True,True,,
+,,1,paddle,feather,,,"[""peacock feathers"", ""blue"", ""brown"", ""\u30b3\u30fc\u30c8"", ""eye pattern""]",M300_058,ok,2,1:M300_058:2,False,False,,
+False,1,3,paddle,wing,appendage,arm,,M300_058,ok,0,3:M300_058:0:1,,,,False
+False,2,3,paddle,wing,something with a secondary meaning related to feathers or plumes,wing,,M300_058,ok,0,3:M300_058:0:2,,,,True
+False,1,3,paddle,spoon,cutlery,spoon,,M300_058,ok,1,3:M300_058:1:1,,,,True
+False,2,3,paddle,spoon,dubious words,spoon,,M300_058,ok,1,3:M300_058:1:2,,,,True
+False,1,3,paddle,feather,feathers,eye,,M300_058,ok,2,3:M300_058:2:1,,,,False
+False,2,3,paddle,feather,peacock eye,eye,,M300_058,ok,2,3:M300_058:2:2,,,,False
+,,1,bee,carpenter,,,"[""men"", ""overalls"", ""bench"", ""workshop"", ""tools""]",M300_059,ok,0,1:M300_059:0,False,False,,
+,,1,bee,miner,,,"[""man"", ""mining"", ""coal"", ""basket"", ""light""]",M300_059,ok,1,1:M300_059:1,False,False,,
+,,1,bee,cuckoo,,,"[""bird"", ""branch"", ""tree"", ""beak"", ""feathers""]",M300_059,ok,2,1:M300_059:2,False,False,,
+False,1,3,bee,carpenter,occupation/handicraft,joiner,,M300_059,ok,0,3:M300_059:0:1,,,,False
+False,2,3,bee,carpenter,occupations,joiner,,M300_059,ok,0,3:M300_059:0:2,,,,False
+False,1,3,bee,miner,physical task or hardship,burden,,M300_059,ok,1,3:M300_059:1:1,,,,False
+False,2,3,bee,miner,physical exertion / labor,lift,,M300_059,ok,1,3:M300_059:1:2,,,,False
+False,1,3,bee,cuckoo,brood parasite,host,,M300_059,ok,2,3:M300_059:2:1,,,,False
+False,2,3,bee,cuckoo,an animal,rodent,,M300_059,ok,2,3:M300_059:2:2,,,,False
+,,1,puppet,finger,,,"[""hand"", ""finger"", ""arm"", ""gesture"", ""silhouette""]",M300_060,ok,0,1:M300_060:0,False,True,,
+,,1,puppet,glove,,,"[""glove"", ""hand"", ""snow"", ""winter"", ""sky""]",M300_060,ok,1,1:M300_060:1,True,True,,
+,,1,puppet,rod,,,"[""fishing rods"", ""ocean"", ""rocks"", ""waves"", ""sky""]",M300_060,ok,2,1:M300_060:2,False,False,,
+False,1,3,puppet,finger,numbers,one,,M300_060,ok,0,3:M300_060:0:1,,,,False
+False,2,3,puppet,finger,gesture,up,,M300_060,ok,0,3:M300_060:0:2,,,,False
+False,1,3,puppet,glove,limb,rod,,M300_060,ok,1,3:M300_060:1:1,,,,False
+False,2,3,puppet,glove,precipitation,snow,,M300_060,ok,1,3:M300_060:1:2,,,,False
+False,1,3,puppet,rod,something long and thin,rod,,M300_060,ok,2,3:M300_060:2:1,,,,True
+False,2,3,puppet,rod,"parts of a body or object with a catch or point, often used metaphorically for attraction or grappling",hook,,M300_060,ok,2,3:M300_060:2:2,,,,False
+,,1,succulent,string,,,"[""twine"", ""ball"", ""string"", ""rope"", ""green""]",M300_061,ok,0,1:M300_061:0,False,True,,
+,,1,succulent,paddle,,,"[""paddle"", ""canoe"", ""water"", ""reflection"", ""trees""]",M300_061,ok,1,1:M300_061:1,True,True,,
+,,1,succulent,jade,,,"[""pendants"", ""jades"", ""beads"", ""charms"", ""necklaces""]",M300_061,ok,2,1:M300_061:2,False,False,,
+False,1,3,succulent,string,writing,line,,M300_061,ok,0,3:M300_061:0:1,,,,False
+False,2,3,succulent,string,things that can be green,rope,,M300_061,ok,0,3:M300_061:0:2,,,,False
+False,1,3,succulent,paddle,part of a tool or weapon,blade,,M300_061,ok,1,3:M300_061:1:1,,,,False
+False,2,3,succulent,paddle,trees,oaken,,M300_061,ok,1,3:M300_061:1:2,,,,False
+False,1,3,succulent,jade,accessory,string,,M300_061,ok,2,3:M300_061:2:1,,,,False
+False,2,3,succulent,jade,knot/twine/string,knot,,M300_061,ok,2,3:M300_061:2:2,,,,False
+,,1,cosmetics,shadow,,,"[""shadow"", ""person"", ""road"", ""ground"", ""silhouette""]",M300_063,ok,0,1:M300_063:0,True,True,,
+,,1,cosmetics,foundation,,,"[""construction site"", ""excavator"", ""foundation"", ""rebar"", ""staircase""]",M300_063,ok,1,1:M300_063:1,False,True,,
+,,1,cosmetics,highlighter,,,"[""hand"", ""book"", ""highlighter"", ""glass"", ""pen""]",M300_063,ok,2,1:M300_063:2,False,True,,
+False,1,3,cosmetics,shadow,cast (verb),shadow,,M300_063,ok,0,3:M300_063:0:1,,,,True
+False,2,3,cosmetics,shadow,category_of_colors,shade,,M300_063,ok,0,3:M300_063:0:2,,,,False
+False,1,3,cosmetics,foundation,digging,construction site,,M300_063,ok,1,3:M300_063:1:1,,,,False
+False,2,3,cosmetics,foundation,building construction,structure,,M300_063,ok,1,3:M300_063:1:2,,,,False
+False,1,3,cosmetics,highlighter,to make a noticeable impression or sign,mark,,M300_063,ok,2,3:M300_063:2:1,,,,False
+False,2,3,cosmetics,highlighter,mark,highlight,,M300_063,ok,2,3:M300_063:2:2,,,,False
+,,1,playground equipment,slide,,,"[""gloves"", ""microscope slide"", ""stain"", ""orange circle"", ""laboratory""]",M300_064,ok,0,1:M300_064:0,False,False,,
+,,1,playground equipment,swing,,,"[""golfer"", ""golf club"", ""ball"", ""grass"", ""water""]",M300_064,ok,1,1:M300_064:1,False,False,,
+,,1,playground equipment,spinner,,,"[""fidget spinner"", ""hand"", ""green"", ""blur"", ""toy""]",M300_064,ok,2,1:M300_064:2,False,False,,
+False,1,3,playground equipment,slide,stain,stain,,M300_064,ok,0,3:M300_064:0:1,,,,False
+False,2,3,playground equipment,slide,dye,stain,,M300_064,ok,0,3:M300_064:0:2,,,,False
+False,1,3,playground equipment,swing,golf,fairway,,M300_064,ok,1,3:M300_064:1:1,,,,False
+False,2,3,playground equipment,swing,,chip,,M300_064,ok,1,3:M300_064:1:2,,,,False
+False,1,3,playground equipment,spinner,rotation,spin,,M300_064,ok,2,3:M300_064:2:1,,,,False
+False,2,3,playground equipment,spinner,rotation,spin,,M300_064,ok,2,3:M300_064:2:2,,,,False
+,,1,club,bat,,,"[""bat"", ""tree"", ""fruit"", ""rope"", ""bat""]",M300_065,ok,0,1:M300_065:0,True,True,,
+,,1,club,sap,,,"[""tree bark"", ""wood"", ""sap"", ""red resin"", ""texture""]",M300_065,ok,1,1:M300_065:1,False,True,,
+,,1,club,cane,,,"[""walking stick"", ""cane"", ""handle"", ""walk"", ""tool""]",M300_065,ok,2,1:M300_065:2,False,True,,
+False,1,3,club,bat,bat,nectar,,M300_065,ok,0,3:M300_065:0:1,,,,False
+False,2,3,club,bat,dedicated space,cave,,M300_065,ok,0,3:M300_065:0:2,,,,False
+False,1,3,club,sap,blood,cane,,M300_065,ok,1,3:M300_065:1:1,,,,False
+False,2,3,club,sap,a walking stick made from a twisted cane plant,cane,,M300_065,ok,1,3:M300_065:1:2,,,,False
+False,1,3,club,cane,people,cane,,M300_065,ok,2,3:M300_065:2:1,,,,True
+False,2,3,club,cane,baseball bat,cane,,M300_065,ok,2,3:M300_065:2:2,,,,True
+,,1,gymnastics apparatus,ribbon,,,"[""ribbon"", ""bow"", ""gift box"", ""packaging"", ""red ribbon""]",M300_068,ok,0,1:M300_068:0,True,True,,
+,,1,gymnastics apparatus,beam,,,"[""wood"", ""ceiling"", ""beams"", ""roof"", ""wooden""]",M300_068,ok,1,1:M300_068:1,False,False,,
+,,1,gymnastics apparatus,hoop,,,"[""basketball net"", ""backboard"", ""hoop"", ""net"", ""sport""]",M300_068,ok,2,1:M300_068:2,False,True,,
+False,1,3,gymnastics apparatus,ribbon,envelope,gift,,M300_068,ok,0,3:M300_068:0:1,,,,False
+False,2,3,gymnastics apparatus,ribbon,a hard place,knot,,M300_068,ok,0,3:M300_068:0:2,,,,False
+False,1,3,gymnastics apparatus,beam,circular object,rings,,M300_068,ok,1,3:M300_068:1:1,,,,False
+False,2,3,gymnastics apparatus,beam,architecture,beam,,M300_068,ok,1,3:M300_068:1:2,,,,True
+False,1,3,gymnastics apparatus,hoop,fishing net,net,,M300_068,ok,2,3:M300_068:2:1,,,,False
+False,2,3,gymnastics apparatus,hoop,basketball,net,,M300_068,ok,2,3:M300_068:2:2,,,,False
+,,1,seal,harp,,,"[""harp"", ""music"", ""books"", ""library"", ""golden""]",M300_069,ok,0,1:M300_069:0,True,True,,
+,,1,seal,ribbon,,,"[""ribbon"", ""satin"", ""carpet"", ""textile"", ""fabric""]",M300_069,ok,1,1:M300_069:1,True,True,,
+,,1,seal,elephant,,,"[""elephant"", ""grass"", ""trees"", ""tusks"", ""savanna""]",M300_069,ok,2,1:M300_069:2,True,True,,
+False,1,3,seal,harp,celestial body,harvest,,M300_069,ok,0,3:M300_069:0:1,,,,False
+False,2,3,seal,harp,means of producing or transmitting sound,sound,,M300_069,ok,0,3:M300_069:0:2,,,,False
+False,1,3,seal,ribbon,hard of hearing,ribbon,,M300_069,ok,1,3:M300_069:1:1,,,,True
+False,2,3,seal,ribbon,hair,ribbon,,M300_069,ok,1,3:M300_069:1:2,,,,True
+False,1,3,seal,elephant,a clear glass,test,,M300_069,ok,2,3:M300_069:2:1,,,,False
+False,2,3,seal,elephant,trunk,tusks,,M300_069,ok,2,3:M300_069:2:2,,,,False
+,,1,sleeve,trumpet,,,"[""trumpet"", ""hand"", ""keys"", ""musician"", ""bridge""]",M300_070,ok,0,1:M300_070:0,True,True,,
+,,1,sleeve,lantern,,,"[""lantern"", ""fire"", ""campfire"", ""leaves"", ""camping""]",M300_070,ok,1,1:M300_070:1,True,True,,
+,,1,sleeve,cap,,,"[""hats"", ""colors"", ""shelf"", ""wood"", ""text""]",M300_070,ok,2,1:M300_070:2,False,False,,
+False,1,3,sleeve,trumpet,audio,trump,,M300_070,ok,0,3:M300_070:0:1,,,,False
+False,2,3,sleeve,trumpet,musical instrument,bugle,,M300_070,ok,0,3:M300_070:0:2,,,,False
+False,1,3,sleeve,lantern,function,light,,M300_070,ok,1,3:M300_070:1:1,,,,False
+False,2,3,sleeve,lantern,light,lamp,,M300_070,ok,1,3:M300_070:1:2,,,,False
+False,1,3,sleeve,cap,headwear,hat,,M300_070,ok,2,3:M300_070:2:1,,,,False
+False,2,3,sleeve,cap,headwear,hat,,M300_070,ok,2,3:M300_070:2:2,,,,False
+,,1,mollusk,slug,,,"[""shotgun"", ""weapon"", ""firearm"", ""gun"", ""safety""]",M300_072,ok,0,1:M300_072:0,False,False,,
+,,1,mollusk,clam,,,"[""flip phone"", ""screen"", ""keypad"", ""button"", ""hand""]",M300_072,ok,1,1:M300_072:1,False,False,,
+,,1,mollusk,squid,,,"[""triangle"", ""square"", ""circle"", ""geometry"", ""shapes""]",M300_072,ok,2,1:M300_072:2,False,False,,
+False,1,3,mollusk,slug,cartridge components,shell,,M300_072,ok,0,3:M300_072:0:1,,,,False
+False,2,3,mollusk,slug,category of cephalopods,bivalve,,M300_072,ok,0,3:M300_072:0:2,,,,False
+False,1,3,mollusk,clam,two distinct meanings,flip,,M300_072,ok,1,3:M300_072:1:1,,,,False
+False,2,3,mollusk,clam,mobile phone,octopus,,M300_072,ok,1,3:M300_072:1:2,,,,False
+False,1,3,mollusk,squid,registered trade mark,trademark,,M300_072,ok,2,3:M300_072:2:1,,,,False
+False,2,3,mollusk,squid,silence,bridge,,M300_072,ok,2,3:M300_072:2:2,,,,False
+,,1,sauce,mole,,,"[""mole"", ""animal"", ""fur"", ""claws"", ""whiskers""]",M300_073,ok,0,1:M300_073:0,True,True,,
+,,1,sauce,salsa,,,"[""woman"", ""man"", ""dress"", ""shirt"", ""pants""]",M300_073,ok,1,1:M300_073:1,False,False,,
+,,1,sauce,dressing,,,"[""hands"", ""bandage"", ""arm"", ""medical scrubs"", ""wrist""]",M300_073,ok,2,1:M300_073:2,False,False,,
+False,1,3,sauce,mole,mole (animal) ... molotof (cocktail / weapon),molotof,,M300_073,ok,0,3:M300_073:0:1,,,,False
+False,2,3,sauce,mole,wrap,dressing,,M300_073,ok,0,3:M300_073:0:2,,,,False
+False,1,3,sauce,salsa,body part,ballerina,,M300_073,ok,1,3:M300_073:1:1,,,,False
+False,2,3,sauce,salsa,ballroom dance,dance,,M300_073,ok,1,3:M300_073:1:2,,,,False
+False,1,3,sauce,dressing,medical supply,bandage,,M300_073,ok,2,3:M300_073:2:1,,,,False
+False,2,3,sauce,dressing,medical,wrap,,M300_073,ok,2,3:M300_073:2:2,,,,False
+,,1,pork cut,chop,,,"[""bricks"", ""board"", ""person"", ""pant"", ""floor""]",M300_075,ok,0,1:M300_075:0,False,False,,
+,,1,pork cut,cushion,,,"[""cactus"", ""pillow"", ""blanket"", ""sofa"", ""design""]",M300_075,ok,1,1:M300_075:1,False,False,,
+,,1,pork cut,butt,,,"[""cigarette"", ""ash"", ""rock"", ""ground"", ""tobacco""]",M300_075,ok,2,1:M300_075:2,False,False,,
+False,1,3,pork cut,chop,finger,pinkie,,M300_075,ok,0,3:M300_075:0:1,,,,False
+False,2,3,pork cut,chop,plaything,block,,M300_075,ok,0,3:M300_075:0:2,,,,False
+False,1,3,pork cut,cushion,foundational,cushion,,M300_075,ok,1,3:M300_075:1:1,,,,True
+False,2,3,pork cut,cushion,letter-rendering (via a secondary association),paw,,M300_075,ok,1,3:M300_075:1:2,,,,False
+False,1,3,pork cut,butt,soap,butt,,M300_075,ok,2,3:M300_075:2:1,,,,True
+False,2,3,pork cut,butt,vehicle part,butt,,M300_075,ok,2,3:M300_075:2:2,,,,True
+,,1,woodwind instrument,pipe,,,"[""pipe"", ""fitter"", ""brass"", ""nozzle"", ""text""]",M300_076,ok,0,1:M300_076:0,True,True,,
+,,1,woodwind instrument,recorder,,,"[""recorder"", ""device"", ""screen"", ""wood"", ""recording""]",M300_076,ok,1,1:M300_076:1,True,True,,
+,,1,woodwind instrument,whistle,,,"[""whistle"", ""mustache"", ""hand"", ""jacket"", ""face""]",M300_076,ok,2,1:M300_076:2,True,True,,
+False,1,3,woodwind instrument,pipe,pipe,elbow,,M300_076,ok,0,3:M300_076:0:1,,,,False
+False,2,3,woodwind instrument,pipe,fish,elbow,,M300_076,ok,0,3:M300_076:0:2,,,,False
+False,1,3,woodwind instrument,recorder,device (or object),recorder,,M300_076,ok,1,3:M300_076:1:1,,,,True
+False,2,3,woodwind instrument,recorder,sounds,mic,,M300_076,ok,1,3:M300_076:1:2,,,,False
+False,1,3,woodwind instrument,whistle,Tortoise,whistle,,M300_076,ok,2,3:M300_076:2:1,,,,True
+False,2,3,woodwind instrument,whistle,sound,whistle,,M300_076,ok,2,3:M300_076:2:2,,,,True
+,,1,jacket,blazer,,,"[""car"", ""SUV"", ""house"", ""street"", ""grill""]",M300_077,ok,0,1:M300_077:0,False,False,,
+,,1,jacket,bomber,,,"[""airplane"", ""sky"", ""clouds"", ""jet"", ""B-2 Spirit""]",M300_077,ok,1,1:M300_077:1,False,False,,
+,,1,jacket,cardigan,,,"[""dog"", ""flower"", ""grass"", ""collar"", ""ear""]",M300_077,ok,2,1:M300_077:2,False,False,,
+False,1,3,jacket,blazer,homonyms,cross,,M300_077,ok,0,3:M300_077:0:1,,,,False
+False,2,3,jacket,blazer,something that covers,oblu,,M300_077,ok,0,3:M300_077:0:2,,,,False
+False,1,3,jacket,bomber,transportation verb,flying,,M300_077,ok,1,3:M300_077:1:1,,,,False
+False,2,3,jacket,bomber,types of clothing,jacket,,M300_077,ok,1,3:M300_077:1:2,,,,False
+False,1,3,jacket,cardigan,embassy,diplomat,,M300_077,ok,2,3:M300_077:2:1,,,,False
+False,2,3,jacket,cardigan,Japnese,corgi,,M300_077,ok,2,3:M300_077:2:2,,,,False
+,,1,hairstyle,bun,,,"[""bread"", ""sesame"", ""bun"", ""board"", ""bakery""]",M300_078,ok,0,1:M300_078:0,False,True,,
+,,1,hairstyle,mullet,,,"[""fish"", ""eye"", ""scale"", ""mouth"", ""tail""]",M300_078,ok,1,1:M300_078:1,False,False,,
+,,1,hairstyle,beehive,,,"[""bee hives"", ""beehives"", ""hives"", ""grass"", ""wood""]",M300_078,ok,2,1:M300_078:2,False,False,,
+False,1,3,hairstyle,bun,bread,muffin,,M300_078,ok,0,3:M300_078:0:1,,,,False
+False,2,3,hairstyle,bun,shape,double,,M300_078,ok,0,3:M300_078:0:2,,,,False
+False,1,3,hairstyle,mullet,pole vault,cuvie,,M300_078,ok,1,3:M300_078:1:1,,,,False
+False,2,3,hairstyle,mullet,kinematic,fry,,M300_078,ok,1,3:M300_078:1:2,,,,False
+False,1,3,hairstyle,beehive,beekeeping (location where bees live),home,,M300_078,ok,2,3:M300_078:2:1,,,,False
+False,2,3,hairstyle,beehive,container,hives,,M300_078,ok,2,3:M300_078:2:2,,,,False
+,,1,paintbrush,sword,,,"[""sword"", ""hand"", ""statue"", ""handle"", ""blade""]",M300_079,ok,0,1:M300_079:0,True,True,,
+,,1,paintbrush,fan,,,"[""fan""]",M300_079,ok,1,1:M300_079:1,True,True,,
+,,1,paintbrush,dagger,,,"[""knife"", ""blade"", ""handle"", ""sheath"", ""scabbard""]",M300_079,ok,2,1:M300_079:2,False,False,,
+False,1,3,paintbrush,sword,edge,blade,,M300_079,ok,0,3:M300_079:0:1,,,,False
+False,2,3,paintbrush,sword,things that can cause anger or rage,fury,,M300_079,ok,0,3:M300_079:0:2,,,,False
+False,1,3,paintbrush,fan,double meaning,plate,,M300_079,ok,1,3:M300_079:1:1,,,,False
+False,2,3,paintbrush,fan,"""parts of cutting tools""",blade,,M300_079,ok,1,3:M300_079:1:2,,,,False
+False,1,3,paintbrush,dagger,edged weapon,blade,,M300_079,ok,2,3:M300_079:2:1,,,,False
+False,2,3,paintbrush,dagger,edged weapon,blade,,M300_079,ok,2,3:M300_079:2:2,,,,False
+,,1,hat,bowler,,,"[""man"", ""bowling ball"", ""bowling alley"", ""jean jacket"", ""beard""]",M300_080,ok,0,1:M300_080:0,False,False,,
+,,1,hat,pillbox,,,"[""hand"", ""pills"", ""medication"", ""pill organizer"", ""tablet""]",M300_080,ok,1,1:M300_080:1,False,False,,
+,,1,hat,boater,,,"[""canoe"", ""person"", ""hat"", ""lake"", ""mountain""]",M300_080,ok,2,1:M300_080:2,False,False,,
+False,1,3,hat,bowler,opposite of light/illuminated,dark,,M300_080,ok,0,3:M300_080:0:1,,,,False
+False,2,3,hat,bowler,"things that have ""head""s",termite,,M300_080,ok,0,3:M300_080:0:2,,,,False
+False,1,3,hat,pillbox,medication,pills,,M300_080,ok,1,3:M300_080:1:1,,,,False
+False,2,3,hat,pillbox,dictionaries,caperle,,M300_080,ok,1,3:M300_080:1:2,,,,False
+False,1,3,hat,boater,punting,paddle,,M300_080,ok,2,3:M300_080:2:1,,,,False
+False,2,3,hat,boater,a container-like object with an opening at the top,hat,,M300_080,ok,2,3:M300_080:2:2,,,,False
+,,1,wrench,monkey,,,"[""monkey"", ""tree"", ""branch"", ""leaves"", ""forest""]",M300_081,ok,0,1:M300_081:0,True,True,,
+,,1,wrench,alligator,,,"[""alligator"", ""water"", ""swamp"", ""reptile"", ""animal""]",M300_081,ok,1,1:M300_081:1,True,True,,
+,,1,wrench,strap,,,"[""watch straps"", ""straps"", ""colors"", ""background"", ""flowers""]",M300_081,ok,2,1:M300_081:2,False,False,,
+False,1,3,wrench,monkey,psychology term,areta,,M300_081,ok,0,3:M300_081:0:1,,,,False
+False,2,3,wrench,monkey,wildlife,monkey,,M300_081,ok,0,3:M300_081:0:2,,,,True
+False,1,3,wrench,alligator,band,alligator,,M300_081,ok,1,3:M300_081:1:1,,,,True
+False,2,3,wrench,alligator,reptile,crocodile,,M300_081,ok,1,3:M300_081:1:2,,,,False
+False,1,3,wrench,strap,type of our monkey (product),monkey,,M300_081,ok,2,3:M300_081:2:1,,,,False
+False,2,3,wrench,strap,parts,bands,,M300_081,ok,2,3:M300_081:2:2,,,,False
+,,1,anchor,mushroom,,,"[""mushroom"", ""fungi"", ""produce"", ""food"", ""grocery""]",M300_084,ok,0,1:M300_084:0,True,True,,
+,,1,anchor,plow,,,"[""farm implement"", ""tiller"", ""agricultural tool"", ""metal"", ""field""]",M300_084,ok,1,1:M300_084:1,False,False,,
+,,1,anchor,spoon,,,"[""spoon"", ""utensil"", ""metal"", ""table"", ""object""]",M300_084,ok,2,1:M300_084:2,True,True,,
+False,1,3,anchor,mushroom,element that covers the top of something,cap,,M300_084,ok,0,3:M300_084:0:1,,,,False
+False,2,3,anchor,mushroom,life cycles,spore,,M300_084,ok,0,3:M300_084:0:2,,,,False
+False,1,3,anchor,plow,farm tool,harrow,,M300_084,ok,1,3:M300_084:1:1,,,,False
+False,2,3,anchor,plow,tool with a long handle and a...,spoon,,M300_084,ok,1,3:M300_084:1:2,,,,False
+False,1,3,anchor,spoon,fungus,mushroom,,M300_084,ok,2,3:M300_084:2:1,,,,False
+False,2,3,anchor,spoon,implements with a shared second meaning,spoon,,M300_084,ok,2,3:M300_084:2:2,,,,True

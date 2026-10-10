@@ -1,0 +1,21 @@
+{
+  "manifest": "outputs/model_eval/final155_manifest.jsonl",
+  "results": "outputs/model_eval/final155_deepseek-flash_task3_prompt_v3.jsonl",
+  "scored_tasks": 930,
+  "concept_scoring": "exact_alias",
+  "word_scoring": "exact_alias",
+  "groups": {
+    "3:1-cue": {
+      "n": 465,
+      "parse_or_request_errors": 0,
+      "word_correct": 0.6301075268817204,
+      "concept_correct": 0.015053763440860216
+    },
+    "3:2-cue": {
+      "n": 465,
+      "parse_or_request_errors": 0,
+      "word_correct": 0.6731182795698925,
+      "concept_correct": 0.025806451612903226
+    }
+  }
+}

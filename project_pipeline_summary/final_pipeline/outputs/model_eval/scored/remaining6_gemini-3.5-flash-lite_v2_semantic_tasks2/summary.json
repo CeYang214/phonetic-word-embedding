@@ -1,0 +1,39 @@
+{
+  "manifest": "outputs/model_eval/remaining6_manifest.jsonl",
+  "results": "outputs/model_eval/remaining6_gemini-3.5-flash-lite_v2.jsonl",
+  "scored_tasks": 18,
+  "concept_scoring": "human_study_task2",
+  "word_scoring": "exact_alias",
+  "groups": {
+    "2:direct": {
+      "n": 6,
+      "parse_or_request_errors": 0,
+      "concept_correct": 0.16666666666666666,
+      "word_correct_count": 0.4444444444444444,
+      "concept_correct_exact": 0.0,
+      "concept_correct_semantic": 0.16666666666666666
+    },
+    "2:sense_hint": {
+      "n": 6,
+      "parse_or_request_errors": 0,
+      "concept_correct": 0.16666666666666666,
+      "word_correct_count": 0.6111111111111112,
+      "concept_correct_exact": 0.0,
+      "concept_correct_semantic": 0.16666666666666666
+    },
+    "2:stepwise": {
+      "n": 6,
+      "parse_or_request_errors": 0,
+      "concept_correct": 0.0,
+      "word_correct_count": 0.5,
+      "concept_correct_exact": 0.0,
+      "concept_correct_semantic": 0.0
+    }
+  },
+  "semantic_judge": {
+    "model": "gemini-3.5-flash-lite",
+    "checker_sha256": "9814b4f80ac503f350d523a9c1d61be2ecefd78f0e57da036afd72c6bcb2ed9b",
+    "cache": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/new_llm_pipeline/outputs/model_eval/concept_judgments.jsonl",
+    "scope": "Task 2 concept answers only"
+  }
+}

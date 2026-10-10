@@ -1,0 +1,622 @@
+concept_correct,cue_count,experiment,gold_concept,gold_word,predicted_concept,predicted_word,predicted_words,puzzle_id,status,target_slot,task_key,top1,top5,variant,word_correct
+,,1,pepper,ghost,,,"[""ghost"", ""costume"", ""Halloween"", ""brick wall"", ""sheet""]",M300_001,ok,0,1:M300_001:0,True,True,,
+,,1,pepper,bell,,,"[""service bell"", ""call bell"", ""reception counter"", ""hotel bell"", ""desk""]",M300_001,ok,1,1:M300_001:1,False,False,,
+,,1,pepper,banana,,,"[""banana"", ""fruit"", ""banana bunch"", ""produce"", ""food""]",M300_001,ok,2,1:M300_001:2,True,True,,
+False,1,3,pepper,ghost,types of peppers,ghost,,M300_001,ok,0,3:M300_001:0:1,,,,True
+False,2,3,pepper,ghost,peppers,ghost,,M300_001,ok,0,3:M300_001:0:2,,,,True
+False,1,3,pepper,bell,types of peppers,bell,,M300_001,ok,1,3:M300_001:1:1,,,,True
+False,2,3,pepper,bell,peppers,bell,,M300_001,ok,1,3:M300_001:1:2,,,,True
+False,1,3,pepper,banana,peppers,banana,,M300_001,ok,2,3:M300_001:2:1,,,,True
+False,2,3,pepper,banana,types of peppers,banana,,M300_001,ok,2,3:M300_001:2:2,,,,True
+,,1,butterfly,monarch,,,"[""king"", ""portrait"", ""painting"", ""monarch"", ""robe""]",M300_003,ok,0,1:M300_003:0,False,True,,
+,,1,butterfly,copper,,,"[""copper pipe"", ""copper tubing"", ""coil"", ""metal tubing"", ""copper wire""]",M300_003,ok,1,1:M300_003:1,False,False,,
+,,1,butterfly,peacock,,,"[""peacock"", ""bird"", ""plumage"", ""peafowl"", ""feather""]",M300_003,ok,2,1:M300_003:2,True,True,,
+False,1,3,butterfly,monarch,butterflies,monarch,,M300_003,ok,0,3:M300_003:0:1,,,,True
+False,2,3,butterfly,monarch,butterflies,monarch,,M300_003,ok,0,3:M300_003:0:2,,,,True
+False,1,3,butterfly,copper,butterflies,copper,,M300_003,ok,1,3:M300_003:1:1,,,,True
+False,2,3,butterfly,copper,butterflies,copper,,M300_003,ok,1,3:M300_003:1:2,,,,True
+False,1,3,butterfly,peacock,butterflies,peacock,,M300_003,ok,2,3:M300_003:2:1,,,,True
+False,2,3,butterfly,peacock,butterflies,peacock,,M300_003,ok,2,3:M300_003:2:2,,,,True
+,,1,reef,apron,,,"[""apron"", ""coat hook"", ""wall hook"", ""linen"", ""wall""]",M300_005,ok,0,1:M300_005:0,True,True,,
+,,1,reef,patch,,,"[""leather patch"", ""label"", ""denim"", ""jeans"", ""stitching""]",M300_005,ok,1,1:M300_005:1,False,False,,
+,,1,reef,barrier,,,"[""road barrier"", ""warning light"", ""barricade"", ""taxi"", ""street scene""]",M300_005,ok,2,1:M300_005:2,False,False,,
+False,1,3,reef,apron,programming terms,hook,,M300_005,ok,0,3:M300_005:0:1,,,,False
+False,2,3,reef,apron,types of coral reefs,apron,,M300_005,ok,0,3:M300_005:0:2,,,,True
+False,1,3,reef,patch,types of coral reefs,patch,,M300_005,ok,1,3:M300_005:1:1,,,,True
+False,2,3,reef,patch,types of coral reefs,patch,,M300_005,ok,1,3:M300_005:1:2,,,,True
+False,1,3,reef,barrier,aviation terms,taxi,,M300_005,ok,2,3:M300_005:2:1,,,,False
+False,2,3,reef,barrier,types of coral reefs,barrier,,M300_005,ok,2,3:M300_005:2:2,,,,True
+,,1,car,spider,,,"[""spider"", ""spiderweb"", ""silhouette"", ""sunset"", ""sky""]",M300_006,ok,0,1:M300_006:0,True,True,,
+,,1,car,coupe,,,"[""champagne coupe"", ""champagne glass"", ""cocktail glass"", ""stemware"", ""wine glass""]",M300_006,ok,1,1:M300_006:1,False,False,,
+,,1,car,convertible,,,"[""sofa bed"", ""living room"", ""studio apartment"", ""futon"", ""room""]",M300_006,ok,2,1:M300_006:2,False,False,,
+False,1,3,car,spider,car body styles,spider,,M300_006,ok,0,3:M300_006:0:1,,,,True
+False,2,3,car,spider,car body styles,spider,,M300_006,ok,0,3:M300_006:0:2,,,,True
+False,1,3,car,coupe,car body styles,coupe,,M300_006,ok,1,3:M300_006:1:1,,,,True
+False,2,3,car,coupe,car body styles,coupe,,M300_006,ok,1,3:M300_006:1:2,,,,True
+False,1,3,car,convertible,darts,bed,,M300_006,ok,2,3:M300_006:2:1,,,,False
+False,2,3,car,convertible,car body styles,convertible,,M300_006,ok,2,3:M300_006:2:2,,,,True
+,,1,package,cake,,,"[""cake"", ""birthday cake"", ""cake stand"", ""frosting"", ""dessert""]",M300_007,ok,0,1:M300_007:0,True,True,,
+,,1,package,cone,,,"[""traffic cone"", ""pylon"", ""safety cone"", ""cone"", ""marker""]",M300_007,ok,1,1:M300_007:1,False,True,,
+,,1,package,ball,,,"[""soccer ball"", ""football"", ""ball"", ""grass"", ""sports equipment""]",M300_007,ok,2,1:M300_007:2,False,True,,
+False,1,3,package,cake,yarn,cake,,M300_007,ok,0,3:M300_007:0:1,,,,True
+False,2,3,package,cake,forms of yarn,cake,,M300_007,ok,0,3:M300_007:0:2,,,,True
+False,1,3,package,cone,geometry,cone,,M300_007,ok,1,3:M300_007:1:1,,,,True
+False,2,3,package,cone,yarn put-ups,cone,,M300_007,ok,1,3:M300_007:1:2,,,,True
+False,1,3,package,ball,forms of yarn,ball,,M300_007,ok,2,3:M300_007:2:1,,,,True
+False,2,3,package,ball,yarn put-ups,ball,,M300_007,ok,2,3:M300_007:2:2,,,,True
+,,1,seed,pit,,,"[""pit"", ""miner"", ""rope"", ""coal mine"", ""worker""]",M300_008,ok,0,1:M300_008:0,True,True,,
+,,1,seed,nut,,,"[""nut"", ""hardware"", ""fastener"", ""metal"", ""screw nut""]",M300_008,ok,1,1:M300_008:1,True,True,,
+,,1,seed,grain,,,"[""wood"", ""wood grain"", ""plywood"", ""veneer"", ""texture""]",M300_008,ok,2,1:M300_008:2,False,False,,
+False,1,3,seed,pit,parts of a fruit,pit,,M300_008,ok,0,3:M300_008:0:1,,,,True
+False,2,3,seed,pit,seeds,pit,,M300_008,ok,0,3:M300_008:0:2,,,,True
+False,1,3,seed,nut,food,nut,,M300_008,ok,1,3:M300_008:1:1,,,,True
+False,2,3,seed,nut,seeds,nut,,M300_008,ok,1,3:M300_008:1:2,,,,True
+False,1,3,seed,grain,seeds,grain,,M300_008,ok,2,3:M300_008:2:1,,,,True
+False,2,3,seed,grain,seeds,grain,,M300_008,ok,2,3:M300_008:2:2,,,,True
+,,1,tool,square,,,"[""town square"", ""cobblestone"", ""plaza"", ""building"", ""street""]",M300_009,ok,0,1:M300_009:0,False,False,,
+,,1,tool,ruler,,,"[""king"", ""painting"", ""portrait"", ""monarch"", ""robe""]",M300_009,ok,1,1:M300_009:1,False,False,,
+,,1,tool,compass,,,"[""compass"", ""pocket compass"", ""brass compass"", ""navigational instrument"", ""compass rose""]",M300_009,ok,2,1:M300_009:2,True,True,,
+False,1,3,tool,square,measuring and drawing tools,square,,M300_009,ok,0,3:M300_009:0:1,,,,True
+False,2,3,tool,square,geometry tools,square,,M300_009,ok,0,3:M300_009:0:2,,,,True
+False,1,3,tool,ruler,measuring instruments,ruler,,M300_009,ok,1,3:M300_009:1:1,,,,True
+False,2,3,tool,ruler,measuring tools,ruler,,M300_009,ok,1,3:M300_009:1:2,,,,True
+False,1,3,tool,compass,symbols of Freemasonry,compass,,M300_009,ok,2,3:M300_009:2:1,,,,True
+False,2,3,tool,compass,geometry tools,compass,,M300_009,ok,2,3:M300_009:2:2,,,,True
+,,1,dragonfly,skimmer,,,"[""strainer"", ""sieve"", ""mesh strainer"", ""kitchen utensil"", ""colander""]",M300_010,ok,0,1:M300_010:0,False,False,,
+,,1,dragonfly,pennant,,,"[""bunting"", ""pennant"", ""flag"", ""sky"", ""decoration""]",M300_010,ok,1,1:M300_010:1,False,True,,
+,,1,dragonfly,cruiser,,,"[""cruiser"", ""warship"", ""ship"", ""vessel"", ""smokestack""]",M300_010,ok,2,1:M300_010:2,True,True,,
+False,1,3,dragonfly,skimmer,types of dragonflies,skimmer,,M300_010,ok,0,3:M300_010:0:1,,,,True
+False,2,3,dragonfly,skimmer,,strainer,,M300_010,ok,0,3:M300_010:0:2,,,,False
+False,1,3,dragonfly,pennant,dragonflies,pennant,,M300_010,ok,1,3:M300_010:1:1,,,,True
+False,2,3,dragonfly,pennant,types of dragonflies,pennant,,M300_010,ok,1,3:M300_010:1:2,,,,True
+False,1,3,dragonfly,cruiser,dragonflies,cruiser,,M300_010,ok,2,3:M300_010:2:1,,,,True
+False,2,3,dragonfly,cruiser,types of dragonflies,cruiser,,M300_010,ok,2,3:M300_010:2:2,,,,True
+,,1,sailboat,cat,,,"[""cat"", ""tabby cat"", ""kitten"", ""pet"", ""mat""]",M300_011,ok,0,1:M300_011:0,True,True,,
+,,1,sailboat,laser,,,"[""laser"", ""light beam"", ""laser beam"", ""ray"", ""light""]",M300_011,ok,1,1:M300_011:1,True,True,,
+,,1,sailboat,cutter,,,"[""cookie cutter"", ""dough"", ""baking"", ""flour"", ""gingerbread""]",M300_011,ok,2,1:M300_011:2,False,False,,
+False,1,3,sailboat,cat,sailboats,cat,,M300_011,ok,0,3:M300_011:0:1,,,,True
+False,2,3,sailboat,cat,types of sailboats,cat,,M300_011,ok,0,3:M300_011:0:2,,,,True
+False,1,3,sailboat,laser,types of sailboats,laser,,M300_011,ok,1,3:M300_011:1:1,,,,True
+False,2,3,sailboat,laser,types of boats,laser,,M300_011,ok,1,3:M300_011:1:2,,,,True
+False,1,3,sailboat,cutter,Unix commands,tree,,M300_011,ok,2,3:M300_011:2:1,,,,False
+False,2,3,sailboat,cutter,types of boats,cutter,,M300_011,ok,2,3:M300_011:2:2,,,,True
+,,1,firework,cake,,,"[""birthday cake"", ""chocolate cake"", ""birthday candle"", ""candle flame"", ""cake""]",M300_012,ok,0,1:M300_012:0,False,True,,
+,,1,firework,mine,,,"[""tunnel"", ""mine shaft"", ""underground"", ""subway"", ""corridor""]",M300_012,ok,1,1:M300_012:1,False,False,,
+,,1,firework,comet,,,"[""comet"", ""comet tail"", ""celestial body"", ""star"", ""night sky""]",M300_012,ok,2,1:M300_012:2,True,True,,
+False,1,3,firework,cake,types of fireworks,cake,,M300_012,ok,0,3:M300_012:0:1,,,,True
+False,2,3,firework,cake,types of fireworks,cake,,M300_012,ok,0,3:M300_012:0:2,,,,True
+False,1,3,firework,mine,firework types,mine,,M300_012,ok,1,3:M300_012:1:1,,,,True
+False,2,3,firework,mine,types of fireworks,mine,,M300_012,ok,1,3:M300_012:1:2,,,,True
+False,1,3,firework,comet,firework types,comet,,M300_012,ok,2,3:M300_012:2:1,,,,True
+False,2,3,firework,comet,types of fireworks,comet,,M300_012,ok,2,3:M300_012:2:2,,,,True
+,,1,kite,diamond,,,"[""diamond"", ""gemstone"", ""jewel"", ""crystal"", ""jewelry""]",M300_014,ok,0,1:M300_014:0,True,True,,
+,,1,kite,box,,,"[""cardboard box"", ""box"", ""package"", ""cube"", ""carton""]",M300_014,ok,1,1:M300_014:1,False,True,,
+,,1,kite,sled,,,"[""kicksled"", ""sled"", ""snow"", ""winter"", ""frozen lake""]",M300_014,ok,2,1:M300_014:2,False,True,,
+False,1,3,kite,diamond,baseball terms,diamond,,M300_014,ok,0,3:M300_014:0:1,,,,True
+False,2,3,kite,diamond,types of kites,diamond,,M300_014,ok,0,3:M300_014:0:2,,,,True
+False,1,3,kite,box,,box,,M300_014,ok,1,3:M300_014:1:1,,,,True
+False,2,3,kite,box,types of kites,box,,M300_014,ok,1,3:M300_014:1:2,,,,True
+False,1,3,kite,sled,famous singers' last names,sledge,,M300_014,ok,2,3:M300_014:2:1,,,,False
+False,2,3,kite,sled,types of kites,sled,,M300_014,ok,2,3:M300_014:2:2,,,,True
+,,1,beef cut,round,,,"[""paper circle"", ""dot"", ""geometric shape"", ""paper craft"", ""abstraction""]",M300_015,ok,0,1:M300_015:0,False,False,,
+,,1,beef cut,skirt,,,"[""skirt"", ""miniskirt"", ""clothing"", ""woman"", ""sweater""]",M300_015,ok,1,1:M300_015:1,True,True,,
+,,1,beef cut,rib,,,"[""skeleton"", ""rib cage"", ""spine"", ""vertebra"", ""bone""]",M300_015,ok,2,1:M300_015:2,False,False,,
+False,1,3,beef cut,round,cuts of beef,round,,M300_015,ok,0,3:M300_015:0:1,,,,True
+False,2,3,beef cut,round,cuts of beef,round,,M300_015,ok,0,3:M300_015:0:2,,,,True
+False,1,3,beef cut,skirt,cuts of beef,skirt,,M300_015,ok,1,3:M300_015:1:1,,,,True
+False,2,3,beef cut,skirt,cuts of beef,skirt,,M300_015,ok,1,3:M300_015:1:2,,,,True
+False,1,3,beef cut,rib,cuts of beef,rib,,M300_015,ok,2,3:M300_015:2:1,,,,True
+False,2,3,beef cut,rib,cuts of beef,rib,,M300_015,ok,2,3:M300_015:2:2,,,,True
+,,1,candy,rock,,,"[""rock"", ""stone"", ""boulder"", ""riprap"", ""gravel""]",M300_016,ok,0,1:M300_016:0,True,True,,
+,,1,candy,bark,,,"[""tree bark"", ""bark"", ""wood"", ""tree trunk"", ""texture""]",M300_016,ok,1,1:M300_016:1,False,True,,
+,,1,candy,button,,,"[""button"", ""buttons"", ""tea towel"", ""cloth"", ""fabric""]",M300_016,ok,2,1:M300_016:2,True,True,,
+False,1,3,candy,rock,types of candy,rock,,M300_016,ok,0,3:M300_016:0:1,,,,True
+False,2,3,candy,rock,types of candy,rock,,M300_016,ok,0,3:M300_016:0:2,,,,True
+False,1,3,candy,bark,types of chocolate,bark,,M300_016,ok,1,3:M300_016:1:1,,,,True
+True,2,3,candy,bark,candy,bark,,M300_016,ok,1,3:M300_016:1:2,,,,True
+False,1,3,candy,button,curling,button,,M300_016,ok,2,3:M300_016:2:1,,,,True
+True,2,3,candy,button,candy,button,,M300_016,ok,2,3:M300_016:2:2,,,,True
+,,1,dress,slip,,,"[""payment terminal"", ""POS terminal"", ""credit card reader"", ""receipt"", ""cash register""]",M300_017,ok,0,1:M300_017:0,False,False,,
+,,1,dress,sack,,,"[""gunny sack"", ""burlap sack"", ""coffee bag"", ""sack"", ""burlap""]",M300_017,ok,1,1:M300_017:1,False,True,,
+,,1,dress,jumper,,,"[""jumper wire"", ""ribbon cable"", ""electrical cable"", ""connector"", ""wire""]",M300_017,ok,2,1:M300_017:2,False,False,,
+False,1,3,dress,slip,getting fired,slip,,M300_017,ok,0,3:M300_017:0:1,,,,True
+False,2,3,dress,slip,types of dresses,slip,,M300_017,ok,0,3:M300_017:0:2,,,,True
+False,1,3,dress,sack,types of dresses,sack,,M300_017,ok,1,3:M300_017:1:1,,,,True
+False,2,3,dress,sack,articles of clothing,sack,,M300_017,ok,1,3:M300_017:1:2,,,,True
+False,1,3,dress,jumper,clothing,jumper,,M300_017,ok,2,3:M300_017:2:1,,,,True
+False,2,3,dress,jumper,types of dresses,jumper,,M300_017,ok,2,3:M300_017:2:2,,,,True
+,,1,timber frame,plate,,,"[""plate"", ""dish"", ""dishware"", ""tableware"", ""ceramic""]",M300_019,ok,0,1:M300_019:0,True,True,,
+,,1,timber frame,tie,,,"[""necktie"", ""collar"", ""dress shirt"", ""shirt"", ""clothing""]",M300_019,ok,1,1:M300_019:1,False,False,,
+,,1,timber frame,stud,,,"[""earring"", ""stud earring"", ""diamond"", ""jewelry"", ""gemstone""]",M300_019,ok,2,1:M300_019:2,False,False,,
+False,1,3,timber frame,plate,,plate,,M300_019,ok,0,3:M300_019:0:1,,,,True
+False,2,3,timber frame,plate,building framing members,plate,,M300_019,ok,0,3:M300_019:0:2,,,,True
+False,1,3,timber frame,tie,fasteners,tie,,M300_019,ok,1,3:M300_019:1:1,,,,True
+False,2,3,timber frame,tie,structural framing members,tie,,M300_019,ok,1,3:M300_019:1:2,,,,True
+False,1,3,timber frame,stud,wall framing members,stud,,M300_019,ok,2,3:M300_019:2:1,,,,True
+False,2,3,timber frame,stud,timber framing members,stud,,M300_019,ok,2,3:M300_019:2:2,,,,True
+,,1,snail,cone,,,"[""traffic cone"", ""pylon"", ""safety cone"", ""road cone"", ""marker""]",M300_020,ok,0,1:M300_020:0,False,False,,
+,,1,snail,helmet,,,"[""motorcycle helmet"", ""helmet"", ""visor"", ""action camera"", ""protective gear""]",M300_020,ok,1,1:M300_020:1,False,True,,
+,,1,snail,turban,,,"[""turban"", ""headdress"", ""headscarf"", ""person"", ""cloth""]",M300_020,ok,2,1:M300_020:2,True,True,,
+False,1,3,snail,cone,seashells,cone,,M300_020,ok,0,3:M300_020:0:1,,,,True
+False,2,3,snail,cone,seashells,cone,,M300_020,ok,0,3:M300_020:0:2,,,,True
+False,1,3,snail,helmet,sea snails,helmet,,M300_020,ok,1,3:M300_020:1:1,,,,True
+False,2,3,snail,helmet,sea shells,helmet,,M300_020,ok,1,3:M300_020:1:2,,,,True
+False,1,3,snail,turban,seashells,turban,,M300_020,ok,2,3:M300_020:2:1,,,,True
+False,2,3,snail,turban,sea shells,turban,,M300_020,ok,2,3:M300_020:2:2,,,,True
+,,1,hand,palm,,,"[""palm tree"", ""palm frond"", ""tree"", ""sky"", ""coconut tree""]",M300_021,ok,0,1:M300_021:0,False,False,,
+,,1,hand,web,,,"[""spiderweb"", ""water drop"", ""dew"", ""cobweb"", ""silk""]",M300_021,ok,1,1:M300_021:1,False,False,,
+,,1,hand,nail,,,"[""nail"", ""metal"", ""fastener"", ""hardware"", ""steel""]",M300_021,ok,2,1:M300_021:2,True,True,,
+False,1,3,hand,palm,parts of the hand,palm,,M300_021,ok,0,3:M300_021:0:1,,,,True
+False,2,3,hand,palm,parts of the hand,palm,,M300_021,ok,0,3:M300_021:0:2,,,,True
+False,1,3,hand,web,anatomy,web,,M300_021,ok,1,3:M300_021:1:1,,,,True
+False,2,3,hand,web,parts of the hand,web,,M300_021,ok,1,3:M300_021:1:2,,,,True
+False,1,3,hand,nail,parts of the hand,nail,,M300_021,ok,2,3:M300_021:2:1,,,,True
+False,2,3,hand,nail,parts of the hand,nail,,M300_021,ok,2,3:M300_021:2:2,,,,True
+,,1,shark,carpet,,,"[""carpet"", ""rug"", ""kilim"", ""textile"", ""tapestry""]",M300_022,ok,0,1:M300_022:0,True,True,,
+,,1,shark,angel,,,"[""angel"", ""statue"", ""sculpture"", ""cemetery"", ""gravestone""]",M300_022,ok,1,1:M300_022:1,True,True,,
+,,1,shark,thresher,,,"[""thresher"", ""farmer"", ""threshing"", ""wheat"", ""straw""]",M300_022,ok,2,1:M300_022:2,True,True,,
+False,1,3,shark,carpet,types of sharks,carpet,,M300_022,ok,0,3:M300_022:0:1,,,,True
+False,2,3,shark,carpet,types of sharks,carpet,,M300_022,ok,0,3:M300_022:0:2,,,,True
+False,1,3,shark,angel,types of sharks,angel,,M300_022,ok,1,3:M300_022:1:1,,,,True
+False,2,3,shark,angel,sharks,angel,,M300_022,ok,1,3:M300_022:1:2,,,,True
+False,1,3,shark,thresher,sharks,thresher,,M300_022,ok,2,3:M300_022:2:1,,,,True
+False,2,3,shark,thresher,types of sharks,thresher,,M300_022,ok,2,3:M300_022:2:2,,,,True
+,,1,sculpture,mobile,,,"[""smartphone"", ""mobile phone"", ""cellphone"", ""telephone"", ""electronics""]",M300_023,ok,0,1:M300_023:0,False,False,,
+,,1,sculpture,cast,,,"[""cast"", ""bandage"", ""foot"", ""shoe"", ""leg""]",M300_023,ok,1,1:M300_023:1,True,True,,
+,,1,sculpture,bronze,,,"[""bronze medal"", ""medal"", ""award"", ""pendant"", ""third place""]",M300_023,ok,2,1:M300_023:2,False,False,,
+False,1,3,sculpture,mobile,filmmaking terms,screen,,M300_023,ok,0,3:M300_023:0:1,,,,False
+True,2,3,sculpture,mobile,sculpture,mobile,,M300_023,ok,0,3:M300_023:0:2,,,,True
+True,1,3,sculpture,cast,sculpture,cast,,M300_023,ok,1,3:M300_023:1:1,,,,True
+False,2,3,sculpture,cast,types of sculpture,cast,,M300_023,ok,1,3:M300_023:1:2,,,,True
+True,1,3,sculpture,bronze,sculpture,bronze,,M300_023,ok,2,3:M300_023:2:1,,,,True
+True,2,3,sculpture,bronze,sculpture,bronze,,M300_023,ok,2,3:M300_023:2:2,,,,True
+,,1,masonry tool,hawk,,,"[""hawk"", ""bird of prey"", ""falcon"", ""bird"", ""raptor""]",M300_024,ok,0,1:M300_024:0,True,True,,
+,,1,masonry tool,line,,,"[""pencil"", ""hand"", ""drawing"", ""paper"", ""sketch""]",M300_024,ok,1,1:M300_024:1,False,False,,
+,,1,masonry tool,float,,,"[""pool float"", ""inflatable"", ""swimming pool"", ""water"", ""donut float""]",M300_024,ok,2,1:M300_024:2,False,False,,
+False,1,3,masonry tool,hawk,geometry,kite,,M300_024,ok,0,3:M300_024:0:1,,,,False
+False,2,3,masonry tool,hawk,plastering tools,hawk,,M300_024,ok,0,3:M300_024:0:2,,,,True
+False,1,3,masonry tool,line,fishing equipment,line,,M300_024,ok,1,3:M300_024:1:1,,,,True
+False,2,3,masonry tool,line,masonry tools,line,,M300_024,ok,1,3:M300_024:1:2,,,,True
+False,1,3,masonry tool,float,plastering tools,float,,M300_024,ok,2,3:M300_024:2:1,,,,True
+False,2,3,masonry tool,float,plastering and masonry tools,float,,M300_024,ok,2,3:M300_024:2:2,,,,True
+,,1,leather,russia,,,"[""flag"", ""flagpole"", ""tree branch"", ""building"", ""sky""]",M300_025,ok,0,1:M300_025:0,False,False,,
+,,1,leather,morocco,,,"[""flag of morocco"", ""flag"", ""star"", ""fabric"", ""textile""]",M300_025,ok,1,1:M300_025:1,False,False,,
+,,1,leather,buff,,,"[""car detailing"", ""polisher"", ""headlight"", ""hood"", ""buffer""]",M300_025,ok,2,1:M300_025:2,False,False,,
+False,1,3,leather,russia,types of leather,russia,,M300_025,ok,0,3:M300_025:0:1,,,,True
+False,2,3,leather,russia,types of leather,russia,,M300_025,ok,0,3:M300_025:0:2,,,,True
+False,1,3,leather,morocco,types of leather,morocco,,M300_025,ok,1,3:M300_025:1:1,,,,True
+False,2,3,leather,morocco,types of leather,morocco,,M300_025,ok,1,3:M300_025:1:2,,,,True
+False,1,3,leather,buff,countries,polish,,M300_025,ok,2,3:M300_025:2:1,,,,False
+False,2,3,leather,buff,types of leather,buff,,M300_025,ok,2,3:M300_025:2:2,,,,True
+,,1,pocket,kangaroo,,,"[""kangaroo"", ""marsupial"", ""eastern grey kangaroo"", ""wallaby"", ""mammal""]",M300_026,ok,0,1:M300_026:0,True,True,,
+,,1,pocket,cargo,,,"[""container ship"", ""cargo ship"", ""intermodal container"", ""freight transport"", ""ship""]",M300_026,ok,1,1:M300_026:1,False,False,,
+,,1,pocket,patch,,,"[""pumpkin patch"", ""pumpkin"", ""field"", ""autumn"", ""farm""]",M300_026,ok,2,1:M300_026:2,False,False,,
+False,1,3,pocket,kangaroo,types of pockets,kangaroo,,M300_026,ok,0,3:M300_026:0:1,,,,True
+False,2,3,pocket,kangaroo,types of pockets,kangaroo,,M300_026,ok,0,3:M300_026:0:2,,,,True
+False,1,3,pocket,cargo,computing terms,container,,M300_026,ok,1,3:M300_026:1:1,,,,False
+False,2,3,pocket,cargo,types of pockets,cargo,,M300_026,ok,1,3:M300_026:1:2,,,,True
+False,1,3,pocket,patch,,pumpkin,,M300_026,ok,2,3:M300_026:2:1,,,,False
+False,2,3,pocket,patch,types of pockets,patch,,M300_026,ok,2,3:M300_026:2:2,,,,True
+,,1,lock,spring,,,"[""stream"", ""waterfall"", ""brook"", ""water"", ""creek""]",M300_027,ok,0,1:M300_027:0,False,False,,
+,,1,lock,plug,,,"[""charger"", ""power adapter"", ""plug"", ""electric plug"", ""adapter""]",M300_027,ok,1,1:M300_027:1,False,True,,
+,,1,lock,tumbler,,,"[""tumbler"", ""cup"", ""straw"", ""rock"", ""mountain""]",M300_027,ok,2,1:M300_027:2,True,True,,
+False,1,3,lock,spring,digital media broadcasting,stream,,M300_027,ok,0,3:M300_027:0:1,,,,False
+False,2,3,lock,spring,parts of a lock,spring,,M300_027,ok,0,3:M300_027:0:2,,,,True
+False,1,3,lock,plug,parts of a lock,plug,,M300_027,ok,1,3:M300_027:1:1,,,,True
+False,2,3,lock,plug,parts of a lock,plug,,M300_027,ok,1,3:M300_027:1:2,,,,True
+False,1,3,lock,tumbler,parts of a lock,tumbler,,M300_027,ok,2,3:M300_027:2:1,,,,True
+False,2,3,lock,tumbler,"things used to describe a hairstyle / curls / hair rollers / fishing lures / words that can follow 'spark'? Wait: spark plug, spark... spring? No.",straw,,M300_027,ok,2,3:M300_027:2:2,,,,False
+,,1,earring,post,,,"[""fence post"", ""fence"", ""pasture"", ""meadow"", ""wire fence""]",M300_028,ok,0,1:M300_028:0,False,False,,
+,,1,earring,butterfly,,,"[""monarch butterfly"", ""butterfly"", ""milkweed"", ""insect"", ""lepidoptera""]",M300_028,ok,1,1:M300_028:1,False,True,,
+,,1,earring,clutch,,,"[""clutch bag"", ""leather case"", ""wallet"", ""pouch"", ""handbag""]",M300_028,ok,2,1:M300_028:2,False,False,,
+False,1,3,earring,post,parts of an earring,post,,M300_028,ok,0,3:M300_028:0:1,,,,True
+False,2,3,earring,post,earring components,post,,M300_028,ok,0,3:M300_028:0:2,,,,True
+False,1,3,earring,butterfly,automotive parts,butterfly,,M300_028,ok,1,3:M300_028:1:1,,,,True
+False,2,3,earring,butterfly,earring components,butterfly,,M300_028,ok,1,3:M300_028:1:2,,,,True
+False,1,3,earring,clutch,earring parts,clutch,,M300_028,ok,2,3:M300_028:2:1,,,,True
+False,2,3,earring,clutch,earring components,clutch,,M300_028,ok,2,3:M300_028:2:2,,,,True
+,,1,cymbal,splash,,,"[""water splash"", ""water"", ""splash"", ""liquid"", ""droplet""]",M300_029,ok,0,1:M300_029:0,False,True,,
+,,1,cymbal,crash,,,"[""car crash"", ""traffic collision"", ""car"", ""wreck"", ""accident""]",M300_029,ok,1,1:M300_029:1,False,False,,
+,,1,cymbal,china,,,"[""porcelain"", ""teacup"", ""saucer"", ""dishware"", ""ceramics""]",M300_029,ok,2,1:M300_029:2,False,False,,
+False,1,3,cymbal,splash,types of cymbals,splash,,M300_029,ok,0,3:M300_029:0:1,,,,True
+False,2,3,cymbal,splash,types of cymbals,splash,,M300_029,ok,0,3:M300_029:0:2,,,,True
+False,1,3,cymbal,crash,cymbals,crash,,M300_029,ok,1,3:M300_029:1:1,,,,True
+False,2,3,cymbal,crash,types of cymbals,crash,,M300_029,ok,1,3:M300_029:1:2,,,,True
+False,1,3,cymbal,china,cymbals,china,,M300_029,ok,2,3:M300_029:2:1,,,,True
+False,2,3,cymbal,china,types of cymbals,china,,M300_029,ok,2,3:M300_029:2:2,,,,True
+,,1,track and field implement,shot,,,"[""shot glass"", ""bar"", ""drink"", ""alcohol"", ""counter""]",M300_030,ok,0,1:M300_030:0,False,False,,
+,,1,track and field implement,discus,,,"[""discus"", ""fish"", ""cichlid"", ""aquarium fish"", ""freshwater fish""]",M300_030,ok,1,1:M300_030:1,True,True,,
+,,1,track and field implement,hammer,,,"[""hammer"", ""claw hammer"", ""nail"", ""hand tool"", ""carpentry""]",M300_030,ok,2,1:M300_030:2,True,True,,
+False,1,3,track and field implement,shot,track and field throwing events,shot,,M300_030,ok,0,3:M300_030:0:1,,,,True
+False,2,3,track and field implement,shot,track and field throwing events,shot,,M300_030,ok,0,3:M300_030:0:2,,,,True
+False,1,3,track and field implement,discus,track and field throwing events,discus,,M300_030,ok,1,3:M300_030:1:1,,,,True
+False,2,3,track and field implement,discus,track and field throwing events,discus,,M300_030,ok,1,3:M300_030:1:2,,,,True
+False,1,3,track and field implement,hammer,track and field throwing events,hammer,,M300_030,ok,2,3:M300_030:2:1,,,,True
+False,2,3,track and field implement,hammer,track and field throwing events,hammer,,M300_030,ok,2,3:M300_030:2:2,,,,True
+,,1,necklace,opera,,,"[""opera house"", ""opera box"", ""theater"", ""balcony"", ""auditorium""]",M300_031,ok,0,1:M300_031:0,False,False,,
+,,1,necklace,princess,,,"[""princess"", ""doll"", ""toy"", ""cardboard cutout"", ""illustration""]",M300_031,ok,1,1:M300_031:1,True,True,,
+,,1,necklace,collar,,,"[""dress shirt"", ""shirt"", ""collar"", ""clothing"", ""box""]",M300_031,ok,2,1:M300_031:2,False,True,,
+False,1,3,necklace,opera,necklace lengths,opera,,M300_031,ok,0,3:M300_031:0:1,,,,True
+False,2,3,necklace,opera,necklace lengths,opera,,M300_031,ok,0,3:M300_031:0:2,,,,True
+False,1,3,necklace,princess,necklace lengths,princess,,M300_031,ok,1,3:M300_031:1:1,,,,True
+False,2,3,necklace,princess,necklace lengths,princess,,M300_031,ok,1,3:M300_031:1:2,,,,True
+False,1,3,necklace,collar,necklace lengths,collar,,M300_031,ok,2,3:M300_031:2:1,,,,True
+False,2,3,necklace,collar,necklace lengths,collar,,M300_031,ok,2,3:M300_031:2:2,,,,True
+,,1,pigeon,roller,,,"[""paint roller"", ""paint roller cover"", ""roller frame"", ""painting tool"", ""handle""]",M300_032,ok,0,1:M300_032:0,False,False,,
+,,1,pigeon,nun,,,"[""nun"", ""habit"", ""book"", ""church"", ""wimple""]",M300_032,ok,1,1:M300_032:1,True,True,,
+,,1,pigeon,tumbler,,,"[""drinking glass"", ""glass"", ""tumbler"", ""water glass"", ""glassware""]",M300_032,ok,2,1:M300_032:2,False,True,,
+False,1,3,pigeon,roller,pigeon breeds,roller,,M300_032,ok,0,3:M300_032:0:1,,,,True
+False,2,3,pigeon,roller,pigeon breeds,roller,,M300_032,ok,0,3:M300_032:0:2,,,,True
+False,1,3,pigeon,nun,pigeon breeds,nun,,M300_032,ok,1,3:M300_032:1:1,,,,True
+False,2,3,pigeon,nun,pigeon breeds,nun,,M300_032,ok,1,3:M300_032:1:2,,,,True
+False,1,3,pigeon,tumbler,pigeon breeds,tumbler,,M300_032,ok,2,3:M300_032:2:1,,,,True
+False,2,3,pigeon,tumbler,pigeon breeds,tumbler,,M300_032,ok,2,3:M300_032:2:2,,,,True
+,,1,woodworking joint,finger,,,"[""finger"", ""hand"", ""index finger"", ""gesture"", ""arm""]",M300_033,ok,0,1:M300_033:0,True,True,,
+,,1,woodworking joint,biscuit,,,"[""biscuit"", ""scone"", ""pastry"", ""bread"", ""plate""]",M300_033,ok,1,1:M300_033:1,True,True,,
+,,1,woodworking joint,scarf,,,"[""scarf"", ""shawl"", ""fabric"", ""textile"", ""wrap""]",M300_033,ok,2,1:M300_033:2,True,True,,
+False,1,3,woodworking joint,finger,woodworking joints,finger,,M300_033,ok,0,3:M300_033:0:1,,,,True
+False,2,3,woodworking joint,finger,woodworking joints,finger,,M300_033,ok,0,3:M300_033:0:2,,,,True
+False,1,3,woodworking joint,biscuit,woodworking joints,biscuit,,M300_033,ok,1,3:M300_033:1:1,,,,True
+False,2,3,woodworking joint,biscuit,woodworking joints,biscuit,,M300_033,ok,1,3:M300_033:1:2,,,,True
+False,1,3,woodworking joint,scarf,woodworking joints,scarf,,M300_033,ok,2,3:M300_033:2:1,,,,True
+False,2,3,woodworking joint,scarf,woodworking joints,scarf,,M300_033,ok,2,3:M300_033:2:2,,,,True
+,,1,sandwich,grinder,,,"[""bench grinder"", ""spark"", ""grinding wheel"", ""sharpening"", ""metalworking""]",M300_034,ok,0,1:M300_034:0,False,False,,
+,,1,sandwich,slider,,,"[""mixing console"", ""fader"", ""audio mixer"", ""soundboard"", ""control panel""]",M300_034,ok,1,1:M300_034:1,False,False,,
+,,1,sandwich,wrap,,,"[""blanket"", ""shawl"", ""scarf"", ""wrap"", ""woman""]",M300_034,ok,2,1:M300_034:2,False,True,,
+False,1,3,sandwich,grinder,types of sandwiches,grinder,,M300_034,ok,0,3:M300_034:0:1,,,,True
+False,2,3,sandwich,grinder,types of sandwiches,grinder,,M300_034,ok,0,3:M300_034:0:2,,,,True
+False,1,3,sandwich,slider,types of sandwiches,slider,,M300_034,ok,1,3:M300_034:1:1,,,,True
+False,2,3,sandwich,slider,sandwiches,slider,,M300_034,ok,1,3:M300_034:1:2,,,,True
+False,1,3,sandwich,wrap,types of sandwiches,wrap,,M300_034,ok,2,3:M300_034:2:1,,,,True
+False,2,3,sandwich,wrap,types of sandwiches,wrap,,M300_034,ok,2,3:M300_034:2:2,,,,True
+,,1,pleat,knife,,,"[""kitchen knife"", ""chef's knife"", ""knife"", ""blade"", ""cutlery""]",M300_035,ok,0,1:M300_035:0,False,True,,
+,,1,pleat,box,,,"[""cardboard box"", ""box"", ""carton"", ""packaging"", ""moving box""]",M300_035,ok,1,1:M300_035:1,False,True,,
+,,1,pleat,accordion,,,"[""accordion"", ""musical instrument"", ""musician"", ""keyboard"", ""bellows""]",M300_035,ok,2,1:M300_035:2,True,True,,
+False,1,3,pleat,knife,types of pleats,knife,,M300_035,ok,0,3:M300_035:0:1,,,,True
+False,2,3,pleat,knife,types of pleats,knife,,M300_035,ok,0,3:M300_035:0:2,,,,True
+False,1,3,pleat,box,pleats,box,,M300_035,ok,1,3:M300_035:1:1,,,,True
+False,2,3,pleat,box,types of pleats,box,,M300_035,ok,1,3:M300_035:1:2,,,,True
+False,1,3,pleat,accordion,types of pleats,accordion,,M300_035,ok,2,3:M300_035:2:1,,,,True
+False,2,3,pleat,accordion,types of pleats,accordion,,M300_035,ok,2,3:M300_035:2:2,,,,True
+,,1,gear,worm,,,"[""earthworm"", ""soil"", ""compost"", ""hand"", ""vermicompost""]",M300_036,ok,0,1:M300_036:0,False,False,,
+,,1,gear,crown,,,"[""crown"", ""imperial crown"", ""regalia"", ""jewel"", ""diadem""]",M300_036,ok,1,1:M300_036:1,True,True,,
+,,1,gear,spur,,,"[""cowboy boot"", ""spur"", ""boot"", ""footwear"", ""leather boot""]",M300_036,ok,2,1:M300_036:2,False,True,,
+False,1,3,gear,worm,types of gears,worm,,M300_036,ok,0,3:M300_036:0:1,,,,True
+False,2,3,gear,worm,types of gears,worm,,M300_036,ok,0,3:M300_036:0:2,,,,True
+False,1,3,gear,crown,types of gears,crown,,M300_036,ok,1,3:M300_036:1:1,,,,True
+False,2,3,gear,crown,types of gears,crown,,M300_036,ok,1,3:M300_036:1:2,,,,True
+False,1,3,gear,spur,types of gears,spur,,M300_036,ok,2,3:M300_036:2:1,,,,True
+False,2,3,gear,spur,types of gears,spur,,M300_036,ok,2,3:M300_036:2:2,,,,True
+,,1,dwelling,flat,,,"[""flat tire"", ""tire"", ""wheel"", ""car wheel"", ""vehicle""]",M300_037,ok,0,1:M300_037:0,False,False,,
+,,1,dwelling,pad,,,"[""sanitary napkin"", ""menstrual pad"", ""feminine hygiene product"", ""panty liner"", ""sanitary towel""]",M300_037,ok,1,1:M300_037:1,False,False,,
+,,1,dwelling,trailer,,,"[""trailer"", ""tarpaulin"", ""utility trailer"", ""cargo trailer"", ""hedge""]",M300_037,ok,2,1:M300_037:2,True,True,,
+False,1,3,dwelling,flat,slang or words for apartment,flat,,M300_037,ok,0,3:M300_037:0:1,,,,True
+False,2,3,dwelling,flat,types of homes,flat,,M300_037,ok,0,3:M300_037:0:2,,,,True
+False,1,3,dwelling,pad,types of dwellings,pad,,M300_037,ok,1,3:M300_037:1:1,,,,True
+False,2,3,dwelling,pad,types of dwellings,pad,,M300_037,ok,1,3:M300_037:1:2,,,,True
+False,1,3,dwelling,trailer,types of housing,trailer,,M300_037,ok,2,3:M300_037:2:1,,,,True
+False,2,3,dwelling,trailer,types of homes,trailer,,M300_037,ok,2,3:M300_037:2:2,,,,True
+,,1,moth,carpet,,,"[""carpet"", ""rug"", ""kilim"", ""tapestry"", ""textile""]",M300_038,ok,0,1:M300_038:0,True,True,,
+,,1,moth,pug,,,"[""pug"", ""dog"", ""grass"", ""lawn"", ""pet""]",M300_038,ok,1,1:M300_038:1,True,True,,
+,,1,moth,dagger,,,"[""dagger"", ""knife"", ""sheath"", ""blade"", ""weapon""]",M300_038,ok,2,1:M300_038:2,True,True,,
+False,1,3,moth,carpet,athletes,runner,,M300_038,ok,0,3:M300_038:0:1,,,,False
+False,2,3,moth,carpet,moths,carpet,,M300_038,ok,0,3:M300_038:0:2,,,,True
+False,1,3,moth,pug,types of moths,pug,,M300_038,ok,1,3:M300_038:1:1,,,,True
+False,2,3,moth,pug,moths,pug,,M300_038,ok,1,3:M300_038:1:2,,,,True
+False,1,3,moth,dagger,moths,dagger,,M300_038,ok,2,3:M300_038:2:1,,,,True
+False,2,3,moth,dagger,types of moths,dagger,,M300_038,ok,2,3:M300_038:2:2,,,,True
+,,1,ammunition,shot,,,"[""shot glass"", ""whiskey"", ""bottle"", ""alcohol"", ""liquor""]",M300_039,ok,0,1:M300_039:0,False,False,,
+,,1,ammunition,slug,,,"[""snail"", ""gastropod"", ""mollusk"", ""leaf"", ""shell""]",M300_039,ok,1,1:M300_039:1,False,False,,
+,,1,ammunition,shell,,,"[""seashell"", ""sand"", ""beach"", ""sunset"", ""coast""]",M300_039,ok,2,1:M300_039:2,False,False,,
+True,1,3,ammunition,shot,ammunition,shot,,M300_039,ok,0,3:M300_039:0:1,,,,True
+True,2,3,ammunition,shot,ammunition,shot,,M300_039,ok,0,3:M300_039:0:2,,,,True
+False,1,3,ammunition,slug,pasta shapes,snail,,M300_039,ok,1,3:M300_039:1:1,,,,False
+True,2,3,ammunition,slug,ammunition,slug,,M300_039,ok,1,3:M300_039:1:2,,,,True
+True,1,3,ammunition,shell,ammunition,shell,,M300_039,ok,2,3:M300_039:2:1,,,,True
+True,2,3,ammunition,shell,ammunition,shell,,M300_039,ok,2,3:M300_039:2:2,,,,True
+,,1,valve,butterfly,,,"[""butterfly"", ""monarch butterfly"", ""flower"", ""insect"", ""petal""]",M300_040,ok,0,1:M300_040:0,True,True,,
+,,1,valve,ball,,,"[""soccer ball"", ""football"", ""ball"", ""sports ball"", ""wooden floor""]",M300_040,ok,1,1:M300_040:1,False,True,,
+,,1,valve,needle,,,"[""sewing needle"", ""needle"", ""thread"", ""spool of thread"", ""eye of a needle""]",M300_040,ok,2,1:M300_040:2,False,True,,
+False,1,3,valve,butterfly,types of valves,butterfly,,M300_040,ok,0,3:M300_040:0:1,,,,True
+False,2,3,valve,butterfly,types of valves,butterfly,,M300_040,ok,0,3:M300_040:0:2,,,,True
+False,1,3,valve,ball,types of bearings,ball,,M300_040,ok,1,3:M300_040:1:1,,,,True
+False,2,3,valve,ball,types of valves,ball,,M300_040,ok,1,3:M300_040:1:2,,,,True
+False,1,3,valve,needle,types of valves,needle,,M300_040,ok,2,3:M300_040:2:1,,,,True
+False,2,3,valve,needle,types of valves,needle,,M300_040,ok,2,3:M300_040:2:2,,,,True
+,,1,carriage,fly,,,"[""fly"", ""insect"", ""diptera"", ""bug"", ""arthropod""]",M300_041,ok,0,1:M300_041:0,True,True,,
+,,1,carriage,spider,,,"[""spider"", ""spiderweb"", ""arachnid"", ""invertebrate"", ""orb-weaver spider""]",M300_041,ok,1,1:M300_041:1,True,True,,
+,,1,carriage,buggy,,,"[""dune buggy"", ""sand dune"", ""all-terrain vehicle"", ""desert"", ""off-roading""]",M300_041,ok,2,1:M300_041:2,False,False,,
+False,1,3,carriage,fly,,fly,,M300_041,ok,0,3:M300_041:0:1,,,,True
+False,2,3,carriage,fly,horse-drawn carriages,fly,,M300_041,ok,0,3:M300_041:0:2,,,,True
+False,1,3,carriage,spider,computing,spider,,M300_041,ok,1,3:M300_041:1:1,,,,True
+False,2,3,carriage,spider,horse-drawn carriages,spider,,M300_041,ok,1,3:M300_041:1:2,,,,True
+False,1,3,carriage,buggy,types of horse-drawn carriages,buggy,,M300_041,ok,2,3:M300_041:2:1,,,,True
+False,2,3,carriage,buggy,horse-drawn carriages,buggy,,M300_041,ok,2,3:M300_041:2:2,,,,True
+,,1,pottery tool,bat,,,"[""flying fox"", ""fruit bat"", ""bat"", ""megabat"", ""mammal""]",M300_042,ok,0,1:M300_042:0,False,True,,
+,,1,pottery tool,rib,,,"[""skeleton"", ""rib cage"", ""bone"", ""rib"", ""torso""]",M300_042,ok,1,1:M300_042:1,False,True,,
+,,1,pottery tool,wire,,,"[""copper wire"", ""copper"", ""wire"", ""scrap metal"", ""metal wire""]",M300_042,ok,2,1:M300_042:2,False,True,,
+False,1,3,pottery tool,bat,pottery tools,bat,,M300_042,ok,0,3:M300_042:0:1,,,,True
+False,2,3,pottery tool,bat,pottery tools,bat,,M300_042,ok,0,3:M300_042:0:2,,,,True
+False,1,3,pottery tool,rib,television series,bone,,M300_042,ok,1,3:M300_042:1:1,,,,False
+False,2,3,pottery tool,rib,pottery tools,rib,,M300_042,ok,1,3:M300_042:1:2,,,,True
+False,1,3,pottery tool,wire,horse racing,wire,,M300_042,ok,2,3:M300_042:2:1,,,,True
+False,2,3,pottery tool,wire,pottery tools,wire,,M300_042,ok,2,3:M300_042:2:2,,,,True
+,,1,window,bay,,,"[""cove"", ""beach"", ""cliff"", ""sea"", ""bay""]",M300_043,ok,0,1:M300_043:0,False,True,,
+,,1,window,bow,,,"[""bow"", ""archery bow"", ""picnic table"", ""table"", ""recurve bow""]",M300_043,ok,1,1:M300_043:1,True,True,,
+,,1,window,rose,,,"[""rose"", ""flower"", ""rosebud"", ""plant"", ""garden""]",M300_043,ok,2,1:M300_043:2,True,True,,
+False,1,3,window,bay,types of windows,bay,,M300_043,ok,0,3:M300_043:0:1,,,,True
+False,2,3,window,bay,types of windows,bay,,M300_043,ok,0,3:M300_043:0:2,,,,True
+False,1,3,window,bow,gestures,bow,,M300_043,ok,1,3:M300_043:1:1,,,,True
+False,2,3,window,bow,types of windows,bow,,M300_043,ok,1,3:M300_043:1:2,,,,True
+False,1,3,window,rose,types of windows,rose,,M300_043,ok,2,3:M300_043:2:1,,,,True
+False,2,3,window,rose,types of windows,rose,,M300_043,ok,2,3:M300_043:2:2,,,,True
+,,1,hinge,butt,,,"[""ashtray"", ""cigarette"", ""ash"", ""cigarette butt"", ""glass""]",M300_044,ok,0,1:M300_044:0,False,False,,
+,,1,hinge,piano,,,"[""piano"", ""keyboard"", ""piano key"", ""musical instrument"", ""upright piano""]",M300_044,ok,1,1:M300_044:1,True,True,,
+,,1,hinge,strap,,,"[""watch band"", ""strap"", ""wristband"", ""watch strap"", ""rubber strap""]",M300_044,ok,2,1:M300_044:2,False,True,,
+False,1,3,hinge,butt,types of hinges,butt,,M300_044,ok,0,3:M300_044:0:1,,,,True
+False,2,3,hinge,butt,hinges,butt,,M300_044,ok,0,3:M300_044:0:2,,,,True
+False,1,3,hinge,piano,slang terms or units for money,grand,,M300_044,ok,1,3:M300_044:1:1,,,,False
+False,2,3,hinge,piano,types of hinges,piano,,M300_044,ok,1,3:M300_044:1:2,,,,True
+False,1,3,hinge,strap,types of hinges,strap,,M300_044,ok,2,3:M300_044:2:1,,,,True
+False,2,3,hinge,strap,hinges,strap,,M300_044,ok,2,3:M300_044:2:2,,,,True
+,,1,plumbing equipment,snake,,,"[""snake"", ""serpent"", ""reptile"", ""viper"", ""ground""]",M300_045,ok,0,1:M300_045:0,True,True,,
+,,1,plumbing equipment,nipple,,,"[""pacifier"", ""baby pacifier"", ""soother"", ""teether"", ""baby dummy""]",M300_045,ok,1,1:M300_045:1,False,False,,
+,,1,plumbing equipment,torch,,,"[""torch"", ""fire"", ""flame"", ""burning torch"", ""blaze""]",M300_045,ok,2,1:M300_045:2,True,True,,
+False,1,3,plumbing equipment,snake,plumbing terms,snake,,M300_045,ok,0,3:M300_045:0:1,,,,True
+False,2,3,plumbing equipment,snake,plumbing,snake,,M300_045,ok,0,3:M300_045:0:2,,,,True
+False,1,3,plumbing equipment,nipple,British terms for American English words,dummy,,M300_045,ok,1,3:M300_045:1:1,,,,False
+False,2,3,plumbing equipment,nipple,plumbing,dummy,,M300_045,ok,1,3:M300_045:1:2,,,,False
+False,1,3,plumbing equipment,torch,plumbing tools,torch,,M300_045,ok,2,3:M300_045:2:1,,,,True
+False,2,3,plumbing equipment,torch,plumbing,torch,,M300_045,ok,2,3:M300_045:2:2,,,,True
+,,1,coat,trench,,,"[""trench"", ""ditch"", ""man"", ""soil"", ""farmland""]",M300_047,ok,0,1:M300_047:0,True,True,,
+,,1,coat,mac,,,"[""laptop"", ""MacBook"", ""computer"", ""notebook"", ""device""]",M300_047,ok,1,1:M300_047:1,False,False,,
+,,1,coat,duster,,,"[""duster"", ""feather duster"", ""cleaning tool"", ""hand"", ""cleaning""]",M300_047,ok,2,1:M300_047:2,True,True,,
+False,1,3,coat,trench,types of coats,trench,,M300_047,ok,0,3:M300_047:0:1,,,,True
+False,2,3,coat,trench,types of coats,trench,,M300_047,ok,0,3:M300_047:0:2,,,,True
+False,1,3,coat,mac,types of coats,mac,,M300_047,ok,1,3:M300_047:1:1,,,,True
+False,2,3,coat,mac,types of coats,mac,,M300_047,ok,1,3:M300_047:1:2,,,,True
+False,1,3,coat,duster,types of coats,duster,,M300_047,ok,2,3:M300_047:2:1,,,,True
+False,2,3,coat,duster,types of coats,duster,,M300_047,ok,2,3:M300_047:2:2,,,,True
+,,1,fastener,frog,,,"[""tree frog"", ""frog"", ""amphibian"", ""leaf"", ""plant""]",M300_048,ok,0,1:M300_048:0,False,True,,
+,,1,fastener,toggle,,,"[""light switch"", ""switch"", ""wall switch"", ""electrical switch"", ""toggle switch""]",M300_048,ok,1,1:M300_048:1,False,False,,
+,,1,fastener,snap,,,"[""smartphone"", ""mobile phone"", ""Snapchat"", ""screen"", ""gadget""]",M300_048,ok,2,1:M300_048:2,False,False,,
+False,1,3,fastener,frog,clothing fasteners,frog,,M300_048,ok,0,3:M300_048:0:1,,,,True
+False,2,3,fastener,frog,clothing fasteners,frog,,M300_048,ok,0,3:M300_048:0:2,,,,True
+False,1,3,fastener,toggle,card games,switch,,M300_048,ok,1,3:M300_048:1:1,,,,False
+False,2,3,fastener,toggle,clothing fasteners,toggle,,M300_048,ok,1,3:M300_048:1:2,,,,True
+False,1,3,fastener,snap,fasteners,snap,,M300_048,ok,2,3:M300_048:2:1,,,,True
+False,2,3,fastener,snap,types of fasteners,snap,,M300_048,ok,2,3:M300_048:2:2,,,,True
+,,1,lure,plug,,,"[""charger"", ""power plug"", ""adapter"", ""battery charger"", ""power cord""]",M300_050,ok,0,1:M300_050:0,False,False,,
+,,1,lure,spoon,,,"[""wooden spoon"", ""spoon"", ""wall art"", ""wood carving"", ""cutlery""]",M300_050,ok,1,1:M300_050:1,False,True,,
+,,1,lure,spinner,,,"[""fidget spinner"", ""toy"", ""spinner"", ""gadget"", ""plastic toy""]",M300_050,ok,2,1:M300_050:2,False,True,,
+False,1,3,lure,plug,fishing lures,plug,,M300_050,ok,0,3:M300_050:0:1,,,,True
+False,2,3,lure,plug,fishing lures,plug,,M300_050,ok,0,3:M300_050:0:2,,,,True
+False,1,3,lure,spoon,types of fishing lures,spoon,,M300_050,ok,1,3:M300_050:1:1,,,,True
+False,2,3,lure,spoon,types of fishing lures,spoon,,M300_050,ok,1,3:M300_050:1:2,,,,True
+False,1,3,lure,spinner,types of fishing lures,spinner,,M300_050,ok,2,3:M300_050:2:1,,,,True
+False,2,3,lure,spinner,fishing lures,spinner,,M300_050,ok,2,3:M300_050:2:2,,,,True
+,,1,ear piercing,rook,,,"[""rook"", ""chess piece"", ""chessboard"", ""chess"", ""board game""]",M300_051,ok,0,1:M300_051:0,True,True,,
+,,1,ear piercing,helix,,,"[""spiral staircase"", ""staircase"", ""spiral"", ""lighthouse"", ""architecture""]",M300_051,ok,1,1:M300_051:1,False,False,,
+,,1,ear piercing,industrial,,,"[""chimney"", ""smoke"", ""power plant"", ""factory"", ""air pollution""]",M300_051,ok,2,1:M300_051:2,False,False,,
+False,1,3,ear piercing,rook,ear piercings,rook,,M300_051,ok,0,3:M300_051:0:1,,,,True
+False,2,3,ear piercing,rook,ear piercings,rook,,M300_051,ok,0,3:M300_051:0:2,,,,True
+False,1,3,ear piercing,helix,types of ear piercings,helix,,M300_051,ok,1,3:M300_051:1:1,,,,True
+False,2,3,ear piercing,helix,ear piercings,helix,,M300_051,ok,1,3:M300_051:1:2,,,,True
+False,1,3,ear piercing,industrial,cheat,shaft,,M300_051,ok,2,3:M300_051:2:1,,,,False
+False,2,3,ear piercing,industrial,ear piercings,industrial,,M300_051,ok,2,3:M300_051:2:2,,,,True
+,,1,bird,bill,,,"[""receipt"", ""banknote"", ""money"", ""paper"", ""expense""]",M300_052,ok,0,1:M300_052:0,False,False,,
+,,1,bird,crop,,,"[""wheat"", ""wheat field"", ""grain"", ""cereal"", ""crop""]",M300_052,ok,1,1:M300_052:1,False,True,,
+,,1,bird,comb,,,"[""comb"", ""hair comb"", ""toiletry"", ""plastic comb"", ""hairbrush""]",M300_052,ok,2,1:M300_052:2,True,True,,
+False,1,3,bird,bill,bird anatomy,bill,,M300_052,ok,0,3:M300_052:0:1,,,,True
+False,2,3,bird,bill,bird anatomy,bill,,M300_052,ok,0,3:M300_052:0:2,,,,True
+False,1,3,bird,crop,bird anatomy,crop,,M300_052,ok,1,3:M300_052:1:1,,,,True
+False,2,3,bird,crop,bird anatomy,crop,,M300_052,ok,1,3:M300_052:1:2,,,,True
+False,1,3,bird,comb,parts of a bird,comb,,M300_052,ok,2,3:M300_052:2:1,,,,True
+False,2,3,bird,comb,bird anatomy,comb,,M300_052,ok,2,3:M300_052:2:2,,,,True
+,,1,songbird,dipper,,,"[""water ladle"", ""ladle"", ""hishaku"", ""bamboo"", ""water basin""]",M300_053,ok,0,1:M300_053:0,False,False,,
+,,1,songbird,thrasher,,,"[""chaff cutter"", ""agricultural machinery"", ""wood chipper"", ""farm implement"", ""field""]",M300_053,ok,1,1:M300_053:1,False,False,,
+,,1,songbird,weaver,,,"[""loom"", ""weaver"", ""weaving"", ""textile"", ""handicraft""]",M300_053,ok,2,1:M300_053:2,False,True,,
+False,1,3,songbird,dipper,birds,dipper,,M300_053,ok,0,3:M300_053:0:1,,,,True
+False,2,3,songbird,dipper,birds,dipper,,M300_053,ok,0,3:M300_053:0:2,,,,True
+False,1,3,songbird,thrasher,birds,thrasher,,M300_053,ok,1,3:M300_053:1:1,,,,True
+False,2,3,songbird,thrasher,birds,thrasher,,M300_053,ok,1,3:M300_053:1:2,,,,True
+False,1,3,songbird,weaver,birds,weaver,,M300_053,ok,2,3:M300_053:2:1,,,,True
+False,2,3,songbird,weaver,birds,weaver,,M300_053,ok,2,3:M300_053:2:2,,,,True
+,,1,earring,stud,,,"[""construction site"", ""steel stud"", ""renovation"", ""framing"", ""room""]",M300_055,ok,0,1:M300_055:0,False,False,,
+,,1,earring,crawler,,,"[""crawler track"", ""caterpillar tread"", ""heavy machinery"", ""undercarriage"", ""tracked vehicle""]",M300_055,ok,1,1:M300_055:1,False,False,,
+,,1,earring,drop,,,"[""water drop"", ""dewdrop"", ""leaf"", ""dew"", ""moisture""]",M300_055,ok,2,1:M300_055:2,False,False,,
+False,1,3,earring,stud,software development,framework,,M300_055,ok,0,3:M300_055:0:1,,,,False
+False,2,3,earring,stud,types of earrings,stud,,M300_055,ok,0,3:M300_055:0:2,,,,True
+False,1,3,earring,crawler,music,track,,M300_055,ok,1,3:M300_055:1:1,,,,False
+False,2,3,earring,crawler,earring styles,crawler,,M300_055,ok,1,3:M300_055:1:2,,,,True
+False,1,3,earring,drop,types of earrings,drop,,M300_055,ok,2,3:M300_055:2:1,,,,True
+False,2,3,earring,drop,earring styles,drop,,M300_055,ok,2,3:M300_055:2:2,,,,True
+,,1,paper,tissue,,,"[""plant tissue"", ""resin canal"", ""cell structure"", ""microscopic section"", ""tracheid""]",M300_057,ok,0,1:M300_057:0,False,False,,
+,,1,paper,butcher,,,"[""butcher"", ""butcher shop"", ""meat"", ""pork"", ""market stall""]",M300_057,ok,1,1:M300_057:1,True,True,,
+,,1,paper,carbon,,,"[""charcoal"", ""coal"", ""wood charcoal"", ""embers"", ""carbon""]",M300_057,ok,2,1:M300_057:2,False,True,,
+False,1,3,paper,tissue,cricketers,wood,,M300_057,ok,0,3:M300_057:0:1,,,,False
+False,2,3,paper,tissue,types of paper,tissue,,M300_057,ok,0,3:M300_057:0:2,,,,True
+False,1,3,paper,butcher,types of paper,butcher,,M300_057,ok,1,3:M300_057:1:1,,,,True
+False,2,3,paper,butcher,types of paper,butcher,,M300_057,ok,1,3:M300_057:1:2,,,,True
+False,1,3,paper,carbon,types of paper,carbon,,M300_057,ok,2,3:M300_057:2:1,,,,True
+False,2,3,paper,carbon,paper types,carbon,,M300_057,ok,2,3:M300_057:2:2,,,,True
+,,1,paddle,wing,,,"[""bird wing"", ""wing"", ""feather"", ""cormorant"", ""bird""]",M300_058,ok,0,1:M300_058:0,False,True,,
+,,1,paddle,spoon,,,"[""spoon"", ""teaspoon"", ""cutlery"", ""silverware"", ""tableware""]",M300_058,ok,1,1:M300_058:1,True,True,,
+,,1,paddle,feather,,,"[""peacock feather"", ""feather"", ""plumage"", ""peacock"", ""bird feather""]",M300_058,ok,2,1:M300_058:2,False,True,,
+False,1,3,paddle,wing,types of chairs,wing,,M300_058,ok,0,3:M300_058:0:1,,,,True
+False,2,3,paddle,wing,kayak paddles,wing,,M300_058,ok,0,3:M300_058:0:2,,,,True
+False,1,3,paddle,spoon,rowing,spoon,,M300_058,ok,1,3:M300_058:1:1,,,,True
+False,2,3,paddle,spoon,rowing terms,spoon,,M300_058,ok,1,3:M300_058:1:2,,,,True
+False,1,3,paddle,feather,airplane parts,tail,,M300_058,ok,2,3:M300_058:2:1,,,,False
+False,2,3,paddle,feather,rowing,feather,,M300_058,ok,2,3:M300_058:2:2,,,,True
+,,1,bee,carpenter,,,"[""carpenter"", ""workshop"", ""woodworking"", ""workbench"", ""tool""]",M300_059,ok,0,1:M300_059:0,True,True,,
+,,1,bee,miner,,,"[""coal miner"", ""miner"", ""man"", ""laborer"", ""coal""]",M300_059,ok,1,1:M300_059:1,False,True,,
+,,1,bee,cuckoo,,,"[""hawk-cuckoo"", ""cuckoo"", ""bird"", ""wildlife"", ""perch""]",M300_059,ok,2,1:M300_059:2,False,True,,
+False,1,3,bee,carpenter,types of bees,carpenter,,M300_059,ok,0,3:M300_059:0:1,,,,True
+False,2,3,bee,carpenter,types of bees,carpenter,,M300_059,ok,0,3:M300_059:0:2,,,,True
+False,1,3,bee,miner,birds,miner,,M300_059,ok,1,3:M300_059:1:1,,,,True
+False,2,3,bee,miner,types of bees,miner,,M300_059,ok,1,3:M300_059:1:2,,,,True
+False,1,3,bee,cuckoo,types of bees,cuckoo,,M300_059,ok,2,3:M300_059:2:1,,,,True
+False,2,3,bee,cuckoo,types of bees,cuckoo,,M300_059,ok,2,3:M300_059:2:2,,,,True
+,,1,puppet,finger,,,"[""finger"", ""hand"", ""index finger"", ""gesture"", ""arm""]",M300_060,ok,0,1:M300_060:0,True,True,,
+,,1,puppet,glove,,,"[""glove"", ""hand"", ""winter glove"", ""snow"", ""jacket""]",M300_060,ok,1,1:M300_060:1,True,True,,
+,,1,puppet,rod,,,"[""fishing rod"", ""fishing reel"", ""sea"", ""rock"", ""horizon""]",M300_060,ok,2,1:M300_060:2,False,False,,
+False,1,3,puppet,finger,puppets,finger,,M300_060,ok,0,3:M300_060:0:1,,,,True
+False,2,3,puppet,finger,units of measurement,finger,,M300_060,ok,0,3:M300_060:0:2,,,,True
+False,1,3,puppet,glove,units of length,hand,,M300_060,ok,1,3:M300_060:1:1,,,,False
+False,2,3,puppet,glove,units of length,hand,,M300_060,ok,1,3:M300_060:1:2,,,,False
+False,1,3,puppet,rod,units of length,rod,,M300_060,ok,2,3:M300_060:2:1,,,,True
+False,2,3,puppet,rod,types of puppets,rod,,M300_060,ok,2,3:M300_060:2:2,,,,True
+,,1,succulent,string,,,"[""twine"", ""string"", ""rope"", ""cord"", ""yarn""]",M300_061,ok,0,1:M300_061:0,False,True,,
+,,1,succulent,paddle,,,"[""paddle"", ""canoe"", ""lake"", ""oar"", ""watercraft""]",M300_061,ok,1,1:M300_061:1,True,True,,
+,,1,succulent,jade,,,"[""pendant"", ""jade"", ""amulet"", ""souvenir"", ""necklace""]",M300_061,ok,2,1:M300_061:2,False,True,,
+False,1,3,succulent,string,racquet sports,string,,M300_061,ok,0,3:M300_061:0:1,,,,True
+False,2,3,succulent,string,succulents,string,,M300_061,ok,0,3:M300_061:0:2,,,,True
+False,1,3,succulent,paddle,superheroes,blade,,M300_061,ok,1,3:M300_061:1:1,,,,False
+False,2,3,succulent,paddle,types of succulents,paddle,,M300_061,ok,1,3:M300_061:1:2,,,,True
+False,1,3,succulent,jade,colors,jade,,M300_061,ok,2,3:M300_061:2:1,,,,True
+False,2,3,succulent,jade,succulents,jade,,M300_061,ok,2,3:M300_061:2:2,,,,True
+,,1,cosmetics,shadow,,,"[""shadow"", ""silhouette"", ""pavement"", ""asphalt"", ""ground""]",M300_063,ok,0,1:M300_063:0,True,True,,
+,,1,cosmetics,foundation,,,"[""construction site"", ""excavator"", ""foundation"", ""rebar"", ""stairs""]",M300_063,ok,1,1:M300_063:1,False,True,,
+,,1,cosmetics,highlighter,,,"[""highlighter"", ""book"", ""hand"", ""study"", ""reading""]",M300_063,ok,2,1:M300_063:2,True,True,,
+False,1,3,cosmetics,shadow,makeup,shadow,,M300_063,ok,0,3:M300_063:0:1,,,,True
+False,2,3,cosmetics,shadow,makeup,shadow,,M300_063,ok,0,3:M300_063:0:2,,,,True
+False,1,3,cosmetics,foundation,makeup,foundation,,M300_063,ok,1,3:M300_063:1:1,,,,True
+False,2,3,cosmetics,foundation,makeup,foundation,,M300_063,ok,1,3:M300_063:1:2,,,,True
+False,1,3,cosmetics,highlighter,photography and lighting,highlight,,M300_063,ok,2,3:M300_063:2:1,,,,False
+True,2,3,cosmetics,highlighter,cosmetics,highlighter,,M300_063,ok,2,3:M300_063:2:2,,,,True
+,,1,playground equipment,slide,,,"[""microscope slide"", ""specimen"", ""sample"", ""glove"", ""laboratory""]",M300_064,ok,0,1:M300_064:0,False,False,,
+,,1,playground equipment,swing,,,"[""golfer"", ""golf swing"", ""golf club"", ""golf ball"", ""golf course""]",M300_064,ok,1,1:M300_064:1,False,False,,
+,,1,playground equipment,spinner,,,"[""fidget spinner"", ""toy"", ""hand"", ""spinning"", ""finger""]",M300_064,ok,2,1:M300_064:2,False,False,,
+True,1,3,playground equipment,slide,playground equipment,slide,,M300_064,ok,0,3:M300_064:0:1,,,,True
+True,2,3,playground equipment,slide,playground equipment,slide,,M300_064,ok,0,3:M300_064:0:2,,,,True
+False,1,3,playground equipment,swing,cricket,swing,,M300_064,ok,1,3:M300_064:1:1,,,,True
+True,2,3,playground equipment,swing,playground equipment,swing,,M300_064,ok,1,3:M300_064:1:2,,,,True
+True,1,3,playground equipment,spinner,playground equipment,spinner,,M300_064,ok,2,3:M300_064:2:1,,,,True
+True,2,3,playground equipment,spinner,playground equipment,spinner,,M300_064,ok,2,3:M300_064:2:2,,,,True
+,,1,club,bat,,,"[""flying fox"", ""fruit bat"", ""bat"", ""tree branch"", ""orange""]",M300_065,ok,0,1:M300_065:0,False,True,,
+,,1,club,sap,,,"[""tree sap"", ""resin"", ""tree bark"", ""sap"", ""kino""]",M300_065,ok,1,1:M300_065:1,False,True,,
+,,1,club,cane,,,"[""walking stick"", ""cane"", ""walking cane"", ""handle"", ""crutch""]",M300_065,ok,2,1:M300_065:2,False,True,,
+False,1,3,club,bat,blunt weapons,bat,,M300_065,ok,0,3:M300_065:0:1,,,,True
+False,2,3,club,bat,blunt weapons,bat,,M300_065,ok,0,3:M300_065:0:2,,,,True
+False,1,3,club,sap,types of candy,gum,,M300_065,ok,1,3:M300_065:1:1,,,,False
+False,2,3,club,sap,blunt weapons,sap,,M300_065,ok,1,3:M300_065:1:2,,,,True
+False,1,3,club,cane,sports equipment,stick,,M300_065,ok,2,3:M300_065:2:1,,,,False
+False,2,3,club,cane,blunt weapons,cane,,M300_065,ok,2,3:M300_065:2:2,,,,True
+,,1,gymnastics apparatus,ribbon,,,"[""ribbon"", ""gift box"", ""bow"", ""package"", ""present""]",M300_068,ok,0,1:M300_068:0,True,True,,
+,,1,gymnastics apparatus,beam,,,"[""wooden beam"", ""ceiling"", ""architecture"", ""column"", ""canopy""]",M300_068,ok,1,1:M300_068:1,False,False,,
+,,1,gymnastics apparatus,hoop,,,"[""basketball hoop"", ""basketball net"", ""backboard"", ""rim"", ""basketball court""]",M300_068,ok,2,1:M300_068:2,False,False,,
+False,1,3,gymnastics apparatus,ribbon,parts of a ship,bow,,M300_068,ok,0,3:M300_068:0:1,,,,False
+True,2,3,gymnastics apparatus,ribbon,gymnastics apparatus,ribbon,,M300_068,ok,0,3:M300_068:0:2,,,,True
+True,1,3,gymnastics apparatus,beam,gymnastics apparatus,beam,,M300_068,ok,1,3:M300_068:1:1,,,,True
+False,2,3,gymnastics apparatus,beam,parts of a maypole,pole,,M300_068,ok,1,3:M300_068:1:2,,,,False
+False,1,3,gymnastics apparatus,hoop,rhythmic gymnastics apparatus,hoop,,M300_068,ok,2,3:M300_068:2:1,,,,True
+True,2,3,gymnastics apparatus,hoop,gymnastics apparatus,hoop,,M300_068,ok,2,3:M300_068:2:2,,,,True
+,,1,seal,harp,,,"[""harp"", ""string instrument"", ""musical instrument"", ""library"", ""bookcase""]",M300_069,ok,0,1:M300_069:0,True,True,,
+,,1,seal,ribbon,,,"[""ribbon"", ""satin ribbon"", ""fabric"", ""textile"", ""curling""]",M300_069,ok,1,1:M300_069:1,True,True,,
+,,1,seal,elephant,,,"[""elephant"", ""African bush elephant"", ""savanna"", ""mammal"", ""wildlife""]",M300_069,ok,2,1:M300_069:2,True,True,,
+False,1,3,seal,harp,types of seals,harp,,M300_069,ok,0,3:M300_069:0:1,,,,True
+False,2,3,seal,harp,types of seals,harp,,M300_069,ok,0,3:M300_069:0:2,,,,True
+False,1,3,seal,ribbon,types of seals,ribbon,,M300_069,ok,1,3:M300_069:1:1,,,,True
+False,2,3,seal,ribbon,types of seals,ribbon,,M300_069,ok,1,3:M300_069:1:2,,,,True
+False,1,3,seal,elephant,types of seals,elephant,,M300_069,ok,2,3:M300_069:2:1,,,,True
+False,2,3,seal,elephant,types of seals,elephant,,M300_069,ok,2,3:M300_069:2:2,,,,True
+,,1,sleeve,trumpet,,,"[""trumpet"", ""brass instrument"", ""musician"", ""cornet"", ""music""]",M300_070,ok,0,1:M300_070:0,True,True,,
+,,1,sleeve,lantern,,,"[""Lantern"", ""Kerosene lamp"", ""Campsite"", ""Camping"", ""Fire""]",M300_070,ok,1,1:M300_070:1,True,True,,
+,,1,sleeve,cap,,,"[""baseball cap"", ""cap"", ""hat"", ""shelf"", ""headgear""]",M300_070,ok,2,1:M300_070:2,False,True,,
+False,1,3,sleeve,trumpet,fish,trumpet,,M300_070,ok,0,3:M300_070:0:1,,,,True
+False,2,3,sleeve,trumpet,types of mushrooms,trumpet,,M300_070,ok,0,3:M300_070:0:2,,,,True
+False,1,3,sleeve,lantern,superheroes,lantern,,M300_070,ok,1,3:M300_070:1:1,,,,True
+False,2,3,sleeve,lantern,mushrooms,lantern,,M300_070,ok,1,3:M300_070:1:2,,,,True
+False,1,3,sleeve,cap,mushrooms,cap,,M300_070,ok,2,3:M300_070:2:1,,,,True
+False,2,3,sleeve,cap,mushrooms,cap,,M300_070,ok,2,3:M300_070:2:2,,,,True
+,,1,mollusk,slug,,,"[""shotgun"", ""firearm"", ""weapon"", ""gun"", ""rifle""]",M300_072,ok,0,1:M300_072:0,False,False,,
+,,1,mollusk,clam,,,"[""flip phone"", ""mobile phone"", ""cell phone"", ""telephone"", ""hand""]",M300_072,ok,1,1:M300_072:1,False,False,,
+,,1,mollusk,squid,,,"[""squid game symbol"", ""geometric shape"", ""symbol"", ""minimalist art"", ""emblem""]",M300_072,ok,2,1:M300_072:2,False,False,,
+False,1,3,mollusk,slug,shells,shotgun,,M300_072,ok,0,3:M300_072:0:1,,,,False
+False,2,3,mollusk,slug,mollusks,slug,,M300_072,ok,0,3:M300_072:0:2,,,,True
+False,1,3,mollusk,clam,mollusks,clam,,M300_072,ok,1,3:M300_072:1:1,,,,True
+False,2,3,mollusk,clam,mollusks,clam,,M300_072,ok,1,3:M300_072:1:2,,,,True
+False,1,3,mollusk,squid,mollusks,squid,,M300_072,ok,2,3:M300_072:2:1,,,,True
+False,2,3,mollusk,squid,mollusks,squid,,M300_072,ok,2,3:M300_072:2:2,,,,True
+,,1,sauce,mole,,,"[""mole"", ""mammal"", ""animal"", ""claw"", ""snout""]",M300_073,ok,0,1:M300_073:0,True,True,,
+,,1,sauce,salsa,,,"[""dancer"", ""couple"", ""ballroom dance"", ""costume"", ""performer""]",M300_073,ok,1,1:M300_073:1,False,False,,
+,,1,sauce,dressing,,,"[""bandage"", ""gauze"", ""first aid"", ""wrist"", ""hand""]",M300_073,ok,2,1:M300_073:2,False,False,,
+False,1,3,sauce,mole,Mexican sauces,mole,,M300_073,ok,0,3:M300_073:0:1,,,,True
+False,2,3,sauce,mole,sauces,mole,,M300_073,ok,0,3:M300_073:0:2,,,,True
+False,1,3,sauce,salsa,condiments,salsa,,M300_073,ok,1,3:M300_073:1:1,,,,True
+False,2,3,sauce,salsa,sauces,salsa,,M300_073,ok,1,3:M300_073:1:2,,,,True
+False,1,3,sauce,dressing,sauces,dressing,,M300_073,ok,2,3:M300_073:2:1,,,,True
+False,2,3,sauce,dressing,sauces,dressing,,M300_073,ok,2,3:M300_073:2:2,,,,True
+,,1,pork cut,chop,,,"[""brick"", ""board breaking"", ""wood"", ""karate chop"", ""martial arts""]",M300_075,ok,0,1:M300_075:0,False,False,,
+,,1,pork cut,cushion,,,"[""throw pillow"", ""cushion"", ""blanket"", ""sofa"", ""pillow""]",M300_075,ok,1,1:M300_075:1,False,True,,
+,,1,pork cut,butt,,,"[""cigarette butt"", ""cigarette"", ""ash"", ""litter"", ""stone""]",M300_075,ok,2,1:M300_075:2,False,False,,
+False,1,3,pork cut,chop,billiards terms,break,,M300_075,ok,0,3:M300_075:0:1,,,,False
+False,2,3,pork cut,chop,billiards terms,break,,M300_075,ok,0,3:M300_075:0:2,,,,False
+False,1,3,pork cut,cushion,billiards terms,cushion,,M300_075,ok,1,3:M300_075:1:1,,,,True
+False,2,3,pork cut,cushion,cuts of pork,cushion,,M300_075,ok,1,3:M300_075:1:2,,,,True
+False,1,3,pork cut,butt,cuts of pork,butt,,M300_075,ok,2,3:M300_075:2:1,,,,True
+False,2,3,pork cut,butt,cuts of meat,butt,,M300_075,ok,2,3:M300_075:2:2,,,,True
+,,1,woodwind instrument,pipe,,,"[""pipe fitting"", ""elbow"", ""brass fitting"", ""plumbing hardware"", ""metal pipe""]",M300_076,ok,0,1:M300_076:0,False,False,,
+,,1,woodwind instrument,recorder,,,"[""voice recorder"", ""audio recorder"", ""dictaphone"", ""microphone"", ""gadget""]",M300_076,ok,1,1:M300_076:1,False,False,,
+,,1,woodwind instrument,whistle,,,"[""whistle"", ""referee"", ""coach"", ""mouth"", ""hand""]",M300_076,ok,2,1:M300_076:2,True,True,,
+False,1,3,woodwind instrument,pipe,musical instruments,pipe,,M300_076,ok,0,3:M300_076:0:1,,,,True
+False,2,3,woodwind instrument,pipe,wind instruments,pipe,,M300_076,ok,0,3:M300_076:0:2,,,,True
+False,1,3,woodwind instrument,recorder,woodwind instruments,recorder,,M300_076,ok,1,3:M300_076:1:1,,,,True
+False,2,3,woodwind instrument,recorder,wind instruments,recorder,,M300_076,ok,1,3:M300_076:1:2,,,,True
+False,1,3,woodwind instrument,whistle,wind instruments,whistle,,M300_076,ok,2,3:M300_076:2:1,,,,True
+False,2,3,woodwind instrument,whistle,wind instruments,whistle,,M300_076,ok,2,3:M300_076:2:2,,,,True
+,,1,jacket,blazer,,,"[""SUV"", ""Car"", ""Vehicle"", ""Automobile"", ""Crossover""]",M300_077,ok,0,1:M300_077:0,False,False,,
+,,1,jacket,bomber,,,"[""stealth bomber"", ""bomber"", ""military aircraft"", ""airplane"", ""flying wing""]",M300_077,ok,1,1:M300_077:1,False,True,,
+,,1,jacket,cardigan,,,"[""Pembroke Welsh Corgi"", ""corgi"", ""dog"", ""lawn"", ""lavender""]",M300_077,ok,2,1:M300_077:2,False,False,,
+False,1,3,jacket,blazer,jackets,blazer,,M300_077,ok,0,3:M300_077:0:1,,,,True
+False,2,3,jacket,blazer,types of jackets,blazer,,M300_077,ok,0,3:M300_077:0:2,,,,True
+False,1,3,jacket,bomber,types of jackets,bomber,,M300_077,ok,1,3:M300_077:1:1,,,,True
+False,2,3,jacket,bomber,types of jackets,bomber,,M300_077,ok,1,3:M300_077:1:2,,,,True
+False,1,3,jacket,cardigan,clothing,cardigan,,M300_077,ok,2,3:M300_077:2:1,,,,True
+False,2,3,jacket,cardigan,types of jackets,cardigan,,M300_077,ok,2,3:M300_077:2:2,,,,True
+,,1,hairstyle,bun,,,"[""bun"", ""bread"", ""sesame seed"", ""bread roll"", ""pastry""]",M300_078,ok,0,1:M300_078:0,True,True,,
+,,1,hairstyle,mullet,,,"[""fish"", ""mullet"", ""marine life"", ""underwater fauna"", ""fin""]",M300_078,ok,1,1:M300_078:1,False,True,,
+,,1,hairstyle,beehive,,,"[""beehive"", ""apiary"", ""bee yard"", ""wooden box"", ""nature""]",M300_078,ok,2,1:M300_078:2,True,True,,
+False,1,3,hairstyle,bun,hairstyles,bun,,M300_078,ok,0,3:M300_078:0:1,,,,True
+False,2,3,hairstyle,bun,hairstyles,bun,,M300_078,ok,0,3:M300_078:0:2,,,,True
+False,1,3,hairstyle,mullet,hairstyles,mullet,,M300_078,ok,1,3:M300_078:1:1,,,,True
+False,2,3,hairstyle,mullet,hairstyles,mullet,,M300_078,ok,1,3:M300_078:1:2,,,,True
+False,1,3,hairstyle,beehive,hairstyles,beehive,,M300_078,ok,2,3:M300_078:2:1,,,,True
+False,2,3,hairstyle,beehive,hairstyles,beehive,,M300_078,ok,2,3:M300_078:2:2,,,,True
+,,1,paintbrush,sword,,,"[""sword"", ""weapon"", ""statue"", ""hand"", ""blade""]",M300_079,ok,0,1:M300_079:0,True,True,,
+,,1,paintbrush,fan,,,"[""desk fan"", ""electric fan"", ""fan"", ""table fan"", ""appliance""]",M300_079,ok,1,1:M300_079:1,False,True,,
+,,1,paintbrush,dagger,,,"[""dagger"", ""knife"", ""sheath"", ""blade"", ""weapon""]",M300_079,ok,2,1:M300_079:2,True,True,,
+False,1,3,paintbrush,sword,weapons,sword,,M300_079,ok,0,3:M300_079:0:1,,,,True
+False,2,3,paintbrush,sword,weapons,sword,,M300_079,ok,0,3:M300_079:0:2,,,,True
+False,1,3,paintbrush,fan,weapons,fan,,M300_079,ok,1,3:M300_079:1:1,,,,True
+False,2,3,paintbrush,fan,traditional weapons,fan,,M300_079,ok,1,3:M300_079:1:2,,,,True
+False,1,3,paintbrush,dagger,,dagger,,M300_079,ok,2,3:M300_079:2:1,,,,True
+False,2,3,paintbrush,dagger,weapons,dagger,,M300_079,ok,2,3:M300_079:2:2,,,,True
+,,1,hat,bowler,,,"[""bowling ball"", ""bowling alley"", ""bowler"", ""bowling lane"", ""denim jacket""]",M300_080,ok,0,1:M300_080:0,False,True,,
+,,1,hat,pillbox,,,"[""pill organizer"", ""pill"", ""capsule"", ""medication"", ""hand""]",M300_080,ok,1,1:M300_080:1,False,False,,
+,,1,hat,boater,,,"[""canoe"", ""canoeing"", ""lake"", ""paddler"", ""mountain""]",M300_080,ok,2,1:M300_080:2,False,False,,
+False,1,3,hat,bowler,types of hats,bowler,,M300_080,ok,0,3:M300_080:0:1,,,,True
+False,2,3,hat,bowler,types of hats,bowler,,M300_080,ok,0,3:M300_080:0:2,,,,True
+False,1,3,hat,pillbox,types of hats,pillbox,,M300_080,ok,1,3:M300_080:1:1,,,,True
+False,2,3,hat,pillbox,hats,pillbox,,M300_080,ok,1,3:M300_080:1:2,,,,True
+False,1,3,hat,boater,types of hats,boater,,M300_080,ok,2,3:M300_080:2:1,,,,True
+False,2,3,hat,boater,hats,boater,,M300_080,ok,2,3:M300_080:2:2,,,,True
+,,1,wrench,monkey,,,"[""monkey"", ""macaque"", ""primate"", ""tree"", ""branch""]",M300_081,ok,0,1:M300_081:0,True,True,,
+,,1,wrench,alligator,,,"[""alligator"", ""reptile"", ""crocodilian"", ""water"", ""wetland""]",M300_081,ok,1,1:M300_081:1,True,True,,
+,,1,wrench,strap,,,"[""watch strap"", ""watch band"", ""strap"", ""rubber strap"", ""wristband""]",M300_081,ok,2,1:M300_081:2,False,True,,
+False,1,3,wrench,monkey,types of wrenches,monkey,,M300_081,ok,0,3:M300_081:0:1,,,,True
+False,2,3,wrench,monkey,types of wrenches,monkey,,M300_081,ok,0,3:M300_081:0:2,,,,True
+False,1,3,wrench,alligator,options trading strategies,alligator,,M300_081,ok,1,3:M300_081:1:1,,,,True
+False,2,3,wrench,alligator,types of wrenches,alligator,,M300_081,ok,1,3:M300_081:1:2,,,,True
+False,1,3,wrench,strap,types of wrenches,strap,,M300_081,ok,2,3:M300_081:2:1,,,,True
+False,2,3,wrench,strap,types of wrenches,strap,,M300_081,ok,2,3:M300_081:2:2,,,,True
+,,1,anchor,mushroom,,,"[""mushroom"", ""portobello mushroom"", ""agaric"", ""edible mushroom"", ""fungus""]",M300_084,ok,0,1:M300_084:0,True,True,,
+,,1,anchor,plow,,,"[""cultivator"", ""harrow"", ""farm implement"", ""plow"", ""agricultural machinery""]",M300_084,ok,1,1:M300_084:1,False,True,,
+,,1,anchor,spoon,,,"[""spoon"", ""teaspoon"", ""silverware"", ""cutlery"", ""tableware""]",M300_084,ok,2,1:M300_084:2,True,True,,
+False,1,3,anchor,mushroom,types of anchors,mushroom,,M300_084,ok,0,3:M300_084:0:1,,,,True
+False,2,3,anchor,mushroom,verbs derived from nouns,mushroom,,M300_084,ok,0,3:M300_084:0:2,,,,True
+False,1,3,anchor,plow,names for the Big Dipper,plow,,M300_084,ok,1,3:M300_084:1:1,,,,True
+False,2,3,anchor,plow,,plow,,M300_084,ok,1,3:M300_084:1:2,,,,True
+False,1,3,anchor,spoon,verbs,spoon,,M300_084,ok,2,3:M300_084:2:1,,,,True
+False,2,3,anchor,spoon,sex positions,spoon,,M300_084,ok,2,3:M300_084:2:2,,,,True

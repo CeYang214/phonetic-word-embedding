@@ -1,0 +1,1274 @@
+{
+  "target_runs_per_model_condition": 5,
+  "aggregation": "mean and sample standard deviation across complete run accuracies; no best-of-run scoring",
+  "accuracy": "Gemini 3.5 Flash Lite semantic concept scoring, same as the existing Task 2 procedure",
+  "hosted_models": "not repeated; retain their existing single-run results",
+  "denominator_policy": "Request failures and malformed answers count as unsuccessful observed trials. Missing trials are flagged; only complete coverage runs enter the mean and SD.",
+  "models": {
+    "internvl8b": {
+      "model": "OpenGVLab/InternVL3_5-8B-HF",
+      "conditions": {
+        "direct": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_internvl3_5-8b-hf_prompt_v3.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "scored",
+              "source": "existing baseline: final155_internvl3_5-8b-hf_prompt_v3.jsonl",
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-v3"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              },
+              "all155": {
+                "correct_count": 2,
+                "denominator": 155,
+                "accuracy": 0.012903225806451613,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 1,
+                "denominator": 80,
+                "accuracy": 0.0125,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            },
+            "run2": {
+              "status": "scored",
+              "source": "final155_internvl3_5-8b-hf_task2_direct_unseeded_run2.jsonl",
+              "run_id": "run2",
+              "seed": null,
+              "seed_status": "not_sent",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not set by evaluator",
+                "seed": null,
+                "seed_sent_to_request": false
+              },
+              "prompt_version": "2026-10-08-v3",
+              "all155": {
+                "correct_count": 1,
+                "denominator": 155,
+                "accuracy": 0.0064516129032258064,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 1,
+                "denominator": 80,
+                "accuracy": 0.0125,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            },
+            "run3": {
+              "status": "scored",
+              "source": "final155_internvl3_5-8b-hf_task2_direct_unseeded_run3.jsonl",
+              "run_id": "run3",
+              "seed": null,
+              "seed_status": "not_sent",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not set by evaluator",
+                "seed": null,
+                "seed_sent_to_request": false
+              },
+              "prompt_version": "2026-10-08-v3",
+              "all155": {
+                "correct_count": 0,
+                "denominator": 155,
+                "accuracy": 0.0,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 0,
+                "denominator": 80,
+                "accuracy": 0.0,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            },
+            "run4": {
+              "status": "scored",
+              "source": "final155_internvl3_5-8b-hf_task2_direct_unseeded_run4.jsonl",
+              "run_id": "run4",
+              "seed": null,
+              "seed_status": "not_sent",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not set by evaluator",
+                "seed": null,
+                "seed_sent_to_request": false
+              },
+              "prompt_version": "2026-10-08-v3",
+              "all155": {
+                "correct_count": 0,
+                "denominator": 155,
+                "accuracy": 0.0,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 0,
+                "denominator": 80,
+                "accuracy": 0.0,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            },
+            "run5": {
+              "status": "scored",
+              "source": "final155_internvl3_5-8b-hf_task2_direct_unseeded_run5.jsonl",
+              "run_id": "run5",
+              "seed": null,
+              "seed_status": "not_sent",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not set by evaluator",
+                "seed": null,
+                "seed_sent_to_request": false
+              },
+              "prompt_version": "2026-10-08-v3",
+              "all155": {
+                "correct_count": 1,
+                "denominator": 155,
+                "accuracy": 0.0064516129032258064,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 1,
+                "denominator": 80,
+                "accuracy": 0.0125,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            }
+          },
+          "all155": {
+            "complete_runs": 5,
+            "target_runs": 5,
+            "incomplete_or_missing_runs": [],
+            "mean_accuracy": 0.005161290322580645,
+            "sample_stddev": 0.005397806622800487,
+            "mean_and_sd_are_final": true
+          },
+          "human80": {
+            "complete_runs": 5,
+            "target_runs": 5,
+            "incomplete_or_missing_runs": [],
+            "mean_accuracy": 0.007500000000000001,
+            "sample_stddev": 0.006846531968814577,
+            "mean_and_sd_are_final": true
+          }
+        },
+        "stepwise": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_internvl3_5-8b-hf_prompt_v3.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "scored",
+              "source": "existing baseline: final155_internvl3_5-8b-hf_prompt_v3.jsonl",
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-v3"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              },
+              "all155": {
+                "correct_count": 0,
+                "denominator": 155,
+                "accuracy": 0.0,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 0,
+                "denominator": 80,
+                "accuracy": 0.0,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            },
+            "run2": {
+              "status": "scored",
+              "source": "final155_internvl3_5-8b-hf_task2_stepwise_unseeded_run2.jsonl",
+              "run_id": "run2",
+              "seed": null,
+              "seed_status": "not_sent",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not set by evaluator",
+                "seed": null,
+                "seed_sent_to_request": false
+              },
+              "prompt_version": "2026-10-08-v3",
+              "all155": {
+                "correct_count": 1,
+                "denominator": 155,
+                "accuracy": 0.0064516129032258064,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 1,
+                "denominator": 80,
+                "accuracy": 0.0125,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            },
+            "run3": {
+              "status": "scored",
+              "source": "final155_internvl3_5-8b-hf_task2_stepwise_unseeded_run3.jsonl",
+              "run_id": "run3",
+              "seed": null,
+              "seed_status": "not_sent",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not set by evaluator",
+                "seed": null,
+                "seed_sent_to_request": false
+              },
+              "prompt_version": "2026-10-08-v3",
+              "all155": {
+                "correct_count": 0,
+                "denominator": 155,
+                "accuracy": 0.0,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 0,
+                "denominator": 80,
+                "accuracy": 0.0,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            },
+            "run4": {
+              "status": "scored",
+              "source": "final155_internvl3_5-8b-hf_task2_stepwise_unseeded_run4.jsonl",
+              "run_id": "run4",
+              "seed": null,
+              "seed_status": "not_sent",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not set by evaluator",
+                "seed": null,
+                "seed_sent_to_request": false
+              },
+              "prompt_version": "2026-10-08-v3",
+              "all155": {
+                "correct_count": 1,
+                "denominator": 155,
+                "accuracy": 0.0064516129032258064,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 0,
+                "denominator": 80,
+                "accuracy": 0.0,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            },
+            "run5": {
+              "status": "scored",
+              "source": "final155_internvl3_5-8b-hf_task2_stepwise_unseeded_run5.jsonl",
+              "run_id": "run5",
+              "seed": null,
+              "seed_status": "not_sent",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not set by evaluator",
+                "seed": null,
+                "seed_sent_to_request": false
+              },
+              "prompt_version": "2026-10-08-v3",
+              "all155": {
+                "correct_count": 0,
+                "denominator": 155,
+                "accuracy": 0.0,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 0,
+                "denominator": 80,
+                "accuracy": 0.0,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            }
+          },
+          "all155": {
+            "complete_runs": 5,
+            "target_runs": 5,
+            "incomplete_or_missing_runs": [],
+            "mean_accuracy": 0.0025806451612903226,
+            "sample_stddev": 0.0035336939193881685,
+            "mean_and_sd_are_final": true
+          },
+          "human80": {
+            "complete_runs": 5,
+            "target_runs": 5,
+            "incomplete_or_missing_runs": [],
+            "mean_accuracy": 0.0025,
+            "sample_stddev": 0.005590169943749474,
+            "mean_and_sd_are_final": true
+          }
+        },
+        "sense_hint": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_internvl3_5-8b-hf_prompt_v3.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "scored",
+              "source": "existing baseline: final155_internvl3_5-8b-hf_prompt_v3.jsonl",
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-v3"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              },
+              "all155": {
+                "correct_count": 3,
+                "denominator": 155,
+                "accuracy": 0.01935483870967742,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 3,
+                "denominator": 80,
+                "accuracy": 0.0375,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            },
+            "run2": {
+              "status": "scored",
+              "source": "final155_internvl3_5-8b-hf_task2_sense_hint_unseeded_run2.jsonl",
+              "run_id": "run2",
+              "seed": null,
+              "seed_status": "not_sent",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not set by evaluator",
+                "seed": null,
+                "seed_sent_to_request": false
+              },
+              "prompt_version": "2026-10-08-v3",
+              "all155": {
+                "correct_count": 3,
+                "denominator": 155,
+                "accuracy": 0.01935483870967742,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 3,
+                "denominator": 80,
+                "accuracy": 0.0375,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            },
+            "run3": {
+              "status": "scored",
+              "source": "final155_internvl3_5-8b-hf_task2_sense_hint_unseeded_run3.jsonl",
+              "run_id": "run3",
+              "seed": null,
+              "seed_status": "not_sent",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not set by evaluator",
+                "seed": null,
+                "seed_sent_to_request": false
+              },
+              "prompt_version": "2026-10-08-v3",
+              "all155": {
+                "correct_count": 0,
+                "denominator": 155,
+                "accuracy": 0.0,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 0,
+                "denominator": 80,
+                "accuracy": 0.0,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            },
+            "run4": {
+              "status": "scored",
+              "source": "final155_internvl3_5-8b-hf_task2_sense_hint_unseeded_run4.jsonl",
+              "run_id": "run4",
+              "seed": null,
+              "seed_status": "not_sent",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not set by evaluator",
+                "seed": null,
+                "seed_sent_to_request": false
+              },
+              "prompt_version": "2026-10-08-v3",
+              "all155": {
+                "correct_count": 2,
+                "denominator": 155,
+                "accuracy": 0.012903225806451613,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 2,
+                "denominator": 80,
+                "accuracy": 0.025,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            },
+            "run5": {
+              "status": "scored",
+              "source": "final155_internvl3_5-8b-hf_task2_sense_hint_unseeded_run5.jsonl",
+              "run_id": "run5",
+              "seed": null,
+              "seed_status": "not_sent",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not set by evaluator",
+                "seed": null,
+                "seed_sent_to_request": false
+              },
+              "prompt_version": "2026-10-08-v3",
+              "all155": {
+                "correct_count": 2,
+                "denominator": 155,
+                "accuracy": 0.012903225806451613,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 2,
+                "denominator": 80,
+                "accuracy": 0.025,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            }
+          },
+          "all155": {
+            "complete_runs": 5,
+            "target_runs": 5,
+            "incomplete_or_missing_runs": [],
+            "mean_accuracy": 0.012903225806451613,
+            "sample_stddev": 0.007901579815429606,
+            "mean_and_sd_are_final": true
+          },
+          "human80": {
+            "complete_runs": 5,
+            "target_runs": 5,
+            "incomplete_or_missing_runs": [],
+            "mean_accuracy": 0.025,
+            "sample_stddev": 0.015309310892394862,
+            "mean_and_sd_are_final": true
+          }
+        },
+        "text_only": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_internvl3_5-8b-hf_text_only_v1.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "scored",
+              "source": "existing baseline: final155_internvl3_5-8b-hf_text_only_v1.jsonl",
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-concept-conditions-v1"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              },
+              "all155": {
+                "correct_count": 33,
+                "denominator": 155,
+                "accuracy": 0.2129032258064516,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 25,
+                "denominator": 80,
+                "accuracy": 0.3125,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            },
+            "run2": {
+              "status": "scored",
+              "source": "final155_internvl3_5-8b-hf_task2_text_only_unseeded_run2.jsonl",
+              "run_id": "run2",
+              "seed": null,
+              "seed_status": "not_sent",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not set by evaluator",
+                "seed": null,
+                "seed_sent_to_request": false
+              },
+              "prompt_version": "2026-10-08-concept-conditions-v1",
+              "all155": {
+                "correct_count": 32,
+                "denominator": 155,
+                "accuracy": 0.2064516129032258,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 25,
+                "denominator": 80,
+                "accuracy": 0.3125,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            },
+            "run3": {
+              "status": "scored",
+              "source": "final155_internvl3_5-8b-hf_task2_text_only_unseeded_run3.jsonl",
+              "run_id": "run3",
+              "seed": null,
+              "seed_status": "not_sent",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not set by evaluator",
+                "seed": null,
+                "seed_sent_to_request": false
+              },
+              "prompt_version": "2026-10-08-concept-conditions-v1",
+              "all155": {
+                "correct_count": 31,
+                "denominator": 155,
+                "accuracy": 0.2,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 26,
+                "denominator": 80,
+                "accuracy": 0.325,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            },
+            "run4": {
+              "status": "scored",
+              "source": "final155_internvl3_5-8b-hf_task2_text_only_unseeded_run4.jsonl",
+              "run_id": "run4",
+              "seed": null,
+              "seed_status": "not_sent",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not set by evaluator",
+                "seed": null,
+                "seed_sent_to_request": false
+              },
+              "prompt_version": "2026-10-08-concept-conditions-v1",
+              "all155": {
+                "correct_count": 29,
+                "denominator": 155,
+                "accuracy": 0.1870967741935484,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 22,
+                "denominator": 80,
+                "accuracy": 0.275,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            },
+            "run5": {
+              "status": "scored",
+              "source": "final155_internvl3_5-8b-hf_task2_text_only_unseeded_run5.jsonl",
+              "run_id": "run5",
+              "seed": null,
+              "seed_status": "not_sent",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not set by evaluator",
+                "seed": null,
+                "seed_sent_to_request": false
+              },
+              "prompt_version": "2026-10-08-concept-conditions-v1",
+              "all155": {
+                "correct_count": 35,
+                "denominator": 155,
+                "accuracy": 0.22580645161290322,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 28,
+                "denominator": 80,
+                "accuracy": 0.35,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            }
+          },
+          "all155": {
+            "complete_runs": 5,
+            "target_runs": 5,
+            "incomplete_or_missing_runs": [],
+            "mean_accuracy": 0.2064516129032258,
+            "sample_stddev": 0.01442624501612767,
+            "mean_and_sd_are_final": true
+          },
+          "human80": {
+            "complete_runs": 5,
+            "target_runs": 5,
+            "incomplete_or_missing_runs": [],
+            "mean_accuracy": 0.315,
+            "sample_stddev": 0.027099354235848486,
+            "mean_and_sd_are_final": true
+          }
+        },
+        "two_shot": {
+          "existing_run1_eligible": true,
+          "existing_run1_files": [
+            "final155_internvl3_5-8b-hf_two_shot_v1.jsonl"
+          ],
+          "existing_run1_audit": "eligible existing run; 155 attempts, 155 unique cases",
+          "repeat_manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+          "runs": {
+            "run1": {
+              "status": "scored",
+              "source": "existing baseline: final155_internvl3_5-8b-hf_two_shot_v1.jsonl",
+              "run_id": "run1",
+              "seed": null,
+              "seed_status": "not_recorded_for_existing_run",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "generation_settings_inferred_from_defaults": false,
+              "prompt_versions": [
+                "2026-10-08-concept-conditions-v1"
+              ],
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not recorded in existing result"
+              },
+              "all155": {
+                "correct_count": 1,
+                "denominator": 155,
+                "accuracy": 0.0064516129032258064,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 0,
+                "denominator": 80,
+                "accuracy": 0.0,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            },
+            "run2": {
+              "status": "scored",
+              "source": "final155_internvl3_5-8b-hf_task2_two_shot_unseeded_run2.jsonl",
+              "run_id": "run2",
+              "seed": null,
+              "seed_status": "not_sent",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not set by evaluator",
+                "seed": null,
+                "seed_sent_to_request": false
+              },
+              "prompt_version": "2026-10-08-concept-conditions-v1",
+              "all155": {
+                "correct_count": 0,
+                "denominator": 155,
+                "accuracy": 0.0,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 0,
+                "denominator": 80,
+                "accuracy": 0.0,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            },
+            "run3": {
+              "status": "scored",
+              "source": "final155_internvl3_5-8b-hf_task2_two_shot_unseeded_run3.jsonl",
+              "run_id": "run3",
+              "seed": null,
+              "seed_status": "not_sent",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not set by evaluator",
+                "seed": null,
+                "seed_sent_to_request": false
+              },
+              "prompt_version": "2026-10-08-concept-conditions-v1",
+              "all155": {
+                "correct_count": 0,
+                "denominator": 155,
+                "accuracy": 0.0,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 0,
+                "denominator": 80,
+                "accuracy": 0.0,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            },
+            "run4": {
+              "status": "scored",
+              "source": "final155_internvl3_5-8b-hf_task2_two_shot_unseeded_run4.jsonl",
+              "run_id": "run4",
+              "seed": null,
+              "seed_status": "not_sent",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not set by evaluator",
+                "seed": null,
+                "seed_sent_to_request": false
+              },
+              "prompt_version": "2026-10-08-concept-conditions-v1",
+              "all155": {
+                "correct_count": 1,
+                "denominator": 155,
+                "accuracy": 0.0064516129032258064,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 1,
+                "denominator": 80,
+                "accuracy": 0.0125,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            },
+            "run5": {
+              "status": "scored",
+              "source": "final155_internvl3_5-8b-hf_task2_two_shot_unseeded_run5.jsonl",
+              "run_id": "run5",
+              "seed": null,
+              "seed_status": "not_sent",
+              "generation_settings": {
+                "local_thinking": "default",
+                "max_output_tokens": 1024,
+                "local_json_mode": true
+              },
+              "sampling_settings": {
+                "temperature": null,
+                "temperature_source": "server/model default; not set by evaluator",
+                "seed": null,
+                "seed_sent_to_request": false
+              },
+              "prompt_version": "2026-10-08-concept-conditions-v1",
+              "all155": {
+                "correct_count": 1,
+                "denominator": 155,
+                "accuracy": 0.0064516129032258064,
+                "actual_trials": 155,
+                "expected_trials": 155,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              },
+              "human80": {
+                "correct_count": 0,
+                "denominator": 80,
+                "accuracy": 0.0,
+                "actual_trials": 80,
+                "expected_trials": 80,
+                "missing_trials": 0,
+                "missing_task_keys": [],
+                "request_errors": 0,
+                "malformed_outputs": 0,
+                "missing_answer_fields": 0,
+                "complete": true
+              }
+            }
+          },
+          "all155": {
+            "complete_runs": 5,
+            "target_runs": 5,
+            "incomplete_or_missing_runs": [],
+            "mean_accuracy": 0.003870967741935484,
+            "sample_stddev": 0.0035336939193881685,
+            "mean_and_sd_are_final": true
+          },
+          "human80": {
+            "complete_runs": 5,
+            "target_runs": 5,
+            "incomplete_or_missing_runs": [],
+            "mean_accuracy": 0.0025,
+            "sample_stddev": 0.005590169943749474,
+            "mean_and_sd_are_final": true
+          }
+        }
+      }
+    }
+  }
+}

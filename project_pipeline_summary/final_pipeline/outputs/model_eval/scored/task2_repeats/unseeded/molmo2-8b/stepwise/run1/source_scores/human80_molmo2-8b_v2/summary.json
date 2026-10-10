@@ -1,0 +1,156 @@
+{
+  "manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/manifest.jsonl",
+  "results": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/human80_molmo2-8b_v2.jsonl",
+  "scored_tasks": 80,
+  "duplicate_case_count": 0,
+  "concept_scoring": "human_study_task2",
+  "word_scoring": "exact_alias",
+  "groups": {
+    "2:stepwise": {
+      "n": 80,
+      "parse_or_request_errors": 0,
+      "concept_correct": 0.0,
+      "word_correct_count": 0.2833333333333333,
+      "concept_correct_exact": 0.0,
+      "concept_correct_semantic": 0.0,
+      "actual_tasks": 80,
+      "expected_tasks": 80,
+      "missing_tasks": 0,
+      "request_errors": 0,
+      "malformed_outputs": 0,
+      "missing_answer_fields": 0,
+      "metric_counts": {
+        "concept_correct": {
+          "correct_count": 0,
+          "denominator": 80,
+          "accuracy": 0.0,
+          "unjudged_outputs": 0,
+          "valid_response_only": {
+            "correct_count": 0,
+            "denominator": 80,
+            "accuracy": 0.0
+          }
+        }
+      }
+    }
+  },
+  "selected_puzzles": 80,
+  "normalization": {
+    "case": "Unicode casefold",
+    "whitespace": "Trim and collapse whitespace to one space",
+    "edge_punctuation": "Strip only space and .,!?:;\"'` from both ends",
+    "articles": "Remove one leading a, an, or the followed by a space",
+    "unchanged": "No stemming, plural folding, substring matching, or synonym expansion",
+    "aliases": "Additional exact labels are accepted only when an explicit aliases file is supplied"
+  },
+  "denominator_policy": "Existing accuracy uses observed unique cases, including request failures and malformed responses as unsuccessful. Missing cases are excluded from that denominator and reported explicitly. Valid-response accuracy is supplementary. Existing attempt selection retains the last ok attempt if available; otherwise the first saved attempt.",
+  "trial_accounting": {
+    "2:stepwise": {
+      "actual_trials": 80,
+      "expected_trials": 80,
+      "missing_outputs": 0,
+      "missing_case_keys": [],
+      "request_failures": 0,
+      "malformed_outputs": 0,
+      "missing_answer_fields": 0,
+      "valid_outputs": 80,
+      "duplicate_cases": 0,
+      "historical_request_failures": 0,
+      "historical_malformed_outputs": 0,
+      "historical_attempt_counts_complete": true,
+      "complete_coverage": true,
+      "metrics": {
+        "concept_correct": {
+          "correct_count": 0,
+          "denominator": 80,
+          "accuracy": 0.0,
+          "unjudged_outputs": 0,
+          "valid_response_only": {
+            "correct_count": 0,
+            "denominator": 80,
+            "accuracy": 0.0
+          }
+        }
+      }
+    }
+  },
+  "stepwise_error_analysis": {
+    "actual_trials": 80,
+    "complete_label_triples": 80,
+    "intermediate_word_accuracy_complete_triples": {
+      "correct_count": 68,
+      "denominator": 240,
+      "accuracy": 0.2833333333333333
+    },
+    "intermediate_word_accuracy_available_slots": {
+      "correct_count": 68,
+      "denominator": 240,
+      "accuracy": 0.2833333333333333
+    },
+    "expected_label_slots": 240,
+    "missing_or_malformed_label_slots": 0,
+    "all_three_labels_correct": {
+      "correct_count": 1,
+      "denominator": 80,
+      "accuracy": 0.0125
+    },
+    "conditional_concept_accuracy": {
+      "all_labels_correct": {
+        "group_size": 1,
+        "concept": {
+          "correct_count": 0,
+          "denominator": 1,
+          "accuracy": 0.0
+        },
+        "unjudged_concepts": 0
+      },
+      "at_least_one_label_incorrect": {
+        "group_size": 79,
+        "concept": {
+          "correct_count": 0,
+          "denominator": 79,
+          "accuracy": 0.0
+        },
+        "unjudged_concepts": 0
+      },
+      "missing_labels": {
+        "group_size": 0,
+        "concept": {
+          "correct_count": 0,
+          "denominator": 0,
+          "accuracy": null
+        },
+        "unjudged_concepts": 0
+      },
+      "malformed_labels": {
+        "group_size": 0,
+        "concept": {
+          "correct_count": 0,
+          "denominator": 0,
+          "accuracy": null
+        },
+        "unjudged_concepts": 0
+      },
+      "request_error": {
+        "group_size": 0,
+        "concept": {
+          "correct_count": 0,
+          "denominator": 0,
+          "accuracy": null
+        },
+        "unjudged_concepts": 0
+      }
+    },
+    "label_matching": "Normalized exact match, with explicit aliases if supplied"
+  },
+  "puzzle_ids_file": null,
+  "semantic_judge": {
+    "model": "gemini-3.5-flash-lite",
+    "checker_sha256": "9814b4f80ac503f350d523a9c1d61be2ecefd78f0e57da036afd72c6bcb2ed9b",
+    "cache": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/concept_judgments.jsonl",
+    "scope": "Task 2 concept answers only"
+  },
+  "run_id": "run1",
+  "results_sha256": "7ac53c73840171b016c26d7697c7441e29c168fa63770ccf3bd731f7c6ad146e",
+  "repeat_scoring_inputs_sha256": "6d326d4e18a7a598329fe5907f329b058dcfc86cbeb58b3c1a86370ff30fdd0e"
+}

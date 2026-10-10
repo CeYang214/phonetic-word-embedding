@@ -1,0 +1,55 @@
+concept_correct,cue_count,experiment,gold_concept,gold_word,predicted_concept,predicted_word,predicted_words,puzzle_id,status,target_slot,task_key,top1,top5,variant,word_correct
+,,1,shoe,tongue,,,"[""dog"", ""lady"", ""lipstick"", ""lip"", ""saliva""]",IR012,ok,0,1:IR012:0,False,False,,
+,,1,shoe,sole,,,"[""fish"", ""drawing"", ""fish"", ""painting"", "" artwork""]",IR012,ok,1,1:IR012:1,False,False,,
+,,1,shoe,collar,,,"[""dog"", ""collar"", ""gold"", ""tag"", ""fur""]",IR012,ok,2,1:IR012:2,False,True,,
+False,1,3,shoe,tongue,bottom-dwelling fish,flounder,,IR012,ok,0,3:IR012:0:1,,,,False
+False,2,3,shoe,tongue,oral,tongue,,IR012,ok,0,3:IR012:0:2,,,,True
+False,1,3,shoe,sole,categories,collar,,IR012,ok,1,3:IR012:1:1,,,,False
+False,2,3,shoe,sole,margins,flounder,,IR012,ok,1,3:IR012:1:2,,,,False
+False,1,3,shoe,collar,accessory,collar,,IR012,ok,2,3:IR012:2:1,,,,True
+False,2,3,shoe,collar,fish body parts,collar,,IR012,ok,2,3:IR012:2:2,,,,True
+,,1,fabric,drill,,,"[""drill"", ""drill bit"", ""hand tool"", ""construction"", ""battery""]",IR022,ok,0,1:IR022:0,True,True,,
+,,1,fabric,duck,,,"[""ducks"", ""water"", ""ripples"", ""swimming"", ""birds""]",IR022,ok,1,1:IR022:1,False,False,,
+,,1,fabric,lawn,,,"[""fence"", ""plants"", ""grass"", ""dirt"", ""wood""]",IR022,ok,2,1:IR022:2,False,False,,
+False,1,3,fabric,drill,drill,drilling,,IR022,ok,0,3:IR022:0:1,,,,False
+False,2,3,fabric,drill, tools , drill ,,IR022,ok,0,3:IR022:0:2,,,,True
+False,1,3,fabric,duck,mascot,ducks,,IR022,ok,1,3:IR022:1:1,,,,False
+False,2,3,fabric,duck,swim,ducks,,IR022,ok,1,3:IR022:1:2,,,,False
+False,1,3,fabric,lawn,light source,sun,,IR022,ok,2,3:IR022:2:1,,,,False
+False,2,3,fabric,lawn,light,shade,,IR022,ok,2,3:IR022:2:2,,,,False
+,,1,restaurant,joint,,,"[""joints"", ""models"", ""bent"", ""knees"", ""teacher""]",IR061,ok,0,1:IR061:0,False,False,,
+,,1,restaurant,drive-in,,,"[""cinema"", ""parking lot"", ""movie screen"", ""cars"", ""building""]",IR061,ok,1,1:IR061:1,False,False,,
+,,1,restaurant,diner,,,"[""kitchen"", ""patrons"", ""cellphone"", ""table"", ""lady""]",IR061,ok,2,1:IR061:2,False,False,,
+False,1,3,restaurant,joint,artificial,joint,,IR061,ok,0,3:IR061:0:1,,,,True
+False,2,3,restaurant,joint,art,models,,IR061,ok,0,3:IR061:0:2,,,,False
+False,1,3,restaurant,drive-in,movie theater,drive-in,,IR061,ok,1,3:IR061:1:1,,,,True
+False,2,3,restaurant,drive-in,film,drive-in,,IR061,ok,1,3:IR061:1:2,,,,True
+False,1,3,restaurant,diner,eating surface,table,,IR061,ok,2,3:IR061:2:1,,,,False
+False,2,3,restaurant,diner,eating establishment,diner,,IR061,ok,2,3:IR061:2:2,,,,True
+,,1,TV genre,soap,,,"[""bathroom"", ""tiles"", ""cabinet"", ""surfboard"", ""beach""]",IR073,ok,0,1:IR073:0,False,False,,
+,,1,TV genre,western,,,"[""cowboys"", ""horses"", ""mountain"", ""fence"", ""grass""]",IR073,ok,1,1:IR073:1,False,False,,
+,,1,TV genre,news,,,"[""newspapers"", ""stack"", ""table"", ""wood"", ""background""]",IR073,ok,2,1:IR073:2,False,False,,
+False,1,3,TV genre,soap,food,barbecue,,IR073,ok,0,3:IR073:0:1,,,,False
+False,2,3,TV genre,soap,bar,round,,IR073,ok,0,3:IR073:0:2,,,,False
+False,1,3,TV genre,western,day of the week,Monday,,IR073,ok,1,3:IR073:1:1,,,,False
+False,2,3,TV genre,western,ranch,ranch,,IR073,ok,1,3:IR073:1:2,,,,False
+False,1,3,TV genre,news,reading materials,stack,,IR073,ok,2,3:IR073:2:1,,,,False
+False,2,3,TV genre,news,read,newspaper,,IR073,ok,2,3:IR073:2:2,,,,False
+,,1,assembly,cabinet,,,"[""dresser"", ""telephone"", ""wall"", ""floor"", ""board""]",IR080,ok,0,1:IR080:0,False,False,,
+,,1,assembly,diet,,,"[""salad"", ""bowl"", ""fork"", ""table"", ""plate""]",IR080,ok,1,1:IR080:1,False,False,,
+,,1,assembly,chamber,,,"[""arch"", ""stonework"", ""window"", ""light"", ""space""]",IR080,ok,2,1:IR080:2,False,False,,
+False,1,3,assembly,cabinet,table accessory,condiment,,IR080,ok,0,3:IR080:0:1,,,,False
+False,2,3,assembly,cabinet,furnishing,drawer,,IR080,ok,0,3:IR080:0:2,,,,False
+False,1,3,assembly,diet,elevator,elevators,,IR080,ok,1,3:IR080:1:1,,,,False
+False,2,3,assembly,diet, sacred space,altar,,IR080,ok,1,3:IR080:1:2,,,,False
+False,1,3,assembly,chamber,geometric_feature,arcway,,IR080,ok,2,3:IR080:2:1,,,,False
+False,2,3,assembly,chamber,indoor corner,nook,,IR080,ok,2,3:IR080:2:2,,,,False
+,,1,lathe,dog,,,"[""Dog"", ""Golden Retriever"", ""Collar"", ""Background"", ""Brown""]",IR081,ok,0,1:IR081:0,True,True,,
+,,1,lathe,bed,,,"[""bed"", ""pillows"", ""nightstands"", ""lights"", ""wall""]",IR081,ok,1,1:IR081:1,True,True,,
+,,1,lathe,saddle,,,"[""saddle"", ""horse"", ""whip"", ""stable"", ""light""]",IR081,ok,2,1:IR081:2,True,True,,
+False,1,3,lathe,dog,dog, retriever ,,IR081,ok,0,3:IR081:0:1,,,,False
+False,2,3,lathe,dog,dogs,retriever,,IR081,ok,0,3:IR081:0:2,,,,False
+False,1,3,lathe,bed,furniture,bed,,IR081,ok,1,3:IR081:1:1,,,,True
+False,2,3,lathe,bed,furniture,bed,,IR081,ok,1,3:IR081:1:2,,,,True
+False,1,3,lathe,saddle,things that can be ridden,saddle,,IR081,ok,2,3:IR081:2:1,,,,True
+False,2,3,lathe,saddle,animal equipment,saddle,,IR081,ok,2,3:IR081:2:2,,,,True

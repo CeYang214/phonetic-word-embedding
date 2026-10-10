@@ -1,0 +1,55 @@
+concept_correct,cue_count,experiment,gold_concept,gold_word,predicted_concept,predicted_word,predicted_words,puzzle_id,status,target_slot,task_key,top1,top5,variant,word_correct
+,,1,shoe,tongue,,,"[""tongue"", ""snout"", ""dog"", ""animal"", ""nose""]",IR012,ok,0,1:IR012:0,True,True,,
+,,1,shoe,sole,,,"[""fish"", ""flatfish"", ""face"", ""eyes"", ""fin""]",IR012,ok,1,1:IR012:1,False,False,,
+,,1,shoe,collar,,,"[""dog"", ""collar"", ""fur"", ""metal"", ""tag""]",IR012,ok,2,1:IR012:2,False,True,,
+False,1,3,shoe,tongue,maxilla,tongue,,IR012,ok,0,3:IR012:0:1,,,,True
+False,2,3,shoe,tongue,part of the mouth,tongue,,IR012,ok,0,3:IR012:0:2,,,,True
+False,1,3,shoe,sole,neckwear,collar,,IR012,ok,1,3:IR012:1:1,,,,False
+False,2,3,shoe,sole,,flounder,,IR012,ok,1,3:IR012:1:2,,,,False
+False,1,3,shoe,collar,neckwear,collar,,IR012,ok,2,3:IR012:2:1,,,,True
+False,2,3,shoe,collar,underbody part,collar,,IR012,ok,2,3:IR012:2:2,,,,True
+,,1,fabric,drill,,,"[""drill"", ""woodworking"", ""wood"", ""tool"", ""chuck""]",IR022,ok,0,1:IR022:0,True,True,,
+,,1,fabric,duck,,,"[""duck"", ""water"", ""wildlife"", ""nature"", ""bird""]",IR022,ok,1,1:IR022:1,True,True,,
+,,1,fabric,lawn,,,"[""grass"", ""light"", ""shadow"", ""fence"", ""green""]",IR022,ok,2,1:IR022:2,False,False,,
+False,1,3,fabric,drill,homophone,drill,,IR022,ok,0,3:IR022:0:1,,,,True
+False,2,3,fabric,drill,handle,tool,,IR022,ok,0,3:IR022:0:2,,,,False
+False,1,3,fabric,duck,grass,drain,,IR022,ok,1,3:IR022:1:1,,,,False
+False,2,3,fabric,duck,stuff that swims,duck,,IR022,ok,1,3:IR022:1:2,,,,True
+False,1,3,fabric,lawn,school,principal,,IR022,ok,2,3:IR022:2:1,,,,False
+False,2,3,fabric,lawn,recreational activities,mow,,IR022,ok,2,3:IR022:2:2,,,,False
+,,1,restaurant,joint,,,"[""knee models"", ""orthopedics"", ""anatomy"", ""prosthetics"", ""medical""]",IR061,ok,0,1:IR061:0,False,False,,
+,,1,restaurant,drive-in,,,"[""movie screen"", ""parking lot"", ""cars"", ""sky"", ""building""]",IR061,ok,1,1:IR061:1,False,False,,
+,,1,restaurant,diner,,,"[""restaurant"", ""people"", ""tables"", ""chairs"", ""phones""]",IR061,ok,2,1:IR061:2,False,False,,
+False,1,3,restaurant,joint,bone,motion Pictures,,IR061,ok,0,3:IR061:0:1,,,,False
+False,2,3,restaurant,joint,changes in state or condition of something,fit,,IR061,ok,0,3:IR061:0:2,,,,False
+False,1,3,restaurant,drive-in,cinema,park,,IR061,ok,1,3:IR061:1:1,,,,False
+False,2,3,restaurant,drive-in,double meaning words,screen,,IR061,ok,1,3:IR061:1:2,,,,False
+False,1,3,restaurant,diner,appropriate,fit,,IR061,ok,2,3:IR061:2:1,,,,False
+False,2,3,restaurant,diner,hidden meaning,bite,,IR061,ok,2,3:IR061:2:2,,,,False
+,,1,TV genre,soap,,,"[""soap"", ""slate"", ""chocolate"", ""stone"", ""soapstone""]",IR073,ok,0,1:IR073:0,True,True,,
+,,1,TV genre,western,,,"[""fence"", ""horse"", ""rancher"", ""cowboy"", ""hat""]",IR073,ok,1,1:IR073:1,False,False,,
+,,1,TV genre,news,,,"[""newspaper"", ""stack"", ""pages"", ""paper"", ""wooden table""]",IR073,ok,2,1:IR073:2,False,False,,
+False,1,3,TV genre,soap,bar of soap,bar,,IR073,ok,0,3:IR073:0:1,,,,False
+False,2,3,TV genre,soap,"a solid, cuboid-shaped piece of material",block,,IR073,ok,0,3:IR073:0:2,,,,False
+False,1,3,TV genre,western,horse,cowboy,,IR073,ok,1,3:IR073:1:1,,,,False
+False,2,3,TV genre,western,husbandry,rodeo,,IR073,ok,1,3:IR073:1:2,,,,False
+False,1,3,TV genre,news,print,news,,IR073,ok,2,3:IR073:2:1,,,,True
+False,2,3,TV genre,news,social media,press,,IR073,ok,2,3:IR073:2:2,,,,False
+,,1,assembly,cabinet,,,"[""sideboard"", ""phone"", ""wall"", ""floor"", ""drawers""]",IR080,ok,0,1:IR080:0,False,False,,
+,,1,assembly,diet,,,"[""bowl"", ""salad"", ""vegetables"", ""fork"", ""plate""]",IR080,ok,1,1:IR080:1,False,False,,
+,,1,assembly,chamber,,,"[""ruins"", ""arches"", ""frescoes"", ""window"", ""ceiling""]",IR080,ok,2,1:IR080:2,False,False,,
+False,1,3,assembly,cabinet,helipad,phone,,IR080,ok,0,3:IR080:0:1,,,,False
+False,2,3,assembly,cabinet,room,cabinet,,IR080,ok,0,3:IR080:0:2,,,,True
+False,1,3,assembly,diet,room or space,chamber,,IR080,ok,1,3:IR080:1:1,,,,False
+False,2,3,assembly,diet,place of preparation,kitchen,,IR080,ok,1,3:IR080:1:2,,,,False
+False,1,3,assembly,chamber,sepulcher,crypt,,IR080,ok,2,3:IR080:2:1,,,,False
+False,2,3,assembly,chamber,"to broaden one's diet, to eat more than before",fast,,IR080,ok,2,3:IR080:2:2,,,,False
+,,1,lathe,dog,,,"[""dog"", ""face"", ""fur"", ""nose"", ""outdoors""]",IR081,ok,0,1:IR081:0,True,True,,
+,,1,lathe,bed,,,"[""bed"", ""pillows"", ""headboard"", ""nightstand"", ""lamp""]",IR081,ok,1,1:IR081:1,True,True,,
+,,1,lathe,saddle,,,"[""saddle"", ""horse"", ""leather"", ""blanket"", ""hair""]",IR081,ok,2,1:IR081:2,True,True,,
+False,1,3,lathe,dog,be made of,bed,,IR081,ok,0,3:IR081:0:1,,,,False
+False,2,3,lathe,dog,young animal / offspring,pup,,IR081,ok,0,3:IR081:0:2,,,,False
+False,1,3,lathe,bed,something used for sitting on,saddle,,IR081,ok,1,3:IR081:1:1,,,,False
+False,2,3,lathe,bed,parts of the body,chamber,,IR081,ok,1,3:IR081:1:2,,,,False
+False,1,3,lathe,saddle,animals,saddle,,IR081,ok,2,3:IR081:2:1,,,,True
+False,2,3,lathe,saddle,furniture,saddle,,IR081,ok,2,3:IR081:2:2,,,,True

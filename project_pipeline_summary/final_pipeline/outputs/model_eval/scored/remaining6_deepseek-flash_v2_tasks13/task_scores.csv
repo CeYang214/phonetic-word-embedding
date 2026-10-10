@@ -1,0 +1,55 @@
+concept_correct,cue_count,experiment,gold_concept,gold_word,predicted_concept,predicted_word,predicted_words,puzzle_id,status,target_slot,task_key,top1,top5,variant,word_correct
+,,1,shoe,tongue,,,"[""tongue"", ""dog"", ""nose"", ""mouth"", ""animal""]",IR012,ok,0,1:IR012:0,True,True,,
+,,1,shoe,sole,,,"[""flatfish"", ""fish"", ""sole"", ""flounder"", ""illustration""]",IR012,ok,1,1:IR012:1,False,True,,
+,,1,shoe,collar,,,"[""collar"", ""dog"", ""pet"", ""accessory"", ""buckle""]",IR012,ok,2,1:IR012:2,True,True,,
+False,1,3,shoe,tongue,shoe parts,tongue,,IR012,ok,0,3:IR012:0:1,,,,True
+False,2,3,shoe,tongue,parts of a shoe,tongue,,IR012,ok,0,3:IR012:0:2,,,,True
+False,1,3,shoe,sole,"fish species with flat body, also means the bottom of a foot or a type of shoe part",sole,,IR012,ok,1,3:IR012:1:1,,,,True
+False,2,3,shoe,sole,fish,sole,,IR012,ok,1,3:IR012:1:2,,,,True
+False,1,3,shoe,collar,"parts of clothing or accessories that have another meaning (e.g., tongue of a shoe, collar of a shirt)",collar,,IR012,ok,2,3:IR012:2:1,,,,True
+False,2,3,shoe,collar,parts of clothing or accessories that are also animal-related terms,collar,,IR012,ok,2,3:IR012:2:2,,,,True
+,,1,fabric,drill,,,"[""drill"", ""tool"", ""power drill"", ""cordless drill"", ""bit""]",IR022,ok,0,1:IR022:0,True,True,,
+,,1,fabric,duck,,,"[""duck"", ""mallard"", ""water"", ""bird"", ""swimming""]",IR022,ok,1,1:IR022:1,True,True,,
+,,1,fabric,lawn,,,"[""grass"", ""shadow"", ""sunlight"", ""lawn"", ""fence""]",IR022,ok,2,1:IR022:2,False,True,,
+False,1,3,fabric,drill,"things that can mean both a noun and a verb, specifically a tool/action or animal/action (e.g., duck, drill)",drill,,IR022,ok,0,3:IR022:0:1,,,,True
+False,2,3,fabric,drill,things that can be preceded by 'power',drill,,IR022,ok,0,3:IR022:0:2,,,,True
+False,1,3,fabric,duck,waterfowl,duck,,IR022,ok,1,3:IR022:1:1,,,,True
+False,2,3,fabric,duck,verbs meaning to avoid or lower quickly,duck,,IR022,ok,1,3:IR022:1:2,,,,True
+False,1,3,fabric,lawn,"things that can be 'drilled' or have a 'drill' as a secondary meaning (e.g., fire drill, dental drill, drill music) — shared category: words with multiple meanings",grass,,IR022,ok,2,3:IR022:2:1,,,,False
+False,2,3,fabric,lawn,informers (slang),grass,,IR022,ok,2,3:IR022:2:2,,,,False
+,,1,restaurant,joint,,,"[""knee models"", ""implants"", ""prostheses"", ""joints"", ""anatomy""]",IR061,ok,0,1:IR061:0,False,False,,
+,,1,restaurant,drive-in,,,"[""screen"", ""parking lot"", ""cars"", ""sky"", ""twilight""]",IR061,ok,1,1:IR061:1,False,False,,
+,,1,restaurant,diner,,,"[""restaurant"", ""man"", ""people"", ""tables"", ""chairs""]",IR061,ok,2,1:IR061:2,False,False,,
+False,1,3,restaurant,joint,places to eat / restaurants (joint = informal restaurant; drive-in = restaurant),joint,,IR061,ok,0,3:IR061:0:1,,,,True
+False,2,3,restaurant,joint,types of restaurants,joint,,IR061,ok,0,3:IR061:0:2,,,,True
+False,1,3,restaurant,drive-in,type of restaurant,drive-in,,IR061,ok,1,3:IR061:1:1,,,,True
+False,2,3,restaurant,drive-in,types of restaurants/eateries,drive-in,,IR061,ok,1,3:IR061:1:2,,,,True
+False,1,3,restaurant,diner,"a place where people gather, often for dining or socializing, and a mechanical or anatomical connection point",joint,,IR061,ok,2,3:IR061:2:1,,,,False
+False,2,3,restaurant,diner,fast food restaurant ordering and seating fixtures,counter,,IR061,ok,2,3:IR061:2:2,,,,False
+,,1,TV genre,soap,,,"[""soap"", ""bar"", ""rectangles"", ""marble"", ""surface""]",IR073,ok,0,1:IR073:0,True,True,,
+,,1,TV genre,western,,,"[""cowboys"", ""horses"", ""fence"", ""dust"", ""hills""]",IR073,ok,1,1:IR073:1,False,False,,
+,,1,TV genre,news,,,"[""newspapers"", ""stack"", ""headlines"", ""text"", ""paper""]",IR073,ok,2,1:IR073:2,False,False,,
+False,1,3,TV genre,soap,"things that can be 'western' (Western films/novels, western soap operas)",soap,,IR073,ok,0,3:IR073:0:1,,,,True
+False,2,3,TV genre,soap,things that can be made into bars,soap,,IR073,ok,0,3:IR073:0:2,,,,True
+False,1,3,TV genre,western," grammatical terms (a, an, the)",article,,IR073,ok,1,3:IR073:1:1,,,,False
+False,2,3,TV genre,western,film and television genres,western,,IR073,ok,1,3:IR073:1:2,,,,True
+False,1,3,TV genre,news,things that can be read,paper,,IR073,ok,2,3:IR073:2:1,,,,False
+False,2,3,TV genre,news,things that can be read,paper,,IR073,ok,2,3:IR073:2:2,,,,False
+,,1,assembly,cabinet,,,"[""cabinet"", ""telephone"", ""wall"", ""floor"", ""drawers""]",IR080,ok,0,1:IR080:0,True,True,,
+,,1,assembly,diet,,,"[""bowl"", ""salad"", ""food"", ""fork"", ""plate""]",IR080,ok,1,1:IR080:1,False,False,,
+,,1,assembly,chamber,,,"[""cave"", ""fresco"", ""arch"", ""window"", ""ruin""]",IR080,ok,2,1:IR080:2,False,False,,
+False,1,3,assembly,cabinet,furniture with drawers and doors,cabinet,,IR080,ok,0,3:IR080:0:1,,,,True
+False,2,3,assembly,cabinet,"parts of a government (Diet, chamber, cabinet)",cabinet,,IR080,ok,0,3:IR080:0:2,,,,True
+False,1,3,assembly,diet,container for food,bowl,,IR080,ok,1,3:IR080:1:1,,,,False
+False,2,3,assembly,diet,kitchen and bathroom fixtures,bowl,,IR080,ok,1,3:IR080:1:2,,,,False
+False,1,3,assembly,chamber,hidden underground rooms,crypt,,IR080,ok,2,3:IR080:2:1,,,,False
+False,2,3,assembly,chamber,words with silent letters,crypt,,IR080,ok,2,3:IR080:2:2,,,,False
+,,1,lathe,dog,,,"[""dog"", ""golden retriever"", ""animal"", ""pet"", ""mammal""]",IR081,ok,0,1:IR081:0,True,True,,
+,,1,lathe,bed,,,"[""bed"", ""pillows"", ""lamps"", ""nightstands"", ""bedroom""]",IR081,ok,1,1:IR081:1,True,True,,
+,,1,lathe,saddle,,,"[""saddle"", ""leather"", ""horse"", ""equipment"", ""strap""]",IR081,ok,2,1:IR081:2,True,True,,
+False,1,3,lathe,dog,dog breeds,retriever,,IR081,ok,0,3:IR081:0:1,,,,False
+False,2,3,lathe,dog,"things with a head (bed head, saddle head? no)",dog,,IR081,ok,0,3:IR081:0:2,,,,True
+False,1,3,lathe,bed,Things you can 'make',bed,,IR081,ok,1,3:IR081:1:1,,,,True
+False,2,3,lathe,bed,things with a headboard,bed,,IR081,ok,1,3:IR081:1:2,,,,True
+False,1,3,lathe,saddle,"things you can be in (idiomatic expressions: in the doghouse, in the saddle)",saddle,,IR081,ok,2,3:IR081:2:1,,,,True
+False,2,3,lathe,saddle,things you can ride,saddle,,IR081,ok,2,3:IR081:2:2,,,,True

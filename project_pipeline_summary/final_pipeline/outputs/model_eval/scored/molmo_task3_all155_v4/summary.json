@@ -1,0 +1,30 @@
+{
+  "manifest": "outputs/model_eval/final155_manifest.jsonl",
+  "results": "outputs/model_eval/final155_molmo2-8b_task3_all9_v4.jsonl",
+  "scored_tasks": 1395,
+  "duplicate_case_count": 0,
+  "concept_scoring": "exact_alias",
+  "word_scoring": "exact_alias",
+  "groups": {
+    "3:1-cue": {
+      "n": 930,
+      "parse_or_request_errors": 0,
+      "word_correct": 0.25053763440860216,
+      "concept_correct": 0.004301075268817204,
+      "expected_tasks": 930,
+      "missing_tasks": 0,
+      "duplicate_cases": 0
+    },
+    "3:2-cue": {
+      "n": 465,
+      "parse_or_request_errors": 0,
+      "word_correct": 0.3225806451612903,
+      "concept_correct": 0.008602150537634409,
+      "expected_tasks": 465,
+      "missing_tasks": 0,
+      "duplicate_cases": 0
+    }
+  },
+  "selected_puzzles": 155,
+  "puzzle_ids_file": null
+}

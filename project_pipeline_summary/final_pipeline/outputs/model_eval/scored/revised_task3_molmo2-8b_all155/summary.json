@@ -1,0 +1,23 @@
+{
+  "manifest": "project_pipeline_summary/final_pipeline/outputs/model_eval/final155_manifest.jsonl",
+  "results": "project_pipeline_summary/final_pipeline/outputs/model_eval/final155_molmo2-8b_prompt_v3.jsonl",
+  "scored_tasks": 930,
+  "concept_scoring": "exact_alias",
+  "word_scoring": "exact_alias",
+  "groups": {
+    "3:1-cue": {
+      "n": 465,
+      "parse_or_request_errors": 0,
+      "word_correct": 0.25591397849462366,
+      "concept_correct": 0.004301075268817204
+    },
+    "3:2-cue": {
+      "n": 465,
+      "parse_or_request_errors": 0,
+      "word_correct": 0.3225806451612903,
+      "concept_correct": 0.008602150537634409
+    }
+  },
+  "selected_puzzles": 155,
+  "puzzle_ids_file": null
+}

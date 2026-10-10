@@ -1,0 +1,41 @@
+{
+  "manifest": "outputs/model_eval/final155_manifest.jsonl",
+  "results": "outputs/model_eval/final155_gemma-4-12b-it_prompt_v3.jsonl",
+  "scored_tasks": 465,
+  "concept_scoring": "human_study_task2",
+  "word_scoring": "exact_alias",
+  "groups": {
+    "2:direct": {
+      "n": 155,
+      "parse_or_request_errors": 0,
+      "concept_correct": 0.0967741935483871,
+      "word_correct_count": 0.35913978494623655,
+      "concept_correct_exact": 0.0,
+      "concept_correct_semantic": 0.0967741935483871
+    },
+    "2:sense_hint": {
+      "n": 155,
+      "parse_or_request_errors": 0,
+      "concept_correct": 0.03225806451612903,
+      "word_correct_count": 0.44731182795698926,
+      "concept_correct_exact": 0.0,
+      "concept_correct_semantic": 0.03225806451612903
+    },
+    "2:stepwise": {
+      "n": 155,
+      "parse_or_request_errors": 0,
+      "concept_correct": 0.01935483870967742,
+      "word_correct_count": 0.4,
+      "concept_correct_exact": 0.0,
+      "concept_correct_semantic": 0.01935483870967742
+    }
+  },
+  "selected_puzzles": 155,
+  "puzzle_ids_file": null,
+  "semantic_judge": {
+    "model": "gemini-3.5-flash-lite",
+    "checker_sha256": "9814b4f80ac503f350d523a9c1d61be2ecefd78f0e57da036afd72c6bcb2ed9b",
+    "cache": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/final_pipeline/outputs/model_eval/concept_judgments.jsonl",
+    "scope": "Task 2 concept answers only"
+  }
+}

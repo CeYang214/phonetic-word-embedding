@@ -1,0 +1,55 @@
+concept_correct,cue_count,experiment,gold_concept,gold_word,predicted_concept,predicted_word,predicted_words,puzzle_id,status,target_slot,task_key,top1,top5,variant,word_correct
+,,1,shoe,tongue,,,"[""dog tongue"", ""tongue"", ""dog"", ""snout"", ""dog nose""]",IR012,ok,0,1:IR012:0,False,True,,
+,,1,shoe,sole,,,"[""sole"", ""flatfish"", ""fish"", ""flounder"", ""illustration""]",IR012,ok,1,1:IR012:1,True,True,,
+,,1,shoe,collar,,,"[""dog collar"", ""collar"", ""pet tag"", ""dog"", ""buckle""]",IR012,ok,2,1:IR012:2,False,True,,
+False,1,3,shoe,tongue,parts of a shoe,tongue,,IR012,ok,0,3:IR012:0:1,,,,True
+False,2,3,shoe,tongue,parts of a shoe,tongue,,IR012,ok,0,3:IR012:0:2,,,,True
+False,1,3,shoe,sole,parts of a shoe,sole,,IR012,ok,1,3:IR012:1:1,,,,True
+False,2,3,shoe,sole,parts of a shoe,sole,,IR012,ok,1,3:IR012:1:2,,,,True
+False,1,3,shoe,collar,parts of a shoe,collar,,IR012,ok,2,3:IR012:2:1,,,,True
+False,2,3,shoe,collar,parts of a shoe,collar,,IR012,ok,2,3:IR012:2:2,,,,True
+,,1,fabric,drill,,,"[""cordless drill"", ""power drill"", ""screwdriver"", ""power tool"", ""drill chuck""]",IR022,ok,0,1:IR022:0,False,False,,
+,,1,fabric,duck,,,"[""mallard"", ""duck"", ""waterfowl"", ""bird"", ""drake""]",IR022,ok,1,1:IR022:1,False,True,,
+,,1,fabric,lawn,,,"[""grass"", ""lawn"", ""sunlight"", ""shadow"", ""fence""]",IR022,ok,2,1:IR022:2,False,True,,
+False,1,3,fabric,drill,types of fabric,drill,,IR022,ok,0,3:IR022:0:1,,,,True
+False,2,3,fabric,drill,types of fabric,drill,,IR022,ok,0,3:IR022:0:2,,,,True
+False,1,3,fabric,duck,types of fabric,duck,,IR022,ok,1,3:IR022:1:1,,,,True
+False,2,3,fabric,duck,types of fabric,duck,,IR022,ok,1,3:IR022:1:2,,,,True
+False,1,3,fabric,lawn,fabrics,lawn,,IR022,ok,2,3:IR022:2:1,,,,True
+False,2,3,fabric,lawn,types of fabric,lawn,,IR022,ok,2,3:IR022:2:2,,,,True
+,,1,restaurant,joint,,,"[""knee model"", ""joint model"", ""prosthesis"", ""bone model"", ""medical model""]",IR061,ok,0,1:IR061:0,False,False,,
+,,1,restaurant,drive-in,,,"[""drive-in theater"", ""screen"", ""parking lot"", ""car"", ""sky""]",IR061,ok,1,1:IR061:1,False,False,,
+,,1,restaurant,diner,,,"[""restaurant"", ""diner"", ""bench"", ""customer"", ""fast food restaurant""]",IR061,ok,2,1:IR061:2,False,True,,
+False,1,3,restaurant,joint,slang terms for an establishment,joint,,IR061,ok,0,3:IR061:0:1,,,,True
+False,2,3,restaurant,joint,types of casual eateries or restaurants,joint,,IR061,ok,0,3:IR061:0:2,,,,True
+False,1,3,restaurant,drive-in,types of restaurants,drive-in,,IR061,ok,1,3:IR061:1:1,,,,True
+False,2,3,restaurant,drive-in,types of restaurants,drive-in,,IR061,ok,1,3:IR061:1:2,,,,True
+True,1,3,restaurant,diner,restaurant,diner,,IR061,ok,2,3:IR061:2:1,,,,True
+False,2,3,restaurant,diner,types of restaurants,diner,,IR061,ok,2,3:IR061:2:2,,,,True
+,,1,TV genre,soap,,,"[""soap"", ""soap bar"", ""cleanser"", ""hygiene product"", ""toiletries""]",IR073,ok,0,1:IR073:0,True,True,,
+,,1,TV genre,western,,,"[""cowboy"", ""horse"", ""ranch"", ""corral"", ""fence""]",IR073,ok,1,1:IR073:1,False,False,,
+,,1,TV genre,news,,,"[""newspaper"", ""stack of newspapers"", ""print media"", ""newsprint"", ""paper""]",IR073,ok,2,1:IR073:2,False,False,,
+False,1,3,TV genre,soap,television genres,soap,,IR073,ok,0,3:IR073:0:1,,,,True
+False,2,3,TV genre,soap,TV genres,soap,,IR073,ok,0,3:IR073:0:2,,,,True
+False,1,3,TV genre,western,news and media summaries,roundup,,IR073,ok,1,3:IR073:1:1,,,,False
+False,2,3,TV genre,western,television genres,western,,IR073,ok,1,3:IR073:1:2,,,,True
+False,1,3,TV genre,news,,paper,,IR073,ok,2,3:IR073:2:1,,,,False
+False,2,3,TV genre,news,television genres,news,,IR073,ok,2,3:IR073:2:2,,,,True
+,,1,assembly,cabinet,,,"[""sideboard"", ""credenza"", ""dresser"", ""telephone"", ""cabinet""]",IR080,ok,0,1:IR080:0,False,True,,
+,,1,assembly,diet,,,"[""salad"", ""bowl"", ""food"", ""fork"", ""meal""]",IR080,ok,1,1:IR080:1,False,False,,
+,,1,assembly,chamber,,,"[""cave church"", ""fresco"", ""crypt"", ""rock-cut architecture"", ""arch""]",IR080,ok,2,1:IR080:2,False,False,,
+False,1,3,assembly,cabinet,political or governmental bodies,cabinet,,IR080,ok,0,3:IR080:0:1,,,,True
+False,2,3,assembly,cabinet,political and governing bodies,cabinet,,IR080,ok,0,3:IR080:0:2,,,,True
+False,1,3,assembly,diet,parts of a pipe,bowl,,IR080,ok,1,3:IR080:1:1,,,,False
+False,2,3,assembly,diet,legislative or governing bodies,diet,,IR080,ok,1,3:IR080:1:2,,,,True
+False,1,3,assembly,chamber,government bodies,chamber,,IR080,ok,2,3:IR080:2:1,,,,True
+False,2,3,assembly,chamber,legislative or governing bodies,chamber,,IR080,ok,2,3:IR080:2:2,,,,True
+,,1,lathe,dog,,,"[""golden retriever"", ""dog"", ""retriever"", ""pet"", ""canine""]",IR081,ok,0,1:IR081:0,False,True,,
+,,1,lathe,bed,,,"[""bed"", ""bedroom"", ""nightstand"", ""pillow"", ""table lamp""]",IR081,ok,1,1:IR081:1,True,True,,
+,,1,lathe,saddle,,,"[""saddle"", ""horse saddle"", ""equestrian tack"", ""horse"", ""saddle pad""]",IR081,ok,2,1:IR081:2,True,True,,
+False,1,3,lathe,dog,parts of a lathe,dog,,IR081,ok,0,3:IR081:0:1,,,,True
+False,2,3,lathe,dog,parts of a lathe,dog,,IR081,ok,0,3:IR081:0:2,,,,True
+False,1,3,lathe,bed,parts of a lathe,bed,,IR081,ok,1,3:IR081:1:1,,,,True
+False,2,3,lathe,bed,parts of a lathe,bed,,IR081,ok,1,3:IR081:1:2,,,,True
+False,1,3,lathe,saddle,parts of a lathe,saddle,,IR081,ok,2,3:IR081:2:1,,,,True
+False,2,3,lathe,saddle,parts of a lathe,saddle,,IR081,ok,2,3:IR081:2:2,,,,True

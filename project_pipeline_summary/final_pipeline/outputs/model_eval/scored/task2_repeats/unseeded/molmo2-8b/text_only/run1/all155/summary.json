@@ -1,0 +1,32 @@
+{
+  "model": "allenai/Molmo2-8B",
+  "condition": "text_only",
+  "source": "existing baseline: final155_molmo2-8b_text_only_v1.jsonl",
+  "scope": "all155",
+  "run_id": "run1",
+  "seed": null,
+  "seed_status": "not_recorded_for_existing_run",
+  "generation_settings": {
+    "local_thinking": "default",
+    "max_output_tokens": 0
+  },
+  "generation_settings_inferred_from_defaults": false,
+  "prompt_versions": [
+    "2026-10-08-concept-conditions-v1"
+  ],
+  "sampling_settings": {
+    "temperature": null,
+    "temperature_source": "server/model default; not recorded in existing result"
+  },
+  "correct_count": 44,
+  "denominator": 155,
+  "accuracy": 0.2838709677419355,
+  "actual_trials": 155,
+  "expected_trials": 155,
+  "missing_trials": 0,
+  "missing_task_keys": [],
+  "request_errors": 0,
+  "malformed_outputs": 0,
+  "missing_answer_fields": 0,
+  "complete": true
+}

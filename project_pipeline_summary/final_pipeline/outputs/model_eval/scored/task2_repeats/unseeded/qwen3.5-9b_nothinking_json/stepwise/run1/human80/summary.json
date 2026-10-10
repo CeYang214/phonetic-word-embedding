@@ -1,0 +1,33 @@
+{
+  "model": "Qwen/Qwen3.5-9B",
+  "condition": "stepwise",
+  "source": "existing baseline: human80_qwen3.5-9b_nothinking_json_v2.jsonl, expanded69_qwen3.5-9b_nothinking_json_v2.jsonl, remaining6_qwen3.5-9b_nothinking_json_v2.jsonl",
+  "scope": "human80",
+  "run_id": "run1",
+  "seed": null,
+  "seed_status": "not_recorded_for_existing_run",
+  "generation_settings": {
+    "local_thinking": "disabled",
+    "max_output_tokens": 512,
+    "local_json_mode": true
+  },
+  "generation_settings_inferred_from_defaults": false,
+  "prompt_versions": [
+    "2026-10-02-v2"
+  ],
+  "sampling_settings": {
+    "temperature": null,
+    "temperature_source": "server/model default; not recorded in existing result"
+  },
+  "correct_count": 1,
+  "denominator": 80,
+  "accuracy": 0.0125,
+  "actual_trials": 80,
+  "expected_trials": 80,
+  "missing_trials": 0,
+  "missing_task_keys": [],
+  "request_errors": 0,
+  "malformed_outputs": 1,
+  "missing_answer_fields": 0,
+  "complete": true
+}

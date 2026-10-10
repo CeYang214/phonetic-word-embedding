@@ -1,0 +1,27 @@
+{
+  "manifest": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/new_llm_pipeline/outputs/model_eval/manifest.jsonl",
+  "results": "/Users/yangziqing/IdeaProjects/phonetic-word-embedding/project_pipeline_summary/new_llm_pipeline/outputs/model_eval/human80_gemini-3.5-flash-lite_v2.jsonl",
+  "scored_tasks": 720,
+  "concept_scoring": "exact_alias",
+  "word_scoring": "exact_alias",
+  "groups": {
+    "1": {
+      "n": 240,
+      "parse_or_request_errors": 0,
+      "top1": 0.42083333333333334,
+      "top5": 0.6791666666666667
+    },
+    "3:1-cue": {
+      "n": 240,
+      "parse_or_request_errors": 0,
+      "word_correct": 0.6958333333333333,
+      "concept_correct": 0.0375
+    },
+    "3:2-cue": {
+      "n": 240,
+      "parse_or_request_errors": 0,
+      "word_correct": 0.725,
+      "concept_correct": 0.08333333333333333
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "model": "Qwen/Qwen3.8-27B",
+  "condition": "direct",
+  "source": "final155_qwen3.8-27b_nothinking_json_task2_direct_unseeded_run3.jsonl",
+  "scope": "all155",
+  "run_id": "run3",
+  "seed": null,
+  "seed_status": "not_sent",
+  "generation_settings": {
+    "local_thinking": "disabled",
+    "max_output_tokens": 512,
+    "local_json_mode": true
+  },
+  "sampling_settings": {
+    "temperature": null,
+    "temperature_source": "server/model default; not set by evaluator",
+    "seed": null,
+    "seed_sent_to_request": false
+  },
+  "prompt_version": "2026-10-08-v3",
+  "correct_count": 4,
+  "denominator": 155,
+  "accuracy": 0.025806451612903226,
+  "actual_trials": 155,
+  "expected_trials": 155,
+  "missing_trials": 0,
+  "missing_task_keys": [],
+  "request_errors": 0,
+  "malformed_outputs": 0,
+  "missing_answer_fields": 0,
+  "complete": true
+}
